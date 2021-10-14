@@ -1,8 +1,8 @@
 # sent_id = 1
 # text = кинилэр кэллилэр
 # text_rus = они пришли
-1	кинилэр	кинилэр	PRON	pron	Number=Plur|Person=3	2	nsubj	2:nsubj	_
-2	кэллилэр	кэл	VERB	v	Number=Plur|Person=3|Tense=Past	0	root	0:root	_
+1	кинилэр	кинилэр	PRON	pron	Number=Plur|Person=2	2	nsubj	2:nsubj	_
+2	кэллилэр	кэл	VERB	v	Number=Plur|Person=2|Tense=Past	0	root	0:root	_
 
 # sent_id = 2
 # text = Кинигэлэри күн аайы ааҕабын
