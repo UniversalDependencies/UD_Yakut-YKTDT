@@ -67,7 +67,7 @@
 2	уол	уол	NOUN	n	Number=Sing	3	nsubj	3:nsubj	_
 3	турар	тур	VERB	v	Person=3|Tense=Pres	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	5:cc	_
-5	ааҕар	аах	VERB	v	Person=3|Tense=Pres	3	conj	3:conj	_
+5	ааҕар	аах	VERB	v	Person=3|Tense=Pres	3	conj	3:conj	SpaceAfter=No
 6	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 10
@@ -108,16 +108,16 @@
 1	Кыра	кыра	ADJ	adj	_	2	amod	2:amod	_
 2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing|Person=3	4	nsubj	4:nsubj	_
 3	ханна	ханна	ADV	adv	_	4	advmod	4:advmod	_
-4	үөрэнэрий	үөрэн	VERB	v	Number=Sing|Person=3|Polarity=Neg	0	root	0:root	_
+4	үөрэнэрий	үөрэн	VERB	v	Number=Sing|Person=3|Polarity=Neg	0	root	0:root	SpaceAfter=No
 5	?	?	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 14
 # text = Кырдьык, миэхэ күөгүрээпийэ олус туһалаабыта
 # text_rus = И география, по правде сказать, мне очень пригодилась  (21)
-1	Кырдьык	кырдьык	NOUN	n	Animacy=Inan	6	advmod	6:advmod	SpaceAfter=No
+1	Кырдьык	кырдьык	NOUN	n	_	6	advmod	6:advmod	SpaceAfter=No
 2	,	,	PUNCT	punct	_	6	punct	6:punct	_
 3	миэхэ	мин	PRON	_	Case=Dat|Number=Sing|Person=1	6	iobj	6:iobj	_
-4	күөгүрээпийэ	күөгүрээпийэ	NOUN	Case=Nom|Gender=Fem|Number=Sing	_	6	nsubj	6:nsubj	_
+4	күөгүрээпийэ	күөгүрээпийэ	NOUN	Case=Nom|Number=Sing	_	6	nsubj	6:nsubj	_
 5	олус	олус	ADV	_	_	6	advmod	6:advmod	_
 6	туһалаабыта	туһалаа	VERB	Tense=Past	_	0	root	0:root	_
 
@@ -145,7 +145,7 @@
 4	ыытта	ыыт	VERB	v	Tense=Past|Person=3	0	root	0:root	_
 
 # sent_id = 18
-# text = биһиги бэҕэһээ Германияттан сурук тут 
+# text = биһиги бэҕэһээ Германияттан сурук тут
 # text_rus = Мы получили письмо из Германии вчера  (118)
 1	биһиги	биһиги	PRON	pron	_	5	nsubj	5:nsubj	_
 2	бэҕэһээ	бэҕэһээ	ADV	adv	_	5	advmod	5:advmod	_
@@ -161,9 +161,9 @@
 3	таба	таба	NOUN	n	_	0	root	0:root	_
 4	буолбатах	буол	AUX	aux	Polarity=Neg	3	cop	3:cop	_
 
-# sent_id = 20 (120)
+# sent_id = 20
 # text = Мин кэллим
-# text_rus = Я пришел
+# text_rus = Я пришел  (120)
 1	Мин	мин	PRON	pron	_	2	nsubj	2:nsubj	_
 2	кэллим	кэл	VERB	v	Person=1|Tense=Past	0	root	0:root	_
 
