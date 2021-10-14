@@ -15,8 +15,8 @@
 # sent_id = 3
 # text = илиибин сууннум hand-POSS.1SG-ACC   wash-REFL-PST-1SG
 # text_rus = (я) помыл свои руки
-1	илиибин	илии	NOUN	n	Case=Acc|Person=Sing|Poss=Yes	2	obj	2:obj	_
-2	сууннум	сууй	VERB	v	Reflex=Yes|Person=Sing|Tense=Pres	0	root	0:root	_
+1	илиибин	илии	NOUN	n	Case=Acc|Number=Sing|Poss=Yes	2	obj	2:obj	_
+2	сууннум	сууй	VERB	v	Reflex=Yes|Person=1|Number=Sing|Tense=Pres	0	root	0:root	_
 
 # sent_id = 4
 # text = биһиги манна баарбыт
@@ -106,9 +106,9 @@
 # text = Кыра оҕо ханна үөрэнэрий?
 # text_rus = Где учатся маленькие дети?
 1	Кыра	кыра	ADJ	adj	_	2	amod	2:amod	_
-2	оҕо	оҕо	NOUN	n	Case=Nom|Number=3|Person=Sing	4	nsubj	4:nsubj	_
+2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing|Person=3	4	nsubj	4:nsubj	_
 3	ханна	ханна	ADV	adv	_	4	advmod	4:advmod	_
-4	үөрэнэрий	үөрэн	VERB	v	Number=3|Person=Sing|Polarity=Neg	0	root	0:root	_
+4	үөрэнэрий	үөрэн	VERB	v	Number=Sing|Person=3|Polarity=Neg	0	root	0:root	_
 5	?	?	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 14 (21)
@@ -205,3 +205,4 @@
 1	Мин	мин	PRON	pron	Case=Nom	2	nmod:poss	2:nmod:poss	_
 2	илиим	илии	NOUN	n	Poss=Yes	0	root	0:root	_
 3	ыраас	ыраас	ADJ	adj	_	2	amod	2:amod	_
+
