@@ -65,7 +65,7 @@
 # text_rus = Один мальчик стоит и читает.
 1	Биир	биир	NUM	num	_	2	nummod	2:nummod	_
 2	уол	уол	NOUN	n	Number=Sing	3	nsubj	3:nsubj	_
-3	турар	тур	VERB	v	Person=3|Tense=Pres	_	_	_	_
+3	турар	тур	VERB	v	Person=3|Tense=Pres	0	root	0:root	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	5:cc	_
 5	ааҕар	аах	VERB	v	Person=3|Tense=Pres	3	conj	3:conj	SpaceAfter=No
 6	.	.	PUNCT	punct	_	3	punct	3:punct	_
@@ -189,7 +189,7 @@
 # text_eng = The fingers of the hand are long and thin, the toes of the foot are short and thick
 1	Илии	илии	NOUN	n	Number=Sing	2	compound	2:compound	_
 2	тарбаҕа	тарбах	NOUN	n	Case=Dat|Number=Sing	3	nsubj	3:nsubj	_
-3	уһун	уһун	ADJ	adj	_	_	_	_	_
+3	уһун	уһун	ADJ	adj	_	0	root	0:root	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	5:cc	_
 5	синньигэс	синньигэс	ADJ	adj	_	3	conj	3:conj	SpaceAfter=No
 6	,	,	PUNCT	punct	_	3	punct	3:punct	_
