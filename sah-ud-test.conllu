@@ -203,6 +203,15 @@
 # text = Мин илиим ыраас
 # text_rus = Мои руки чистые
 1	Мин	мин	PRON	pron	Case=Nom	2	nmod:poss	2:nmod:poss	_
-2	илиим	илии	NOUN	n	Poss=Yes	0	root	0:root	_
+2	илиим	илии	NOUN	n	Poss=Yes|Reflex=Yes	0	root	0:root	_
 3	ыраас	ыраас	ADJ	adj	_	2	amod	2:amod	_
+
+# sent_id = 25
+# text = Ийэм кыра оҕоҕо кинигэ ааҕар
+# text_rus = Моя мама читает книгу маленьким детям
+1	Ийэм	ийэ	NOUN	n	Poss=Yes	5	nsubj	5:nsubj	_
+2	кыра	кыра	ADJ	adj	_	3	amod	3:amod	_
+3	оҕоҕо	оҕо	NOUN	n	Case=Dat	5	obl	5:obl	_
+4	кинигэ	кинигэ	NOUN	n	Case=Nom	5	obj	5:obj	_
+5	ааҕар	аах	VERB	v	Person=3|Tense=Pres	0	root	0:root	_
 
