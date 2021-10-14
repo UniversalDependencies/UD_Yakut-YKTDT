@@ -2,7 +2,7 @@
 # text = кинилэр кэллилэр
 # text_rus = они пришли
 1	кинилэр	кинилэр	PRON	pron	Number=Plur|Person=3	2	nsubj	2:nsubj	_
-2	кэллилэр	кэл	VERB	v	Case=Past|Number=Plur|Person=3	0	root	0:root	_
+2	кэллилэр	кэл	VERB	v	Number=Plur|Person=3|Tense=Past	0	root	0:root	_
 
 # sent_id = 2
 # text = Кинигэлэри күн аайы ааҕабын
@@ -16,7 +16,7 @@
 # text = илиибин сууннум
 # text_rus = (я) помыл свои руки hand-POSS.1SG-ACC   wash-REFL-PST-1SG
 1	илиибин	илии	NOUN	n	Case=Acc|Number=Sing|Poss=Yes	2	obj	2:obj	_
-2	сууннум	сууй	VERB	v	Person=1|Number=Sing|Tense=Pres|Voice=Rfl	0	root	0:root	_
+2	сууннум	сууй	VERB	v	Number=Sing|Person=1|Tense=Pres|Voice=Rfl	0	root	0:root	_
 
 # sent_id = 4
 # text = биһиги манна баарбыт
