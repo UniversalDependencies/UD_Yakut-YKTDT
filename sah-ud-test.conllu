@@ -16,7 +16,7 @@
 # text = илиибин сууннум hand-POSS.1SG-ACC   wash-REFL-PST-1SG
 # text_rus = (я) помыл свои руки
 1	илиибин	илии	NOUN	n	Case=Acc|Number=Sing|Poss=Yes	2	obj	2:obj	_
-2	сууннум	сууй	VERB	v	Reflex=Yes|Person=1|Number=Sing|Tense=Pres	0	root	0:root	_
+2	сууннум	сууй	VERB	v	Person=1|Number=Sing|Tense=Pres|Voice=Rfl	0	root	0:root	_
 
 # sent_id = 4
 # text = биһиги манна баарбыт
