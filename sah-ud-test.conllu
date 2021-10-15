@@ -256,3 +256,10 @@
 3	эбэтэ	эбэ	NOUN	n	Person[psor]=3|Number[psor]=Sing|Number=Sing	4	nsubj	4:nsubj	_
 4	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3	0	root	0:root	_
 
+# sent_id = 30
+# text = Аҕаҥ кэллэ
+# text_rus = Твой папа пришёл
+# text_eng = Your father came
+1	Аҕаҥ	aҕa	NOUN	n	Person[psor]=2|Number[psor]=Sing|Number=Sing	2	nsubj	2:nsubj	_
+2	кэллэ	кэлл	VERB	v	Number=3|Person=3|Tense=Past	0	root	0:root	_
+
