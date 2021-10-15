@@ -229,3 +229,13 @@
 8	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
 9	истэллэр	иһит	VERB	v	Number=Plur|Person=3|Tense=Pres	3	parataxis	3:parataxis	_
 
+# sent_id = 27
+# text = Хойут бары аһыыллар уонна утуйаллар
+# text_rus = Все поздно едят и ложятся спать
+# text_eng = Everybody eats late and goes to sleep
+1	Хойут	хойут	ADV	adv	_	3	advmod	3:advmod	_
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
+3	аһыыллар	аһаа	VERB	Number=Plur|Person=3|Tense=Pres	_	0	root	0:root	_
+4	уонна	уонна	CCONJ	_	_	5	cc	5:cc	_
+5	утуйаллар	утуй	VERB	Number=Plur|Person=3|Tense=Pres	_	3	conj	3:conj	_
+
