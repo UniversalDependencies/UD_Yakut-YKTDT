@@ -239,3 +239,11 @@
 4	уонна	уонна	CCONJ	_	_	5	cc	5:cc	_
 5	утуйаллар	утуй	VERB	Number=Plur|Person=3|Tense=Pres	_	3	conj	3:conj	_
 
+# sent_id = 28
+# text = Мин аатым Кэскил
+# text_rus = Меня зовут Кэскил
+# text_eng = My name is Keskil
+1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
+2	аатым	аат	NOUN	n	Person[psor]=1|Number[psor]=Sing|Number=Sing	0	root	0:root	_
+3	Кэскил	кэскил	PROPN	propn	_	2	nsubj	2:nsubj	_
+
