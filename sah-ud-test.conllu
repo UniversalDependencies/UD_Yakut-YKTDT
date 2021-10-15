@@ -247,3 +247,12 @@
 2	аатым	аат	NOUN	n	Person[psor]=1|Number[psor]=Sing|Number=Sing	0	root	0:root	_
 3	Кэскил	кэскил	PROPN	propn	_	2	nsubj	2:nsubj	_
 
+# sent_id = 29
+# text = Ити уол эбэтэ ыалдьар
+# text_rus = Бабушка этого мальчика болеет
+# text_eng = This boy's grandmother is sick
+1	Ити	ити	DET	det	_	2	det	2:det	_
+2	уол	уол	NOUN	n	_	3	nmod:poss	3:nmod:poss	_
+3	эбэтэ	эбэ	NOUN	n	Person[psor]=3|Number[psor]=Sing|Number=Sing	4	nsubj	4:nsubj	_
+4	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3	0	root	0:root	_
+
