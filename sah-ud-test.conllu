@@ -263,3 +263,12 @@
 1	Аҕаҥ	aҕa	NOUN	n	Person[psor]=2|Number[psor]=Sing|Number=Sing	2	nsubj	2:nsubj	_
 2	кэллэ	кэлл	VERB	v	Number=3|Person=3|Tense=Past	0	root	0:root	_
 
+# sent_id = 31
+# text = Быраатым уонна балтым үөрэнэллэр
+# text_rus = Мой младший брат и моя младшая сестра учатся
+# text_eng = My little brother and my little sister study
+1	Быраатым	быраат	NOUN	n	Person[psor]=3|Number[psor]=Sing|Number=Sing	4	nsubj	4:nsubj	_
+2	уонна	уонна	CCONJ	cconj	_	3	cc	3:cc	_
+3	балтым	балыс	NOUN	n	Person[psor]=3|Number[psor]=Sing|Number=Sing	1	conj	1:conj	_
+4	үөрэнэллэр	үөрэн	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
+
