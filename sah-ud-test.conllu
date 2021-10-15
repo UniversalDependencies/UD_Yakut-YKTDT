@@ -277,7 +277,7 @@
 # text_rus = Кто-то должен принести хлеба     #Kiliäp-tä aɣal-ïaχ-χa naːda bread-PT bring-AN-DAT.LOC necessary
 # text_eng = One has to bring some bread  (Johanson, Turkic, 2021, 824)
 1	килиэптэ	килиэп	NOUN	n	Case=Par	2	obj	2:obj	_
-2	аҕалыахха	аҕал	VERB	v	Case=Loc	3	csubj	3:csubj	_
+2	аҕалыахха	аҕал	VERB	v	Case=Dat	3	csubj	3:csubj	_
 3	наада	наада	ADJ	adj	adj	0	root	0:root	_
 
 # sent_id = 33
@@ -289,9 +289,55 @@
 
 # sent_id = 34
 # text = Кини Дьокуускайга барда
-# text_rus = Он/она поехал в Якутск
+# text_rus = Он/она поехал в Якутск   #Dat.Loc
 # text_eng = He/she went to Yakutsk (Johanson, Turkic, 2021, 840)
 1	Кини	кини	PRON	pron	_	3	nsubj	3:nsubj	_
 2	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat	3	obl	3:obl	_
 3	барда	бар	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+
+# sent_id = 35
+# text = Дьокуускайга хаар түһэр
+# text_rus = В Якутске идёт снег   #Dat.Loc
+# text_eng = Snow is falling in/on Yakutsk (Johanson, Turkic, 2021, 840)
+1	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat	3	obj	3:obj	_
+2	хаар	хаар	NOUN	n	_	3	nsubj	3:nsubj	_
+3	түһэр	түс	VERB	v	Number=Sing|Person=3	0	root	0:root	_
+
+# sent_id = 36
+# text = Кини Москваҕа олорор
+# text_rus = Он/она живёт в Москве   #Dat.Loc
+# text_eng = He/she lives in Moscow (Johanson, Turkic, 2021, 840)
+1	Кини	кини	PRON	pron	Number=Sing|Person=3	3	nsubj	3:nsubj	_
+2	Москваҕа	москва	PROPN	propn	Case=Dat	3	obl	3:obl	_
+3	олорор	олор	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
+
+# sent_id = 37
+# text = Балык ууга үөскүүр
+# text_rus = Рыба водится в воде   #Dat.Loc
+# text_eng = The fish lives in the water (Johanson, Turkic, 2021, 840)
+1	Балык	балык	NOUN	n	Number=Sing|Person=3	3	nsubj	3:nsubj	_
+2	ууга	уу	NOUN	n	Case=Dat	3	obl	3:obl	_
+3	үөскүүр	үөскээ	VERB	n	Number=Sing|Person=3	0	root	0:root	_
+
+# sent_id = 38
+# text = Ууга түспүтүм
+# text_rus = Я упал в воду   #Dat.Loc #PastParticiple
+# text_eng = I fell into the water (Johanson, Turkic, 2021, 840)
+1	Ууга	уу	NOUN	n	Case=Dat	2	obl	2:obl	_
+2	түспүтүм	түс	VERB	v	Number=Sing|Person=1|Tense=Past|Voice=Rfl	0	root	0:root	_
+
+# sent_id = 39
+# text = Кини дьиэҕэ киирбитэ
+# text_rus = Он/она вош(ёл)ла в дом   #Dat.Loc #Past Participle
+# text_eng = He/she entered the house (Johanson, Turkic, 2021, 840)
+1	Кини	кини	PRON	pron	Number=Sing|Person=3	3	nsubj	3:nsubj	_
+2	дьиэҕэ	дьиэ	NOUN	n	Case=Dat	3	obl	3:obl	_
+3	киирбитэ	киир	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+
+# sent_id = 40
+# text = Оскуолаттан кэллэ
+# text_rus = Он/она приш(ёл)ла из школы  #Dat.Loc #Past Participle
+# text_eng = He/she came from school (Johanson, Turkic, 2021, 840)
+1	Оскуолаттан	оскуола	NOUN	n	Case=Abl	2	nsubj	2:nsubj	_
+2	кэллэ	кэл	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
 
