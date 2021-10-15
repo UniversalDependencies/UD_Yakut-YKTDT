@@ -287,3 +287,11 @@
 1	Петровка	петров	PROPN	propn	Case=Dat	2	obj	2:obj	_
 2	ыыттым	ыыт	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	0:root	_
 
+# sent_id = 34
+# text = Кини Дьокуускайга барда
+# text_rus = Он/она поехал в Якутск
+# text_eng = He/she went to Yakutsk (Johanson, Turkic, 2021, 840)
+1	Кини	кини	PRON	pron	_	3	nsubj	3:nsubj	_
+2	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat	3	obl	3:obl	_
+3	барда	бар	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+
