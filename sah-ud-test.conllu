@@ -341,3 +341,28 @@
 1	Оскуолаттан	оскуола	NOUN	n	Case=Abl	2	nsubj	2:nsubj	_
 2	кэллэ	кэл	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
 
+# sent_id = 41
+# text = Үс километры бардыбыт
+# text_rus = Мы прошли три километра
+# text_eng = We walked three kilometers (Johanson, Turkic, 2021, 844)
+1	Үс	үс	NUM	num	_	2	nummod	2:nummod	_
+2	километры	километр	NOUN	n	Case=Acc	3	obj	3:obj	_
+3	бардыбыт	бар	VERB	v	Number=Plur|Person=1|Tense=Past	0	root	0:root	_
+
+# sent_id = 42
+# text = Хахай эһэтээҕэр күүстээх
+# text_rus = Лев сильнее медведя
+# text_eng = A lion is stronger than a bear (Johanson, Turkic, 2021, 845)
+1	Хахай	хахай	NOUN	n	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
+2	эһэтээҕэр	эһэ	NOUN	n	Case=Cmp	3	obl	3:obl	_
+3	күүстээх	күүстээх	ADJ	adj	Case=Nom|Number=Sing	0	root	0:root	_
+
+# sent_id = 43
+# text = үүтү биhиги ынахтан ылабыт
+# text_rus = Мы получаем молоко от коров
+# text_eng = Milk we get from cows (Johanson, Turkic, 2021, 948)
+1	үүтү	үүт	NOUN	n	Case=Acc	4	obj	4:obj	_
+2	биhиги	биhиги	PRON	pron	_	4	nsubj	4:nsubj	_
+3	ынахтан	ынах	NOUN	n	Case=Abl	4	obl	4:obl	_
+4	ылабыт	ыл	VERB	v	Number=Plur|Person=2|Tense=Pres	0	root	0:root	_
+
