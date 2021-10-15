@@ -375,9 +375,9 @@
 3	аһыыр	аһыы	VERB	v	Number=Sing|Person=3	0	root	0:root	_
 
 # sent_id = 45
-# text = Кини яблоко аһыыр
+# text = Кини яблоконы аһыыр
 # text_rus = Он/она ест яблоко
-# text_eng = He/she eats an apple
+# text_eng = He/she eats the apple
 1	Кини	кини	PRON	pron	_	3	nsubj	3:nsubj	_
 2	яблоконы	яблоко	NOUN	n	Case=Acc|Number=Sing	3	obj	3:obj	_
 3	аһыыр	аһыы	VERB	v	Number=Sing|Person=3	0	root	0:root	_
