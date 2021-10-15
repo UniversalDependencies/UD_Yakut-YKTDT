@@ -366,3 +366,19 @@
 3	ынахтан	ынах	NOUN	n	Case=Abl	4	obl	4:obl	_
 4	ылабыт	ыл	VERB	v	Number=Plur|Person=2|Tense=Pres	0	root	0:root	_
 
+# sent_id = 44
+# text = Кини яблоко аһыыр
+# text_rus = Он/она ест яблоко
+# text_eng = He/she eats an apple
+1	Кини	кини	PRON	pron	_	3	nsubj	3:nsubj	_
+2	яблоко	яблоко	NOUN	n	Case=Nom|Number=Sing	3	obj	3:obj	_
+3	аһыыр	аһыы	VERB	v	Number=Sing|Person=3	0	root	0:root	_
+
+# sent_id = 45
+# text = Кини яблоко аһыыр
+# text_rus = Он/она ест яблоко
+# text_eng = He/she eats an apple
+1	Кини	кини	PRON	pron	_	3	nsubj	3:nsubj	_
+2	яблоконы	яблоко	NOUN	n	Case=Acc|Number=Sing	3	obj	3:obj	_
+3	аһыыр	аһыы	VERB	v	Number=Sing|Person=3	0	root	0:root	_
+
