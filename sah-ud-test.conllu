@@ -280,3 +280,10 @@
 2	аҕалыахха	аҕал	VERB	v	Case=Loc	3	csubj	3:csubj	_
 3	наада	наада	ADJ	adj	adj	0	root	0:root	_
 
+# sent_id = 33
+# text = Петровка ыыттым
+# text_rus = Я отправил Петрову
+# text_eng = I sent it to Petrov (Johanson, Turkic, 2021, 840)
+1	Петровка	петров	PROPN	propn	Case=Dat	2	obj	2:obj	_
+2	ыыттым	ыыт	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	0:root	_
+
