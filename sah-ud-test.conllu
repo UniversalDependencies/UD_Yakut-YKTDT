@@ -382,3 +382,13 @@
 2	яблоконы	яблоко	NOUN	n	Case=Acc|Number=Sing	3	obj	3:obj	_
 3	аһыыр	аһыы	VERB	v	Number=Sing|Person=3	0	root	0:root	_
 
+# sent_id = 46
+# text = Эн убайыҥ ханна үөрэнэрий?
+# text_rus = Где учится твой старший брат?
+# text_eng = Where does your older brother study? (Yakut manual, 22)
+1	Эн	эн	PRON	pron	_	2	nmod:poss	2:nmod:poss	_
+2	убайыҥ	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2 	4	nsubj	4:nsubj	_
+3	ханна	ханна	ADV	adv	_	4	advmod	4:advmod	_
+4	үөрэнэрий	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
+5	?	?	PUNCT	punct	_	4	punct	4:punct	_
+
