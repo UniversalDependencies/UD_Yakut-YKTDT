@@ -417,3 +417,14 @@
 2	доҕотторо	доҕор	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	0:root	_
 3	нууччалар	нуучча	ADJ	adj	Number=Plur	2	amod	2:amod	_
 
+# sent_id = 49
+# text = Кини доҕотторо нууччалар
+# text_rus = Его друзья русские 
+# text_eng = His friends are Russians (Yakut manual, 24)
+1	Мин	мин	PRON	pron	_	2	nmod:poss	2:nmod:poss	_
+2	кулгааҕым	кулгаах	NOUN	n	_	3	nsubj	3:nsubj	_
+3	ыалдьыбат	ыарый	VERB	v	_	0	root	0:root	_
+4	,	_	PUNCT	punct	_	3	punct	3:punct	_
+5	баһым	бас	NOUN	n	_	6	nsubj	6:nsubj	_
+6	ыалдьар	ыарый	VERB	v	_	3	parataxis	3:parataxis	_
+
