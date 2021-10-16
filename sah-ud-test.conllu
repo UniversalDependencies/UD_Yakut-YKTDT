@@ -392,3 +392,20 @@
 4	үөрэнэрий	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
 5	?	?	PUNCT	punct	_	4	punct	4:punct	_
 
+# sent_id = 47
+# text = Кинилэр ааҕалар, суруйаллар, кэпсииллэр, уонна сахалыы, нууччалыы кэпсэтэллэр
+# text_rus = Они читают, пишут, говорят и беседуют на якутском и русском
+# text_eng = They read, write, speak, and converse in Sakha and in Russian (Yakut manual, 24) # лыы comp affix
+1	Кинилэр	кинилэр	PRON	pron	Number=3|Person=Plur	2	nsubj	2:nsubj	_
+2	ааҕалар	ааҕ	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
+3	,	,	PUNCT	punct	_	2	punct	2:punct	_
+4	суруйаллар	суруй	VERB	v	Number=Plur|Person=3|Tense=Pres	2	conj	2:conj	_
+5	,	,	PUNCT	punct	_	2	punct	2:punct	_
+6	кэпсииллэр	кэпсээ	VERB	v	Number=Plur|Person=3|Tense=Pres	2	conj	2:conj	_
+7	,	,	PUNCT	punct	_	2	punct	2:punct	_
+8	уонна	уонна	CCONJ	cconj	_	12	cc	12:cc	_
+9	сахалыы	саха	ADV	adv	_	12	advmod	12:advmod	_
+10	,	,	PUNCT	punct	_	11	punct	11:punct	_
+11	нууччалыы	нуучча	ADV	adv	_	9	conj	9:conj	_
+12	кэпсэтэллэр	кэпсээ	VERB	v	Number=Plur|Person=3|Tense=Pres	2	conj	2:conj	_
+
