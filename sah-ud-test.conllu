@@ -409,3 +409,11 @@
 11	нууччалыы	нуучча	ADV	adv	_	9	conj	9:conj	_
 12	кэпсэтэллэр	кэпсээ	VERB	v	Number=Plur|Person=3|Tense=Pres	2	conj	2:conj	_
 
+# sent_id = 48
+# text = Кини доҕотторо нууччалар
+# text_rus = Его друзья русские
+# text_eng = His friends are Russians (Yakut manual, 24) # лыы comp affix
+1	Кини	кини	PRON	pron	_	2	nmod:poss	2:nmod:poss	_
+2	доҕотторо	доҕор	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	0:root	_
+3	нууччалар	нуучча	ADJ	adj	Number=Plur	2	amod	2:amod	_
+
