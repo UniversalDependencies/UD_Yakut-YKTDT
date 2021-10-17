@@ -421,10 +421,19 @@
 # text = Мин кулгааҕым ыалдьыбат, баһым ыалдьар
 # text_rus = Мой глаз не болит, моя голова болит
 # text_eng = My eye does not hurt, my head hurts (Yakut manual, 26)
-1	Мин	мин	PRON	pron	_	2	nmod:poss	2:nmod:poss	_
-2	кулгааҕым	кулгаах	NOUN	n	_	3	nsubj	3:nsubj	_
-3	ыалдьыбат	ыарый	VERB	v	_	0	root	0:root	_
+1	Мин	мин	PRON	pron	Number=1|Person=Sing	2	nmod:poss	2:nmod:poss	_
+2	кулгааҕым	кулгаах	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	3:nsubj	_
+3	ыалдьыбат	ыарый	VERB	v	Person=3|Polarity=Neg|Tense=Pres	0	root	0:root	_
 4	,	_	PUNCT	punct	_	3	punct	3:punct	_
-5	баһым	бас	NOUN	n	_	6	nsubj	6:nsubj	_
-6	ыалдьар	ыарый	VERB	v	_	3	parataxis	3:parataxis	_
+5	баһым	бас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	6:nsubj	_
+6	ыалдьар	ыарый	VERB	v	Person=3|Tense=Pres	3	parataxis	3:parataxis	_
+
+# sent_id = 50
+# text = Ханнык дьиэҕэ киирдэ?
+# text_rus = В который дом он вошёл?
+# text_eng = Which house did he enter?
+1	Ханнык	ханнык	ADV	adv	_	3	advcl	3:advcl	_
+2	дьиэҕэ	дьиэ	NOUN	n	Case=Dat|Number=Sing	3	obl	3:obl	_
+3	киирдэ	киир	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+4	?	?	PUNCT	punct	_	3	punct	3:punct	_
 
