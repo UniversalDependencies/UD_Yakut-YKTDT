@@ -418,9 +418,9 @@
 3	нууччалар	нуучча	ADJ	adj	Number=Plur	2	amod	2:amod	_
 
 # sent_id = 49
-# text = Кини доҕотторо нууччалар
-# text_rus = Его друзья русские 
-# text_eng = His friends are Russians (Yakut manual, 24)
+# text = Мин кулгааҕым ыалдьыбат, баһым ыалдьар
+# text_rus = Мой глаз не болит, моя голова болит
+# text_eng = My eye does not hurt, my head hurts (Yakut manual, 26)
 1	Мин	мин	PRON	pron	_	2	nmod:poss	2:nmod:poss	_
 2	кулгааҕым	кулгаах	NOUN	n	_	3	nsubj	3:nsubj	_
 3	ыалдьыбат	ыарый	VERB	v	_	0	root	0:root	_
