@@ -10,7 +10,7 @@
 1	Кинигэлэри	кинигэ	NOUN	n	Case=Acc|Number=Plur	4	obj	_	_
 2	күн	күн	NOUN	n	_	4	obl:tmod	_	_
 3	аайы	аайы	DET	det	_	2	det	_	_
-4	ааҕабын	аах	VERB	v	Person=1|Number=Sing|Tense=Pres	0	root	_	_
+4	ааҕабын	аах	VERB	v	Number=Sing|Person=1|Tense=Pres	0	root	_	_
 
 # sent_id = 3
 # text = илиибин сууннум
@@ -261,7 +261,7 @@
 # text_rus = Твой папа пришёл
 # text_eng = Your father came
 1	Аҕаҥ	aҕa	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	2:nsubj	_
-2	кэллэ	кэлл	VERB	v	Number=3|Person=3|Tense=Past	0	root	0:root	_
+2	кэллэ	кэлл	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
 
 # sent_id = 31
 # text = Быраатым уонна балтым үөрэнэллэр
@@ -415,7 +415,7 @@
 # text_eng = His friends are Russians (Yakut manual, 24) # лыы comp affix
 1	Кини	кини	PRON	pron	_	2	nmod:poss	2:nmod:poss	_
 2	доҕотторо	доҕор	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	0:root	_
-3	нууччалар	нуучча	ADJ	adj	Number=Plur	2	amod	2:amod	_
+3	нууччалар	нуучча	PROPN	propn	Number=Plur	2	amod	2:amod	_
 
 # sent_id = 49
 # text = Мин кулгааҕым ыалдьыбат, баһым ыалдьар
