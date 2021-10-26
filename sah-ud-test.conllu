@@ -15,8 +15,8 @@
 # sent_id = 3
 # text = илиибин сууннум
 # text_rus = (я) помыл свои руки hand-POSS.1SG-ACC   wash-REFL-PST-1SG
-1	илиибин	илии	NOUN	n	Case=Acc|Number=Sing|Person=1|Poss=Yes	2	obj	2:obj	_
-2	сууннум	сууй	VERB	v	Number=Sing|Person=1|Tense=Pres|Voice=Rfl	0	root	0:root	_
+1	илиибин	илии	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obj	2:obj	_
+2	сууннум	сууй	VERB	v	Number=Sing|Person=1|Tense=Pres	0	root	0:root	_
 
 # sent_id = 4
 # text = биһиги манна баарбыт
@@ -114,7 +114,7 @@
 # sent_id = 14
 # text = Кырдьык, миэхэ күөгүрээпийэ олус туһалаабыта
 # text_rus = И география, по правде сказать, мне очень пригодилась  (21)
-1	Кырдьык	кырдьык	NOUN	n	_	6	advmod	6:advmod	SpaceAfter=No
+1	Кырдьык	кырдьык	ADV	adv	_	6	advmod	6:advmod	SpaceAfter=No
 2	,	,	PUNCT	punct	_	6	punct	6:punct	_
 3	миэхэ	мин	PRON	_	Case=Dat|Number=Sing|Person=1	6	iobj	6:iobj	_
 4	күөгүрээпийэ	күөгүрээпийэ	NOUN	Case=Nom|Number=Sing	_	6	nsubj	6:nsubj	_
