@@ -209,7 +209,7 @@
 # sent_id = 25
 # text = Ийэм кыра оҕоҕо кинигэ ааҕар
 # text_rus = Моя мама читает книгу маленьким детям
-1	Ийэм	ийэ	NOUN	n	Number[psor]=Sing|Person[psor]=1|Number=Sing	5	nsubj	5:nsubj	_
+1	Ийэм	ийэ	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj	5:nsubj	_
 2	кыра	кыра	ADJ	adj	_	3	amod	3:amod	_
 3	оҕоҕо	оҕо	NOUN	n	Case=Dat	5	obl	5:obl	_
 4	кинигэ	кинигэ	NOUN	n	Case=Nom	5	obj	5:obj	_
@@ -219,7 +219,7 @@
 # text = Аҕам хаһыат ааҕар уонна кэпсиир, улахан дьон истэллэр
 # text_rus = Мой папа читает газету и рассказывает, взрослые слушают
 # text_eng = My father reads a newspaper and narrates, adults listen
-1	Аҕам	аҕа	NOUN	n	Number[psor]=Sing|Person[psor]=1|Number=Sing	3	nsubj	3:nsubj	_
+1	Аҕам	аҕа	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	3:nsubj	_
 2	хаһыат	хаһыат	NOUN	n	Case=Nom	3	obj	3:obj	_
 3	ааҕар	аах	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	5:cc	_
