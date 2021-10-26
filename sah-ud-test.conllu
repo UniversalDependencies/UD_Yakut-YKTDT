@@ -235,16 +235,16 @@
 # text_eng = Everybody eats late and goes to sleep
 1	Хойут	хойут	ADV	adv	_	3	advmod	3:advmod	_
 2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
-3	аһыыллар	аһаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	0	root	0:root	_
+3	аһыыллар	аһаа	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	5:cc	_
-5	утуйаллар	утуй	VERB	v	Number=Plur|Person=3|Tense=Pres	_	3	conj	3:conj	_
+5	утуйаллар	утуй	VERB	v	Number=Plur|Person=3|Tense=Pres	3	conj	3:conj	_
 
 # sent_id = 28
 # text = Мин аатым Кэскил
 # text_rus = Меня зовут Кэскил
 # text_eng = My name is Keskil
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
-2	аатым	аат	NOUN	n	Person[psor]=1|Number[psor]=Sing|Number=Sing	0	root	0:root	_
+2	аатым	аат	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	0:root	_
 3	Кэскил	кэскил	PROPN	propn	_	2	nsubj	2:nsubj	_
 
 # sent_id = 29
@@ -253,23 +253,23 @@
 # text_eng = This boy's grandmother is sick
 1	Ити	ити	DET	det	_	2	det	2:det	_
 2	уол	уол	NOUN	n	_	3	nmod:poss	3:nmod:poss	_
-3	эбэтэ	эбэ	NOUN	n	Person[psor]=3|Number[psor]=Sing|Number=Sing	4	nsubj	4:nsubj	_
+3	эбэтэ	эбэ	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	4:nsubj	_
 4	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3	0	root	0:root	_
 
 # sent_id = 30
 # text = Аҕаҥ кэллэ
 # text_rus = Твой папа пришёл
 # text_eng = Your father came
-1	Аҕаҥ	aҕa	NOUN	n	Person[psor]=2|Number[psor]=Sing|Number=Sing	2	nsubj	2:nsubj	_
+1	Аҕаҥ	aҕa	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	2:nsubj	_
 2	кэллэ	кэлл	VERB	v	Number=3|Person=3|Tense=Past	0	root	0:root	_
 
 # sent_id = 31
 # text = Быраатым уонна балтым үөрэнэллэр
 # text_rus = Мой младший брат и моя младшая сестра учатся
 # text_eng = My little brother and my little sister study
-1	Быраатым	быраат	NOUN	n	Person[psor]=3|Number[psor]=Sing|Number=Sing	4	nsubj	4:nsubj	_
+1	Быраатым	быраат	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	4:nsubj	_
 2	уонна	уонна	CCONJ	cconj	_	3	cc	3:cc	_
-3	балтым	балыс	NOUN	n	Person[psor]=3|Number[psor]=Sing|Number=Sing	1	conj	1:conj	_
+3	балтым	балыс	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=3	1	conj	1:conj	_
 4	үөрэнэллэр	үөрэн	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 32
