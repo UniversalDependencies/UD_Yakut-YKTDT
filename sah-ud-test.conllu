@@ -202,9 +202,9 @@
 # sent_id = 24
 # text = Мин илиим ыраас
 # text_rus = Мои руки чистые
-1	Мин	мин	PRON	pron	Case=Nom	2	nmod:poss	2:nmod:poss	_
-2	илиим	илии	NOUN	n	Number[psor]=Sing|Person[psor]=1|Reflex=Yes	0	root	0:root	_
-3	ыраас	ыраас	ADJ	adj	_	2	amod	2:amod	_
+1	Мин	мин	PRON	pron	Case=Nom	2	nmod	2:nmod	_
+2	илиим	илии	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	3:nsubj	_
+3	ыраас	ыраас	ADJ	adj	_	0	root	0:root	_
 
 # sent_id = 25
 # text = Ийэм кыра оҕоҕо кинигэ ааҕар
@@ -243,7 +243,7 @@
 # text = Мин аатым Кэскил
 # text_rus = Меня зовут Кэскил
 # text_eng = My name is Keskil
-1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	2:nmod:poss	_
+1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nmod	2:nmod	_
 2	аатым	аат	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	0:root	_
 3	Кэскил	кэскил	PROPN	propn	_	2	nsubj	2:nsubj	_
 
@@ -252,7 +252,7 @@
 # text_rus = Бабушка этого мальчика болеет
 # text_eng = This boy's grandmother is sick
 1	Ити	ити	DET	det	_	2	det	2:det	_
-2	уол	уол	NOUN	n	_	3	nmod:poss	3:nmod:poss	_
+2	уол	уол	NOUN	n	_	3	nmod	3:nmod	_
 3	эбэтэ	эбэ	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	4:nsubj	_
 4	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3	0	root	0:root	_
 
@@ -386,7 +386,7 @@
 # text = Эн убайыҥ ханна үөрэнэрий?
 # text_rus = Где учится твой старший брат?
 # text_eng = Where does your older brother study? (Yakut manual, 22)
-1	Эн	эн	PRON	pron	_	2	nmod:poss	2:nmod:poss	_
+1	Эн	эн	PRON	pron	_	2	nmod	2:nmod	_
 2	убайыҥ	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	4	nsubj	4:nsubj	_
 3	ханна	ханна	ADV	adv	_	4	advmod	4:advmod	_
 4	үөрэнэрий	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	SpaceAfter=No
@@ -413,7 +413,7 @@
 # text = Кини доҕотторо нууччалар
 # text_rus = Его друзья русские
 # text_eng = His friends are Russians (Yakut manual, 24) # лыы comp affix
-1	Кини	кини	PRON	pron	_	2	nmod:poss	2:nmod:poss	_
+1	Кини	кини	PRON	pron	_	2	nmod	2:nmod	_
 2	доҕотторо	доҕор	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	0:root	_
 3	нууччалар	нуучча	PROPN	propn	Number=Plur	2	amod	2:amod	_
 
@@ -421,7 +421,7 @@
 # text = Мин кулгааҕым ыалдьыбат, баһым ыалдьар
 # text_rus = Мой глаз не болит, моя голова болит
 # text_eng = My eye does not hurt, my head hurts (Yakut manual, 26)
-1	Мин	мин	PRON	pron	Number=Sing|Person=1	2	nmod:poss	2:nmod:poss	_
+1	Мин	мин	PRON	pron	Number=Sing|Person=1	2	nmod	2:nmod	_
 2	кулгааҕым	кулгаах	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	3:nsubj	_
 3	ыалдьыбат	ыарый	VERB	v	Person=3|Polarity=Neg|Tense=Pres	0	root	0:root	SpaceAfter=No
 4	,	_	PUNCT	punct	_	3	punct	3:punct	_
