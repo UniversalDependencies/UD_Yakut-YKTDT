@@ -274,11 +274,11 @@
 
 # sent_id = 32
 # text = килиэптэ аҕалыахха наада
-# text_rus = Кто-то должен принести хлеба     #Kiliäp-tä aɣal-ïaχ-χa naːda bread-PT bring-AN-DAT.LOC necessary
+# text_rus = Надо принести хлеба     #Kiliäp-tä aɣal-ïaχ-χa naːda bread-PT bring-AN-DAT.LOC necessary /// NOMZR=Action
 # text_eng = One has to bring some bread  (Johanson, Turkic, 2021, 824)
-1	килиэптэ	килиэп	NOUN	n	Case=Par	2	obj	2:obj	_
-2	аҕалыахха	аҕал	VERB	v	Case=Dat	3	csubj	3:csubj	_
-3	наада	наада	ADJ	adj	_	0	root	0:root	_
+1	килиэптэ	килиэп	NOUN	n	Case=Par	2	nmod	2:nmod	_
+2	аҕалыахха	аҕал	NOUN	n	Case=Dat|NOMZR=Action	3	csubj	3:csubj	_
+3	наада	наада	ADV	adv	_	0	root	0:root	_
 
 # sent_id = 33
 # text = Петровка ыыттым
@@ -315,7 +315,7 @@
 # text = Балык ууга үөскүүр
 # text_rus = Рыба водится в воде   #Dat.Loc
 # text_eng = The fish lives in the water (Johanson, Turkic, 2021, 840)
-1	Балык	балык	NOUN	n	Number=Sing|Person=3	3	nsubj	3:nsubj	_
+1	Балык	балык	NOUN	n	Number=Sing	3	nsubj	3:nsubj	_
 2	ууга	уу	NOUN	n	Case=Dat	3	obl	3:obl	_
 3	үөскүүр	үөскээ	VERB	n	Number=Sing|Person=3	0	root	0:root	_
 
@@ -355,7 +355,7 @@
 # text_eng = A lion is stronger than a bear (Johanson, Turkic, 2021, 845)
 1	Хахай	хахай	NOUN	n	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
 2	эһэтээҕэр	эһэ	NOUN	n	Case=Cmp	3	obl	3:obl	_
-3	күүстээх	күүстээх	ADJ	adj	Case=Nom|Number=Sing	0	root	0:root	_
+3	күүстээх	күүстээх	ADJ	adj	_	0	root	0:root	_
 
 # sent_id = 43
 # text = үүтү биhиги ынахтан ылабыт
