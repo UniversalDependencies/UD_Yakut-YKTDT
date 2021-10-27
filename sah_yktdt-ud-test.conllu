@@ -277,7 +277,7 @@
 # text_rus = Надо принести хлеба     #Kiliäp-tä aɣal-ïaχ-χa naːda bread-PT bring-AN-DAT.LOC necessary /// NOMZR=Action
 # text_eng = One has to bring some bread  (Johanson, Turkic, 2021, 824)
 1	килиэптэ	килиэп	NOUN	n	Case=Par	2	nmod	2:nmod	_
-2	аҕалыахха	аҕал	NOUN	n	Case=Dat|NOMZR=Action	3	csubj	3:csubj	_
+2	аҕалыахха	аҕал	NOUN	n	Case=Dat|Nomzr=Action	3	csubj	3:csubj	_
 3	наада	наада	ADV	adv	_	0	root	0:root	_
 
 # sent_id = 33
