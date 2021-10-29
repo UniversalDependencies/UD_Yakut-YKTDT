@@ -348,7 +348,7 @@
 # text_rus = Я упал в воду   #Dat.Loc #PastParticiple
 # text_eng = I fell into the water (Johanson, Turkic, 2021, 840)
 1	Ууга	уу	NOUN	n	Case=Dat	2	obl	2:obl	_
-2	түспүтүм	түс	VERB	v	Number=Sing|Person=1|Tense=Past|Voice=Rfl	0	root	0:root	_
+2	түспүтүм	түс	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	0:root	_
 
 # sent_id = 39
 # text = Кини дьиэҕэ киирбитэ
