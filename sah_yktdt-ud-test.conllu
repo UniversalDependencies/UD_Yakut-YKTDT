@@ -499,5 +499,5 @@
 2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	3:nmod	_
 3	дьону	дьон	NOUN	n	Case=Acc|Number=Sing	5	obj	5:obj	_
 4	уочаратынан	уочарат	NOUN	n	Case=Ins|Number=Sing	5	obl	5:obl	_
-5	ыҥырар	ыҥыр		VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
+5	ыҥырар	ыҥыр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
 
