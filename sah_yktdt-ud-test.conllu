@@ -508,7 +508,7 @@
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	_
 2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	3:nmod	_
 3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	_
-4	көрөр	көр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
+4	көрөр	көр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	punct	_	4	punct	4:punct	_
 6	истэр	иһит	VERB	v	Number=Sing|Person=3|Tense=Pres	4	conj	4:conj	_
 7	уонна	уонна	CCONJ	cconj	_	10	cc	10:cc	_
@@ -525,10 +525,10 @@
 3	олороллор	олор	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 57
-# text = Саахары, арыыны аҕалла уонны килиэп быста
+# text = Саахары, арыыны аҕалла уоннa килиэп быста
 # text_rus = X принес(ла) сахар, масло и нарезал(а) хлеб
 # text_eng = X brought the sugar, the butter, and cut the bread  (Haritonov, _) #RemotePast
-1	Саахары	cаахар	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	_
+1	Саахары	cаахар	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	3:punct	_
 3	арыыны	арыы	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	_
 4	аҕалла	аҕал	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
@@ -540,13 +540,13 @@
 # text = Сардана, буулката аҕал, өссө килиэптэ быс
 # text_rus = Сардана, принеси булку и порежь хлеба
 # text_eng = Sardana, bring a breadroll, also cut some more bread  (Haritonov, _)
-1	Сардана	Сардана	PROPN	propn	_	4	vocative	4:vocative	_
+1	Сардана	Сардана	PROPN	propn	_	4	vocative	4:vocative	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	3:punct	_
-3	буулката	буулка	NOUN	n	Case=Part|Number=Sing	4	obj	4:obj	_
-4	аҕал	аҕал	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	0:root	_
+3	буулката	буулка	NOUN	n	Case=Par|Number=Sing	4	obj	4:obj	_
+4	аҕал	аҕал	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	punct	_	4	punct	4:punct	_
 6	өссө	өссө	ADV	adv	_	8	advmod	8:advmod	_
-7	килиэптэ	килиэп	NOUN	n	Case=Part|Number=Sing	8	obj	8:obj	_
+7	килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	8	obj	8:obj	_
 8	быс	быс	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	4	conj	4:conj	_
 
 # sent_id = 59
@@ -554,7 +554,7 @@
 # text_rus = Налей Кэскилу чаю!
 # text_eng = Pour some tea for Keskil!  (Haritonov, _)
 1	Кэскилга	Кэскил	PROPN	propn	Case=Dat	3	iobj	3:iobj	_
-2	чэйдэ	чэй	NOUN	n	Case=Part|Number=Sing	3	obj	3:obj	_
+2	чэйдэ	чэй	NOUN	n	Case=Par|Number=Sing	3	obj	3:obj	_
 3	кут	кут	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	0:root	SpaceAfter=No
 4	!	!	PUNCT	punct	_	3	punct	3:punct	_
 
@@ -564,7 +564,7 @@
 # text_eng = Kaskil ate a lot, he was full  (Haritonov, _)  #RemotePast
 1	Кэскил	Кэскил	PROPN	propn	_	3	nsubj	3:nsubj	_
 2	элбэхтик	элбэхтик	ADV	adv	_	3	advmod	3:advmod	_
-3	аһаата	аһаа	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+3	аһаата	аһаа	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	punct	_	3	punct	3:punct	_
 5	улаханнык	улаханнык	ADV	adv	_	6	advmod	6:advmod	_
 6	тотто	тот	VERB	v	Number=Sing|Person=3|Tense=Past	3	conj	3:conj	_
