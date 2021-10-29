@@ -472,3 +472,32 @@
 5	куоракка	куорат	NOUN	v	Case=Dat	6	obl	6:obl	_
 6	үөрэнэр	үөрэн	VERB	v	Person=3|Tense=Pres	0	root	0:root	_
 
+# sent_id = 52
+# text = Бастаан ыалдьар киһини карточкаҕа суруйаллар
+# text_rus = Сначала они записывают пациентов в карту
+# text_eng = At the beginning they write the patients[' names] on a card (Haritonov, _) 
+1	Бастаан	бастаан	ADV	adv	_	5	advmod	5:advmod	_
+2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	3:nmod	_
+3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	5	obj	5:obj	_
+4	карточкаҕа	карточка	NOUN	n	Case=Dat|Number=Sing	5	obl	5:obl	_
+5	суруйаллар	суруй	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
+
+# sent_id = 53
+# text = Онтон карточканы бырааска биэрэллэр
+# text_rus = Затем они дают карту врачу
+# text_eng = Then they give the card to a doctor  (Haritonov, _) 
+1	Онтон	онтон	ADV	adv	_	4	advmod	4:advmod	_
+2	карточканы	карточка	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	_
+3	бырааска	быраас	NOUN	n	Case=Dat|Number=Sing	4	obl	4:obl	_
+4	биэрэллэр	биэр	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
+
+# sent_id = 54
+# text = Быраас ыалдьар дьону уочаратынан ыҥырар
+# text_rus = Врач приглашает пациентов в очередь 
+# text_eng = Then they give the card to a doctor  (Haritonov, _) 
+1	Быраас	быраас	NOUN	n	Case=Nom|Number=Sing	5	nsubj	5:nsubj	_
+2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	3:nmod	_
+3	дьону	дьон	NOUN	n	Case=Acc|Number=Sing	5	obj	5:obj	_
+4	уочаратынан	уочарат	NOUN	n	Case=Ins|Number=Sing	5	obl	5:obl	_
+5	ыҥырар	ыҥыр		VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
+
