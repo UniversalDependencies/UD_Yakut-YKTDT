@@ -42,7 +42,7 @@
 # text_rus = Здесь есть стол, стул, скамейка
 # text_eng = There are desk, chair, bench here
 1	Манна	манна	ADV	adv	_	0	root	0:root	_
-2	остуол	остуол	NOUN	n	Number=Sing	1	nsubj	1:nsubj	_
+2	остуол	остуол	NOUN	n	Number=Sing	1	nsubj	1:nsubj	SpaceAfter=No
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
 4	олоппос	олоппос	NOUN	n	Number=Sing	2	conj	2:conj	SpaceAfter=No
 5	,	,	PUNCT	punct	_	2	punct	2:punct	_
