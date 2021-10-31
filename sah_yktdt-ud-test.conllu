@@ -139,10 +139,10 @@
 # text = Баһаалыста, бары туруҥ
 # text_rus = Пожалуйста, все садитесь
 # text_eng = Please, everybody, sit down
-1	Баһаалыста	баһаалыста	ADV	adv	_	4	parataxis	4:parataxis	SpaceAfter=No
+1	Баһаалыста	баһаалыста	INTJ	intj	_	4	discourse	4:discourse	SpaceAfter=No
 2	,	,	PUNCT	punct	_	1	punct	1:punct	_
-3	бары	бары	PRON	pron	_	4	nsubj	4:nsubj	_
-4	туруҥ	тур	VERB	v	Mood=Imp|Number=Plur|Person=2	0	root	0:root	_
+3	бары	бары	PRON	pron	PronType=Tot	4	nsubj	4:nsubj	_
+4	туруҥ	тур	VERB	vi	Mood=Imp|Number=Plur|Person=2	0	root	0:root	_
 
 # sent_id = 16
 # text = Миша кинигэни атыыласта
@@ -150,16 +150,16 @@
 # text_eng = Misha bought the book
 1	Миша	миша	PROPN	propn	_	3	nsubj	3:nsubj	_
 2	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	3	obj	3:obj	_
-3	атыыласта	атыылас	VERB	v	Person=3|Tense=Past	0	root	0:root	_
+3	атыыласта	атыылас	VERB	vt	Person=3|Tense=Past	0	root	0:root	_
 
 # sent_id = 17
 # text = Саша аҕатыгар суругу ыытта
 # text_rus = Саша отправила письмо своему отцу
 # text_eng = Sasha sent the letter to her dad
 1	Саша	саша	PROPN	propn	_	4	nsubj	4:nsubj	_
-2	аҕатыгар	аҕа	NOUN	n	Case=Dat	4	iobj	4:iobj	_
-3	суругу	сурук	NOUN	n	Case=Acc	4	obj	4:obj	_
-4	ыытта	ыыт	VERB	v	Person=3|Tense=Past	0	root	0:root	_
+2	аҕатыгар	аҕа	NOUN	n	Case=Dat|Number=Sing	4	iobj	4:iobj	_
+3	суругу	сурук	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	_
+4	ыытта	ыыт	VERB	vd	Person=3|Tense=RPast	0	root	0:root	_
 
 # sent_id = 18
 # text = биһиги бэҕэһээ Германияттан сурук тут
@@ -167,8 +167,8 @@
 # text_eng = Yesterday we received a letter from Germany
 1	биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	_
 2	бэҕэһээ	бэҕэһээ	ADV	adv	_	5	advmod	5:advmod	_
-3	Германияттан	германия	PROPN	propn	Case=Abl	5	obl	5:obl	_
-4	сурук	сурук	NOUN	n	Case=Nom	5	obj	5:obj	_
+3	Германияттан	германия	PROPN	propn	Case=Abl|Number=Sing	5	obl	5:obl	_
+4	сурук	сурук	NOUN	n	Case=Nom|Number=Sing	5	obj	5:obj	_
 5	тут	тут	VERB	v	Tense=Pres	0	root	0:root	_
 
 # sent_id = 19
