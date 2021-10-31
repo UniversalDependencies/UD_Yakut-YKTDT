@@ -251,7 +251,7 @@
 6	,	,	PUNCT	punct	_	3	punct	3:punct	_
 7	улахан	улахан	ADJ	adj	_	8	amod	8:amod	_
 8	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
-9	истэллэр	иһит	VERB	v	Number=Plur|Person=3|Tense=Pres	3	parataxis	3:parataxis	_
+9	истэллэр	иһит	VERB	v	Number=Plur|Person=3|Tense=Pres	3	conj	3:conj	_
 
 # sent_id = 27
 # text = Хойут бары аһыыллар уонна утуйаллар
@@ -413,7 +413,7 @@
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nmod	2:nmod	_
 2	убайыҥ	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	4	nsubj	4:nsubj	_
 3	ханна	ханна	PRON	pronint	PronType=Int	4	obl	4:obl	_
-4	үөрэнэрий	үөрэн	VERB	vi	Number=Sing|Int=Yes|Person=3|Tense=Pres	0	root	0:root	SpaceAfter=No
+4	үөрэнэрий	үөрэн	VERB	vi	Number=Sing|Person=3|Tense=Pres|Int=Yes	0	root	0:root	SpaceAfter=No
 5	?	?	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 47
@@ -423,15 +423,15 @@
 1	Кинилэр	кинилэр	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
 2	ааҕалар	ааҕ	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
-4	суруйаллар	суруй	VERB	v	Number=Plur|Person=3|Tense=Pres	2	parataxis	2:parataxis	SpaceAfter=No
+4	суруйаллар	суруй	VERB	v	Number=Plur|Person=3|Tense=Pres	2	conj	2:conj	SpaceAfter=No
 5	,	,	PUNCT	punct	_	2	punct	2:punct	_
-6	кэпсииллэр	кэпсээ	VERB	v	Number=Plur|Person=3|Tense=Pres	2	parataxis	2:parataxis	SpaceAfter=No
+6	кэпсииллэр	кэпсээ	VERB	v	Number=Plur|Person=3|Tense=Pres	2	conj	2:conj	SpaceAfter=No
 7	,	,	PUNCT	punct	_	2	punct	2:punct	_
 8	уонна	уонна	CCONJ	cconj	_	9	cc	9:cc	_
 9	сахалыы	саха	ADV	adv	_	12	advmod	12:advmod	SpaceAfter=No
 10	,	,	PUNCT	punct	_	11	punct	11:punct	_
 11	нууччалыы	нуучча	ADV	adv	_	9	conj	9:conj	_
-12	кэпсэтэллэр	кэпсээ	VERB	v	Number=Plur|Person=3|Tense=Pres	2	parataxis	2:parataxis	_
+12	кэпсэтэллэр	кэпсээ	VERB	v	Number=Plur|Person=3|Tense=Pres	2	conj	2:conj	_
 
 # sent_id = 48
 # text = Кини доҕотторо нууччалар
@@ -470,36 +470,36 @@
 3	атаһым	атас	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nmod	4:nmod	_
 4	убайа	убай	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	6:nsubj	_
 5	куоракка	куорат	NOUN	v	Case=Dat	6	obl	6:obl	_
-6	үөрэнэр	үөрэн	VERB	v	Person=3|Tense=Pres	0	root	0:root	_
+6	үөрэнэр	үөрэн	VERB	vi	Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 52
 # text = Бастаан ыалдьар киһини карточкаҕа суруйаллар
 # text_rus = Сначала они записывают пациентов в карту
 # text_eng = At the beginning they write the patients[' names] on a card (Haritonov, _) 
 1	Бастаан	бастаан	ADV	adv	_	5	advmod	5:advmod	_
-2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	3:nmod	_
-3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	5	obj	5:obj	_
+2	ыалдьар	ыалдьар	NOUN	n	Case=Nom||Definite=Inf|Number=Sing	3	nmod	3:nmod	_
+3	киһини	киһи	NOUN	n	Case=Acc|Definite=Def|Number=Sing	5	obj	5:obj	_
 4	карточкаҕа	карточка	NOUN	n	Case=Dat|Number=Sing	5	obl	5:obl	_
-5	суруйаллар	суруй	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
+5	суруйаллар	суруй	VERB	vt	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 53
 # text = Онтон карточканы бырааска биэрэллэр
 # text_rus = Затем они дают карту врачу
 # text_eng = Then they give the card to a doctor  (Haritonov, _) 
 1	Онтон	онтон	ADV	adv	_	4	advmod	4:advmod	_
-2	карточканы	карточка	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	_
+2	карточканы	карточка	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	4:obj	_
 3	бырааска	быраас	NOUN	n	Case=Dat|Number=Sing	4	obl	4:obl	_
-4	биэрэллэр	биэр	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
+4	биэрэллэр	биэр	VERB	vd	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 54
 # text = Быраас ыалдьар дьону уочаратынан ыҥырар
 # text_rus = Врач приглашает пациентов в очередь 
-# text_eng = Then they give the card to a doctor  (Haritonov, _) 
+# text_eng = A doctor invites patients to the line (Haritonov, _) 
 1	Быраас	быраас	NOUN	n	Case=Nom|Number=Sing	5	nsubj	5:nsubj	_
 2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	3:nmod	_
-3	дьону	дьон	NOUN	n	Case=Acc|Number=Sing	5	obj	5:obj	_
+3	дьону	дьон	NOUN	n	Case=Acc|Definite=Def|Number=Sing	5	obj	5:obj	_
 4	уочаратынан	уочарат	NOUN	n	Case=Ins|Number=Sing	5	obl	5:obl	_
-5	ыҥырар	ыҥыр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
+5	ыҥырар	ыҥыр	VERB	vd	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 55
 # text = Кини ыалдьар киһини көрөр, истэр уонна киниэхэ эми суруйар
@@ -508,13 +508,13 @@
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	_
 2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	3:nmod	_
 3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	_
-4	көрөр	көр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	SpaceAfter=No
+4	көрөр	көр	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	punct	_	4	punct	4:punct	_
-6	истэр	иһит	VERB	v	Number=Sing|Person=3|Tense=Pres	4	conj	4:conj	_
+6	истэр	иһит	VERB	vt	Number=Sing|Person=3|Tense=Pres	4	conj	4:conj	_
 7	уонна	уонна	CCONJ	cconj	_	10	cc	10:cc	_
 8	киниэхэ	кини	PRON	pron	Case=Dat|Number=Sing|Person=3|PronType=Prs	10	obl	10:obl	_
 9	эми	эмп	NOUN	n	Case=Acc|Number=Sing	10	obj	10:obj	_
-10	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	4	conj	4:conj	_
+10	суруйар	суруй	VERB	vt	Number=Sing|Person=3|Tense=Pres	4	conj	4:conj	_
 
 # sent_id = 56
 # text = Олоппосторго дьоннор олороллор
@@ -522,19 +522,19 @@
 # text_eng = People sit on chairs  (Haritonov, _) 
 1	Олоппосторго	олоппос	NOUN	n	Case=Dat|Number=Plur	3	obl	3:obl	_
 2	дьоннор	дьон	NOUN	n	Case=Nom|Number=Plur	3	nsubj	3:nsubj	_
-3	олороллор	олор	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
+3	олороллор	олор	VERB	vt	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 57
 # text = Саахары, арыыны аҕалла уоннa килиэп быста
 # text_rus = X принес(ла) сахар, масло и нарезал(а) хлеб
 # text_eng = X brought the sugar, the butter, and cut the bread  (Haritonov, _) #RemotePast
-1	Саахары	cаахар	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	SpaceAfter=No
+1	Саахары	cаахар	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	4:obj	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	3:punct	_
-3	арыыны	арыы	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	_
-4	аҕалла	аҕал	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+3	арыыны	арыы	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	4:obj	_
+4	аҕалла	аҕал	VERB	vt	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
 5	уоннa	уоннa	CCONJ	cconj	_	7	cc	7:cc	_
 6	килиэп	килиэп	NOUN	n	Case=Nom|Number=Sing	7	obj	7:obj	_
-7	быста	быс	VERB	v	Number=Sing|Person=3|Tense=Past	4	conj	4:conj	_
+7	быста	быс	VERB	vt	Number=Sing|Person=3|Tense=Past	4	conj	4:conj	_
 
 # sent_id = 58
 # text = Сардана, буулката аҕал, өссө килиэптэ быс
@@ -543,11 +543,11 @@
 1	Сардана	Сардана	PROPN	propn	_	4	vocative	4:vocative	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	3:punct	_
 3	буулката	буулка	NOUN	n	Case=Par|Number=Sing	4	obj	4:obj	_
-4	аҕал	аҕал	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	0:root	SpaceAfter=No
+4	аҕал	аҕал	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	punct	_	4	punct	4:punct	_
 6	өссө	өссө	ADV	adv	_	8	advmod	8:advmod	_
 7	килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	8	obj	8:obj	_
-8	быс	быс	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	4	conj	4:conj	_
+8	быс	быс	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	4	conj	4:conj	_
 
 # sent_id = 59
 # text = Кэскилга чэйдэ кут!
@@ -555,7 +555,7 @@
 # text_eng = Pour some tea for Keskil!  (Haritonov, _)
 1	Кэскилга	Кэскил	PROPN	propn	Case=Dat	3	iobj	3:iobj	_
 2	чэйдэ	чэй	NOUN	n	Case=Par|Number=Sing	3	obj	3:obj	_
-3	кут	кут	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	0:root	SpaceAfter=No
+3	кут	кут	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	0:root	SpaceAfter=No
 4	!	!	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 60
@@ -564,8 +564,8 @@
 # text_eng = Kaskil ate a lot, he was full  (Haritonov, _)  #RemotePast
 1	Кэскил	Кэскил	PROPN	propn	_	3	nsubj	3:nsubj	_
 2	элбэхтик	элбэхтик	ADV	adv	_	3	advmod	3:advmod	_
-3	аһаата	аһаа	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	SpaceAfter=No
+3	аһаата	аһаа	VERB	vi	Number=Sing|Person=3|Tense=Past	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	punct	_	3	punct	3:punct	_
 5	улаханнык	улаханнык	ADV	adv	_	6	advmod	6:advmod	_
-6	тотто	тот	VERB	v	Number=Sing|Person=3|Tense=Past	3	conj	3:conj	_
+6	тотто	тот	VERB	vi	Number=Sing|Person=3|Tense=Past	3	parataxis	3:parataxis	_
 
