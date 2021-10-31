@@ -413,7 +413,7 @@
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nmod	2:nmod	_
 2	убайыҥ	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	4	nsubj	4:nsubj	_
 3	ханна	ханна	PRON	pronint	PronType=Int	4	obl	4:obl	_
-4	үөрэнэрий	үөрэн	VERB	vi	Number=Sing|Person=3|Tense=Pres|Int=Yes	0	root	0:root	SpaceAfter=No
+4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	0:root	SpaceAfter=No
 5	?	?	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 47
@@ -477,7 +477,7 @@
 # text_rus = Сначала они записывают пациентов в карту
 # text_eng = At the beginning they write the patients[' names] on a card (Haritonov, _) 
 1	Бастаан	бастаан	ADV	adv	_	5	advmod	5:advmod	_
-2	ыалдьар	ыалдьар	NOUN	n	Case=Nom||Definite=Inf|Number=Sing	3	nmod	3:nmod	_
+2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Definite=Inf|Number=Sing	3	nmod	3:nmod	_
 3	киһини	киһи	NOUN	n	Case=Acc|Definite=Def|Number=Sing	5	obj	5:obj	_
 4	карточкаҕа	карточка	NOUN	n	Case=Dat|Number=Sing	5	obl	5:obl	_
 5	суруйаллар	суруй	VERB	vt	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
