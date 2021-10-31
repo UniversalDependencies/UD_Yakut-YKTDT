@@ -55,7 +55,7 @@
 # text_eng = There are many desks in the class
 1	Кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	4	obl	4:obl	_
 2	элбэх	элбэх	ADJ	adj	_	3	amod	3:amod	_
-3	паарта	паарта	NOUN	n	Number=Sing	4	obj	4:obj	_
+3	паарта	паарта	NOUN	n	Number=Sing	4	nsubj	4:nsubj	_
 4	турар	тур	VERB	v	Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 8
@@ -74,9 +74,9 @@
 # text_eng = One boy is standing and reading.
 1	Биир	биир	NUM	num	NumType=Card	2	nummod	2:nummod	_
 2	уол	уол	NOUN	n	Number=Sing	3	nsubj	3:nsubj	_
-3	турар	тур	VERB	v	Person=3|Tense=Pres	0	root	0:root	_
+3	турар	тур	VERB	vi	Person=3|Tense=Pres	0	root	0:root	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	5:cc	_
-5	ааҕар	аах	VERB	v	Person=3|Tense=Pres	3	conj	3:conj	SpaceAfter=No
+5	ааҕар	аах	VERB	vt	Person=3|Tense=Pres	3	conj	3:conj	SpaceAfter=No
 6	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 10
@@ -87,7 +87,7 @@
 2	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	5	obl	5:obl	_
 3	элбэх	элбэх	ADJ	adj	_	4	amod	4:amod	_
 4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	5	nsubj	5:nsubj	_
-5	үөрэнэр	үөрэн	VERB	v	Person=3|Tense=Pres	0	root	0:root	_
+5	үөрэнэр	үөрэн	VERB	vi	Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 11
 # text = Айаана уонна Сайаана, манна кэлиҥ, дуоска аттыгар туруҥ
@@ -100,7 +100,7 @@
 5	манна	манна	ADV	adv	_	6	advmod	6:advmod	_
 6	кэлиҥ	кэл	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	0:root	SpaceAfter=No
 7	,	,	PUNCT	punct	_	6	punct	6:punct	_
-8	дуоска	дуоска	NOUN	n	Number=Sing	10	obl	10:obl	_
+8	дуоска	дуоска	NOUN	n	Case=Nom|Number=Sing	10	obl	10:obl	_
 9	аттыгар	_	ADV	adv	_	8	case	8:case	_
 10	туруҥ	тур	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	6	conj	6:conj	_
 
@@ -109,10 +109,10 @@
 # text_rus = Маленькие дети учатся в начальной школе
 # text_eng = Small children study at primary school
 1	Кыра	кыра	ADJ	adj	_	2	amod	2:amod	_
-2	оҕолор	оҕо	NOUN	n	Number=Plur	5	nsubj	5:nsubj	_
+2	оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	5	nsubj	5:nsubj	_
 3	начальнай	начальнай	ADJ	adj	_	4	amod	4:amod	_
-4	оскуолаҕа	оскуола	NOUN	n	Case=Dat	5	obl	5:obl	_
-5	үөрэнэллэр	үөрэн	VERB	v	Number=Plur|Tense=Pres	0	root	0:root	_
+4	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	5	obl	5:obl	_
+5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Tense=Pres	0	root	0:root	_
 
 # sent_id = 13
 # text = Кыра оҕо ханна үөрэнэрий?
@@ -120,8 +120,8 @@
 # text_eng = Where do small children study?
 1	Кыра	кыра	ADJ	adj	_	2	amod	2:amod	_
 2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
-3	ханна	ханна	ADV	adv	_	4	advmod	4:advmod	_
-4	үөрэнэрий	үөрэн	VERB	v	Number=Sing|Person=3	0	root	0:root	SpaceAfter=No
+3	ханна	ханна	PRON	pronint	PronType=Int	4	obl	4:obl	_
+4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3	0	root	0:root	SpaceAfter=No
 5	?	?	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 14
