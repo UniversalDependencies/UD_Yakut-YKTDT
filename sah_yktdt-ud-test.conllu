@@ -235,17 +235,17 @@
 # text_eng = My mother is reading a book to small children
 1	Ийэм	ийэ	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj	5:nsubj	_
 2	кыра	кыра	ADJ	adj	_	3	amod	3:amod	_
-3	оҕоҕо	оҕо	NOUN	n	Case=Dat	5	obl	5:obl	_
-4	кинигэ	кинигэ	NOUN	n	Case=Nom	5	obj	5:obj	_
-5	ааҕар	аах	VERB	v	Person=3|Tense=Pres	0	root	0:root	_
+3	оҕоҕо	оҕо	NOUN	n	Case=Dat|Number=Sing	5	obl	5:obl	_
+4	кинигэ	кинигэ	NOUN	n	Case=Nom|Number=Sing	5	obj	5:obj	_
+5	ааҕар	аах	VERB	vt	Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 26
 # text = Аҕам хаһыат ааҕар уонна кэпсиир, улахан дьон истэллэр
 # text_rus = Мой папа читает газету и рассказывает, взрослые слушают
 # text_eng = My father reads a newspaper and narrates, adults listen
 1	Аҕам	аҕа	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	3:nsubj	_
-2	хаһыат	хаһыат	NOUN	n	Case=Nom	3	obj	3:obj	_
-3	ааҕар	аах	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
+2	хаһыат	хаһыат	NOUN	n	Case=Nom|Number=Sing	3	obj	3:obj	_
+3	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	5:cc	_
 5	кэпсиир	кэпсээ	VERB	v	Number=Sing|Person=3|Tense=Pres	3	conj	3:conj	SpaceAfter=No
 6	,	,	PUNCT	punct	_	3	punct	3:punct	_
@@ -258,49 +258,49 @@
 # text_rus = Все поздно едят и ложятся спать
 # text_eng = Everybody eats late and goes to sleep
 1	Хойут	хойут	ADV	adv	_	3	advmod	3:advmod	_
-2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
-3	аһыыллар	аһаа	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	3	nsubj	3:nsubj	_
+3	аһыыллар	аһаа	VERB	vi	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	5:cc	_
-5	утуйаллар	утуй	VERB	v	Number=Plur|Person=3|Tense=Pres	3	conj	3:conj	_
+5	утуйаллар	утуй	VERB	vi	Number=Plur|Person=3|Tense=Pres	3	conj	3:conj	_
 
 # sent_id = 28
 # text = Мин аатым Кэскил
 # text_rus = Меня зовут Кэскил
 # text_eng = My name is Keskil
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nmod	2:nmod	_
-2	аатым	аат	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	0:root	_
-3	Кэскил	кэскил	PROPN	propn	_	2	nsubj	2:nsubj	_
+2	аатым	аат	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	3:nsubj	_
+3	Кэскил	кэскил	PROPN	propn	_	0	root	0:root	_
 
 # sent_id = 29
 # text = Ити уол эбэтэ ыалдьар
 # text_rus = Бабушка этого мальчика болеет
 # text_eng = This boy's grandmother is sick
 1	Ити	ити	DET	det	_	2	det	2:det	_
-2	уол	уол	NOUN	n	_	3	nmod	3:nmod	_
+2	уол	уол	NOUN	n	Case=Nom|Number=Sing	3	nmod	3:nmod	_
 3	эбэтэ	эбэ	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	4:nsubj	_
-4	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3	0	root	0:root	_
+4	ыалдьар	ыарый	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 30
 # text = Аҕаҥ кэллэ
 # text_rus = Твой папа пришёл
 # text_eng = Your father came
 1	Аҕаҥ	aҕa	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	2:nsubj	_
-2	кэллэ	кэлл	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+2	кэллэ	кэлл	VERB	vi	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
 
 # sent_id = 31
 # text = Быраатым уонна балтым үөрэнэллэр
 # text_rus = Мой младший брат и моя младшая сестра учатся
 # text_eng = My little brother and my little sister study
-1	Быраатым	быраат	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	4:nsubj	_
+1	Быраатым	быраат	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	4:nsubj	_
 2	уонна	уонна	CCONJ	cconj	_	3	cc	3:cc	_
-3	балтым	балыс	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=3	1	conj	1:conj	_
-4	үөрэнэллэр	үөрэн	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
+3	балтым	балыс	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	conj	1:conj	_
+4	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 32
 # text = килиэптэ аҕалыахха наада
 # text_rus = Надо принести хлеба
 # text_eng = One has to bring some bread  (Johanson, Turkic, 2021, 824)
-1	килиэптэ	килиэп	NOUN	n	Case=Par	2	nmod	2:nmod	_
+1	килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	2	nmod	2:nmod	_
 2	аҕалыахха	аҕал	NOUN	n	Case=Dat|Nomzr=Action	3	csubj	3:csubj	_
 3	наада	наада	ADV	adv	_	0	root	0:root	_
 
@@ -309,102 +309,102 @@
 # text_rus = Я отправил Петрову
 # text_eng = I sent it to Petrov (Johanson, Turkic, 2021, 840)
 1	Петровка	петров	PROPN	propn	Case=Dat	2	obj	2:obj	_
-2	ыыттым	ыыт	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	0:root	_
+2	ыыттым	ыыт	VERB	vd	Number=Sing|Person=1|Tense=Past	0	root	0:root	_
 
 # sent_id = 34
 # text = Кини Дьокуускайга барда
 # text_rus = Он/она поехал в Якутск   #Dat.Loc
 # text_eng = He/she went to Yakutsk (Johanson, Turkic, 2021, 840)
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
-2	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat	3	obl	3:obl	_
+2	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat|Number=Sing	3	obl	3:obl	_
 3	барда	бар	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
 
 # sent_id = 35
 # text = Дьокуускайга хаар түһэр
 # text_rus = В Якутске идёт снег   #Dat.Loc
 # text_eng = Snow is falling in/on Yakutsk (Johanson, Turkic, 2021, 840)
-1	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat	3	obj	3:obj	_
-2	хаар	хаар	NOUN	n	_	3	nsubj	3:nsubj	_
-3	түһэр	түс	VERB	v	Number=Sing|Person=3	0	root	0:root	_
+1	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat|Number=Sing	3	obj	3:obj	_
+2	хаар	хаар	NOUN	n	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
+3	түһэр	түс	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 36
 # text = Кини Москваҕа олорор
-# text_rus = Он/она живёт в Москве   #Dat.Loc
+# text_rus = Он/она живёт в Москве
 # text_eng = He/she lives in Moscow (Johanson, Turkic, 2021, 840)
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
-2	Москваҕа	москва	PROPN	propn	Case=Dat	3	obl	3:obl	_
-3	олорор	олор	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
+2	Москваҕа	москва	PROPN	propn	Case=Dat|Number=Sing	3	obl	3:obl	_
+3	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 37
 # text = Балык ууга үөскүүр
 # text_rus = Рыба водится в воде   #Dat.Loc
 # text_eng = The fish lives in the water (Johanson, Turkic, 2021, 840)
-1	Балык	балык	NOUN	n	Number=Sing	3	nsubj	3:nsubj	_
-2	ууга	уу	NOUN	n	Case=Dat	3	obl	3:obl	_
-3	үөскүүр	үөскээ	VERB	n	Number=Sing|Person=3	0	root	0:root	_
+1	Балык	балык	NOUN	n	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
+2	ууга	уу	NOUN	n	Case=Dat|Number=Sing	3	obl	3:obl	_
+3	үөскүүр	үөскээ	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 38
 # text = Ууга түспүтүм
-# text_rus = Я упал в воду   #Dat.Loc #PastParticiple
+# text_rus = Я упал в воду #PastParticiple
 # text_eng = I fell into the water (Johanson, Turkic, 2021, 840)
-1	Ууга	уу	NOUN	n	Case=Dat	2	obl	2:obl	_
-2	түспүтүм	түс	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	0:root	_
+1	Ууга	уу	NOUN	n	Case=Dat|Number=Sing	2	obl	2:obl	_
+2	түспүтүм	түс	VERB	vi	Number=Sing|Person=1|Tense=Past	0	root	0:root	_
 
 # sent_id = 39
 # text = Кини дьиэҕэ киирбитэ
-# text_rus = Он/она вош(ёл)ла в дом   #Dat.Loc #Past Participle
+# text_rus = Он/она вош(ёл)ла в дом  #Past Participle
 # text_eng = He/she entered the house (Johanson, Turkic, 2021, 840)
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
-2	дьиэҕэ	дьиэ	NOUN	n	Case=Dat	3	obl	3:obl	_
-3	киирбитэ	киир	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+2	дьиэҕэ	дьиэ	NOUN	n	Case=Dat|Number=Sing	3	obl	3:obl	_
+3	киирбитэ	киир	VERB	vi	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
 
 # sent_id = 40
 # text = Оскуолаттан кэллэ
 # text_rus = Он/она приш(ёл)ла из школы
 # text_eng = He/she came from school (Johanson, Turkic, 2021, 842)
-1	Оскуолаттан	оскуола	NOUN	n	Case=Abl	2	nsubj	2:nsubj	_
-2	кэллэ	кэл	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+1	Оскуолаттан	оскуола	NOUN	n	Case=Abl|Number=Sing	2	obl	2:obl	_
+2	кэллэ	кэл	VERB	vi	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
 
 # sent_id = 41
 # text = Үс километры бардыбыт
 # text_rus = Мы прошли три километра
 # text_eng = We walked three kilometers (Johanson, Turkic, 2021, 844)
 1	Үс	үс	NUM	num	NumType=Card	2	nummod	2:nummod	_
-2	километры	километр	NOUN	n	Case=Acc	3	obj	3:obj	_
-3	бардыбыт	бар	VERB	v	Number=Plur|Person=1|Tense=Past	0	root	0:root	_
+2	километры	километр	NOUN	n	Case=Acc|Number=Plur	3	obj	3:obj	_
+3	бардыбыт	бар	VERB	vi	Number=Plur|Person=1|Tense=Past	0	root	0:root	_
 
 # sent_id = 42
 # text = Хахай эһэтээҕэр күүстээх
 # text_rus = Лев сильнее медведя
 # text_eng = A lion is stronger than a bear (Johanson, Turkic, 2021, 845)
 1	Хахай	хахай	NOUN	n	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
-2	эһэтээҕэр	эһэ	NOUN	n	Case=Cmp	3	obl	3:obl	_
+2	эһэтээҕэр	эһэ	NOUN	n	Case=Cmp|Number=Sing	3	obl	3:obl	_
 3	күүстээх	күүстээх	ADJ	adj	_	0	root	0:root	_
 
 # sent_id = 43
 # text = үүтү биhиги ынахтан ылабыт
 # text_rus = Мы получаем молоко от коров
 # text_eng = Milk we get from cows (Johanson, Turkic, 2021, 948)
-1	үүтү	үүт	NOUN	n	Case=Acc	4	obj	4:obj	_
+1	үүтү	үүт	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	_
 2	биhиги	биhиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
-3	ынахтан	ынах	NOUN	n	Case=Abl	4	obl	4:obl	_
-4	ылабыт	ыл	VERB	v	Number=Plur|Person=2|Tense=Pres	0	root	0:root	_
+3	ынахтан	ынах	NOUN	n	Case=Abl|Number=Sing	4	obl	4:obl	_
+4	ылабыт	ыл	VERB	vi	Number=Plur|Person=2|Tense=Pres	0	root	0:root	_
 
 # sent_id = 44
 # text = Кини яблоко аһыыр
 # text_rus = Он/она ест яблоко
 # text_eng = He/she eats an apple
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
-2	яблоко	яблоко	NOUN	n	Case=Nom|Number=Sing	3	obj	3:obj	_
-3	аһыыр	аһыы	VERB	v	Number=Sing|Person=3	0	root	0:root	_
+2	яблоко	яблоко	NOUN	n	Case=Nom|Definite=Ind|Number=Sing	3	obj	3:obj	_
+3	аһыыр	аһыы	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 45
 # text = Кини яблоконы аһыыр
 # text_rus = Он/она ест яблоко
 # text_eng = He/she eats the apple
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
-2	яблоконы	яблоко	NOUN	n	Case=Acc|Number=Sing	3	obj	3:obj	_
-3	аһыыр	аһыы	VERB	v	Number=Sing|Person=3	0	root	0:root	_
+2	яблоконы	яблоко	NOUN	n	Case=Acc|Definite=Def|Number=Sing	3	obj	3:obj	_
+3	аһыыр	аһыы	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
 
 # sent_id = 46
 # text = Эн убайыҥ ханна үөрэнэрий?
@@ -412,8 +412,8 @@
 # text_eng = Where does your older brother study? (Yakut manual, 22)
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nmod	2:nmod	_
 2	убайыҥ	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	4	nsubj	4:nsubj	_
-3	ханна	ханна	ADV	adv	_	4	advmod	4:advmod	_
-4	үөрэнэрий	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	SpaceAfter=No
+3	ханна	ханна	PRON	pronint	PronType=Int	4	obl	4:obl	_
+4	үөрэнэрий	үөрэн	VERB	vi	Number=Sing|Int=Yes|Person=3|Tense=Pres	0	root	0:root	SpaceAfter=No
 5	?	?	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 47
@@ -423,23 +423,23 @@
 1	Кинилэр	кинилэр	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
 2	ааҕалар	ааҕ	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
-4	суруйаллар	суруй	VERB	v	Number=Plur|Person=3|Tense=Pres	2	conj	2:conj	SpaceAfter=No
+4	суруйаллар	суруй	VERB	v	Number=Plur|Person=3|Tense=Pres	2	parataxis	2:parataxis	SpaceAfter=No
 5	,	,	PUNCT	punct	_	2	punct	2:punct	_
-6	кэпсииллэр	кэпсээ	VERB	v	Number=Plur|Person=3|Tense=Pres	2	conj	2:conj	SpaceAfter=No
+6	кэпсииллэр	кэпсээ	VERB	v	Number=Plur|Person=3|Tense=Pres	2	parataxis	2:parataxis	SpaceAfter=No
 7	,	,	PUNCT	punct	_	2	punct	2:punct	_
-8	уонна	уонна	CCONJ	cconj	_	12	cc	12:cc	_
+8	уонна	уонна	CCONJ	cconj	_	9	cc	9:cc	_
 9	сахалыы	саха	ADV	adv	_	12	advmod	12:advmod	SpaceAfter=No
 10	,	,	PUNCT	punct	_	11	punct	11:punct	_
 11	нууччалыы	нуучча	ADV	adv	_	9	conj	9:conj	_
-12	кэпсэтэллэр	кэпсээ	VERB	v	Number=Plur|Person=3|Tense=Pres	2	conj	2:conj	_
+12	кэпсэтэллэр	кэпсээ	VERB	v	Number=Plur|Person=3|Tense=Pres	2	parataxis	2:parataxis	_
 
 # sent_id = 48
 # text = Кини доҕотторо нууччалар
 # text_rus = Его друзья русские
 # text_eng = His friends are Russians (Yakut manual, 24) # лыы comp affix
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nmod	2:nmod	_
-2	доҕотторо	доҕор	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	0:root	_
-3	нууччалар	нуучча	PROPN	propn	Number=Plur	2	amod	2:amod	_
+2	доҕотторо	доҕор	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	nsubj	3:nsubj	_
+3	нууччалар	нуучча	NOUN	n	Case=Nom|Number=Plur	0	root	0:root	_
 
 # sent_id = 49
 # text = Мин кулгааҕым ыалдьыбат, баһым ыалдьар
@@ -447,18 +447,18 @@
 # text_eng = My eye does not hurt, my head hurts (Yakut manual, 26)
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nmod	2:nmod	_
 2	кулгааҕым	кулгаах	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	3:nsubj	_
-3	ыалдьыбат	ыарый	VERB	v	Person=3|Polarity=Neg|Tense=Pres	0	root	0:root	SpaceAfter=No
+3	ыалдьыбат	ыарый	VERB	vi	Person=3|Polarity=Neg|Tense=Pres	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	punct	_	3	punct	3:punct	_
 5	баһым	бас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	6:nsubj	_
-6	ыалдьар	ыарый	VERB	v	Person=3|Tense=Pres	3	parataxis	3:parataxis	_
+6	ыалдьар	ыарый	VERB	vi	Person=3|Tense=Pres	3	parataxis	3:parataxis	_
 
 # sent_id = 50
 # text = Ханнык дьиэҕэ киирдэ?
 # text_rus = В который дом он вошёл?
 # text_eng = Which house did he enter?
-1	Ханнык	ханнык	ADV	adv	_	3	advcl	3:advcl	_
+1	Ханнык	ханнык	PRON	pronint	PronType=Int	2	det	2:det	_
 2	дьиэҕэ	дьиэ	NOUN	n	Case=Dat|Number=Sing	3	obl	3:obl	_
-3	киирдэ	киир	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	SpaceAfter=No
+3	киирдэ	киир	VERB	vi	Number=Sing|Person=3|Tense=Past	0	root	0:root	SpaceAfter=No
 4	?	?	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 51
