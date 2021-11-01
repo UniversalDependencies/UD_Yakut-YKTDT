@@ -3,7 +3,7 @@
 # text_rus = Они пришли
 # text_eng = They came
 1	Кинилэр	кинилэр	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
-2	кэллилэр	кэл	VERB	v	Number=Plur|Person=3|Tense=Past	0	root	0:root	_
+2	кэллилэр	кэл	VERB	v	Number=Plur|Person=3|Tense=NearPast	0	root	0:root	_
 
 # sent_id = 2
 # text = Кинигэлэри күн аайы ааҕабын
@@ -150,7 +150,7 @@
 # text_eng = Misha bought the book
 1	Миша	миша	PROPN	propn	_	3	nsubj	3:nsubj	_
 2	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	3	obj	3:obj	_
-3	атыыласта	атыылас	VERB	vt	Person=3|Tense=Past	0	root	0:root	_
+3	атыыласта	атыылас	VERB	vt	Person=3|Tense=NearPast	0	root	0:root	_
 
 # sent_id = 17
 # text = Саша аҕатыгар суругу ыытта
@@ -159,7 +159,7 @@
 1	Саша	саша	PROPN	propn	_	4	nsubj	4:nsubj	_
 2	аҕатыгар	аҕа	NOUN	n	Case=Dat|Number=Sing	4	iobj	4:iobj	_
 3	суругу	сурук	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	_
-4	ыытта	ыыт	VERB	vd	Person=3|Tense=Past	0	root	0:root	_
+4	ыытта	ыыт	VERB	vd	Person=3|Tense=NearPast	0	root	0:root	_
 
 # sent_id = 18
 # text = биһиги бэҕэһээ Германияттан сурук тут
@@ -185,7 +185,7 @@
 # text_rus = Я пришел
 # text_eng = I came
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
-2	кэллим	кэл	VERB	vi	Person=1|Tense=Past	0	root	0:root	_
+2	кэллим	кэл	VERB	vi	Person=1|Tense=NearPast	0	root	0:root	_
 
 # sent_id = 21
 # text = Манна оҕолор олороллор
@@ -309,7 +309,7 @@
 # text_rus = Я отправил Петрову
 # text_eng = I sent it to Petrov (Johanson, Turkic, 2021, 840)
 1	Петровка	петров	PROPN	propn	Case=Dat	2	obj	2:obj	_
-2	ыыттым	ыыт	VERB	vd	Number=Sing|Person=1|Tense=Past	0	root	0:root	_
+2	ыыттым	ыыт	VERB	vd	Number=Sing|Person=1|Tense=NearPast	0	root	0:root	_
 
 # sent_id = 34
 # text = Кини Дьокуускайга барда
@@ -317,7 +317,7 @@
 # text_eng = He/she went to Yakutsk (Johanson, Turkic, 2021, 840)
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
 2	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat|Number=Sing	3	obl	3:obl	_
-3	барда	бар	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+3	барда	бар	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	0:root	_
 
 # sent_id = 35
 # text = Дьокуускайга хаар түһэр
@@ -363,7 +363,7 @@
 # text_rus = Он/она приш(ёл)ла из школы
 # text_eng = He/she came from school (Johanson, Turkic, 2021, 842)
 1	Оскуолаттан	оскуола	NOUN	n	Case=Abl|Number=Sing	2	obl	2:obl	_
-2	кэллэ	кэл	VERB	vi	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+2	кэллэ	кэл	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	0:root	_
 
 # sent_id = 41
 # text = Үс километры бардыбыт
@@ -371,7 +371,7 @@
 # text_eng = We walked three kilometers (Johanson, Turkic, 2021, 844)
 1	Үс	үс	NUM	num	NumType=Card	2	nummod	2:nummod	_
 2	километры	километр	NOUN	n	Case=Acc|Number=Plur	3	obj	3:obj	_
-3	бардыбыт	бар	VERB	vi	Number=Plur|Person=1|Tense=Past	0	root	0:root	_
+3	бардыбыт	бар	VERB	vi	Number=Plur|Person=1|Tense=NearPast	0	root	0:root	_
 
 # sent_id = 42
 # text = Хахай эһэтээҕэр күүстээх
@@ -458,7 +458,7 @@
 # text_eng = Which house did he enter?
 1	Ханнык	ханнык	PRON	pronint	PronType=Int	2	det	2:det	_
 2	дьиэҕэ	дьиэ	NOUN	n	Case=Dat|Number=Sing	3	obl	3:obl	_
-3	киирдэ	киир	VERB	vi	Number=Sing|Person=3|Tense=Past	0	root	0:root	SpaceAfter=No
+3	киирдэ	киир	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	0:root	SpaceAfter=No
 4	?	?	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 51
@@ -531,10 +531,10 @@
 1	Саахары	cаахар	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	4:obj	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	3:punct	_
 3	арыыны	арыы	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	4:obj	_
-4	аҕалла	аҕал	VERB	vt	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+4	аҕалла	аҕал	VERB	vt	Number=Sing|Person=3|Tense=NearPast	0	root	0:root	_
 5	уоннa	уоннa	CCONJ	cconj	_	7	cc	7:cc	_
 6	килиэп	килиэп	NOUN	n	Case=Nom|Number=Sing	7	obj	7:obj	_
-7	быста	быс	VERB	vt	Number=Sing|Person=3|Tense=Past	4	conj	4:conj	_
+7	быста	быс	VERB	vt	Number=Sing|Person=3|Tense=NearPast	4	conj	4:conj	_
 
 # sent_id = 58
 # text = Сардана, буулката аҕал, өссө килиэптэ быс
@@ -564,8 +564,8 @@
 # text_eng = Kaskil ate a lot, he was full  (Haritonov, _)  #RemotePast
 1	Кэскил	Кэскил	PROPN	propn	_	3	nsubj	3:nsubj	_
 2	элбэхтик	элбэхтик	ADV	adv	_	3	advmod	3:advmod	_
-3	аһаата	аһаа	VERB	vi	Number=Sing|Person=3|Tense=Past	0	root	0:root	SpaceAfter=No
+3	аһаата	аһаа	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	punct	_	3	punct	3:punct	_
 5	улаханнык	улаханнык	ADV	adv	_	6	advmod	6:advmod	_
-6	тотто	тот	VERB	vi	Number=Sing|Person=3|Tense=Past	3	parataxis	3:parataxis	_
+6	тотто	тот	VERB	vi	Number=Sing|Person=3|Tense=NearPast	3	parataxis	3:parataxis	_
 
