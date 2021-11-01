@@ -8,7 +8,7 @@
 # sent_id = 2
 # text = Кинигэлэри күн аайы ааҕабын
 # text_rus = Я читаю книги каждый день
-# text_eng = I read books every day
+# text_eng = I read the books every day
 1	Кинигэлэри	кинигэ	NOUN	n	Case=Acc|Number=Plur	4	obj	4:obj	_
 2	күн	күн	NOUN	n	_	4	obl	4:obl	_
 3	аайы	аайы	DET	det	_	2	det	2:det	_
@@ -313,7 +313,7 @@
 
 # sent_id = 34
 # text = Кини Дьокуускайга барда
-# text_rus = Он/она поехал в Якутск   #Dat.Loc
+# text_rus = Он/она поехал в Якутск
 # text_eng = He/she went to Yakutsk (Johanson, Turkic, 2021, 840)
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
 2	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat|Number=Sing	3	obl	3:obl	_
@@ -321,7 +321,7 @@
 
 # sent_id = 35
 # text = Дьокуускайга хаар түһэр
-# text_rus = В Якутске идёт снег   #Dat.Loc
+# text_rus = В Якутске идёт снег
 # text_eng = Snow is falling in/on Yakutsk (Johanson, Turkic, 2021, 840)
 1	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat|Number=Sing	3	obj	3:obj	_
 2	хаар	хаар	NOUN	n	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
@@ -352,7 +352,7 @@
 
 # sent_id = 39
 # text = Кини дьиэҕэ киирбитэ
-# text_rus = Он/она вош(ёл)ла в дом  #Past Participle
+# text_rus = Он/она вош(ёл)ла в дом
 # text_eng = He/she entered the house (Johanson, Turkic, 2021, 840)
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
 2	дьиэҕэ	дьиэ	NOUN	n	Case=Dat|Number=Sing	3	obl	3:obl	_
@@ -419,7 +419,7 @@
 # sent_id = 47
 # text = Кинилэр ааҕалар, суруйаллар, кэпсииллэр, уонна сахалыы, нууччалыы кэпсэтэллэр
 # text_rus = Они читают, пишут, говорят и беседуют на якутском и русском
-# text_eng = They read, write, speak, and converse in Sakha and in Russian (Yakut manual, 24) # лыы comp affix
+# text_eng = They read, write, speak, and converse in Sakha and in Russian (Yakut manual, 24)
 1	Кинилэр	кинилэр	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
 2	ааҕалар	ааҕ	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
@@ -436,7 +436,7 @@
 # sent_id = 48
 # text = Кини доҕотторо нууччалар
 # text_rus = Его друзья русские
-# text_eng = His friends are Russians (Yakut manual, 24) # лыы comp affix
+# text_eng = His friends are Russians (Yakut manual, 24)
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nmod	2:nmod	_
 2	доҕотторо	доҕор	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	nsubj	3:nsubj	_
 3	нууччалар	нуучча	NOUN	n	Case=Nom|Number=Plur	0	root	0:root	_
@@ -464,7 +464,7 @@
 # sent_id = 51
 # text = Мин биир атаһым убайа куоракка үөрэнэр
 # text_rus = Один старший брат моего друга учится в городе
-# text_eng = One of my friend's older brother studies in the city (Haritonov, _) 
+# text_eng = One of my friend's older brother studies in the city (Haritonov) 
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nmod	3:nmod	_
 2	биир	биир	NUM	num	NumType=Card	4	nummod	4:nummod	_
 3	атаһым	атас	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nmod	4:nmod	_
@@ -475,7 +475,7 @@
 # sent_id = 52
 # text = Бастаан ыалдьар киһини карточкаҕа суруйаллар
 # text_rus = Сначала они записывают пациентов в карту
-# text_eng = At the beginning they write the patients[' names] on a card (Haritonov, _) 
+# text_eng = At the beginning they write the patients[' names] on a card (Haritonov) 
 1	Бастаан	бастаан	ADV	adv	_	5	advmod	5:advmod	_
 2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Definite=Ind|Number=Sing	3	nmod	3:nmod	_
 3	киһини	киһи	NOUN	n	Case=Acc|Definite=Def|Number=Sing	5	obj	5:obj	_
@@ -485,7 +485,7 @@
 # sent_id = 53
 # text = Онтон карточканы бырааска биэрэллэр
 # text_rus = Затем они дают карту врачу
-# text_eng = Then they give the card to a doctor  (Haritonov, _) 
+# text_eng = Then they give the card to a doctor  (Haritonov) 
 1	Онтон	онтон	ADV	adv	_	4	advmod	4:advmod	_
 2	карточканы	карточка	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	4:obj	_
 3	бырааска	быраас	NOUN	n	Case=Dat|Number=Sing	4	obl	4:obl	_
@@ -494,7 +494,7 @@
 # sent_id = 54
 # text = Быраас ыалдьар дьону уочаратынан ыҥырар
 # text_rus = Врач приглашает пациентов в очередь 
-# text_eng = A doctor invites patients to the line (Haritonov, _) 
+# text_eng = A doctor invites patients to the line (Haritonov) 
 1	Быраас	быраас	NOUN	n	Case=Nom|Number=Sing	5	nsubj	5:nsubj	_
 2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	3:nmod	_
 3	дьону	дьон	NOUN	n	Case=Acc|Definite=Def|Number=Sing	5	obj	5:obj	_
@@ -504,7 +504,7 @@
 # sent_id = 55
 # text = Кини ыалдьар киһини көрөр, истэр уонна киниэхэ эми суруйар
 # text_rus = Он смотрит на пациента, слушает и выписывает ему лекарство
-# text_eng = He looks at the patinet, listens, and writes him [the name of] the medicine  (Haritonov, _) 
+# text_eng = He looks at the patinet, listens, and writes him [the name of] the medicine  (Haritonov) 
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	_
 2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	3:nmod	_
 3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	_
@@ -519,7 +519,7 @@
 # sent_id = 56
 # text = Олоппосторго дьоннор олороллор
 # text_rus = На стульях сидят люди
-# text_eng = People sit on chairs  (Haritonov, _) 
+# text_eng = People sit on chairs  (Haritonov) 
 1	Олоппосторго	олоппос	NOUN	n	Case=Dat|Number=Plur	3	obl	3:obl	_
 2	дьоннор	дьон	NOUN	n	Case=Nom|Number=Plur	3	nsubj	3:nsubj	_
 3	олороллор	олор	VERB	vt	Number=Plur|Person=3|Tense=Pres	0	root	0:root	_
@@ -527,7 +527,7 @@
 # sent_id = 57
 # text = Саахары, арыыны аҕалла уоннa килиэп быста
 # text_rus = X принес(ла) сахар, масло и нарезал(а) хлеб
-# text_eng = X brought the sugar, the butter, and cut the bread  (Haritonov, _) #RemotePast
+# text_eng = X brought the sugar, the butter, and cut the bread  (Haritonov)
 1	Саахары	cаахар	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	4:obj	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	3:punct	_
 3	арыыны	арыы	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	4:obj	_
@@ -539,7 +539,7 @@
 # sent_id = 58
 # text = Сардана, буулката аҕал, өссө килиэптэ быс
 # text_rus = Сардана, принеси булку и порежь хлеба
-# text_eng = Sardana, bring a breadroll, also cut some more bread  (Haritonov, _)
+# text_eng = Sardana, bring a breadroll, also cut some more bread  (Haritonov)
 1	Сардана	Сардана	PROPN	propn	_	4	vocative	4:vocative	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	3:punct	_
 3	буулката	буулка	NOUN	n	Case=Par|Number=Sing	4	obj	4:obj	_
@@ -552,7 +552,7 @@
 # sent_id = 59
 # text = Кэскилга чэйдэ кут!
 # text_rus = Налей Кэскилу чаю!
-# text_eng = Pour some tea for Keskil!  (Haritonov, _)
+# text_eng = Pour some tea for Keskil!  (Haritonov)
 1	Кэскилга	Кэскил	PROPN	propn	Case=Dat	3	iobj	3:iobj	_
 2	чэйдэ	чэй	NOUN	n	Case=Par|Number=Sing	3	obj	3:obj	_
 3	кут	кут	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	0:root	SpaceAfter=No
@@ -561,7 +561,7 @@
 # sent_id = 60
 # text = Кэскил элбэхтик аһаата, улаханнык тотто
 # text_rus = Кэскил много съел, наелся досыта
-# text_eng = Kaskil ate a lot, he was full  (Haritonov, _)  #RemotePast
+# text_eng = Kaskil ate a lot, he was full  (Haritonov)
 1	Кэскил	Кэскил	PROPN	propn	_	3	nsubj	3:nsubj	_
 2	элбэхтик	элбэхтик	ADV	adv	_	3	advmod	3:advmod	_
 3	аһаата	аһаа	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	0:root	SpaceAfter=No
