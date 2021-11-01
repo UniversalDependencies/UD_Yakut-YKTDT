@@ -1,11 +1,11 @@
 # Summary
 
-UD_Yakut-YKTDT is a collection of annotated texts in Yakut ([Sakha]) (https://glottolog.org/resource/languoid/id/yaku1245). The project is work-in-progress and the treebank is being updated on a regular basis.
+UD_Yakut-YKTDT is a collection Yakut ([Sakha]) sentences (https://glottolog.org/resource/languoid/id/yaku1245). The project is work-in-progress and the treebank is being updated on a regular basis.
 
 
 # Introduction
 
-UD_Yakut-YKTDT is a collection of annotated texts in Yakut ([Sakha]) (https://glottolog.org/resource/languoid/id/yaku1245). Initially the sentences stem from a variety of sources. 
+UD_Yakut-YKTDT is a collection of annotated Yakut ([Sakha]) sentences (https://glottolog.org/resource/languoid/id/yaku1245). Initially the sentences stem from a variety of sources. 
 
 
 # Acknowledgments
