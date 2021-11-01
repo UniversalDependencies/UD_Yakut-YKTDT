@@ -133,7 +133,7 @@
 3	миэхэ	мин	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	6:iobj	_
 4	күөгүрээпийэ	күөгүрээпийэ	NOUN	n	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
 5	олус	олус	ADV	_	_	6	advmod	6:advmod	_
-6	туһалаабыта	туһалаа	VERB	v	Tense=Past	0	root	0:root	_
+6	туһалаабыта	туһалаа	VERB	v	Tense=PastPart	0	root	0:root	_
 
 # sent_id = 15
 # text = Баһаалыста, бары туруҥ
