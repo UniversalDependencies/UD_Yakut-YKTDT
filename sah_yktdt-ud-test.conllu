@@ -159,7 +159,7 @@
 1	Саша	саша	PROPN	propn	_	4	nsubj	4:nsubj	_
 2	аҕатыгар	аҕа	NOUN	n	Case=Dat|Number=Sing	4	iobj	4:iobj	_
 3	суругу	сурук	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	_
-4	ыытта	ыыт	VERB	vd	Person=3|Tense=RPast	0	root	0:root	_
+4	ыытта	ыыт	VERB	vd	Person=3|Tense=Past	0	root	0:root	_
 
 # sent_id = 18
 # text = биһиги бэҕэһээ Германияттан сурук тут
