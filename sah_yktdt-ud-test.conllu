@@ -569,3 +569,123 @@
 5	улаханнык	улаханнык	ADV	adv	_	6	advmod	_	_
 6	тотто	тот	VERB	vi	Number=Sing|Person=3|Tense=NearPast	3	parataxis	_	_
 
+# sent_id = 61
+# text = Кэл, сүөгэйдэ ис, күөрчэхтэ сиэ!
+# text_rus = 
+# text_eng = Come, drink some cream, eat some sbiten! (Haritonov)
+1	Кэл	кэл	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	0:root	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	сүөгэйдэ	сүөгэй	NOUN	Case=Par|Number=Sing	_	4	obj	4:obj	_
+4	ис	ис	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	1	conj	1:conj	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	күөрчэхтэ	күөрчэх	NOUN	n	Case=Par|Number=Sing	7	obj	7:obj	_
+7	сиэ	сиэ	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	1	conj	1:conj	_
+8	!	!	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 62
+# text = Үрүҥ килиэби быһыма, хара килиэптэ быс
+# text_rus = 
+# text_eng = Do not cut the white bread, cut some of the black bread (Haritonov)
+1	Үрүҥ	үрүҥ	ADJ	adj	_	2	amod	2:amod	_
+2	килиэби	килиэп	NOUN	n	Case=Acc|Number=Sing	3	obj	3:obj	_
+3	быһыма	быс	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	0	_	_	_
+4	,	,	PUNCT	punct	_	3	punct	3:punct	_
+5	хара	хара	ADJ	adj	_	6	amod	6:amod	_
+6	килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	7	obj	7:obj	_
+7	быс	быс	VERB	v	Mood=Imp|Number=Sing|Person=2	3	conj	3:conj	_
+
+# sent_id = 63
+# text = Ити уолга харандааста биэр
+# text_rus = 
+# text_eng = Give a pencil (any pencil) to that boy (Haritonov)
+1	Ити	ити	DET	det	_	2	det	2:det	_
+2	уолга	уол	NOUN	n	Case=Dat|Number=Sing	4	obl	4:obl	_
+3	харандааста	харандаас	NOUN	n	Case=Par|Number=Sing	4	obj	4:obj	_
+4	биэр	биэр	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	0:root	_
+
+# sent_id = 64
+# text = Сорохтор муостаны сууйуҥ, сорохтор паартата, остуолла сотуҥ, сорохтор ааннары, ыскааптары сууйуҥ
+# text_rus = 
+# text_eng = Clean some floors, wipe some benches and tables, clean some doors and closets. (Haritonov)
+1	Сорохтор	сорох	DET	det	PronType=Ind	2	det	2:det	_
+2	муостаны	муоста	NOUN	n	Case=Par|Number=Sing	3	obj	3:obj	_
+3	сууйуҥ	сууй	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	0:root	_
+4	,	,	PUNCT	_	_	3	punct	3:punct	_
+5	сорохтор	сорох	DET	det	PronType=Ind	6	det	6:det	_
+6	паартата	паарта	NOUN	n	Case=Par|Number=Sing	3	obj	3:obj	_
+7	,	,	PUNCT	_	_	3	punct	3:punct	_
+8	остуолла	остуол	NOUN	n	Case=Par|Number=Sing	9	obj	9:obj	_
+9	сотуҥ	сот	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	3	conj	3:conj	_
+10	,	,	PUNCT	_	_	9	punct	9:punct	_
+11	сорохтор	сорох	DET	det	PronType=Ind	12	det	12:det	_
+12	ааннары	аан	NOUN	n	Case=Par|Number=Plur	9	obj	9:obj	_
+13	,	,	PUNCT	_	_	15	punct	15:punct	_
+14	ыскааптары	ыскаап	NOUN	n	Case=Par|Number=Plur	15	obj	15:obj	_
+15	сууйуҥ	сууй	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	3	conj	3:conj	_
+
+# sent_id = 65
+# text = Уҥуоҕа суох уонна эмис эт бу баар
+# text_rus = 
+# text_eng = This is boneless and fat meat (Haritonov)
+1	Уҥуоҕа	уҥуох	NOUN	n	Case=Dat|Number=Sing	5	compound	5:compound	_
+2	суох	суох	AUX	aux	_	1	cop	1:cop	_
+3	уонна	уонна	CCONJ	cconj	_	1	cc	1:cc	_
+4	эмис	эмис	ADJ	adj	_	5	amod	5:amod	_
+5	эт	эт	NOUN	n	Case=Nom|Number=Sing	0	root	0:root	_
+6	бу	бу	DET	det	PronType=Dem	5	det	5:det	_
+7	баар	баар	AUX	aux	_	5	cop	5:cop	_
+
+# sent_id = 66
+# text = Биһиги иһиппит элбэх
+# text_rus = У нас много посуды
+# text_eng = We have a lot of dishware (Haritonov)
+1	Биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nmod	2:nmod	_
+2	иһиппит	иһит	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	3	nsubj	3:nsubj	_
+3	элбэх	элбэх	ADJ	adj	_	0	root	0:root	_
+
+# sent_id = 67
+# text = Сорох иһити чэйгэ туруораллар, сорох иһити эбиэккэ туруораллар
+# text_rus = 
+# text_eng = Place some tea set, put some lunch set ??? (Haritonov)
+1	Сорох	сорох	DET	det	PronType=Ind	2	det	2:det	_
+2	иһити	иһит	NOUN	n	Case=Par|Number=Sing	4	obj	4:obj	_
+3	чэйгэ	чэй	NOUN	n	Case=Par|Number=Sing	2	compound	2:compound	_
+4	туруораллар	туруор	VERB	_	Number=Plur|Person=2|Tense=Pres	0	root	0:root	_
+5	,	_	PUNCT	_	_	4	punct	4:punct	_
+6	сорох	сорох	DET	det	PronType=Ind	7	det	7:det	_
+7	иһити	иһит	NOUN	n	Case=Par|Number=Sing	9	obj	9:obj	_
+8	эбиэккэ	эбиэт	NOUN	n	Case=Par|Number=Dat	7	compound	7:compound	_
+9	туруораллар	туруор	VERB	_	Number=Plur|Person=2|Tense=Pres	4	ccomp	4:ccomp	_
+
+# sent_id = 68
+# text = Биһиэхэ биир улахан алтан сылабаар баар
+# text_rus = У нас есть большой медный самовар
+# text_eng =  We have one big copper samovar (Haritonov)
+1	Биһиэхэ	биһиги	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	0	root	0:root	_
+2	биир	биир	NUM	_	NumType=Card	5	nummod	5:nummod	_
+3	улахан	улахан	ADJ	_	_	5	amod	5:amod	_
+4	алтан	алтан	ADJ	_	_	5	amod	5:amod	_
+5	сылабаар	сылабаар	NOUN	_	Case=Nom|Number=Sing	6	aux	6:aux	_
+6	баар	баар	AUX	_	Tense=Pres	1	aux	1:aux	_
+
+# sent_id = 69
+# text = Кини түргэнник оргуйар, үчүгэй сылабаар
+# text_rus = 
+# text_eng = It boils quickly, it is a good samovar (Haritonov)
+1	Кини	кини	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
+2	түргэнник	түргэнник	ADV	_	_	3	advmod	3:advmod	_
+3	оргуйар	оргуй	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
+4	,	,	PUNCT	_	_	3	punct	3:punct	_
+5	үчүгэй	үчүгэй	ADV	_	_	6	advmod	6:advmod	_
+6	сылабаар	сылабаар	NOUN	_	Case=Nom|Number=Sing	_	_	_	_
+
+# sent_id = 70
+# text = Кыра үрүҥ чаанньыгы сылабаарга туруораллар
+# text_rus = 
+# text_eng = The small teapot for boiling water is placed on the samovar (Haritonov)
+1	Кыра	кыра	ADJ	_	_	3	amod	3:amod	_
+2	үрүҥ	үрүҥ	ADJ	_	_	3	amod	3:amod	_
+3	чаанньыгы	чаанньык	NOUN	_	Case=Acc|Number=Sing	5	nsubj	5:nsubj	_
+4	сылабаарга	сылабаар	NOUN	_	Case=Dat|Number=Sing	5	obl	5:obl	_
+5	туруораллар	туруор	VERB	_	Number=Plur|Person=2|Tense=Pres	0	root	0:root	_
+
