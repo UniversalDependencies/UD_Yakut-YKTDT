@@ -689,3 +689,28 @@
 4	сылабаарга	сылабаар	NOUN	_	Case=Dat|Number=Sing	5	obl	5:obl	_
 5	туруораллар	туруор	VERB	_	Number=Plur|Person=2|Tense=Pres	0	root	0:root	_
 
+# sent_id = 71
+# text = Кини куукунаҕа бастаан билиидэни отунна
+# text_rus = 
+# text_eng = First she heated the stove in the kitchen (Haritonov)
+1	Кини	кини	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	_
+2	куукунаҕа	куукуна	NOUN	_	Case=Dat|Number=Sing	5	obl	5:obl	_
+3	бастаан	бастаан	ADV	_	_	5	advmod	5:advmod	_
+4	билиидэни	билиидэ	NOUN	_	Case=Acc|Number=Sing	5	obj	5:obj	_
+5	отунна	отун	VERB	_	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+
+# sent_id = 72
+# text = Онтон хомуоһу ылла уонна муннукка турар буочукаттан биэдэрэҕэ уу кутта
+# text_rus = 
+# text_eng = Then she took the ladle and poured water into the pail from the barrel standing in the corner (Haritonov)
+1	Онтон	онтон	ADV	_	_	3	advmod	3:advmod	_
+2	хомуоһу	хомуос	NOUN	_	Case=Acc|Number=Sing	3	obj	3:obj	_
+3	ылла	ыл	VERB	_	Number=Sing|Person=3|Tense=Past	0	root	0:root	_
+4	уонна	уонна	CCONJ	_	_	6	cc	6:cc	_
+5	муннукка	муннук	NOUN	_	Case=Dat|Number=Sing	6	obl	6:obl	_
+6	турар	тур	VERB	_	Number=Sing|Person=3|Tense=Pres	3	conj	3:conj	_
+7	буочукаттан	буочука	NOUN	_	Case=Abl|Number=Sing	10	obl	10:obl	_
+8	биэдэрэҕэ	биэдэрэ	NOUN	_	Case=Dat|Number=Sing	10	obl	10:obl	_
+9	уу	уу	NOUN	_	Case=Nom|Number=Sing	10	obj	10:obj	_
+10	кутта	кут	VERB	_	Number=Sing|Person=3|Tense=Past	3	conj	3:conj	_
+
