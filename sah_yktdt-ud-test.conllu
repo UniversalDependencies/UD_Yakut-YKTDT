@@ -714,3 +714,348 @@
 9	уу	уу	NOUN	_	Case=Nom|Number=Sing	10	obj	10:obj	_
 10	кутта	кут	VERB	_	Number=Sing|Person=3|Tense=Past	3	conj	3:conj	_
 
+# sent_id = 73
+# text = Сэлээппэ туох ынырыктаах буолуой?
+# text_rus = Страшная ли шляпа?
+# text_eng = (The little prince, 10)
+1	Сэлээппэ	сэлээппэ	NOUN	n	_	_	_	_	_
+2	туох	туох	PRON	pron	PronType=Int	_	_	_	_
+3	ынырыктаах	ынырык	ADJ	adj	Poss=Yes	_	_	_	_
+4	буолуой	буол	AUX	aux	_	_	_	_	_
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 74
+# text = Дьонум миигин утарбыттара
+# text_rus = Мне возразили
+# text_eng = (The little prince, 10)  # Преждепрошедшее
+1	Дьонум	дьон	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	_	_	_	_
+2	миигин	мин	PRON	pron	Case=Acc	_	_	_	_
+3	утарбыттара	утар	VERB	v	Number=Plur|Person=3|Tense=Past	_	_	_	_
+
+# sent_id = 75
+# text = Мин, аны, улахан дьоҥҥо өйдөннүн диэн, моҕой иһин курдаттыы уруһуйдаабытым
+# text_rus = 
+# text_eng = (The little prince, 10) # Преждепрошедшее повествовательное 
+1	Мин	мин	PRON	pron	PronType=Prs	_	_	_	_
+2	,	,	_	_	_	_	_	_	_
+3	аны	аны	ADV	adv	_	_	_	_	_
+4	,	,	_	_	_	_	_	_	_
+5	улахан	улахан	ADJ	adj	_	_	_	_	_
+6	дьоҥҥо	дьоҥ	NOUN	n	Case=Dat|Number=Sing	_	_	_	_
+7	өйдөннүн	өйдөн	VERB	v	_	_	_	_	_
+8	диэн	диэ	VERB	v	_	_	_	_	_
+9	,	,	_	_	_	_	_	_	_
+10	моҕой	моҕой	NOUN	n	Case=Nom|Number=Sing	_	_	_	_
+11	иһин	ис 	_	_	_	_	_	_	_
+12	курдаттыы	курдаттыы	ADV	adv	_	_	_	_	_
+13	уруһуйдаабытым	уруһуйдаа	VERB	v	_	_	_	_	_
+
+# sent_id = 76
+# text = Ол солуону ыйыстыбыт моҕой
+# text_rus = Это был удав, который проглотил слона
+# text_eng = (The little prince, 10) # Прошедшее результативное
+1	Ол	ол	PRON	pron	PronType=Rel	_	_	_	_
+2	солуону	слон	NOUN	n	Case=Acc|Number=Sing	_	_	_	_
+3	ыйыстыбыт	ыйыһын	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	_
+4	моҕой	моҕой	NOUN	n	Case=Nom|Number=Sing	_	_	_	_
+
+# sent_id = 78
+# text = Атын идэни таларга күһэллэн, өлүөччүк үөрэҕэр үөрэммитим
+# text_rus = 
+# text_eng = (The little prince, 10) # прошедшее незаконченное время (имперфест)
+1	Атын	атын	ADJ	ajv	Degree=Pos	_	_	_	_
+2	идэни	идэ	NOUN	n	Case=Acc|Number=Sing	_	_	_	_
+3	таларга	тал	VERB	v	Case=Dat|VerbForm=Part	_	_	_	_
+4	күһэллэн	күһэй	_	_	_	_	_	_	_
+5	,	,	_	_	_	_	_	_	_
+6	өлүөччүк	өлүөччүк	NOUN	n	_	_	_	_	_
+7	үөрэҕэр	үөрэх	_	_	_	_	_	_	_
+8	үөрэммитим	үөрэн	_	_	_	_	_	_	_
+
+# sent_id = 79
+# text = Күн сирин барытын кэриэтэ тилийэ көппүтүм
+# text_rus = 
+# text_eng = (The little prince, 10) #
+1	Күн	күн	NOUN	n	_	_	_	_	sun
+2	сирин	сир	NOUN	n	_	_	_	_	world
+3	барытын	бары	ADV	adv	_	_	_	_	all
+4	кэриэтэ	кэриэтэ	ADV	adv	_	_	_	_	almost
+5	тилийэ	тилийэ	ADV	adv	_	_	_	_	withoutstopping
+6	көппүтүм	көт	VERB	v	_	_	_	_	fly
+
+# sent_id = 80
+# text = Биир көрүүнэн Өрүсүөнэттэн Кытайы тута араарары кытта сатыырым
+# text_rus = 
+# text_eng = (The little prince, 10) #
+1	Биир	биир	ADJ	num	_	2	amod	2:amod	one
+2	көрүүнэн	көрүү	NOUN	n	_	8	obl	8:obl	see
+3	Өрүсүөнэттэн	_	PROPN	_	_	6	obl	6:obl	_
+4	Кытайы	китай	PROPN	_	_	6	obj	6:obj	_
+5	тута	тута	ADV	adv	_	6	advmod	6:advmod	atfirst
+6	араарары	араар	VERB	v	_	8	xcomp	8:xcomp	separate
+7	кытта	кытта	ADP	adp	_	4	case	4:case	from
+8	сатыырым	сатаа	VERB	v	_	_	_	_	beableto
+
+# sent_id = 81
+# text = Өр улахан дьон ортотугар олорбутум
+# text_rus = Я долго жил среди взрослых
+# text_eng = (The little prince, 10) #
+1	Өр	өр	ADV	adv	_	5	advmod	5:advmod	long
+2	улахан	улахан	ADJ	adj	_	3	amod	3:amod	big
+3	дьон	дьон	NOUN	n	_	_	_	_	people
+4	ортотугар	орто	ADP	adp	_	3	case	3:case	among
+5	олорбутум	олор	VERB	v	_	0	root	0:root	live
+
+# sent_id = 82
+# text = Кинилэри үчүгэйдик көрбүтүм-билбитим
+# text_rus = Я видел их совсем близко
+# text_eng = (The little prince, 11) #
+1	Кинилэри	кинилэр	PRON	pron	Case=Acc	4	obj	4:obj	they
+2	үчүгэйдик	үчүгэйдик	ADV	adv	_	4	advmod	4:advmod	well
+3	көрбүтүм	көр	VERB	v	Tense=PastPerf	4	compound	4:compound	see
+4	билбитим	бил	VERB	v	Tense=PastPerf	0	_	_	know
+
+# sent_id = 83
+# text = Мотуор иһигэр туга эрэ моһуогурбута
+# text_rus = Что-то сломалось внутри моего самолета
+# text_eng = (The little prince, 11) #
+1	Мотуор	Мотуор	NOUN	n	_	_	_	_	motor
+2	иһигэр	иһигэр	ADP	adp	_	_	_	_	inside
+3	туга	_	_	_	_	_	_	_	_
+4	эрэ	эрэ	DET	det	_	_	_	_	some
+5	моһуогурбута	моһуогур	VERB	v	_	_	_	_	stranded
+
+# sent_id = 84
+# text = Иһэр уум аҕыйах хонукка тиийиэхтээҕэ
+# text_rus = Воды у меня едва хватило бы на неделю
+# text_eng = (The little prince, 11) #
+1	Иһэр	иһэр	ADJ	adj	_	2	amod	2:amod	drinking
+2	уум	уу	NOUN	n	_	5	obj	5:obj	water
+3	аҕыйах	аҕыйах	ADV	adv	_	_	_	_	somewhat
+4	хонукка	хонук	NOUN	n	_	5	_	5	24hours
+5	тиийиэхтээҕэ	тиий	VERB	v	_	0	root	0:root	reach
+
+# sent_id = 85
+# text = миэхэ хойчоонно уруһуйдаан кулу
+# text_rus = Нарисуй мне барашка
+# text_eng = (The little prince, 12) #
+1	миэхэ	мин	PRON	pron	Case=Dat	3	iobj	3:iobj	me
+2	хойчоонно	_	NOUN	n	_	3	obj	3:obj	ram
+3	уруһуйдаан	уруһуйдаа	VERB	v	_	0	root	0:root	draw
+4	кулу	кулу	ADV	adv	_	2	discourse	2:discourse	please
+
+# sent_id = 86
+# text = Үрдүбэр этиҥ эппитинии соһуйан, олоро түстүм
+# text_rus = я вскочил, будто надо мной грянул гром
+# text_eng = (The little prince, 12) #
+1	Үрдүбэр	үрдүнэн	ADP	adp	Case=Dat|Number=Sing|Person=1	4	obl	_	aboveme
+2	этиҥ	этиҥ	NOUN	n	Case=Nom	4	nsubj	_	thunder
+3	эппитинии	_	INTJ	intj	_	4	discourse	_	astheysay
+4	соһуйан	соһуй	VERB	v	_	7	dep	_	besurprised
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	олоро	олор	VERB	v	_	7	compound	_	sit
+7	түстүм	түс	VERB	v	_	0	root	_	fall
+
+# sent_id = 87
+# text = Онно мин буруйум суох
+# text_rus = Это не моя вина
+# text_eng = (The little prince, 12) #
+1	Онно	онно	ADV	adv	_	3	nsubj	3:nsubj	there
+2	мин	мин	PRON	pron	Case=Nom|PronType=Prs	3	nmod	3:nmod	I
+3	буруйум	буруй	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	0	root	0:root	fault
+4	суох	суох	AUX	aux	_	3	cop	3:cop	isno
+
+# sent_id = 88
+# text = Алта саастаахпар улахан дьон эйигиттэн уруһуйдьут тахсыбат диэн итэҕэтэн кэбиспиттэрэ, онон моҕой иһин курдаттыы уонна тас бороонун эрэ уруһуйдууртан атыҥҥа үөрэммэтэҕим
+# text_rus = Когда мне было 6 лет, взрослые внушили мне, .........
+# text_eng = (The little prince, 12) #
+1	Алта	алта	NUM	num	_	_	_	_	6
+2	саастаахпар	саастаах	ADJ	adj	_	_	_	_	yo
+3	улахан	улахан	ADJ	ADJ	_	4	amod	4:amod	big
+4	дьон	дьон	NOUN	n	_	_	_	_	people
+5	эйигиттэн	эн	PRON	pron	Case=Abl|Number=Sing	_	_	_	you
+6	уруһуйдьут	уруһуйдьут	NOUN	n	_	_	_	_	painter
+7	тахсыбат	_	VERB	v	_	_	_	_	wontworkout
+8	диэн	диэ	VERB	v	_	_	_	_	say
+9	итэҕэтэн	итэҕэт	VERB	v	_	_	_	_	convince
+10	кэбиспиттэрэ	кэбис	VERB	v	_	_	_	_	throwLeave
+11	,	,	PUNCT	punct	_	_	_	_	_
+12	онон	онон	SCONJ	sconj	_	_	_	_	therefore
+13	моҕой	моҕой	NOUN	n	_	_	_	_	snake
+14	иһин	_	ADV	adv	_	_	_	_	inside
+15	курдаттыы	курдаттыы	ADP	adp	_	_	_	_	_
+16	уонна	уонна	CCONJ	ccong	_	_	_	_	and
+17	тас	тас	ADV	adv	_	_	_	_	outside
+18	бороонун	_	NOUN	n	_	_	_	_	_
+19	эрэ	эрэ	_	_	_	_	_	_	just
+20	уруһуйдууртан	уруһуй	VERB	v	_	_	_	_	paint
+21	атыҥҥа	атын	ADJ	adj	_	_	_	_	other
+22	үөрэммэтэҕим	үөрэн	VERB	v	_	_	_	_	learn
+
+# sent_id = 89
+# text = Онуоха кини симиктик эрээри, оттомноохтук хат көрдөстө
+# text_rus = Он опять попросил тихо и серьёзно
+# text_eng = (The little prince, 12) #
+1	Онуоха	ол	_	_	Case=Dat	_	_	_	this
+2	кини	кини	PRON	pron	_	_	_	_	_
+3	симиктик	симик	ADV	adv	_	_	_	_	shy
+4	эрээри	_	_	_	_	_	_	_	_
+5	,	,	_	_	_	_	_	_	_
+6	оттомноохтук	оттомноох	ADV	adv	_	_	_	_	_
+7	хат	хат	ADV	adv	_	_	_	_	again
+8	көрдөстө	көрдөс	VERB	v	_	_	_	_	request
+
+# sent_id = 90
+# text = Син биир хойчоонно уруһуйдаа
+# text_rus = Ладно, нарисуй одного барашка 
+# text_eng = (The little prince, 14) #
+1	Син	син	INTJ	intj	_	4	discourse	4:discourse	fine
+2	биир	биир	NUM	num	_	3	nmod	3:nmod	one
+3	хойчоонно	хой	NOUN	n	_	4	obj	4:obj	ram
+4	уруһуйдаа	уруһуйдаа	VERB	v	_	0	root	0:root	paint
+
+# sent_id = 91
+# text = Миэнэ уһуннук тыыннаах сылдьар, хойчоон эбитэ буоллар
+# text_rus = 
+# text_eng = (The little prince, 15) #
+1	Миэнэ	мин	PRON	pron	_	_	_	_	me
+2	уһуннук	уһуннук	ADV	adv	_	_	_	_	long
+3	тыыннаах	тыын	VERB	v	_	_	_	_	tobreathe
+4	сылдьар	_	_	VERB	v	_	_	_	go
+5	,	,	PUNCT	punct	_	_	_	_	_
+6	хойчоон	хой	NOUN	n	_	_	_	_	ram
+7	эбитэ	эбит	PART	part	_	_	_	_	_
+8	буоллар	буол	AUX	aux	Mood=Cnd	_	_	_	be
+
+# sent_id = 92
+# text = Ити курдук мин Кыра тыгыны кытта билсибитим
+# text_rus = Так я познакомился с Маленьким принцем
+# text_eng = That's how I met the Little Prince # (The little prince, 15) #
+1	Ити	ити	PRON	pron	_	_	_	_	this
+2	курдук	курдук	ADV	adv	_	_	_	_	like
+3	мин	мин	PRON	pron	Case=Nom|Number=Sing	_	_	_	I
+4	Кыра	кыра	ADJ	adj	_	_	_	_	little
+5	тыгыны	тыгын	NOUN	n	Case=Acc|Number=Sing	_	_	_	prince
+6	кытта	кытта	ADP	adp	_	_	_	_	with
+7	билсибитим	бил	VERB	v	Tense=PastPerf	_	_	_	toknow
+
+# sent_id = 93
+# text = Бу туох тэрилий?
+# text_rus = Что это за штука?
+# text_eng = What is this thing? # (The little prince, 15) #
+1	Бу	бу	DET	det	_	_	_	_	this
+2	туох	туох	PRON	pron	PronType=Int	_	_	_	what
+3	тэрилий	тэрил	NOUN	n	_	0	root	0:root	thing
+4	?	?	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 94
+# text = Оччоҕо эн халлаантан сууллубутуҥ дуо?
+# text_rus = Ты упал с неба?
+# text_eng = Did you fall from the sky? # (The little prince, 15) #
+1	Оччоҕо	оччоҕо	ADV	adv	_	4	advmod	4:advmod	then
+2	эн	эн	PRON	pron	_	_	_	_	you
+3	халлаантан	халлаан	NOUN	n	Case=Abl|Number=Sing	_	_	_	sky
+4	сууллубутуҥ	суулун	VERB	v	Tense=Past|Number=Sing|Person=2	_	_	_	tofall
+5	дуо	дуо	PART	part	_	_	_	_	_
+6	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 95
+# text = Эн ол аата, манна халлаан куйаарын ханнык эрэ атын эттигиттэн кэллэҕиҥ дии?
+# text_rus = Стало быть, ты попал сюда с другой планеты?
+# text_eng = Does it mean that you came here from another planet? # (The little prince, 16) #
+1	Эн	эн	PRON	pron	_	_	_	_	you
+2	ол	ол	PRON	pron	_	_	_	_	2-3=itmeans
+3	аата	аата	PART	part	_	_	_	_	intensifier
+4	,	,	PUNCT	punct	_	_	_	_	_
+5	манна	манна	ADV	adv	_	_	_	_	here
+6	халлаан	халлаан	NOUN	n	Case=Nom|Number=Sing	_	_	_	sky
+7	куйаарын	куйаар	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	space
+8	ханнык	ханнык	PRON	pron	PronType=Int	_	_	_	which
+9	эрэ	эрэ	PART	part	_	_	_	_	uncertainty
+10	атын	атын	ADJ	adj	_	_	_	_	otherForeign
+11	эттигиттэн	эттик	NOUN	n	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	bodyphysics
+12	кэллэҕиҥ	кэл	VERB	v	Number=Sing|Mood=Ded|Person=2|Tense=Past	_	_	_	come
+13	дии	дии	PART	part	_	_	_	_	confirmation
+14	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 96
+# text = Коперник сүрүн уонна соҕотох кэриэтэ айымньыта - Халлаан эргимтэлэрин хамсааһына
+# text_rus = Главное и почти единственное произведение Коперника называется "О вращении небесных сфер"
+# text_eng = The main and almost the only work of Copernicus is "On the Revolutions of the Celestial Spheres" # (Sakha wiki, Николай_Коперник) #
+1	Коперник	Коперник	PROPN	propn	_	6	nmod	6:nmod	_
+2	сүрүн	сүрүн	ADJ	adj	_	6	amod	6:amod	fundamental
+3	уонна	уонна	CCONJ	cconj	_	4	cc	4:cc	_
+4	соҕотох	соҕотох	ADJ	adj	_	6	amod	6:amod	single
+5	кэриэтэ	кэриэтэ	ADV	adv	_	4	advmod	4:advmod	almost
+6	айымньыта	айымньыта	NOUN	n	Case=Nom|Number=Sing	0	root	0:root	creation
+7	-	_	PUNCT	punct	_	6	punct	6:punct	_
+8	Халлаан	xаллаан	NOUN	n	Case=Nom|Number=Sing	_	_	_	sky
+9	эргимтэлэрин	эргимтэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	sphere
+10	хамсааһына	хамсаа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	dep	6:dep	movement
+
+# sent_id = 97
+# text = Саха Өрөспүүбүлүкэтин былааҕа көнө муннуктаах иэн буолар, түөрт тэҥ сытыары дьураа ойуулаалардаах, сырдык халлаан күөх, маҥан, кыһыл уонна от күөх
+# text_rus = Флаг Республики Саха представляет собой прямоугольное полотнище, состоящее из четырех равновеликих горизонтальных полос синего, белого, красного и зеленого цветов
+# text_eng = The flag of the Republic of Sakha is a rectangular panel consisting of four equal horizontal stripes: blue, white, red and green # (Sakha wiki, Саха_Өрөспүүбүлүкэтин_былааҕа) #
+1	Саха	Саха	PROPN	propn	_	2	compound	_	Sakha
+2	Өрөспүүбүлүкэтин	өрөспүүбүлүкэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	republic
+3	былааҕа	былаах	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	flag
+4	көнө	көнө	ADJ	adj	_	_	_	_	straigt
+5	муннуктаах	муннук	NOUN	n	_	_	_	_	angle
+6	иэн	иэн	NOUN	n	Case=Nom|Number=Sing	_	_	_	square
+7	буолар	буол	AUX	aux	Number=Sing|Person=Sing|Tense=NPST	_	_	_	exist
+8	,	,	PUNCT	punct	_	_	_	_	_
+9	түөрт	түөрт	NUM	num	_	_	_	_	four
+10	тэҥ	тэҥ	ADJ	adj	_	_	_	_	even
+11	сытыары	сытыары	ADV	adv	_	_	_	_	horizontally
+12	дьураа	дьураа	NOUN	n	Case=Nom|Number=Sing	_	_	_	stripe
+13	ойуулаалардаах	ойуулаа	VERB	v	_	_	_	_	topaint
+14	,	,	PUNCT	punct	_	_	_	_	_
+15	сырдык	сырдык	NOUN	n	Case=Nom|Number=Sing	_	_	_	color
+16	халлаан	халлаан	NOUN	n	Case=Nom|Number=Sing	_	_	_	sky
+17	күөх	күөх	ADJ	adj	_	_	_	_	blue
+18	,	,	PUNCT	punct	_	_	_	_	_
+19	маҥан	маҥан	ADJ	adj	_	_	_	_	white
+20	,	,	PUNCT	punct	_	_	_	_	_
+21	кыһыл	кыһыл	ADJ	adj	_	_	_	_	red
+22	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+23	от	от	NOUN	n	Case=Nom|Number=Sing	_	_	_	grass
+24	күөх	күөх	ADJ	adj	_	_	_	_	blue
+
+# sent_id = 98
+# text = Интэриниэт диэн көмпүүтэрдэр бэйэ бэйэлэрин кытта холбоммут бүтүн аан дойдутааҕы ситимнэрэ
+# text_rus = Интернетом называется всемирная сеть, объединяющая между собой компьютеры
+# text_eng = A worldwide network connecting computers is called the Internet # (Sakha wiki, Интэриниэт) #
+1	Интэриниэт	Интэриниэт	NOUN	n	Case=Nom|Number=Sing	2	obl	2:obl	internet
+2	диэн	диэ	VERB	v	_	_	_	_	say
+3	көмпүүтэрдэр	көмпүүтэр	NOUN	n	Case=Nom|Number=Plur	_	_	_	computer
+4	бэйэ	бэйэ	NOUN	n	Case=Nom|Number=Sing	_	_	_	body
+5	бэйэлэрин	бэйэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	4	compound:redup	4:compound:redup	body=eachOther
+6	кытта	кытта	ADP	adp	_	11	case	11:case	with
+7	холбоммут	холбон	VERB	b	_	_	_	_	toconnect
+8	бүтүн	бүтүн	ADV	adv	_	11	advmod	11:advmod	entire
+9	аан	аан	NOUN	n	_	10	compound	10:compound	entrance
+10	дойдутааҕы	дойду	NOUN	n	Case=Acc|Number=Sing	11	compound	11:compound	world=Мировой
+11	ситимнэрэ	ситим	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	3	nmod	2:obj|3:nmod	network
+
+# sent_id = 99
+# text = 1632 сыллаахха олохтоммутунан ааҕыллар
+# text_rus = Считается, что основан в 1632 году
+# text_eng = It is believed that it was founded in 1632 # (Sakha wiki, Дьокуускай) #
+1	1632	1632	NUM	num	_	3	nummod	_	_
+2	сыллаахха	сыл	NOUN	n	_	5	obl	_	year
+3	олохтоммутунан	олохтоо	VERB	v	_	5	xcomp	_	established
+4	ааҕыллар	аах	VERB	v	Voice=Pass	_	_	_	considered
+
+# sent_id = 100
+# text = Олоҥхо — саха уус-уран айымньыта
+# text_rus = Олонхо — Якутское художественное творчество
+# text_eng = Olonkho — Yakut artistic creativity # (Sakha wiki, Олоҥхо) #
+1	Олоҥхо	олоҥхо	NOUN	n	Case=Nom|Number=Sing	6	_	_	epicpoem
+2	—	—	PUNCT	punct	_	1	punct	_	_
+3	саха	саха	ADJ	adj	_	6	amod	_	_
+4-5	уус-уран	_	_	_	_	_	_	_	_
+4	уус	уус	NOUN	n	_	_	_	_	eloquence
+5	уран	уран	ADJ	adj	_	4	compound	_	exquisite
+6	айымньыта	айымньы	NOUN	n	Case=Part|Number=Sing	_	_	_	creation
+
