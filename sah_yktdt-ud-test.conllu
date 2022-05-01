@@ -971,51 +971,22 @@
 10	хамсааһына	хамсаа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	dep	6:dep	movement
 
 # sent_id = 97
-# text = Саха Өрөспүүбүлүкэтин былааҕа көнө муннуктаах иэн буолар , түөрт тэҥ сытыары дьураа ойуулаалардаах , сырдык халлаан күөх , маҥан , кыһыл уонна от күөх
-# text_rus = Флаг Республики Саха представляет собой прямоугольное полотнище, состоящее из четырех равновеликих горизонтальных полос синего, белого, красного и зеленого цветов
-# text_eng = The flag of the Republic of Sakha is a rectangular panel consisting of four equal horizontal stripes: blue, white, red and green # (Sakha wiki, Саха_Өрөспүүбүлүкэтин_былааҕа) #
-1	Саха	Саха	PROPN	propn	Case=Nom|Number=Sing	2	compound	2:compound	Sakha
-2	Өрөспүүбүлүкэтин	өрөспүүбүлүкэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	3:nmod	republic
-3	былааҕа	былаах	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	6:nsubj	flag
-4	көнө	көнө	ADJ	adj	_	5	fixed	5:fixed	straigt
-5	муннуктаах	муннук	NOUN	n	Case=Nom|Number=Sing|Poss=Yes	6	nmod	6:nmod	angle
-6	иэн	иэн	NOUN	n	Case=Nom|Number=Sing	_	_	_	square
-7	буолар	буол	AUX	aux	Number=Sing|Person=Sing|Tense=NearPast	6	cop	6:cop	_
-8	,	,	PUNCT	punct	_	6	punct	6:punct	_
-9	түөрт	түөрт	NUM	num	_	12	nummod	12:nummod	four
-10	тэҥ	тэҥ	ADJ	adj	_	12	amod	12:amod	even
-11	сытыары	сытыары	ADV	adv	_	12	amod	12:amod	horizontally
-12	дьураа	дьураа	NOUN	n	Case=Nom|Number=Sing	_	_	_	stripe
-13	ойуулаалардаах	ойуулаа	VERB	v	Number=Sing|Person=3|Poss=Yes|Tense=Pres	12	acl	12:acl	topaint
-14	,	,	PUNCT	punct	_	13	punct	13:punct	_
-15	сырдык	сырдык	NOUN	n	Case=Nom|Number=Sing	13	obl	13:obl	color
-16	халлаан	халлаан	NOUN	n	Case=Nom|Number=Sing	15	nmod	15:nmod	sky
-17	күөх	күөх	ADJ	adj	_	16	fixed	16:fixed	blue
-18	,	,	PUNCT	punct	_	19	punct	19:punct	_
-19	маҥан	маҥан	ADJ	adj	_	15	conj	15:conj	white
-20	,	,	PUNCT	punct	_	21	punct	21:punct	_
-21	кыһыл	кыһыл	ADJ	adj	_	15	conj	15:conj	red
-22	уонна	уонна	CCONJ	cconj	_	23	cc	23:cc	and
-23	от	от	NOUN	n	Case=Nom|Number=Sing	15	conj	15:conj	grass
-24	күөх	күөх	ADJ	adj	_	23	fixed	23:fixed	blue
-
-# sent_id = 98
 # text = Интэриниэт диэн көмпүүтэрдэр бэйэ бэйэлэрин кытта холбоммут бүтүн аан дойдутааҕы ситимнэрэ
 # text_rus = Интернетом называется всемирная сеть, объединяющая между собой компьютеры
 # text_eng = A worldwide network connecting computers is called the Internet # (Sakha wiki, Интэриниэт) #
-1	Интэриниэт	Интэриниэт	NOUN	n	Case=Nom|Number=Sing	2	obj	2:obj	internet
+1	Интэриниэт	Интэриниэт	NOUN	n	Case=Nom|Number=Sing	2	obl	2:obl	internet
 2	диэн	диэ	VERB	v	_	0	root	0:root	say
-3	көмпүүтэрдэр	көмпүүтэр	NOUN	n	Case=Nom|Number=Plur	7	obj	7:obj	computer
+3	көмпүүтэрдэр	көмпүүтэр	NOUN	n	Case=Nom|Number=Plur	11	dep	7:obj|11:dep	computer
 4	бэйэ	бэйэ	NOUN	n	Case=Nom|Number=Sing	7	obl	7:obl	body
 5	бэйэлэрин	бэйэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	4	fixed	4:fixed	body=eachOther
-6	кытта	кытта	ADP	adp	_	4	case	4:case	with
-7	холбоммут	холбон	VERB	v	_	2	csubj	2:csubj	toconnect
-8	бүтүн	бүтүн	ADV	adv	_	7	advmod	7:advmod	entire
-9	аан	аан	NOUN	n	_	10	nmod	10:nmod	entrance
-10	дойдутааҕы	дойду	NOUN	n	Case=Acc|Number=Sing	11	nmod	11:nmod	world=Мировой
-11	ситимнэрэ	ситим	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	7	nsubj	7:nsubj	7:nsubj
+6	кытта	кытта	ADP	adp	_	11	case	11:case	with
+7	холбоммут	холбон	VERB	v	_	2	nsubj:pass	2:nsubj:pass	toconnect
+8	бүтүн	бүтүн	ADV	adv	_	11	advmod	11:advmod	entire
+9	аан	аан	NOUN	n	_	10	compound	10:compound	entrance
+10	дойдутааҕы	дойду	NOUN	n	Case=Acc|Number=Sing	11	compound	11:compound	world=Мировой
+11	ситимнэрэ	ситим	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	2	obj	2:obj	network
 
-# sent_id = 99
+# sent_id = 98
 # text = 1632 сыллаахха олохтоммутунан ааҕыллар
 # text_rus = Считается, что основан в 1632 году
 # text_eng = It is believed that it was founded in 1632 # (Sakha wiki, Дьокуускай) #
@@ -1024,7 +995,7 @@
 3	олохтоммутунан	олохтон	VERB	v	Number=Sing|Person=3|Reflex=Yes|Tense=Past	4	ccomp	_	established
 4	ааҕыллар	аах	VERB	v	Number=Plur|Person=3|Tense=NearPast|Voice=Pass	0	root	_	considered
 
-# sent_id = 100
+# sent_id = 99
 # text = Олоҥхо — саха уус-уран айымньыта
 # text_rus = Олонхо — Якутское художественное творчество
 # text_eng = Olonkho — Yakut artistic creativity # (Sakha wiki, Олоҥхо) #
