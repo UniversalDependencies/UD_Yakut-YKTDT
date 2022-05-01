@@ -842,7 +842,7 @@
 # text = Үрдүбэр этиҥ эппитинии соһуйан , олоро түстүм
 # text_rus = Я вскочил, будто надо мной грянул гром
 # text_eng = I jumped up as if thunder had struck above me (The little prince, 12) #
-1	Үрдүбэр	үрдүнэн	ADP	adp	Case=Dat|Number=Sing|Person=1	4	obl	_	aboveme
+1	Үрдүбэр	үрдүнэн	ADP	adp	Number=Sing|Person=1	4	obl	_	aboveme
 2	этиҥ	этиҥ	NOUN	n	Case=Nom	4	nsubj	_	thunder
 3	эппитинии	_	INTJ	intj	_	4	discourse	_	astheysay
 4	соһуйан	соһуй	VERB	v	_	7	dep	_	besurprised
@@ -860,9 +860,14 @@
 4	суох	суох	AUX	aux	_	3	cop	3:cop	isno
 
 # sent_id = 88
-# text = Алта саастаахпар улахан дьон эйигиттэн уруһуйдьут тахсыбат диэн итэҕэтэн кэбиспиттэрэ , онон моҕой иһин курдаттыы уонна тас бороонун эрэ уруһуйдууртан атыҥҥа үөрэммэтэҕим
-# text_rus = 
-# text_eng =  (The little prince, 12) #
+# text = Аҕата төһө хамнаһы өлөрөр ?
+# text_rus = Сколько зарабатывает его отец ?
+# text_eng = How much does his father earn ?(The little prince, 20) #
+1	Аҕата	аҕа	NOUN	n	_	4	nsubj	_	hisfather
+2	төһө	төһө	ADV	adv	_	3	advmod	_	howmuch
+3	хамнаһы	хамнас	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	_	salary
+4	өлөрөр	өлөр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	earn
+5	?	?	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 89
 # text = Онуоха кини симиктик эрээри , оттомноохтук хат көрдөстө
