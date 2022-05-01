@@ -958,18 +958,17 @@
 # sent_id = 96
 # text = Коперник сүрүн уонна соҕотох кэриэтэ айымньыта - Халлаан эргимтэлэрин хамсааһына
 # text_rus = Главное и почти единственное произведение Коперника называется "О вращении небесных сфер"
-# text_eng = The main and almost the only work of Copernicus is "On the Revolutions of the Celestial Spheres" # (Sakha wiki, Николай_Коперник) #
-1	Коперник	Коперник	PROPN	propn	Case=Nom|Number=Sing	6	nmod	6:nmod	_
-2	сүрүн	сүрүн	ADJ	adj	_	6	amod	6:amod	fundamental
-3	уонна	уонна	CCONJ	cconj	_	4	cc	4:cc	_
-4	соҕотох	соҕотох	ADJ	adj	_	6	amod	6:amod	single
-5	кэриэтэ	кэриэтэ	ADV	adv	_	4	advmod	4:advmod	almost
-6	айымньыта	айымньыта	NOUN	n	Case=Nom|Number=Sing	0	root	0:root	creation
-7	-	_	PUNCT	punct	_	6	punct	6:punct	_
-8	Халлаан	xаллаан	NOUN	n	Case=Nom|Number=Sing	_	_	_	sky
-9	эргимтэлэрин	эргимтэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	sphere
-10	хамсааһына	хамсаа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	dep	6:dep	movement
-
+# text_eng = The main and practically the only work of Copernicus is "On the Revolutions of the Celestial Spheres" # (Sakha wiki, Николай_Коперник) #
+1	Коперник	Коперник	PROPN	propn	Case=Nom|Number=Sing	6	nmod	_	_
+2	сүрүн	сүрүн	ADJ	adj	_	6	amod	_	fundamental
+3	уонна	уонна	CCONJ	cconj	_	4	cc	_	_
+4	соҕотох	соҕотох	ADJ	adj	_	6	amod	_	single
+5	кэриэтэ	кэриэтэ	ADV	adv	_	4	advmod	_	almost
+6	айымньыта	айымньыта	NOUN	n	Case=Nom|Number=Sing	0	root	_	creation
+7	-	_	PUNCT	punct	_	6	punct	_	_
+8	Халлаан	xаллаан	NOUN	n	Case=Nom|Number=Sing	9	nmod	_	sky
+9	эргимтэлэрин	эргимтэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nmod	_	sphere
+10	хамсааһына	хамсаа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	appos	_	movement
 # sent_id = 97
 # text = Интэриниэт диэн көмпүүтэрдэр бэйэ бэйэлэрин кытта холбоммут бүтүн аан дойдутааҕы ситимнэрэ
 # text_rus = Интернетом называется всемирная сеть, объединяющая между собой компьютеры
