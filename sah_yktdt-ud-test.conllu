@@ -1019,10 +1019,10 @@
 # text = 1632 сыллаахха олохтоммутунан ааҕыллар
 # text_rus = Считается, что основан в 1632 году
 # text_eng = It is believed that it was founded in 1632 # (Sakha wiki, Дьокуускай) #
-1	1632	1632	NUM	num	_	3	nummod	_	_
-2	сыллаахха	сыллаах	NOUN	n	Case=Dat|Number=Sing	5	obl	_	year
-3	олохтоммутунан	олохтон	VERB	v	Number=Sing|Person=3|Reflex=Yes|Tense=Past	5	xcomp	_	established
-4	ааҕыллар	аах	VERB	v	Number=Plur|Person=3|Tense=NearPast|Voice=Pass	_	_	_	considered
+1	1632	1632	NUM	num	_	2	nummod	_	_
+2	сыллаахха	сыллаах	NOUN	n	Case=Dat|Number=Sing	4	obl	_	year
+3	олохтоммутунан	олохтон	VERB	v	Number=Sing|Person=3|Reflex=Yes|Tense=Past	4	ccomp	_	established
+4	ааҕыллар	аах	VERB	v	Number=Plur|Person=3|Tense=NearPast|Voice=Pass	0	root	_	considered
 
 # sent_id = 100
 # text = Олоҥхо — саха уус-уран айымньыта
