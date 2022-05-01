@@ -573,14 +573,14 @@
 # text = Кэл , сүөгэйдэ ис , күөрчэхтэ сиэ !
 # text_rus = 
 # text_eng = Come, drink some cream, eat some sbiten! (Haritonov)
-1	Кэл	кэл	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	0:root	_
-2	,	,	PUNCT	punct	_	1	punct	1:punct	_
-3	сүөгэйдэ	сүөгэй	NOUN	n	Case=Par|Number=Sing	4	obj	4:obj	_
-4	ис	ис	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	1	conj	1:conj	_
-5	,	,	PUNCT	punct	_	1	punct	1:punct	_
-6	күөрчэхтэ	күөрчэх	NOUN	n	Case=Par|Number=Sing	7	obj	7:obj	_
-7	сиэ	сиэ	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	1	conj	1:conj	_
-8	!	!	PUNCT	punct	_	1	punct	1:punct	_
+1	Кэл	кэл	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	сүөгэйдэ	сүөгэй	NOUN	n	Case=Par|Number=Sing	4	obj	_	_
+4	ис	ис	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	1	conj	_	_
+5	,	,	PUNCT	punct	_	1	punct	_	_
+6	күөрчэхтэ	күөрчэх	NOUN	n	Case=Par|Number=Sing	7	obj	_	_
+7	сиэ	сиэ	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	1	conj	_	_
+8	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 62
 # text = Үрүҥ килиэби быһыма , хара килиэптэ быс
