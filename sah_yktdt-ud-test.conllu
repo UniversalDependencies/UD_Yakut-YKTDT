@@ -927,20 +927,20 @@
 # text = Эн ол аата , манна халлаан куйаарын ханнык эрэ атын эттигиттэн кэллэҕиҥ дии ?
 # text_rus = Стало быть, ты попал сюда с другой планеты?
 # text_eng = Does it mean that you came here from another planet? # (The little prince, 16) #
-1	Эн	эн	PRON	pron	_	12	nsubj	12:nsubj	you
-2	ол	ол	PRON	pron	_	12	discourse	12:discourse	2-3=itmeans
-3	аата	аата	NOUN	noun	_	2	dep	2:dep	intensifier
-4	,	,	PUNCT	punct	_	3	punct	3:punct	_
-5	манна	манна	ADV	adv	_	12	advmod	12:advmod	here
-6	халлаан	халлаан	NOUN	n	Case=Nom|Number=Sing	7	compound	7:compound	sky
-7	куйаарын	куйаар	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	12:obl	space
-8	ханнык	ханнык	PRON	pron	PronType=Int	7	_	7	which
-9	эрэ	эрэ	PART	part	_	8	dep	8:dep	uncertainty
-10	атын	атын	ADJ	adj	_	11	amod	11:amod	otherForeign
-11	эттигиттэн	эттик	NOUN	n	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	0:root	bodyphysics
-12	кэллэҕиҥ	кэл	VERB	v	Mood=Ded|Number=Sing|Person=2|Tense=Past	0	root	0:root	come
-13	дии	дии	PART	part	_	12	discourse	12:discourse	confirmation
-14	?	?	PUNCT	punct	_	12	punct	12:punct	_
+1	Эн	эн	PRON	pron	PronType=Prs	12	dislocated	_	you
+2	ол	ол	PRON	pron	_	12	discourse	_	2-3=itmeans
+3	аата	аата	NOUN	noun	_	2	fixed	_	intensifier
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	манна	манна	ADV	adv	_	12	advmod	_	here
+6	халлаан	халлаан	NOUN	n	Case=Nom|Number=Sing	7	compound	_	sky
+7	куйаарын	куйаар	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	space
+8	ханнык	ханнык	PRON	pron	PronType=Ind	11	nmod	_	which
+9	эрэ	эрэ	PART	part	_	8	fixed	_	uncertainty
+10	атын	атын	ADJ	adj	_	11	amod	_	otherForeign
+11	эттигиттэн	эттик	NOUN	n	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	bodyphysics
+12	кэллэҕиҥ	кэл	VERB	v	Mood=Ded|Number=Sing|Person=2|Tense=Past	0	root	_	come
+13	дии	дии	PART	part	_	12	discourse	_	confirmation
+14	?	?	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 96
 # text = Коперник сүрүн уонна соҕотох кэриэтэ айымньыта - Халлаан эргимтэлэрин хамсааһына
