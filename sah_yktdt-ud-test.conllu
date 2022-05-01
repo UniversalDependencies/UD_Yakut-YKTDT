@@ -804,7 +804,7 @@
 1	Кинилэри	кинилэр	PRON	pron	Case=Acc	4	obj	4:obj	they
 2	үчүгэйдик	үчүгэйдик	ADV	adv	_	4	advmod	4:advmod	well
 3	көрбүтүм	көр	VERB	v	Number=Sing|Person=1|Tense=Past	4	compound	4:compound	see
-4	билбитим	бил	VERB	v	Number=Sing|Person=1|Tense=Past	0	_	_	know
+4	билбитим	бил	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	0:root	know
 
 # sent_id = 83
 # text = Ити курдук , мин өссө биир суолталааҕы арыйбытым
