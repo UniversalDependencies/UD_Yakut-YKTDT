@@ -672,12 +672,12 @@
 # text = Кини түргэнник оргуйар , үчүгэй сылабаар
 # text_rus = 
 # text_eng = It boils quickly, it is a good samovar (Haritonov)
-1	Кини	кини	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
-2	түргэнник	түргэнник	ADV	_	_	3	advmod	3:advmod	_
-3	оргуйар	оргуй	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	0:root	_
-4	,	,	PUNCT	_	_	3	punct	3:punct	_
-5	үчүгэй	үчүгэй	ADV	_	_	6	advmod	6:advmod	_
-6	сылабаар	сылабаар	NOUN	_	Case=Nom|Number=Sing	_	_	_	_
+1	Кини	кини	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	түргэнник	түргэнник	ADV	_	_	3	advmod	_	_
+3	оргуйар	оргуй	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	үчүгэй	үчүгэй	ADV	_	_	6	advmod	_	_
+6	сылабаар	сылабаар	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
 
 # sent_id = 70
 # text = Кыра үрүҥ чаанньыгы сылабаарга туруораллар
