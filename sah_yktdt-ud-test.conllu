@@ -891,19 +891,6 @@
 3	хойчоонно	хой	NOUN	n	Case=Acc	4	obj	4:obj	ram
 4	уруһуйдаа	уруһуйдаа	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	0:root	paint
 
-# sent_id = 91
-# text = Миэнэ уһуннук тыыннаах сылдьар , хойчоон эбитэ буоллар
-# text_rus = Мне нужен такой барашек, чтобы жил долго
-# text_eng = I need such a lamb to live for a long time (The little prince, 15) #
-1	Миэнэ	мин	PRON	pron	Case=Dat|Poss=Yes|PronType=Prs	4	obl	4:obl	me
-2	уһуннук	уһуннук	ADV	adv	_	3	advmod	3:advmod	long
-3	тыыннаах	тыын	VERB	v	_	_	_	_	tobreathe
-4	сылдьар	_	VERB	v	_	0	root	0:root	go
-5	,	,	PUNCT	punct	_	4	punct	4:punct	_
-6	хойчоон	хой	NOUN	n	_	_	_	_	ram
-7	эбитэ	эбит	PART	part	_	_	_	_	_
-8	буоллар	буол	AUX	aux	Mood=Cnd	_	_	_	be
-
 # sent_id = 92
 # text = Ити курдук мин Кыра тыгыны кытта билсибитим
 # text_rus = Так я познакомился с Маленьким принцем
@@ -932,7 +919,7 @@
 1	Оччоҕо	оччоҕо	ADV	adv	_	4	advmod	4:advmod	then
 2	эн	эн	PRON	pron	_	4	nsubj	4:nsubj	you
 3	халлаантан	халлаан	NOUN	n	Case=Abl|Number=Sing	4	obl	4:obl	sky
-4	сууллубутуҥ	суулун	VERB	v	Number=Sing|Person=2|Tense=Past|	0	root	0:root	tofall
+4	сууллубутуҥ	суулун	VERB	v	Number=Sing|Person=2|Tense=Past	0	root	0:root	tofall
 5	дуо	дуо	PART	part	_	4	discourse	4:discourse	_
 6	?	?	PUNCT	punct	_	4	punct	4:punct	_
 
@@ -969,6 +956,7 @@
 8	Халлаан	xаллаан	NOUN	n	Case=Nom|Number=Sing	9	nmod	_	sky
 9	эргимтэлэрин	эргимтэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nmod	_	sphere
 10	хамсааһына	хамсаа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	appos	_	movement
+
 # sent_id = 97
 # text = Интэриниэт диэн көмпүүтэрдэр бэйэ бэйэлэрин кытта холбоммут бүтүн аан дойдутааҕы ситимнэрэ
 # text_rus = Интернетом называется всемирная сеть, объединяющая между собой компьютеры
