@@ -1021,8 +1021,8 @@
 # text_eng = It is believed that it was founded in 1632 # (Sakha wiki, Дьокуускай) #
 1	1632	1632	NUM	num	_	3	nummod	_	_
 2	сыллаахха	сыллаах	NOUN	n	Case=Dat|Number=Sing	5	obl	_	year
-3	олохтоммутунан	олохтон	VERB	v	Number=Sing|Person=3|Tense=Past|Reflex=Yes	5	xcomp	_	established
-4	ааҕыллар	аах	VERB	v	Tense=NPast|Number=Plur|Person=3|Voice=Pass	_	_	_	considered
+3	олохтоммутунан	олохтон	VERB	v	Number=Sing|Person=3|Reflex=Yes|Tense=Past	5	xcomp	_	established
+4	ааҕыллар	аах	VERB	v	Number=Plur|Person=3|Tense=NearPast|Voice=Pass	_	_	_	considered
 
 # sent_id = 100
 # text = Олоҥхо — саха уус-уран айымньыта
