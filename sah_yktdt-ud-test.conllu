@@ -754,7 +754,7 @@
 # text = Атын идэни таларга күһэллэн , өлүөччүк үөрэҕэр үөрэммитим
 # text_rus = Мне пришлось выбрать другую профессию, и я выучился на лётчика 
 # text_eng = I had to choose another profession, and I learned to be a pilot (The little prince, 10) # прошедшее незаконченное время (имперфест)
-1	Атын	атын	ADJ	ajv	Degree=Pos	2	amod	2:amod	another
+1	Атын	атын	ADJ	ajv	_	2	amod	2:amod	another
 2	идэни	идэ	NOUN	n	Case=Acc|Number=Sing	3	obj	3:obj	profession
 3	таларга	тал	VERB	v	VerbForm=Inf	4	xcomp	4:xcomp	choose
 4	күһэллэн	күһэй	VERB	v	_	_	_	_	hadto
@@ -932,7 +932,7 @@
 1	Оччоҕо	оччоҕо	ADV	adv	_	4	advmod	4:advmod	then
 2	эн	эн	PRON	pron	_	4	nsubj	4:nsubj	you
 3	халлаантан	халлаан	NOUN	n	Case=Abl|Number=Sing	4	obl	4:obl	sky
-4	сууллубутуҥ	суулун	VERB	v	Tense=Past|Number=Sing|Person=2	0	root	0:root	tofall
+4	сууллубутуҥ	суулун	VERB	v	Number=Sing|Person=2|Tense=Past|	0	root	0:root	tofall
 5	дуо	дуо	PART	part	_	4	discourse	4:discourse	_
 6	?	?	PUNCT	punct	_	4	punct	4:punct	_
 
@@ -1003,17 +1003,17 @@
 # text = Интэриниэт диэн көмпүүтэрдэр бэйэ бэйэлэрин кытта холбоммут бүтүн аан дойдутааҕы ситимнэрэ
 # text_rus = Интернетом называется всемирная сеть, объединяющая между собой компьютеры
 # text_eng = A worldwide network connecting computers is called the Internet # (Sakha wiki, Интэриниэт) #
-1	Интэриниэт	Интэриниэт	NOUN	n	Case=Nom|Number=Sing	2	obl	2:obl	internet
+1	Интэриниэт	Интэриниэт	NOUN	n	Case=Nom|Number=Sing	2	obj	2:obj	internet
 2	диэн	диэ	VERB	v	_	0	root	0:root	say
-3	көмпүүтэрдэр	көмпүүтэр	NOUN	n	Case=Nom|Number=Plur	11	dep	7:obj|11:dep	computer
+3	көмпүүтэрдэр	көмпүүтэр	NOUN	n	Case=Nom|Number=Plur	7	obj	7:obj	computer
 4	бэйэ	бэйэ	NOUN	n	Case=Nom|Number=Sing	7	obl	7:obl	body
 5	бэйэлэрин	бэйэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	4	fixed	4:fixed	body=eachOther
-6	кытта	кытта	ADP	adp	_	11	case	11:case	with
-7	холбоммут	холбон	VERB	v	_	2	nsubj:pass	2:nsubj:pass	toconnect
-8	бүтүн	бүтүн	ADV	adv	_	11	advmod	11:advmod	entire
-9	аан	аан	NOUN	n	_	10	compound	10:compound	entrance
-10	дойдутааҕы	дойду	NOUN	n	Case=Acc|Number=Sing	11	compound	11:compound	world=Мировой
-11	ситимнэрэ	ситим	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	2	obj	2:obj	network
+6	кытта	кытта	ADP	adp	_	4	case	4:case	with
+7	холбоммут	холбон	VERB	v	_	2	csubj	2:csubj	toconnect
+8	бүтүн	бүтүн	ADV	adv	_	7	advmod	7:advmod	entire
+9	аан	аан	NOUN	n	_	10	nmod	10:nmod	entrance
+10	дойдутааҕы	дойду	NOUN	n	Case=Acc|Number=Sing	11	nmod	11:nmod	world=Мировой
+11	ситимнэрэ	ситим	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	7	nsubj	7:nsubj	7:nsubj
 
 # sent_id = 99
 # text = 1632 сыллаахха олохтоммутунан ааҕыллар
