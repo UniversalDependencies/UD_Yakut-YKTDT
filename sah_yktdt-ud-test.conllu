@@ -803,8 +803,8 @@
 # text_eng = I saw them very close (The little prince, 11) #
 1	Кинилэри	кинилэр	PRON	pron	Case=Acc	4	obj	4:obj	they
 2	үчүгэйдик	үчүгэйдик	ADV	adv	_	4	advmod	4:advmod	well
-3	көрбүтүм	көр	VERB	v	Number=Sing|Person=1|Tense=PastPerf	4	compound	4:compound	see
-4	билбитим	бил	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	_	_	know
+3	көрбүтүм	көр	VERB	v	Number=Sing|Person=1|Tense=Past	4	compound	4:compound	see
+4	билбитим	бил	VERB	v	Number=Sing|Person=1|Tense=Past	0	_	_	know
 
 # sent_id = 83
 # text = Ити курдук , мин өссө биир суолталааҕы арыйбытым
@@ -902,7 +902,7 @@
 # sent_id = 92
 # text = Ити курдук мин Кыра тыгыны кытта билсибитим
 # text_rus = Так я познакомился с Маленьким принцем
-# text_eng = That's how I met the Little Prince # (The little prince, 15) # PastPerf
+# text_eng = That's how I met the Little Prince # (The little prince, 15) # Past
 1	Ити	ити	PRON	pron	_	7	dep	7:dep	this
 2	курдук	курдук	ADV	adv	_	7	advmod	7:advmod	like
 3	мин	мин	PRON	pron	Case=Nom|Number=Sing	7	nsubj	7:nsubj	I
@@ -975,13 +975,13 @@
 4	көнө	көнө	ADJ	adj	_	5	fixed	5:fixed	straigt
 5	муннуктаах	муннук	NOUN	n	Case=Nom|Number=Sing|Poss=Yes	6	nmod	6:nmod	angle
 6	иэн	иэн	NOUN	n	Case=Nom|Number=Sing	_	_	_	square
-7	буолар	буол	AUX	aux	Number=Sing|Person=Sing|Tense=NPST	6	cop	6:cop	_
+7	буолар	буол	AUX	aux	Number=Sing|Person=Sing|Tense=NearPast	6	cop	6:cop	_
 8	,	,	PUNCT	punct	_	6	punct	6:punct	_
 9	түөрт	түөрт	NUM	num	_	12	nummod	12:nummod	four
 10	тэҥ	тэҥ	ADJ	adj	_	12	amod	12:amod	even
 11	сытыары	сытыары	ADV	adv	_	12	amod	12:amod	horizontally
 12	дьураа	дьураа	NOUN	n	Case=Nom|Number=Sing	_	_	_	stripe
-13	ойуулаалардаах	ойуулаа	VERB	v	Tense=Pres|Number=Sing|Person=3|Poss=Yes	12	acl	12:acl	topaint
+13	ойуулаалардаах	ойуулаа	VERB	v	Number=Sing|Person=3|Poss=Yes|Tense=Pres	12	acl	12:acl	topaint
 14	,	,	PUNCT	punct	_	13	punct	13:punct	_
 15	сырдык	сырдык	NOUN	n	Case=Nom|Number=Sing	13	obl	13:obl	color
 16	халлаан	халлаан	NOUN	n	Case=Nom|Number=Sing	15	nmod	15:nmod	sky
