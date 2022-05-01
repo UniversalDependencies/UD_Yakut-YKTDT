@@ -586,13 +586,13 @@
 # text = Үрүҥ килиэби быһыма , хара килиэптэ быс
 # text_rus = 
 # text_eng = Do not cut the white bread, cut some of the black bread (Haritonov)
-1	Үрүҥ	үрүҥ	ADJ	adj	_	2	amod	2:amod	_
-2	килиэби	килиэп	NOUN	n	Case=Acc|Number=Sing	3	obj	3:obj	_
-3	быһыма	быс	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	0	_	_	_
-4	,	,	PUNCT	punct	_	3	punct	3:punct	_
-5	хара	хара	ADJ	adj	_	6	amod	6:amod	_
-6	килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	7	obj	7:obj	_
-7	быс	быс	VERB	v	Mood=Imp|Number=Sing|Person=2	3	conj	3:conj	_
+1	Үрүҥ	үрүҥ	ADJ	adj	_	2	amod	_	_
+2	килиэби	килиэп	NOUN	n	Case=Acc|Number=Sing	3	obj	_	_
+3	быһыма	быс	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
+5	хара	хара	ADJ	adj	_	6	amod	_	_
+6	килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	7	obj	_	_
+7	быс	быс	VERB	v	Mood=Imp|Number=Sing|Person=2	3	conj	_	_
 
 # sent_id = 63
 # text = Ити уолга харандааста биэр
