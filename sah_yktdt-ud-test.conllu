@@ -575,7 +575,7 @@
 # text_eng = Come, drink some cream, eat some sbiten! (Haritonov)
 1	Кэл	кэл	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	0:root	_
 2	,	,	PUNCT	punct	_	1	punct	1:punct	_
-3	сүөгэйдэ	сүөгэй	NOUN	n	Case=Par|Number=Sing	_	4	obj	4:obj	_
+3	сүөгэйдэ	сүөгэй	NOUN	n	Case=Par|Number=Sing	4	obj	4:obj	_
 4	ис	ис	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	1	conj	1:conj	_
 5	,	,	PUNCT	punct	_	1	punct	1:punct	_
 6	күөрчэхтэ	күөрчэх	NOUN	n	Case=Par|Number=Sing	7	obj	7:obj	_
@@ -715,46 +715,38 @@
 10	кутта	кут	VERB	_	Number=Sing|Person=3|Tense=Past	3	conj	3:conj	_
 
 # sent_id = 73
-# text = Сэлээппэ туох ынырыктаах буолуой?
+# text = Сэлээппэ туох ынырыктаах буолуой ?
 # text_rus = Страшная ли шляпа?
-# text_eng = (The little prince, 10)
-1	Сэлээппэ	сэлээппэ	NOUN	n	Case=Nom|Number=Sing	_	_	_	_
-2	туох	туох	PRON	pron	PronType=Int	_	_	_	_
-3	ынырыктаах	ынырык	ADJ	adj	Poss=Yes	_	_	_	_
-4	буолуой	буол	AUX	aux	_	_	_	_	_
-5	?	?	PUNCT	punct	_	_	_	_	_
+# text_eng = Is the hat scary? (The little prince, 10)
+1	Сэлээппэ	сэлээппэ	NOUN	n	Case=Nom|Number=Sing	0	root	0:root	hat
+2	туох	туох	PRON	pron	PronType=Int	3	obj	3:obj	what
+3	ынырыктаах	ынырык	ADJ	adj	Poss=Yes	1	amod	1:amod	horrible
+4	буолуой	буол	AUX	aux	_	2	cop	2:cop	exist
+5	?	?	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 74
 # text = Дьонум миигин утарбыттара
 # text_rus = Мне возразили
-# text_eng = (The little prince, 10)  # Преждепрошедшее
-1	Дьонум	дьон	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	_	_	_	_
-2	миигин	мин	PRON	pron	Case=Acc	_	_	_	_
-3	утарбыттара	утар	VERB	v	Number=Plur|Person=3|Tense=Past	_	_	_	_
+# text_eng = They objected me (The little prince, 10)  # Преждепрошедшее
+1	Дьонум	дьон	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	3	nsubj	3:nsubj	_
+2	миигин	мин	PRON	pron	Case=Acc	3	obj	3:obj	_
+3	утарбыттара	утар	VERB	v	Number=Plur|Person=3|Tense=Past	0	root	0:root	_
 
 # sent_id = 75
-# text = Мин , аны , улахан дьоҥҥо өйдөннүн диэн , моҕой иһин курдаттыы уруһуйдаабытым
-# text_rus = 
-# text_eng = (The little prince, 10) # Преждепрошедшее повествовательное 
-1	Мин	мин	PRON	pron	PronType=Prs	_	_	_	_
-2	,	,	_	_	_	_	_	_	_
-3	аны	аны	ADV	adv	_	_	_	_	_
-4	,	,	_	_	_	_	_	_	_
-5	улахан	улахан	ADJ	adj	_	_	_	_	_
-6	дьоҥҥо	дьоҥ	NOUN	n	Case=Dat|Number=Sing	_	_	_	_
-7	өйдөннүн	өйдөн	VERB	v	_	_	_	_	_
-8	диэн	диэ	VERB	v	_	_	_	_	_
-9	,	,	_	_	_	_	_	_	_
-10	моҕой	моҕой	NOUN	n	Case=Nom|Number=Sing	_	_	_	_
-11	иһин	ис	_	_	_	_	_	_	_
-12	курдаттыы	курдаттыы	ADV	adv	_	_	_	_	_
-13	уруһуйдаабытым	уруһуйдаа	VERB	v	_	_	_	_	_
+# text = Доҕорум көрдөөхтүк күлэ түспүтэ
+# text_rus = Тут мой друг опять весело рассмеялся
+# text_eng = My friend laughed merrily (The little prince, 17) # Преждепрошедшее повествовательное 
+1	Доҕорум	доҕор	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	3:nsubj	myfriend
+2	көрдөөхтүк	көрдөөх	ADV	adv	_	3	amod	3:amod	funny
+3	күлэ	күл	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	laughed
+4	түспүтэ	түс	VERB	v	Number=Sing|Person=3|Tense=Past	3	dep	3:dep	fell
+
 
 # sent_id = 76
 # text = Ол солуону ыйыстыбыт моҕой
 # text_rus = Это был удав, который проглотил слона
-# text_eng = (The little prince, 10) # Прошедшее результативное
-1	Ол	ол	PRON	pron	PronType=Rel	_	_	_	it
+# text_eng = It was a boa constrictor that swallowed an elephant (The little prince, 10) # Прошедшее результативное
+1	Ол	ол	PRON	pron	PronType=Rel	4	nsubj	4:nsubj	it
 2	солуону	слон	NOUN	n	Case=Acc|Number=Sing	3	nsubj	3:nsubj	elephant
 3	ыйыстыбыт	ыйыһын	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	0:root	eat
 4	моҕой	моҕой	NOUN	n	Case=Nom|Number=Sing	3	obj	3:obj	snake
@@ -762,15 +754,15 @@
 # sent_id = 78
 # text = Атын идэни таларга күһэллэн , өлүөччүк үөрэҕэр үөрэммитим
 # text_rus = Мне пришлось выбрать другую профессию, и я выучился на лётчика 
-# text_eng = (The little prince, 10) # прошедшее незаконченное время (имперфест)
-1	Атын	атын	ADJ	ajv	Degree=Pos	_	_	_	_
-2	идэни	идэ	NOUN	n	Case=Acc|Number=Sing	_	_	_	_
-3	таларга	тал	VERB	v	Case=Dat|VerbForm=Part	_	_	_	_
+# text_eng = I had to choose another profession, and I learned to be a pilot (The little prince, 10) # прошедшее незаконченное время (имперфест)
+1	Атын	атын	ADJ	ajv	Degree=Pos	2	amod	2:amod	another
+2	идэни	идэ	NOUN	n	Case=Acc|Number=Sing	3	obj	3:obj	profession
+3	таларга	тал	VERB	v	VerbForm=Inf	4	xcomp	4:xcomp	choose
 4	күһэллэн	күһэй	VERB	v	_	_	_	_	hadto
-5	,	,	PUNCT	punct	_	_	_	_	_
-6	өлүөччүк	өлүөччүк	NOUN	n	Case=Nom|Number=Sing	_	_	_	_
-7	үөрэҕэр	үөрэх	NOUN	n	Case=Dat|Number=Sing	_	_	_	education
-8	үөрэммитим	үөрэн	VERB	v	Number=Sing|Person=1|Tense=Past	_	_	_	study
+5	,	,	PUNCT	punct	_	4	punct	4:punct	_
+6	өлүөччүк	өлүөччүк	NOUN	n	Case=Nom|Number=Sing	7	nmod	7:nmod	pilot
+7	үөрэҕэр	үөрэх	NOUN	n	Case=Dat|Number=Sing	8	nsubj	8:nsubj	education
+8	үөрэммитим	үөрэн	VERB	v	Number=Sing|Person=1|Tense=Past	3	parataxis	3:parataxis	study
 
 # sent_id = 79
 # text = Күн сирин барытын кэриэтэ тилийэ көппүтүм
@@ -778,8 +770,8 @@
 # text_eng = I flew around almost the whole world (The little prince, 10) #
 1	Күн	күн	NOUN	n	_	2	compound	2:compound	sun
 2	сирин	сир	NOUN	n	Case=Acc|Number=Sing	6	obl	6:obl	world
-3	барытын	бары	ADV	adv	_	_	_	_	all
-4	кэриэтэ	кэриэтэ	ADV	adv	_	_	_	_	almost
+3	барытын	бары	DET	det	_	2	det	2:det	all
+4	кэриэтэ	кэриэтэ	ADV	adv	_	2	advmod	2:advmod	almost
 5	тилийэ	тилийэ	ADV	adv	_	6	advmod	6:advmod	withoutstopping
 6	көппүтүм	көт	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	0:root	fly
 
@@ -788,13 +780,13 @@
 # text_rus = Я умел с первого взгляда отличить Китай от Аризоны
 # text_eng = I could tell China from Arizona at a glance (The little prince, 10) #
 1	Биир	биир	ADJ	num	_	2	amod	2:amod	one
-2	көрүүнэн	көрүү	NOUN	n	_	8	obl	8:obl	see
-3	Өрүсүөнэттэн	_	PROPN	_	_	6	obl	6:obl	_
-4	Кытайы	китай	PROPN	_	_	6	obj	6:obj	_
+2	көрүүнэн	көрүү	NOUN	n	Case=Ins|Number=Sing	8	obl	8:obl	see
+3	Өрүсүөнэттэн	Өрүсүөнэ	PROPN	propn	Case=Abl|Number=Sing	6	obl	6:obl	_
+4	Кытайы	китай	PROPN	propn	Case=Acc|Number=Sing	6	obj	6:obj	_
 5	тута	тута	ADV	adv	_	6	advmod	6:advmod	atfirst
 6	араарары	араар	VERB	v	_	8	xcomp	8:xcomp	separate
 7	кытта	кытта	ADP	adp	_	4	case	4:case	from
-8	сатыырым	сатаа	VERB	v	_	_	_	_	beableto
+8	сатыырым	сатаа	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	0:root	beableto
 
 # sent_id = 81
 # text = Өр улахан дьон ортотугар олорбутум
@@ -812,18 +804,21 @@
 # text_eng = I saw them very close (The little prince, 11) #
 1	Кинилэри	кинилэр	PRON	pron	Case=Acc	4	obj	4:obj	they
 2	үчүгэйдик	үчүгэйдик	ADV	adv	_	4	advmod	4:advmod	well
-3	көрбүтүм	көр	VERB	v	Tense=PastPerf	4	compound	4:compound	see
-4	билбитим	бил	VERB	v	Tense=PastPerf	0	_	_	know
+3	көрбүтүм	көр	VERB	v	Number=Sing|Person=1|Tense=PastPerf	4	compound	4:compound	see
+4	билбитим	бил	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	_	_	know
 
 # sent_id = 83
-# text = Мотуор иһигэр туга эрэ моһуогурбута
-# text_rus = Что-то сломалось внутри моего самолета
-# text_eng = Something broke inside my plane (The little prince, 11) #
-1	Мотуор	Мотуор	NOUN	n	Case=Nom|Number=Sing	_	_	_	motor
-2	иһигэр	иһигэр	ADP	adp	_	_	_	_	inside
-3	туга	_	_	_	_	_	_	_	_
-4	эрэ	эрэ	DET	det	_	_	_	_	some
-5	моһуогурбута	моһуогур	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	stranded
+# text = Ити курдук, мин өссө биир суолталааҕы арыйбытым
+# text_rus = Так я сделал ещё одно важное открытие
+# text_eng = So I made another important discovery (The little prince, 19) #
+1	Ити	ити	PRON	pron	_	2	fixed	2:fixed	such
+2	курдук	курдук	ADV	adv	_	8	discourse	8:discourse	1-2likethis
+3	,	,	PUNCT	punct	_	2	punct	2:punct	_
+4	мин	мин	PRON	pron	_	8	nsubj	8:nsubj	I
+5	өссө	өссө	ADV	adv	_	8	advmod	8:advmod	again
+6	биир	биир	NUM	num	_	7	nummod	7:nummod	one
+7	суолталааҕы	суолта	NOUN	n	Case=Acc|Number=Sing	8	obj	8:obj	meaning
+8	арыйбытым	арый	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	0:root	opened
 
 # sent_id = 84
 # text = Иһэр уум аҕыйах хонукка тиийиэхтээҕэ
@@ -1058,5 +1053,4 @@
 4	уус	уус	NOUN	n	_	6	amod	6:amod	eloquence
 5	уран	уран	ADJ	adj	_	4	compound	4:compound	exquisite
 6	айымньыта	айымньы	NOUN	n	Case=Part|Number=Sing	0	root	0:root	creation
-
 
