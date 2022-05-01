@@ -951,7 +951,7 @@
 9	эрэ	эрэ	PART	part	_	8	dep	8:dep	uncertainty
 10	атын	атын	ADJ	adj	_	11	amod	11:amod	otherForeign
 11	эттигиттэн	эттик	NOUN	n	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	0:root	bodyphysics
-12	кэллэҕиҥ	кэл	VERB	v	Number=Sing|Mood=Ded|Person=2|Tense=Past	0	root	0:root	come
+12	кэллэҕиҥ	кэл	VERB	v	Mood=Ded|Number=Sing|Person=2|Tense=Past	0	root	0:root	come
 13	дии	дии	PART	part	_	12	discourse	12:discourse	confirmation
 14	?	?	PUNCT	punct	_	12	punct	12:punct	_
 
@@ -974,17 +974,17 @@
 # text = Интэриниэт диэн көмпүүтэрдэр бэйэ бэйэлэрин кытта холбоммут бүтүн аан дойдутааҕы ситимнэрэ
 # text_rus = Интернетом называется всемирная сеть, объединяющая между собой компьютеры
 # text_eng = A worldwide network connecting computers is called the Internet # (Sakha wiki, Интэриниэт) #
-1	Интэриниэт	Интэриниэт	NOUN	n	Case=Nom|Number=Sing	2	obl	2:obl	internet
+1	Интэриниэт	Интэриниэт	NOUN	n	Case=Nom|Number=Sing	2	obj	2:obj	internet
 2	диэн	диэ	VERB	v	_	0	root	0:root	say
-3	көмпүүтэрдэр	көмпүүтэр	NOUN	n	Case=Nom|Number=Plur	11	dep	7:obj|11:dep	computer
+3	көмпүүтэрдэр	көмпүүтэр	NOUN	n	Case=Nom|Number=Plur	7	obj	7:obj	computer
 4	бэйэ	бэйэ	NOUN	n	Case=Nom|Number=Sing	7	obl	7:obl	body
 5	бэйэлэрин	бэйэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	4	fixed	4:fixed	body=eachOther
-6	кытта	кытта	ADP	adp	_	11	case	11:case	with
-7	холбоммут	холбон	VERB	v	_	2	nsubj:pass	2:nsubj:pass	toconnect
-8	бүтүн	бүтүн	ADV	adv	_	11	advmod	11:advmod	entire
-9	аан	аан	NOUN	n	_	10	compound	10:compound	entrance
-10	дойдутааҕы	дойду	NOUN	n	Case=Acc|Number=Sing	11	compound	11:compound	world=Мировой
-11	ситимнэрэ	ситим	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	2	obj	2:obj	network
+6	кытта	кытта	ADP	adp	_	4	case	4:case	with
+7	холбоммут	холбон	VERB	v	_	2	csubj	2:csubj	toconnect
+8	бүтүн	бүтүн	ADV	adv	_	7	advmod	7:advmod	entire
+9	аан	аан	NOUN	n	_	10	nmod	10:nmod	entrance
+10	дойдутааҕы	дойду	NOUN	n	Case=Acc|Number=Sing	11	nmod	11:nmod	world=Мировой
+11	ситимнэрэ	ситим	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	7	nsubj	7:nsubj	7:nsubj
 
 # sent_id = 98
 # text = 1632 сыллаахха олохтоммутунан ааҕыллар
