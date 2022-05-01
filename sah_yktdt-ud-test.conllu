@@ -598,10 +598,10 @@
 # text = Ити уолга харандааста биэр
 # text_rus = 
 # text_eng = Give a pencil (any pencil) to that boy (Haritonov)
-1	Ити	ити	DET	det	_	2	det	2:det	_
-2	уолга	уол	NOUN	n	Case=Dat|Number=Sing	4	obl	4:obl	_
-3	харандааста	харандаас	NOUN	n	Case=Par|Number=Sing	4	obj	4:obj	_
-4	биэр	биэр	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	0:root	_
+1	Ити	ити	DET	det	_	2	det	_	_
+2	уолга	уол	NOUN	n	Case=Dat|Number=Sing	4	obl	_	_
+3	харандааста	харандаас	NOUN	n	Case=Par|Number=Sing	4	obj	_	_
+4	биэр	биэр	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
 
 # sent_id = 64
 # text = Сорохтор муостаны сууйуҥ , сорохтор паартата , остуолла сотуҥ , сорохтор ааннары , ыскааптары сууйуҥ
