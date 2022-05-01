@@ -661,12 +661,12 @@
 # text = Биһиэхэ биир улахан алтан сылабаар баар
 # text_rus = У нас есть большой медный самовар
 # text_eng =  We have one big copper samovar (Haritonov)
-1	Биһиэхэ	биһиги	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	0	root	0:root	_
-2	биир	биир	NUM	_	NumType=Card	5	nummod	5:nummod	_
-3	улахан	улахан	ADJ	_	_	5	amod	5:amod	_
-4	алтан	алтан	ADJ	_	_	5	amod	5:amod	_
-5	сылабаар	сылабаар	NOUN	_	Case=Nom|Number=Sing	6	aux	6:aux	_
-6	баар	баар	AUX	_	Tense=Pres	1	aux	1:aux	_
+1	Биһиэхэ	биһиги	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+2	биир	биир	NUM	_	NumType=Card	5	nummod	_	_
+3	улахан	улахан	ADJ	_	_	5	amod	_	_
+4	алтан	алтан	ADJ	_	_	5	amod	_	_
+5	сылабаар	сылабаар	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+6	баар	баар	AUX	_	Tense=Pres	5	aux	_	_
 
 # sent_id = 69
 # text = Кини түргэнник оргуйар , үчүгэй сылабаар
