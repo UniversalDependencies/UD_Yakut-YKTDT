@@ -908,7 +908,7 @@
 # text_rus = Что это за штука?
 # text_eng = What is this thing? # (The little prince, 15) #
 1	Бу	бу	DET	det	_	3	det	_	this
-2	туох	туох	PRON	pron	PronType=Int	3	det	_	what
+2	туох	туох	PRON	pron	PronType=Int	3	nsubj	_	what
 3	тэрилий	тэрил	NOUN	n	_	0	root	_	thing
 4	?	?	PUNCT	punct	_	3	punct	_	_
 
