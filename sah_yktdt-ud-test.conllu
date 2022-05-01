@@ -938,7 +938,7 @@
 9	эрэ	эрэ	PART	part	_	8	dep	_	uncertainty
 10	атын	атын	ADJ	adj	_	11	amod	_	otherForeign
 11	эттигиттэн	эттик	NOUN	n	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	bodyphysics
-12	кэллэҕиҥ	кэл	VERB	v	Mood=Ded|Number=Sing|Person=2|Tense=Past	0	root	_	come
+12	кэллэҕиҥ	кэл	VERB	v	Number=Sing|Person=2|Tense=Past	0	root	_	come
 13	дии	дии	PART	part	_	12	discourse	_	confirmation
 14	?	?	PUNCT	punct	_	12	punct	_	_
 
