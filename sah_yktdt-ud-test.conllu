@@ -932,7 +932,7 @@
 3	уонна	уонна	CCONJ	cconj	_	4	cc	_	_
 4	соҕотох	соҕотох	ADJ	adj	_	6	amod	_	single
 5	кэриэтэ	кэриэтэ	ADV	adv	_	4	advmod	_	almost
-6	айымньыта	айымньыта	NOUN	n	Case=Nom|Number=Sing	0	root	_	creation
+6	айымньыта	айымньы	NOUN	n	Case=Par|Number=Sing	0	root	_	creation
 7	-	_	PUNCT	PUNCT	punct	6	punct	_	_
 8	Халлаан	xаллаан	NOUN	n	Case=Nom|Number=Sing	9	nmod	_	sky
 9	эргимтэлэрин	эргимтэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nmod	_	sphere
