@@ -1238,73 +1238,63 @@
 
 # sent_id = 131
 # text = Оҕолор , эмиэ аһааҥ !
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Оҕолор	_	_	_	_	_	_	_	_
-2	,	,	PUNCT	punct	_	_	_	_	_
-3	эмиэ	_	_	_	_	_	_	_	_
-4	аһааҥ	_	_	_	_	_	_	_	_
-5	!	!	PUNCT	punct	_	_	_	_	_
+# text_rus = Дети, кушайте ещё !
+# text_eng = Childen, eat more !(Khatironov, )
+1	Оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	4	nsubj	4:nsubj	child
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	эмиэ	эмиэ	ADV	adv	_	4	advmod	4:advmod	more
+4	аһааҥ	аһаа	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	eat
+5	!	!	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 132
 # text = Бу искэҕэ суох собо .
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Бу	бу	DET	det	_	_	_	_	this
-2	искэҕэ	_	_	_	_	_	_	_	_
-3	суох	_	_	_	_	_	_	_	_
-4	собо	_	_	_	_	_	_	_	_
-5	.	.	PUNCT	punct	_	_	_	_	_
+# text_rus = Этот карась не мечет икру .
+# text_eng = This crucian does not lay spawn . (Khatironov, )
+1	Бу	бу	DET	det	_	2	det	2:det	this
+2	искэҕэ	искэх	NOUN	n	Case=Dat	_	_	_	caviar
+3	суох	суох	AUX	aux	_	2	cop	2:cop	non-exist
+4	собо	собо	NOUN	n	Case=Nom|Number=Sing	_	_	_	crucian
+5	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 133
 # text = Ааны сабымаҥ , аһыҥ .
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Ааны	_	_	_	_	_	_	_	_
-2	сабымаҥ	_	_	_	_	_	_	_	_
-3	,	,	PUNCT	punct	_	_	_	_	_
-4	аһыҥ	_	_	_	_	_	_	_	_
-5	.	.	PUNCT	punct	_	_	_	_	_
-
-# sent_id = 134
-# text = Ньургун , манна кэл .
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Ньургун	_	_	_	_	_	_	_	_
-2	,	,	PUNCT	punct	_	_	_	_	_
-3	манна	_	_	_	_	_	_	_	_
-4	кэл	_	_	_	_	_	_	_	_
-5	.	.	PUNCT	punct	_	_	_	_	_
+# text_rus = Не закрывайте дверь, откройте .
+# text_eng = Do not close the door, open (it) .(Khatironov, )
+1	Ааны	аан	NOUN	n	Case=Acc|Number=Sing	2	obj	2:obj	door
+2	сабымаҥ	сап	VERB	v	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres	0	root	0:root	dontclose
+3	,	,	PUNCT	punct	_	2	punct	2:punct	_
+4	аһыҥ	ас	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	2	conj	2:conj	open
+5	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 135
 # text = Эн эһэҥ үөрэнэр дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	эн	эн	PRON	pron	_	_	_	_	you
-2	эһэҥ	_	_	_	_	_	_	_	_
-3	үөрэнэр	_	_	_	_	_	_	_	_
-4	дуо	дуо	PART	part	_	_	_	_	?
-5	?	?	PUNCT	punct	_	_	_	_	_
+1	эн	эн	PRON	pron	_	2	nmod	_	you
+2	эһэҥ	эһэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	grandfather
+3	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	study
+4	дуо	дуо	PART	part	_	3	discourse	_	?
+5	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 136
 # text = Эһэм ити сону кэтэр .
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Эһэм	_	_	_	_	_	_	_	_
-2	Ити	ити	DET	det	_	_	_	_	this
-3	сону	_	_	_	_	_	_	_	_
-4	кэтэр	_	_	_	_	_	_	_	_
-5	.	.	PUNCT	punct	_	_	_	_	_
+# text_rus = Мой дедушка носит это пальто .
+# text_eng = My grandfather wears this coat . (Khatironov, )
+1	Эһэм	эһэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	gransfather
+2	ити	ити	DET	det	_	3	det	_	this
+3	сону	сон	NOUN	n	Case=Acc|Number=Sing	4	obj	_	coat
+4	кэтэр	кэт	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	wear
+5	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 137
 # text = Ити киһи эрдэ турар .
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Ити	ити	DET	det	_	_	_	_	this
-2	киһи	_	_	_	_	_	_	_	_
-3	эрдэ	_	_	_	_	_	_	_	_
-4	турар	_	_	_	_	_	_	_	_
-5	.	.	PUNCT	punct	_	_	_	_	_
+# text_rus = Этот человек рано встаёт .
+# text_eng = This man wakes up early . (Khatironov, )
+1	Ити	ити	DET	det	_	2	det	_	this
+2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
+3	эрдэ	эрдэ	ADV	adv	_	4	advmod	_	early
+4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
+5	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 138
 # text = Кыра кыыс тугу эттэ ?
@@ -1370,7 +1360,7 @@
 # text = Суох , Айаана турар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Суох	_	_	_	_	_	_	_	_
+1	суох	суох	AUX	aux	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	Айаана	_	_	_	_	_	_	_	_
 4	турар	_	_	_	_	_	_	_	_
@@ -1453,7 +1443,7 @@
 1	Ити	ити	DET	det	_	_	_	_	this
 2	күөл	_	_	_	_	_	_	_	_
 3	балыга	_	_	_	_	_	_	_	_
-4	суох	_	_	_	_	_	_	_	_
+4	суох	суох	AUX	aux	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 153
@@ -1573,7 +1563,7 @@
 1	Бу	бу	DET	det	_	_	_	_	this
 2	сир	_	_	_	_	_	_	_	_
 3	чиэрбэтэ	_	_	_	_	_	_	_	_
-4	суох	_	_	_	_	_	_	_	_
+4	суох	суох	AUX	aux	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 165
@@ -1946,7 +1936,7 @@
 1	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 2	суон	_	_	_	_	_	_	_	_
 3	иннэм	_	_	_	_	_	_	_	_
-4	суох	_	_	_	_	_	_	_	_
+4	суох	суох	AUX	aux	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 202
@@ -2097,7 +2087,7 @@
 1	Миэхэ	_	_	_	_	_	_	_	_
 2	Ити	ити	DET	det	_	_	_	_	this
 3	наадата	_	_	_	_	_	_	_	_
-4	суох	_	_	_	_	_	_	_	_
+4	суох	суох	AUX	aux	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 217
@@ -2509,11 +2499,11 @@
 # text = Суох , манна Айта суох .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Суох	_	_	_	_	_	_	_	_
+1	суох	суох	AUX	aux	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	манна	_	_	_	_	_	_	_	_
 4	Айта	_	_	_	_	_	_	_	_
-5	суох	_	_	_	_	_	_	_	_
+5	суох	суох	AUX	aux	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 258
@@ -2595,7 +2585,7 @@
 2	ыраас	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	үөнэ	_	_	_	_	_	_	_	_
-5	суох	_	_	_	_	_	_	_	_
+5	суох	суох	AUX	aux	_	_	_	_	_
 6	уу	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -3265,7 +3255,7 @@
 # text = Суох , мин тимир ууһабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Суох	_	_	_	_	_	_	_	_
+1	суох	суох	AUX	aux	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	мин	_	_	_	_	_	_	_	_
 4	тимир	_	_	_	_	_	_	_	_
@@ -3307,10 +3297,10 @@
 # text = Суох , илимэ суох кэллим .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Суох	_	_	_	_	_	_	_	_
+1	суох	суох	AUX	aux	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	илимэ	_	_	_	_	_	_	_	_
-4	суох	_	_	_	_	_	_	_	_
+4	суох	суох	AUX	aux	_	_	_	_	_
 5	кэллим	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -3513,7 +3503,7 @@
 1	Бу	бу	DET	det	_	_	_	_	this
 2	ойуурдарга	_	_	_	_	_	_	_	_
 3	саһыл	_	_	_	_	_	_	_	_
-4	суох	_	_	_	_	_	_	_	_
+4	суох	суох	AUX	aux	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 356
@@ -4394,7 +4384,7 @@
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	Кини	кини	PRON	pron	_	_	_	_	hesheit
 4	хараҕа	_	_	_	_	_	_	_	_
-5	суох	_	_	_	_	_	_	_	_
+5	суох	суох	AUX	aux	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 442
@@ -4620,7 +4610,7 @@
 1	Ити	ити	DET	det	_	_	_	_	this
 2	кус	_	_	_	_	_	_	_	_
 3	кыната	_	_	_	_	_	_	_	_
-4	суох	_	_	_	_	_	_	_	_
+4	суох	суох	AUX	aux	_	_	_	_	_
 5	буолла	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -5784,7 +5774,7 @@
 # text_eng = (Khatironov, )
 1	Ити	ити	DET	det	_	_	_	_	this
 2	балыксыта	_	_	_	_	_	_	_	_
-3	суох	_	_	_	_	_	_	_	_
+3	суох	суох	AUX	aux	_	_	_	_	_
 4	оҕонньор	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -6436,7 +6426,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Кутуруга	_	_	_	_	_	_	_	_
-2	суох	_	_	_	_	_	_	_	_
+2	суох	суох	AUX	aux	_	_	_	_	_
 3	ыккыт	_	_	_	_	_	_	_	_
 4	баар	_	_	_	_	_	_	_	_
 5	дуо	дуо	PART	part	_	_	_	_	?
@@ -6641,7 +6631,7 @@
 2	үрүҥ	_	_	_	_	_	_	_	_
 3	арыы	_	_	_	_	_	_	_	_
 4	наадата	_	_	_	_	_	_	_	_
-5	суох	_	_	_	_	_	_	_	_
+5	суох	суох	AUX	aux	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 659
@@ -6734,7 +6724,7 @@
 # text_eng = (Khatironov, )
 1	Күһүн	_	_	_	_	_	_	_	_
 2	үөн-көйүүр	_	_	_	_	_	_	_	_
-3	суох	_	_	_	_	_	_	_	_
+3	суох	суох	AUX	aux	_	_	_	_	_
 4	буолар	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -6936,7 +6926,7 @@
 2	ударниккын	_	_	_	_	_	_	_	_
 3	дуу	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
-5	суох	_	_	_	_	_	_	_	_
+5	суох	суох	AUX	aux	_	_	_	_	_
 6	дуу	_	_	_	_	_	_	_	_
 7	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -7214,7 +7204,7 @@
 # text = Суох , ити үлэлээбэт эмээхсин .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Суох	_	_	_	_	_	_	_	_
+1	суох	суох	AUX	aux	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	Ити	ити	DET	det	_	_	_	_	this
 4	үлэлээбэт	эт	NOUN	n	_	_	_	_	meat
@@ -7490,7 +7480,7 @@
 2	билигин	_	_	_	_	_	_	_	_
 3	уһанар	_	_	_	_	_	_	_	_
 4	сэп	_	_	_	_	_	_	_	_
-5	суох	_	_	_	_	_	_	_	_
+5	суох	суох	AUX	aux	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 740
@@ -7559,12 +7549,12 @@
 # text = Суох , миэхэ сыа наадата суох .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Суох	_	_	_	_	_	_	_	_
+1	суох	суох	AUX	aux	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	миэхэ	_	_	_	_	_	_	_	_
 4	сыа	_	_	_	_	_	_	_	_
 5	наадата	_	_	_	_	_	_	_	_
-6	суох	_	_	_	_	_	_	_	_
+6	суох	суох	AUX	aux	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 747
@@ -7792,7 +7782,7 @@
 # text_eng = (Khatironov, )
 1	Сылгыла	_	_	_	_	_	_	_	_
 2	муос	_	_	_	_	_	_	_	_
-3	суох	_	_	_	_	_	_	_	_
+3	суох	суох	AUX	aux	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	сиэл	_	_	_	_	_	_	_	_
 6	баар	_	_	_	_	_	_	_	_
@@ -8180,10 +8170,10 @@
 1	Ханна	_	_	_	_	_	_	_	_
 2	да	_	_	_	_	_	_	_	_
 3	сыыс	_	_	_	_	_	_	_	_
-4	суох	_	_	_	_	_	_	_	_
+4	суох	суох	AUX	aux	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
 6	быыл	_	_	_	_	_	_	_	_
-7	суох	_	_	_	_	_	_	_	_
+7	суох	суох	AUX	aux	_	_	_	_	_
 8	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 806
@@ -8451,7 +8441,7 @@
 # text = Суох , манна чугас үрэххэ баар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Суох	_	_	_	_	_	_	_	_
+1	суох	суох	AUX	aux	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	манна	_	_	_	_	_	_	_	_
 4	чугас	_	_	_	_	_	_	_	_
@@ -8508,7 +8498,7 @@
 1	Маҕаһыыҥҥабүгүн	_	_	_	_	_	_	_	_
 2	үрүҥ	_	_	_	_	_	_	_	_
 3	арыы	_	_	_	_	_	_	_	_
-4	суох	_	_	_	_	_	_	_	_
+4	суох	суох	AUX	aux	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 837
@@ -10957,7 +10947,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Уҥуоҕа	_	_	_	_	_	_	_	_
-2	суох	_	_	_	_	_	_	_	_
+2	суох	суох	AUX	aux	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	эмис	_	_	_	_	_	_	_	_
 5	эт	эт	NOUN	n	_	_	_	_	meat
@@ -11362,7 +11352,7 @@
 # text = Суох , мин сарсын ходуһаҕа үлэлиэм .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Суох	_	_	_	_	_	_	_	_
+1	суох	суох	AUX	aux	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	мин	_	_	_	_	_	_	_	_
 4	сарсын	_	_	_	_	_	_	_	_
@@ -12652,7 +12642,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Муоһа	_	_	_	_	_	_	_	_
-2	суох	_	_	_	_	_	_	_	_
+2	суох	суох	AUX	aux	_	_	_	_	_
 3	ынаххыт	_	_	_	_	_	_	_	_
 4	быйылтөрөөтө	_	_	_	_	_	_	_	_
 5	дуо	дуо	PART	part	_	_	_	_	?
@@ -13359,7 +13349,7 @@
 # text = Суох , ити оҕолор быары таптаабаттар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Суох	_	_	_	_	_	_	_	_
+1	суох	суох	AUX	aux	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	Ити	ити	DET	det	_	_	_	_	this
 4	оҕолор	_	_	_	_	_	_	_	_
@@ -13699,7 +13689,7 @@
 # text_eng = (Khatironov, )
 1	Аһыҥа	_	_	_	_	_	_	_	_
 2	самыыра	_	_	_	_	_	_	_	_
-3	суох	_	_	_	_	_	_	_	_
+3	суох	суох	AUX	aux	_	_	_	_	_
 4	сайын	_	_	_	_	_	_	_	_
 5	элбэх	_	_	_	_	_	_	_	_
 6	буолар	_	_	_	_	_	_	_	_
@@ -15950,7 +15940,7 @@
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 5	өрүскэ	_	_	_	_	_	_	_	_
 6	тыал	_	_	_	_	_	_	_	_
-7	суох	_	_	_	_	_	_	_	_
+7	суох	суох	AUX	aux	_	_	_	_	_
 8	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1505
@@ -16165,7 +16155,7 @@
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	кус	_	_	_	_	_	_	_	_
 6	аһылыга	_	_	_	_	_	_	_	_
-7	суох	_	_	_	_	_	_	_	_
+7	суох	суох	AUX	aux	_	_	_	_	_
 8	буолар	_	_	_	_	_	_	_	_
 9	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -16616,7 +16606,7 @@
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	сыалыһар	_	_	_	_	_	_	_	_
 5	хатырыга	_	_	_	_	_	_	_	_
-6	суох	_	_	_	_	_	_	_	_
+6	суох	суох	AUX	aux	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1561
@@ -17495,7 +17485,7 @@
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	эн	эн	PRON	pron	_	_	_	_	you
 6	оҕото	_	_	_	_	_	_	_	_
-7	суох	_	_	_	_	_	_	_	_
+7	суох	суох	AUX	aux	_	_	_	_	_
 8	киһигин	_	_	_	_	_	_	_	_
 9	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -17623,7 +17613,7 @@
 1	Манна	_	_	_	_	_	_	_	_
 2	кыра	кыра	ADJ	adj	_	_	_	_	small
 3	тоһоҕо	_	_	_	_	_	_	_	_
-4	суох	_	_	_	_	_	_	_	_
+4	суох	суох	AUX	aux	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
 6	улахан	_	_	_	_	_	_	_	_
 7	тоһоҕо	_	_	_	_	_	_	_	_
@@ -19771,7 +19761,7 @@
 6	,	,	PUNCT	punct	_	_	_	_	_
 7	дьэҥкир	_	_	_	_	_	_	_	_
 8	арыы	_	_	_	_	_	_	_	_
-9	суох	_	_	_	_	_	_	_	_
+9	суох	суох	AUX	aux	_	_	_	_	_
 10	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1816
@@ -19872,11 +19862,11 @@
 # text = Суох , бэрт саҥата суох муҥха Үс сыл муҥхалаатыбыт .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Суох	_	_	_	_	_	_	_	_
+1	суох	суох	AUX	aux	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	бэрт	_	_	_	_	_	_	_	_
 4	саҥата	_	_	_	_	_	_	_	_
-5	суох	_	_	_	_	_	_	_	_
+5	суох	суох	AUX	aux	_	_	_	_	_
 6	муҥха	_	_	_	_	_	_	_	_
 7	Үс	_	_	_	_	_	_	_	_
 8	сыл	_	_	_	_	_	_	_	_
@@ -20584,7 +20574,7 @@
 # text_eng = (Khatironov, )
 1	Кини	кини	PRON	pron	_	_	_	_	hesheit
 2	сыата	_	_	_	_	_	_	_	_
-3	суох	_	_	_	_	_	_	_	_
+3	суох	суох	AUX	aux	_	_	_	_	_
 4	эти	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
 6	хааһыны	_	_	_	_	_	_	_	_
@@ -20628,7 +20618,7 @@
 2	тууччах	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	бил	_	_	_	_	_	_	_	_
-5	суох	_	_	_	_	_	_	_	_
+5	суох	суох	AUX	aux	_	_	_	_	_
 6	,	,	PUNCT	punct	_	_	_	_	_
 7	арыталыһар	_	_	_	_	_	_	_	_
 8	баар	_	_	_	_	_	_	_	_
@@ -20959,7 +20949,7 @@
 2	сарайдаах	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	сарайа	_	_	_	_	_	_	_	_
-5	суох	_	_	_	_	_	_	_	_
+5	суох	суох	AUX	aux	_	_	_	_	_
 6	дьиэлэр	_	_	_	_	_	_	_	_
 7	бааллар	_	_	_	_	_	_	_	_
 8	.	.	PUNCT	punct	_	_	_	_	_
@@ -21542,7 +21532,7 @@
 # text = Суох , минкинигэни долбуурга уурбаппын , ыскаапка уурабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Суох	_	_	_	_	_	_	_	_
+1	суох	суох	AUX	aux	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	минкинигэни	_	_	_	_	_	_	_	_
 4	долбуурга	_	_	_	_	_	_	_	_
@@ -22066,7 +22056,7 @@
 # text = Суох , баһым ыалдьыбат , кыратык көхсүм уоннакүөмэйим ыалдьар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Суох	_	_	_	_	_	_	_	_
+1	суох	суох	AUX	aux	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	баһым	_	_	_	_	_	_	_	_
 4	ыалдьыбат	_	_	_	_	_	_	_	_
