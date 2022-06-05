@@ -34,7 +34,7 @@
 # text_rus = Ты будешь профессором
 # text_eng = You will become a professor
 1	Эн	ен	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
-2	профессор	профессор	NOUN	n	Case=Nom	3	xcomp	_	_
+2	профессор	профессор	NOUN	n	Case=Nom|Number=Sing	3	xcomp	_	_
 3	буолуоҥ	буол	VERB	v	Number=Sing|Person=2|Tense=Fut	0	root	_	_
 
 # sent_id = 6
@@ -42,11 +42,11 @@
 # text_rus = Здесь есть стол, стул, скамейка
 # text_eng = There are desk, chair, bench here
 1	Манна	манна	ADV	adv	_	0	root	_	_
-2	остуол	остуол	NOUN	n	Number=Sing	1	nsubj	_	SpaceAfter=No
+2	остуол	остуол	NOUN	n	Case=Nom|Number=Sing	1	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	punct	2	punct	_	_
-4	олоппос	олоппос	NOUN	n	Number=Sing	2	conj	_	SpaceAfter=No
+4	олоппос	олоппос	NOUN	n	Case=Nom|Number=Sing	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	punct	2	punct	_	_
-6	ыскамыайка	ыскамыайка	NOUN	n	Number=Sing	2	conj	_	_
+6	ыскамыайка	ыскамыайка	NOUN	n	Case=Nom|Number=Sing	2	conj	_	_
 7	баар	баар	AUX	v	Tense=Pres	1	cop	_	_
 
 # sent_id = 7
@@ -55,7 +55,7 @@
 # text_eng = There are many desks in the class
 1	Кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	4	obl	_	_
 2	элбэх	элбэх	ADJ	adj	_	3	amod	_	_
-3	паарта	паарта	NOUN	n	Number=Sing	4	nsubj	_	_
+3	паарта	паарта	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	_
 4	турар	тур	VERB	v	Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 8
@@ -73,7 +73,7 @@
 # text_rus = Один мальчик стоит и читает.
 # text_eng = One boy is standing and reading.
 1	Биир	биир	NUM	num	NumType=Card	2	nummod	_	_
-2	уол	уол	NOUN	n	Number=Sing	3	nsubj	_	_
+2	уол	уол	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	_
 3	турар	тур	VERB	vi	Person=3|Tense=Pres	0	root	_	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	_	_
 5	ааҕар	аах	VERB	vt	Person=3|Tense=Pres	3	conj	_	SpaceAfter=No
@@ -226,14 +226,14 @@
 # text_rus = Мои руки чистые
 # text_eng = My hands are clean
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
-2	илиим	илии	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
+2	илиим	илии	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
 3	ыраас	ыраас	ADJ	adj	_	0	root	_	_
 
 # sent_id = 25
 # text = Ийэм кыра оҕоҕо кинигэ ааҕар
 # text_rus = Моя мама читает книгу маленьким детям
 # text_eng = My mother is reading a book to small children
-1	Ийэм	ийэ	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
+1	Ийэм	ийэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
 2	кыра	кыра	ADJ	adj	_	3	amod	_	_
 3	оҕоҕо	оҕо	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
 4	кинигэ	кинигэ	NOUN	n	Case=Nom|Number=Sing	5	obj	_	_
@@ -243,7 +243,7 @@
 # text = Аҕам хаһыат ааҕар уонна кэпсиир, улахан дьон истэллэр
 # text_rus = Мой папа читает газету и рассказывает, взрослые слушают
 # text_eng = My father reads a newspaper and narrates, adults listen
-1	Аҕам	аҕа	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
+1	Аҕам	аҕа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
 2	хаһыат	хаһыат	NOUN	n	Case=Nom|Number=Sing	3	obj	_	_
 3	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	_	_
@@ -268,7 +268,7 @@
 # text_rus = Меня зовут Кэскил
 # text_eng = My name is Keskil
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
-2	аатым	аат	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
+2	аатым	аат	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
 3	Кэскил	кэскил	PROPN	propn	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = 29
@@ -277,14 +277,14 @@
 # text_eng = This boy's grandmother is sick
 1	Ити	ити	DET	det	_	2	det	_	_
 2	уол	уол	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	_
-3	эбэтэ	эбэ	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
+3	эбэтэ	эбэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	ыалдьар	ыарый	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 30
 # text = Аҕаҥ кэллэ
 # text_rus = Твой папа пришёл
 # text_eng = Your father came
-1	Аҕаҥ	aҕa	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
+1	Аҕаҥ	aҕa	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
 2	кэллэ	кэлл	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
 # sent_id = 31
@@ -467,8 +467,8 @@
 # text_eng = One of my friend's older brother studies in the city (Kharitonov) 
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
 2	биир	биир	NUM	num	NumType=Card	4	nummod	_	_
-3	атаһым	атас	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nmod	_	_
-4	убайа	убай	NOUN	n	Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
+3	атаһым	атас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nmod	_	_
+4	убайа	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 5	куоракка	куорат	NOUN	v	Case=Dat	6	obl	_	_
 6	үөрэнэр	үөрэн	VERB	vi	Person=3|Tense=Pres	0	root	_	_
 
