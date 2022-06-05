@@ -528,7 +528,7 @@
 # text = Саахары, арыыны аҕалла уоннa килиэп быста
 # text_rus = X принес(ла) сахар, масло и нарезал(а) хлеб
 # text_eng = X brought the sugar, the butter, and cut the bread  (Kharitonov)
-1	Саахары	cаахар	NOUN	n	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
+1	Саахары	саахар	NOUN	n	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	punct	3	punct	_	_
 3	арыыны	арыы	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 4	аҕалла	аҕал	VERB	vt	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
