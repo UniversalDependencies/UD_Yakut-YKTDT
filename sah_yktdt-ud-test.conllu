@@ -746,7 +746,7 @@
 # text_rus = Это был удав, который проглотил слона
 # text_eng = It was a boa constrictor that swallowed an elephant (The little prince, 10) # Прошедшее результативное
 1	Ол	ол	PRON	pron	PronType=Rel	4	nsubj	_	it
-2	солуону	слон	NOUN	n	Case=Acc|Number=Sing	3	nsubj	_	elephant
+2	солуону	солуон	NOUN	n	Case=Acc|Number=Sing	3	nsubj	_	elephant
 3	ыйыстыбыт	ыйыһын	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	eat
 4	моҕой	моҕой	NOUN	n	Case=Nom|Number=Sing	3	obj	_	snake
 
