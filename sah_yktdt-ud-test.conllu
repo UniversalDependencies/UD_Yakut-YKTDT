@@ -395,7 +395,7 @@
 # text_rus = Он/она ест яблоко
 # text_eng = He/she eats an apple
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	яблоко	яблоко	NOUN	n	Case=Nom|Definite=Ind|Number=Sing	3	obj	_	_
+2	яблоко	яблоко	NOUN	n	Case=Nom|Number=Sing	3	obj	_	_
 3	аһыыр	аһыы	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 45
@@ -403,7 +403,7 @@
 # text_rus = Он/она ест яблоко
 # text_eng = He/she eats the apple
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	яблоконы	яблоко	NOUN	n	Case=Acc|Definite=Def|Number=Sing	3	obj	_	_
+2	яблоконы	яблоко	NOUN	n	Case=Acc|Number=Sing	3	obj	_	_
 3	аһыыр	аһыы	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 46
@@ -477,8 +477,8 @@
 # text_rus = Сначала они записывают пациентов в карту
 # text_eng = At the beginning they write the patients[' names] on a card (Kharitonov) 
 1	Бастаан	бастаан	ADV	adv	_	5	advmod	_	_
-2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Definite=Ind|Number=Sing	3	nmod	_	_
-3	киһини	киһи	NOUN	n	Case=Acc|Definite=Def|Number=Sing	5	obj	_	_
+2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	_
+3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	5	obj	_	_
 4	карточкаҕа	карточка	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
 5	суруйаллар	суруй	VERB	vt	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 
@@ -487,7 +487,7 @@
 # text_rus = Затем они дают карту врачу
 # text_eng = Then they give the card to a doctor  (Kharitonov) 
 1	Онтон	онтон	ADV	adv	_	4	advmod	_	_
-2	карточканы	карточка	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	_	_
+2	карточканы	карточка	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 3	бырааска	быраас	NOUN	n	Case=Dat|Number=Sing	4	obl	_	_
 4	биэрэллэр	биэр	VERB	vd	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 
@@ -497,7 +497,7 @@
 # text_eng = A doctor invites patients to the line (Kharitonov) 
 1	Быраас	быраас	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	_
 2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	_
-3	дьону	дьон	NOUN	n	Case=Acc|Definite=Def|Number=Sing	5	obj	_	_
+3	дьону	дьон	NOUN	n	Case=Acc|Number=Sing	5	obj	_	_
 4	уочаратынан	уочарат	NOUN	n	Case=Ins|Number=Sing	5	obl	_	_
 5	ыҥырар	ыҥыр	VERB	vd	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
@@ -528,9 +528,9 @@
 # text = Саахары, арыыны аҕалла уоннa килиэп быста
 # text_rus = X принес(ла) сахар, масло и нарезал(а) хлеб
 # text_eng = X brought the sugar, the butter, and cut the bread  (Kharitonov)
-1	Саахары	cаахар	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	_	SpaceAfter=No
+1	Саахары	cаахар	NOUN	n	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	punct	3	punct	_	_
-3	арыыны	арыы	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	_	_
+3	арыыны	арыы	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 4	аҕалла	аҕал	VERB	vt	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 5	уоннa	уоннa	CCONJ	cconj	_	7	cc	_	_
 6	килиэп	килиэп	NOUN	n	Case=Nom|Number=Sing	7	obj	_	_
@@ -865,7 +865,7 @@
 # text_eng = How much does his father earn ?(The little prince, 20) #
 1	Аҕата	аҕа	NOUN	n	_	4	nsubj	_	hisfather
 2	төһө	төһө	ADV	adv	_	3	advmod	_	howmuch
-3	хамнаһы	хамнас	NOUN	n	Case=Acc|Definite=Def|Number=Sing	4	obj	_	salary
+3	хамнаһы	хамнас	NOUN	n	Case=Acc|Number=Sing	4	obj	_	salary
 4	өлөрөр	өлөр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	earn
 5	?	?	PUNCT	PUNCT	punct	4	punct	_	_
 
