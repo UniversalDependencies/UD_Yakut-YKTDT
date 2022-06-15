@@ -856,7 +856,7 @@
 # text_eng = It's not my fault (The little prince, 12) #
 1	Онно	онно	ADV	adv	_	3	nsubj	_	there
 2	мин	мин	PRON	pron	Case=Nom|PronType=Prs	3	nmod	_	I
-3	буруйум	буруй	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	0	root	_	fault
+3	буруйум	буруй	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	fault
 4	суох	суох	AUX	aux	_	3	cop	_	isno
 
 # sent_id = 88
@@ -1190,7 +1190,7 @@
 # text = Кымыс эмиэ үрүҥ ас .
 # text_rus = Кумыс - это тоже молочный продукт
 # text_eng = Кумыс is also a dairy product (Khatironov, )
-1	Кымыс	кымыс	NOUN	n	Case=Nom	_	_	_	кумыс
+1	Кымыс	кымыс	NOUN	n	Case=Nom|Number=Sing	_	_	_	кумыс
 2	эмиэ	эмиэ	ADV	adv	_	_	_	_	also
 3	үрүҥ	үрүҥ	ADJ	adj	_	_	_	_	white
 4	ас	ас	NOUN	n	Case=Nom	_	_	_	food3-4dairy
