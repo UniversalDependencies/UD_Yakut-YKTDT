@@ -1211,7 +1211,7 @@
 # text_rus = Взвесьте это сало отдельно
 # text_eng = Scale this fat separately(Khatironov, )
 1	Бу	бу	DET	det	_	2	det	2:det	this
-2	сыаны	сыа	NOUN	n	Case=Acc	4	obj	4:obj	fat
+2	сыаны	сыа	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	fat
 3	туспа	туспа	ADV	adv	_	4	advmod	4:advmod	_
 4	ыйаа	ыйаа	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	0:root	scale
 5	.	.	PUNCT	punct	_	4	punct	4:punct	_
