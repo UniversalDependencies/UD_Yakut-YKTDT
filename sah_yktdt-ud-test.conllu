@@ -284,7 +284,7 @@
 # text = Аҕаҥ кэллэ
 # text_rus = Твой папа пришёл
 # text_eng = Your father came
-1	Аҕаҥ	aҕa	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
+1	Аҕаҥ	аҕа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
 2	кэллэ	кэлл	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
 # sent_id = 31
