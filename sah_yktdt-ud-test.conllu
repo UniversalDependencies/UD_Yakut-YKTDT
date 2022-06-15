@@ -1193,7 +1193,7 @@
 1	Кымыс	кымыс	NOUN	n	Case=Nom|Number=Sing	_	_	_	кумыс
 2	эмиэ	эмиэ	ADV	adv	_	_	_	_	also
 3	үрүҥ	үрүҥ	ADJ	adj	_	_	_	_	white
-4	ас	ас	NOUN	n	Case=Nom	_	_	_	food3-4dairy
+4	ас	ас	NOUN	n	Case=Nom|Number=Sing	_	_	_	food3-4dairy
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 126
