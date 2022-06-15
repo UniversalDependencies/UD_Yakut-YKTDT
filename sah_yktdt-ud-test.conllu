@@ -469,7 +469,7 @@
 2	биир	биир	NUM	num	NumType=Card	4	nummod	_	_
 3	атаһым	атас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nmod	_	_
 4	убайа	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
-5	куоракка	куорат	NOUN	v	Case=Dat	6	obl	_	_
+5	куоракка	куорат	NOUN	v	Case=Dat|Number=Sing	6	obl	_	_
 6	үөрэнэр	үөрэн	VERB	vi	Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 52
