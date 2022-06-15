@@ -1251,7 +1251,7 @@
 # text_rus = Этот карась не мечет икру .
 # text_eng = This crucian does not lay spawn . (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	2:det	this
-2	искэҕэ	искэх	NOUN	n	Case=Dat	_	_	_	caviar
+2	искэҕэ	искэх	NOUN	n	Case=Dat|Number=Sing	_	_	_	caviar
 3	суох	суох	AUX	aux	_	2	cop	2:cop	non-exist
 4	собо	собо	NOUN	n	Case=Nom|Number=Sing	_	_	_	crucian
 5	.	.	PUNCT	punct	_	4	punct	4:punct	_
