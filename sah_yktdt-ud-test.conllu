@@ -157,7 +157,7 @@
 # text_rus = Саша отправила письмо своему отцу
 # text_eng = Sasha sent the letter to her dad
 1	Саша	саша	PROPN	propn	Case=Nom|Number=Sing	4	nsubj	_	_
-2	аҕатыгар	аҕа	NOUN	n	Case=Dat|Number=Sing	4	iobj	_	_
+2	аҕатыгар	аҕа	NOUN	n	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	iobj	_	_
 3	суругу	сурук	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 4	ыытта	ыыт	VERB	vd	Person=3|Tense=NearPast	0	root	_	_
 
