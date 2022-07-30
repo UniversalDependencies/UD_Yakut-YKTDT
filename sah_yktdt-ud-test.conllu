@@ -23986,3 +23986,31 @@
 16	бааллар	_	_	_	_	_	_	_	_
 17	.	.	PUNCT	punct	_	_	_	_	_
 
+# sent_id = 2094
+# text = Килиэптэ сиэ
+# text_rus = Поешь хлеба
+# text_eng = ´Eat some bread.’ or ‘Eat some of the bread.’ (Baker, M., & Vinokurova, N. (2021))
+1	Килиэптэ	килиэп	NOUN	n	Case=Part|Number=Sing	2	obj	_	bread
+2	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
+
+# sent_id = 2095
+# text = Кинигэтэ атыылас
+# text_rus = Купи книгу (любую)
+# text_eng = ‘Buy any book.’ (Not: #‘Buy some of the book.’) (Baker, M., & Vinokurova, N. (2021))
+1	Кинигэтэ	кинигэ	NOUN	n	Case=Part|Number=Sing	2	obj	_	book
+2	атыылас	атыылас	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	buy
+
+# sent_id = 2096
+# text = Килиэби сиэ
+# text_rus = Ешь хлеб
+# text_eng = ´Eat the bread.’ (Baker, M., & Vinokurova, N. (2021))
+1	Килиэби	килиэп	NOUN	n	Case=Acc|Number=Sing	2	obj	_	bread
+2	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
+
+# sent_id = 2097
+# text = Килиэп сиэ
+# text_rus = Ешь хлеб
+# text_eng = ´Eat bread.’ (Baker, M., & Vinokurova, N. (2021))
+1	Килиэп	килиэп	NOUN	n	Case=Nom|Number=Sing	2	obj	_	bread
+2	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
+
