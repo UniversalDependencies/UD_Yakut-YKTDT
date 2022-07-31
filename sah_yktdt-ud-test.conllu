@@ -23989,28 +23989,102 @@
 # sent_id = 2094
 # text = Килиэптэ сиэ
 # text_rus = Поешь хлеба
-# text_eng = ´Eat some bread.’ or ‘Eat some of the bread.’ (Baker, M., & Vinokurova, N. (2021))
+# text_eng = ´Eat some bread.’ or ‘Eat some of the bread.’ (Baker, M., & Vinokurova, N. (2021), 1a)
 1	Килиэптэ	килиэп	NOUN	n	Case=Part|Number=Sing	2	obj	_	bread
 2	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
 
 # sent_id = 2095
 # text = Кинигэтэ атыылас
 # text_rus = Купи книгу (любую)
-# text_eng = ‘Buy any book.’ (Not: #‘Buy some of the book.’) (Baker, M., & Vinokurova, N. (2021))
+# text_eng = ‘Buy any book.’ (Not: #‘Buy some of the book.’) (Baker, M., & Vinokurova, N. (2021), 1b)
 1	Кинигэтэ	кинигэ	NOUN	n	Case=Part|Number=Sing	2	obj	_	book
 2	атыылас	атыылас	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	buy
 
 # sent_id = 2096
 # text = Килиэби сиэ
 # text_rus = Ешь хлеб
-# text_eng = ´Eat the bread.’ (Baker, M., & Vinokurova, N. (2021))
+# text_eng = ´Eat the bread.’ (Baker, M., & Vinokurova, N. (2021), 2a)
 1	Килиэби	килиэп	NOUN	n	Case=Acc|Number=Sing	2	obj	_	bread
 2	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
 
 # sent_id = 2097
 # text = Килиэп сиэ
 # text_rus = Ешь хлеб
-# text_eng = ´Eat bread.’ (Baker, M., & Vinokurova, N. (2021))
+# text_eng = ´Eat bread.’ (Baker, M., & Vinokurova, N. (2021), 2b)
 1	Килиэп	килиэп	NOUN	n	Case=Nom|Number=Sing	2	obj	_	bread
 2	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
+
+# sent_id = 2098
+# text = Яблокаттан иккини сиэ
+# text_rus = Съешь два яблока
+# text_eng = ´Eat two of the apples’ (Baker, M., & Vinokurova, N. (2021), 3a, a)
+1	Яблокаттан	яблоко	NOUN	n	Case=Abl|Number=Sing	2	obl	_	apple
+2	иккини	икки	NUM	num	Case=Acc	3	obj	_	two
+3	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
+
+# sent_id = 2099
+# text = Яблокаттан иккитэ сиэ
+# text_rus = Съешь два яблока
+# text_eng = ´Eat two of the apples’ (Baker, M., & Vinokurova, N. (2021), 3a, b)
+1	Яблокаттан	яблоко	NOUN	n	Case=Abl|Number=Sing	2	obl	_	apple
+2	иккитэ	икки	NUM	num	Case=Part	3	obj	_	two
+3	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
+
+# sent_id = 2100
+# text = Яблокаттан сиэ
+# text_rus = Поешь яблок
+# text_eng = ´Eat some of the apple/apples.’ (Baker, M., & Vinokurova, N. (2021), 3b)
+1	Яблокаттан	яблоко	NOUN	n	Case=Abl|Number=Sing	2	obl	_	apple
+2	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
+
+# sent_id = 2101
+# text = Маша саламаатта сиэ
+# text_rus = 
+# text_eng = ´Masha (you) eat some porridge!’ (Baker, M., & Vinokurova, N. (2021), 4a)
+1	Маша	Маша	PROPN	propn	_	3	nsubj	_	_
+2	саламаатта	саламаат	NOUN	n	Case=Part|Number=Sing	3	obj	_	porridge
+3	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
+
+# sent_id = 2102
+# text = Маша саламаатта сиэтин
+# text_rus = 
+# text_eng = ´Have Masha eat some porridge’ (Baker, M., & Vinokurova, N. (2021), 4b)
+1	Маша	Маша	PROPN	propn	_	3	nsubj	_	_
+2	саламаатта	саламаат	NOUN	n	Case=Part|Number=Sing	3	obj	_	porridge
+3	сиэтин	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=3|Tense=Pres	0	root	_	eat
+
+# sent_id = 2103
+# text = Оҕо ыллаатин
+# text_rus = 
+# text_eng = ´Have a/any child sing’ (Baker, M., & Vinokurova, N. (2021), 5)
+1	Оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	2	nsubj	_	child
+2	ыллаатин	ыллаа	VERB	v	Mood=Imp|Number=Sing|Person=3|Tense=Pres	0	root	_	sing
+
+# sent_id = 2104
+# text = Килиэптэ сиэмэ
+# text_rus = Не ешь хлеба
+# text_eng = ´Do not eat any bread at all’ (Baker, M., & Vinokurova, N. (2021), 6)
+1	Килиэптэ	килиэп	NOUN	n	Case=Part|Number=Sing	2	obj	_	bread
+2	сиэмэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	eat
+
+# sent_id = 2105
+# text = Килиэби сиэмэ
+# text_rus = Не ешь этот хлеб
+# text_eng = ´Do not eat that bread’ (Baker, M., & Vinokurova, N. (2021), 7)
+1	Килиэби	килиэп	NOUN	n	Case=Acc|Number=Sing	2	obj	_	bread
+2	сиэмэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	eat
+
+# sent_id = 2106
+# text = Кинигитэ бул
+# text_rus = Найди эту книгу
+# text_eng = ´Find this book!’ (Baker, M., & Vinokurova, N. (2021), 8)
+1	Кинигитэ	кинигэ	NOUN	n	Case=Part|Number=Sing	2	obj	_	book
+2	бул	бул	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	find
+
+# sent_id = 2107
+# text = Килиэп сиэмэ
+# text_rus = Не ешь хлеб
+# text_eng = ´Do not eat (any) bread’ (Baker, M., & Vinokurova, N. (2021), 9)
+1	Килиэп	килиэп	NOUN	n	Case=Nom|Number=Sing	2	obj	_	bread
+2	сиэмэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	eat
 
