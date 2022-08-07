@@ -33,7 +33,7 @@
 # text = Эн профессор буолуоҥ
 # text_rus = Ты будешь профессором
 # text_eng = You will become a professor
-1	Эн	ен	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	профессор	профессор	NOUN	n	Case=Nom|Number=Sing	3	xcomp	_	_
 3	буолуоҥ	буол	VERB	v	Number=Sing|Person=2|Tense=Fut	0	root	_	_
 
@@ -56,7 +56,7 @@
 1	Кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	4	obl	_	_
 2	элбэх	элбэх	ADJ	adj	_	3	amod	_	_
 3	паарта	паарта	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	_
-4	турар	тур	VERB	v	Person=3|Tense=Pres	0	root	_	_
+4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 8
 # text = Биир паартаҕа икки киһи олорор
@@ -66,7 +66,7 @@
 2	паартаҕа	паарта	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
 3	икки	икки	NUM	num	NumType=Card	4	nummod	_	_
 4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	_
-5	олорор	олор	VERB	v	Person=3|Tense=Pres	0	root	_	_
+5	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 9
 # text = Биир уол турар уонна ааҕар.
@@ -76,7 +76,7 @@
 2	уол	уол	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	_
 3	турар	тур	VERB	vi	Person=3|Tense=Pres	0	root	_	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	_	_
-5	ааҕар	аах	VERB	vt	Person=3|Tense=Pres	3	conj	_	SpaceAfter=No
+5	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	3	conj	_	SpaceAfter=No
 6	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 10
@@ -112,7 +112,7 @@
 2	оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	5	nsubj	_	_
 3	начальнай	начальнай	ADJ	adj	_	4	amod	_	_
 4	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
-5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Tense=Pres	0	root	_	_
+5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 13
 # text = Кыра оҕо ханна үөрэнэрий?
@@ -121,7 +121,7 @@
 1	Кыра	кыра	ADJ	adj	_	2	amod	_	_
 2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	_
 3	ханна	ханна	PRON	pronint	PronType=Int	4	obl	_	_
-4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	PUNCT	punct	4	punct	_	_
 
 # sent_id = 14
@@ -141,8 +141,8 @@
 # text_eng = Please, everybody, sit down
 1	Баһаалыста	баһаалыста	INTJ	intj	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	punct	1	punct	_	_
-3	бары	бары	PRON	pron	PronType=Tot	4	nsubj	_	_
-4	туруҥ	тур	VERB	vi	Mood=Imp|Number=Plur|Person=2	0	root	_	_
+3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	4	nsubj	_	_
+4	туруҥ	тур	VERB	vi	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	_
 
 # sent_id = 16
 # text = Миша кинигэни атыыласта
@@ -237,7 +237,7 @@
 2	кыра	кыра	ADJ	adj	_	3	amod	_	_
 3	оҕоҕо	оҕо	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
 4	кинигэ	кинигэ	NOUN	n	Case=Nom|Number=Sing	5	obj	_	_
-5	ааҕар	аах	VERB	vt	Person=3|Tense=Pres	0	root	_	_
+5	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 26
 # text = Аҕам хаһыат ааҕар уонна кэпсиир, улахан дьон истэллэр
@@ -278,14 +278,14 @@
 1	Ити	ити	DET	det	_	2	det	_	_
 2	уол	уол	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	_
 3	эбэтэ	эбэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
-4	ыалдьар	ыарый	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	ыалдьар	ыар	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 30
 # text = Аҕаҥ кэллэ
 # text_rus = Твой папа пришёл
 # text_eng = Your father came
 1	Аҕаҥ	аҕа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
-2	кэллэ	кэлл	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
+2	кэллэ	кэл	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
 # sent_id = 31
 # text = Быраатым уонна балтым үөрэнэллэр
@@ -450,7 +450,7 @@
 3	ыалдьыбат	ыарый	VERB	vi	Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	punct	3	punct	_	_
 5	баһым	бас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
-6	ыалдьар	ыарый	VERB	vi	Person=3|Tense=Pres	3	parataxis	_	_
+6	ыалдьар	ыар	VERB	vi	Person=3|Tense=Pres	3	parataxis	_	_
 
 # sent_id = 50
 # text = Ханнык дьиэҕэ киирдэ?
@@ -470,14 +470,14 @@
 3	атаһым	атас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nmod	_	_
 4	убайа	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 5	куоракка	куорат	NOUN	v	Case=Dat|Number=Sing	6	obl	_	_
-6	үөрэнэр	үөрэн	VERB	vi	Person=3|Tense=Pres	0	root	_	_
+6	үөрэнэр	үөрэн	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 52
 # text = Бастаан ыалдьар киһини карточкаҕа суруйаллар
 # text_rus = Сначала они записывают пациентов в карту
 # text_eng = At the beginning they write the patients[' names] on a card (Kharitonov) 
 1	Бастаан	бастаан	ADV	adv	_	5	advmod	_	_
-2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	_
+2	ыалдьар	ыар	ADJ	adj	_	3	nmod	_	_
 3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	5	obj	_	_
 4	карточкаҕа	карточка	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
 5	суруйаллар	суруй	VERB	vt	Number=Plur|Person=3|Tense=Pres	0	root	_	_
@@ -496,7 +496,7 @@
 # text_rus = Врач приглашает пациентов в очередь 
 # text_eng = A doctor invites patients to the line (Kharitonov) 
 1	Быраас	быраас	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	_
-2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	_
+2	ыалдьар	ыар	ADJ	adj	_	3	nmod	_	_
 3	дьону	дьон	NOUN	n	Case=Acc|Number=Sing	5	obj	_	_
 4	уочаратынан	уочарат	NOUN	n	Case=Ins|Number=Sing	5	obl	_	_
 5	ыҥырар	ыҥыр	VERB	vd	Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -506,7 +506,7 @@
 # text_rus = Он смотрит на пациента, слушает и выписывает ему лекарство
 # text_eng = He looks at the patinet, listens, and writes him [the name of] the medicine  (Kharitonov) 
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	ыалдьар	ыалдьар	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	_
+2	ыалдьар	ыар	ADJ	adj	_	3	nmod	_	_
 3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 4	көрөр	көр	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	punct	4	punct	_	_
@@ -573,13 +573,13 @@
 # text = Кэл , сүөгэйдэ ис , күөрчэхтэ сиэ !
 # text_rus = 
 # text_eng = Come, drink some cream, eat some sbiten! (Kharitonov)
-1	Кэл	кэл	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+1	Кэл	кэл	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	_
 2	,	,	PUNCT	PUNCT	punct	1	punct	_	_
 3	сүөгэйдэ	сүөгэй	NOUN	n	Case=Par|Number=Sing	4	obj	_	_
-4	ис	ис	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	1	conj	_	_
+4	ис	ис	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	1	conj	_	_
 5	,	,	PUNCT	PUNCT	punct	1	punct	_	_
 6	күөрчэхтэ	күөрчэх	NOUN	n	Case=Par|Number=Sing	7	obj	_	_
-7	сиэ	сиэ	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	1	conj	_	_
+7	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	1	conj	_	_
 8	!	!	PUNCT	PUNCT	punct	1	punct	_	_
 
 # sent_id = 62
@@ -592,7 +592,7 @@
 4	,	,	PUNCT	PUNCT	punct	3	punct	_	_
 5	хара	хара	ADJ	adj	_	6	amod	_	_
 6	килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	7	obj	_	_
-7	быс	быс	VERB	v	Mood=Imp|Number=Sing|Person=2	3	conj	_	_
+7	быс	быс	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	3	conj	_	_
 
 # sent_id = 63
 # text = Ити уолга харандааста биэр
@@ -810,10 +810,10 @@
 # text = Ити курдук , мин өссө биир суолталааҕы арыйбытым
 # text_rus = Так я сделал ещё одно важное открытие
 # text_eng = So I made another important discovery (The little prince, 19) #
-1	Ити	ити	PRON	PRON	pron	8	discourse	_	such
+1	Ити	ити	PRON	pron	_	8	discourse	_	such
 2	курдук	курдук	ADV	adv	_	1	fixed	_	1-2likethis
-3	,	,	PUNCT	PUNCT	punct	2	punct	_	_
-4	мин	мин	PRON	PRON	pron	8	nsubj	_	I
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	I
 5	өссө	өссө	ADV	adv	_	8	advmod	_	again
 6	биир	биир	NUM	num	_	7	nummod	_	one
 7	суолталааҕы	суолта	NOUN	n	Case=Acc|Number=Sing	8	obj	_	meaning
@@ -833,7 +833,7 @@
 # text = Миэхэ хойчоонно уруһуйдаан кулу
 # text_rus = Нарисуй мне барашка
 # text_eng = Draw me a lamb (The little prince, 12) #
-1	Миэхэ	мин	PRON	pron	Case=Dat	3	iobj	_	me
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	me
 2	хойчоонно	_	NOUN	n	_	3	obj	_	ram
 3	уруһуйдаан	уруһуйдаа	VERB	v	_	0	root	_	draw
 4	кулу	кулу	ADV	adv	_	2	discourse	_	please
@@ -855,7 +855,7 @@
 # text_rus = Это не моя вина
 # text_eng = It's not my fault (The little prince, 12) #
 1	Онно	онно	ADV	adv	_	3	nsubj	_	there
-2	мин	мин	PRON	pron	Case=Nom|PronType=Prs	3	nmod	_	I
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nmod	_	I
 3	буруйум	буруй	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	fault
 4	суох	суох	AUX	aux	_	3	cop	_	isno
 
@@ -897,7 +897,7 @@
 # text_eng = That's how I met the Little Prince # (The little prince, 15) # Past
 1	Ити	ити	PRON	PRON	pron	7	dep	_	this
 2	курдук	курдук	ADV	adv	_	7	advmod	_	like
-3	мин	мин	PRON	pron	Case=Nom|Number=Sing	7	nsubj	_	I
+3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	I
 4	Кыра	кыра	ADJ	adj	_	5	amod	_	little
 5	тыгыны	тыгын	NOUN	n	Case=Acc|Number=Sing	7	obj	_	prince
 6	кытта	кытта	ADP	adp	_	5	case	_	with
@@ -1160,7 +1160,7 @@
 # text = Кини хас ынаҕы ыыр ?
 # text_rus = 3sg доит коров
 # text_eng = 3sg milks the cow (Khatironov, )
-1	Кини	кини	PRON	pron	_	4	nsubj	4:nsubj	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	3sg
 2	хас	хас	ADV	adv	_	_	_	_	howmuch
 3	ынаҕы	ынах	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	cow
 4	ыыр	ыа	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	tomilk
@@ -1202,7 +1202,7 @@
 # text_eng = This dog barks at people (Khatironov, )
 1	Ити	ити	DET	det	_	2	det	2:det	this
 2	ыт	ыт	NOUN	n	Case=Nom|Number=Sing	4	nsubj	4:nsubj	dog
-3	киһини	киһи	PRON	pron	Case=Acc	4	obl	4:obl	person
+3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	4	obl	4:obl	person
 4	үрэр	үр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	bark
 5	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
@@ -1341,7 +1341,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Бүгүн	бүгүн	ADV	adv	_	_	_	_	today
-2	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+2	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 3	тымныы	тымныы	ADJ	adj	_	2	amod	_	cold
 4	дуо	дуо	PART	part	_	_	_	_	?
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -1392,7 +1392,7 @@
 # text_eng = (Khatironov, )
 1	Эн	эн	PRON	pron	_	2	nmod	_	you
 2	баһыҥ	бас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	_
-3	ыалдьар	ыалдьар	ADJ	adj	_	2	amod	_	_
+3	ыалдьар	ыар	ADJ	adj	_	2	amod	_	_
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
@@ -1400,7 +1400,7 @@
 # text = Кини ойуур аайы баар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	ойуур	_	_	_	_	_	_	_	_
 3	аайы	_	_	_	_	_	_	_	_
 4	баар	баар	AUX	aux	_	_	_	_	_
@@ -1421,7 +1421,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Онон	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 4	гынар	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -1430,7 +1430,7 @@
 # text = Миэхэ эмис эттэ аҕал .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	эмис	_	_	_	_	_	_	_	_
 3	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	say
 4	аҕал	_	_	_	_	_	_	_	_
@@ -1470,7 +1470,7 @@
 # text = Кини этэ эмис буолар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	этэ	_	_	_	_	_	_	_	_
 3	эмис	_	_	_	_	_	_	_	_
 4	буолар	_	_	_	_	_	_	_	_
@@ -1542,7 +1542,7 @@
 # text_eng = (Khatironov, )
 1	Ийэҥ	_	_	_	_	_	_	_	_
 2	туохха	_	_	_	_	_	_	_	_
-3	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+3	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 4	кутта	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -1641,7 +1641,7 @@
 # text = Кини иһитэ бэрт элбэх .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	иһитэ	_	_	_	_	_	_	_	_
 3	бэрт	_	_	_	_	_	_	_	_
 4	элбэх	_	_	_	_	_	_	_	_
@@ -1705,7 +1705,7 @@
 # text_eng = (Khatironov, )
 1	Огурсуга	_	_	_	_	_	_	_	_
 2	ким	_	_	_	_	_	_	_	_
-3	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+3	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 4	кутта	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -1733,7 +1733,7 @@
 # text = Кини саас эрдэ төрүүр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	саас	_	_	_	_	_	_	_	_
 3	эрдэ	_	_	_	_	_	_	_	_
 4	төрүүр	_	_	_	_	_	_	_	_
@@ -1744,7 +1744,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Ыраас	_	_	_	_	_	_	_	_
-2	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+2	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 3	эмиэ	_	_	_	_	_	_	_	_
 4	дьэҥкир	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -1904,7 +1904,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Ити	ити	DET	det	_	_	_	_	this
-2	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+2	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 3	үөнэ	_	_	_	_	_	_	_	_
 4	олусэлбэх	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -1953,7 +1953,7 @@
 # text = Мин икки куһу өлөрдүм .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	икки	_	_	_	_	_	_	_	_
 3	куһу	_	_	_	_	_	_	_	_
 4	өлөрдүм	_	_	_	_	_	_	_	_
@@ -1976,7 +1976,7 @@
 1	эн	эн	PRON	pron	_	_	_	_	you
 2	эмиэ	_	_	_	_	_	_	_	_
 3	билбэккин	_	_	_	_	_	_	_	_
-4	дуу	уу	NOUN	n	Number=Sing	_	_	_	water
+4	дуу	уу	NOUN	n	Number=Sing	_	_	_	???
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 206
@@ -2004,7 +2004,7 @@
 # text = Миэхэ хойуу чэйдэ кут .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	хойуу	уу	NOUN	n	Number=Sing	_	_	_	water
 3	чэйдэ	_	_	_	_	_	_	_	_
 4	кут	_	_	_	_	_	_	_	_
@@ -2074,7 +2074,7 @@
 # text = Кини соно саһыл истээх .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	соно	_	_	_	_	_	_	_	_
 3	саһыл	_	_	_	_	_	_	_	_
 4	истээх	_	_	_	_	_	_	_	_
@@ -2084,7 +2084,7 @@
 # text = Миэхэ ити наадата суох .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	Ити	ити	DET	det	_	_	_	_	this
 3	наадата	_	_	_	_	_	_	_	_
 4	суох	суох	AUX	aux	_	_	_	_	thereisno
@@ -2147,7 +2147,7 @@
 # text_eng = (Khatironov, )
 1	Эһэҥ	_	_	_	_	_	_	_	_
 2	сахалыы	_	_	_	_	_	_	_	_
-3	ааҕар	_	_	_	_	_	_	_	_
+3	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 4	дуо	дуо	PART	part	_	_	_	_	?
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -2187,7 +2187,7 @@
 # text_eng = (Khatironov, )
 1	Ити	ити	DET	det	_	_	_	_	this
 2	оҕонньор	_	_	_	_	_	_	_	_
-3	ааҕар	_	_	_	_	_	_	_	_
+3	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 4	дуо	дуо	PART	part	_	_	_	_	?
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -2206,7 +2206,7 @@
 # text = Кини устар уонна умсар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	устар	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	умсар	_	_	_	_	_	_	_	_
@@ -2349,7 +2349,7 @@
 # text_eng = (Khatironov, )
 1	Ити	ити	DET	det	_	_	_	_	this
 2	эти	_	_	_	_	_	_	_	_
-3	быс	_	_	_	_	_	_	_	_
+3	быс	быс	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 5	ыйаа	_	_	_	_	_	_	_	_
 6	!	!	PUNCT	punct	_	_	_	_	_
@@ -2440,7 +2440,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Дурда	_	_	_	_	_	_	_	_
-2	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+2	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 3	аттыгар	_	_	_	_	_	_	_	_
 4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -2470,7 +2470,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Аны	_	_	_	_	_	_	_	_
-2	миэхэ	_	_	_	_	_	_	_	_
+2	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	тимэхтэ	_	_	_	_	_	_	_	_
 4	аҕал	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -2479,7 +2479,7 @@
 # text = Миэхэ кыратык аҕал эрэ .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	кыратык	_	_	_	_	_	_	_	_
 3	аҕал	_	_	_	_	_	_	_	_
 4	эрэ	_	_	_	_	_	_	_	_
@@ -2586,7 +2586,7 @@
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	үөнэ	_	_	_	_	_	_	_	_
 5	суох	суох	AUX	aux	_	_	_	_	thereisno
-6	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+6	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 266
@@ -2615,7 +2615,7 @@
 # text_eng = (Khatironov, )
 1	Ити	ити	DET	det	_	_	_	_	this
 2	хотууру	_	_	_	_	_	_	_	_
-3	мин	_	_	_	_	_	_	_	_
+3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 4	ылыаҕым	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -2623,7 +2623,7 @@
 # text = Кини чэйи элбэхтик иһэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	чэйи	_	_	_	_	_	_	_	_
 3	элбэхтик	_	_	_	_	_	_	_	_
 4	иһэр	_	_	_	_	_	_	_	_
@@ -2633,7 +2633,7 @@
 # text = Кини кыра оҕолору көрөр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	кыра	кыра	ADJ	adj	_	_	_	_	small
 3	оҕолору	_	_	_	_	_	_	_	_
 4	көрөр	_	_	_	_	_	_	_	_
@@ -2678,7 +2678,7 @@
 1	Бу	бу	DET	det	_	_	_	_	this
 2	кыыс	кыыс	NOUN	n	_	_	_	_	girl
 3	нууччалыы	_	_	_	_	_	_	_	_
-4	ааҕар	_	_	_	_	_	_	_	_
+4	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 275
@@ -2695,7 +2695,7 @@
 # text = Кини бастаан тугу гынна ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	бастаан	_	_	_	_	_	_	_	_
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 4	гынна	_	_	_	_	_	_	_	_
@@ -2705,7 +2705,7 @@
 # text = Кини арыт киһиэхэ түһэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	арыт	_	_	_	_	_	_	_	_
 3	киһиэхэ	_	_	_	_	_	_	_	_
 4	түһэр	_	_	_	_	_	_	_	_
@@ -2776,7 +2776,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 4	гынарый	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -2918,7 +2918,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Онтон	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 4	соторуй	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -2968,7 +2968,7 @@
 # text = Кини уон биир ынаҕы ыыр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	уон	_	_	_	_	_	_	_	_
 3	биир	_	_	_	_	_	_	_	_
 4	ынаҕы	_	_	_	_	_	_	_	_
@@ -2979,7 +2979,7 @@
 # text = Кини сайын куйааска ыыр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	сайын	_	_	_	_	_	_	_	_
 3	куйааска	_	_	_	_	_	_	_	_
 4	ыыр	_	_	_	_	_	_	_	_
@@ -3040,7 +3040,7 @@
 # text = Кини кыһыл көмүһү булар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	кыһыл	_	_	_	_	_	_	_	_
 3	көмүһү	_	_	_	_	_	_	_	_
 4	булар	_	_	_	_	_	_	_	_
@@ -3082,7 +3082,7 @@
 # text = Кини тииһэ эмиэ куһаҕан .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	тииһэ	_	_	_	_	_	_	_	_
 3	эмиэ	_	_	_	_	_	_	_	_
 4	куһаҕан	_	_	_	_	_	_	_	_
@@ -3092,7 +3092,7 @@
 # text = Мин хойуу чэйи испэппин .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	хойуу	уу	NOUN	n	Number=Sing	_	_	_	water
 3	чэйи	_	_	_	_	_	_	_	_
 4	испэппин	_	_	_	_	_	_	_	_
@@ -3115,7 +3115,7 @@
 1	Оһох	_	_	_	_	_	_	_	_
 2	аттыгар	_	_	_	_	_	_	_	_
 3	ким	_	_	_	_	_	_	_	_
-4	олорор	_	_	_	_	_	_	_	_
+4	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 318
@@ -3125,7 +3125,7 @@
 1	Хайа	_	_	_	_	_	_	_	_
 2	үрдүк	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
-4	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+4	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 5	намыһах	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -3257,7 +3257,7 @@
 # text_eng = (Khatironov, )
 1	суох	суох	AUX	aux	_	_	_	_	thereisno
 2	,	,	PUNCT	punct	_	_	_	_	_
-3	мин	_	_	_	_	_	_	_	_
+3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 4	тимир	_	_	_	_	_	_	_	_
 5	ууһабын	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
@@ -3266,7 +3266,7 @@
 # text = Кини сайын ардахха үүнэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	сайын	_	_	_	_	_	_	_	_
 3	ардахха	_	_	_	_	_	_	_	_
 4	үүнэр	_	_	_	_	_	_	_	_
@@ -3321,7 +3321,7 @@
 1	кыра	кыра	ADJ	adj	_	_	_	_	small
 2	оҕо	_	_	_	_	_	_	_	_
 3	ханна	_	_	_	_	_	_	_	_
-4	үөрэнэрий	_	_	_	_	_	_	_	_
+4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 338
@@ -3329,7 +3329,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	ханна	_	_	_	_	_	_	_	_
 4	барарый	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -3359,7 +3359,7 @@
 # text = Миэхэ элбэх чиэрбэ наада .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	элбэх	_	_	_	_	_	_	_	_
 3	чиэрбэ	_	_	_	_	_	_	_	_
 4	наада	_	_	_	_	_	_	_	_
@@ -3379,7 +3379,7 @@
 # text = Кини олус үчүгэйдик ытар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	олус	_	_	_	_	_	_	_	_
 3	үчүгэйдик	_	_	_	_	_	_	_	_
 4	ытар	_	_	_	_	_	_	_	_
@@ -3409,7 +3409,7 @@
 # text = Мин убайым үчүгэй булчут .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	убайым	_	_	_	_	_	_	_	_
 3	үчүгэй	_	_	_	_	_	_	_	_
 4	булчут	_	_	_	_	_	_	_	_
@@ -3442,7 +3442,7 @@
 1	Манна	_	_	_	_	_	_	_	_
 2	биир	_	_	_	_	_	_	_	_
 3	кэргэн	эн	PRON	pron	_	_	_	_	you
-4	олорор	_	_	_	_	_	_	_	_
+4	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 350
@@ -3563,7 +3563,7 @@
 1	Бу	бу	DET	det	_	_	_	_	this
 2	оскуолаҕа	_	_	_	_	_	_	_	_
 3	ким	_	_	_	_	_	_	_	_
-4	үөрэнэр	_	_	_	_	_	_	_	_
+4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 362
@@ -3600,7 +3600,7 @@
 # text = Кини күн аайы сымыыттыыр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	күн	_	_	_	_	_	_	_	_
 3	аайы	_	_	_	_	_	_	_	_
 4	сымыыттыыр	_	_	_	_	_	_	_	_
@@ -3652,7 +3652,7 @@
 # text = Мин отут моҕотойу өлөрдүм .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	отут	_	_	_	_	_	_	_	_
 3	моҕотойу	_	_	_	_	_	_	_	_
 4	өлөрдүм	_	_	_	_	_	_	_	_
@@ -3713,7 +3713,7 @@
 # text = Кини ханнык килиэби быста ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	ханнык	_	_	_	_	_	_	_	_
 3	килиэби	_	_	_	_	_	_	_	_
 4	быста	_	_	_	_	_	_	_	_
@@ -3725,7 +3725,7 @@
 # text_eng = (Khatironov, )
 1	эн	эн	PRON	pron	_	_	_	_	you
 2	ханна	_	_	_	_	_	_	_	_
-3	олорор	_	_	_	_	_	_	_	_
+3	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 4	киһигиний	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -3808,7 +3808,7 @@
 1	Биир	_	_	_	_	_	_	_	_
 2	уол	_	_	_	_	_	_	_	_
 3	тураруонна	уонна	CCONJ	cconj	_	_	_	_	and
-4	ааҕар	_	_	_	_	_	_	_	_
+4	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 386
@@ -3919,7 +3919,7 @@
 1	Остуол	_	_	_	_	_	_	_	_
 2	аттыгар	_	_	_	_	_	_	_	_
 3	ким	_	_	_	_	_	_	_	_
-4	олорор	_	_	_	_	_	_	_	_
+4	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 397
@@ -3937,7 +3937,7 @@
 # text = Мин ийэм кыратык иистэнэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	ийэм	_	_	_	_	_	_	_	_
 3	кыратык	_	_	_	_	_	_	_	_
 4	иистэнэр	_	_	_	_	_	_	_	_
@@ -4001,7 +4001,7 @@
 # text_eng = (Khatironov, )
 1	эн	эн	PRON	pron	_	_	_	_	you
 2	ханна	_	_	_	_	_	_	_	_
-3	олорор	_	_	_	_	_	_	_	_
+3	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 4	киһигиний	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -4082,8 +4082,8 @@
 # text_eng = (Khatironov, )
 1	Ханна	_	_	_	_	_	_	_	_
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
-3	бары	_	_	_	_	_	_	_	_
-4	үөрэнэрий	_	_	_	_	_	_	_	_
+3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
+4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 413
@@ -4093,7 +4093,7 @@
 1	Биир	_	_	_	_	_	_	_	_
 2	дьахтар	_	_	_	_	_	_	_	_
 3	кинигэ	_	_	_	_	_	_	_	_
-4	ааҕар	_	_	_	_	_	_	_	_
+4	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 414
@@ -4158,7 +4158,7 @@
 1	Улахан	_	_	_	_	_	_	_	_
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	ханна	_	_	_	_	_	_	_	_
-4	үөрэнэр	_	_	_	_	_	_	_	_
+4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 420
@@ -4179,7 +4179,7 @@
 2	кыра	кыра	ADJ	adj	_	_	_	_	small
 3	ыт	_	_	_	_	_	_	_	_
 4	оҕото	_	_	_	_	_	_	_	_
-5	олорор	_	_	_	_	_	_	_	_
+5	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 422
@@ -4272,7 +4272,7 @@
 1	Эдэр	_	_	_	_	_	_	_	_
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	ханна	_	_	_	_	_	_	_	_
-4	үөрэнэрий	_	_	_	_	_	_	_	_
+4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 431
@@ -4363,7 +4363,7 @@
 2	аан	_	_	_	_	_	_	_	_
 3	аттыгар	_	_	_	_	_	_	_	_
 4	ким	_	_	_	_	_	_	_	_
-5	олорор	_	_	_	_	_	_	_	_
+5	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 6	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 440
@@ -4382,7 +4382,7 @@
 # text_eng = (Khatironov, )
 1	Аахпат	_	_	_	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
-3	Кини	кини	PRON	pron	_	_	_	_	hesheit
+3	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 4	хараҕа	_	_	_	_	_	_	_	_
 5	суох	суох	AUX	aux	_	_	_	_	thereisno
 6	.	.	PUNCT	punct	_	_	_	_	_
@@ -4394,7 +4394,7 @@
 1	Остуол	_	_	_	_	_	_	_	_
 2	аттыгар	_	_	_	_	_	_	_	_
 3	ким	_	_	_	_	_	_	_	_
-4	олорор	_	_	_	_	_	_	_	_
+4	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 443
@@ -4412,10 +4412,10 @@
 # text = Кини эмиэ сахалыы үөрэнэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	эмиэ	_	_	_	_	_	_	_	_
 3	сахалыы	_	_	_	_	_	_	_	_
-4	үөрэнэр	_	_	_	_	_	_	_	_
+4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 445
@@ -4514,7 +4514,7 @@
 # text = Кини айаҕа сүрдээх улахан .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	айаҕа	_	_	_	_	_	_	_	_
 3	сүрдээх	_	_	_	_	_	_	_	_
 4	улахан	_	_	_	_	_	_	_	_
@@ -4649,7 +4649,7 @@
 # text = Мин уһугуннум уонна көрдүм .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	уһугуннум	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	көрдүм	_	_	_	_	_	_	_	_
@@ -4659,7 +4659,7 @@
 # text = Мин эмиэ маҕаһыыҥҥа бардым .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	эмиэ	_	_	_	_	_	_	_	_
 3	маҕаһыыҥҥа	_	_	_	_	_	_	_	_
 4	бардым	_	_	_	_	_	_	_	_
@@ -4679,7 +4679,7 @@
 # text = Кимиэхэ саал былаат баарый ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кимиэхэ	_	_	_	_	_	_	_	_
+1	Кимиэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	саал	_	_	_	_	_	_	_	_
 3	былаат	_	_	_	_	_	_	_	_
 4	баарый	_	_	_	_	_	_	_	_
@@ -4723,7 +4723,7 @@
 # text = Мин ханныкда саанан ытабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	ханныкда	_	_	_	_	_	_	_	_
 3	саанан	_	_	_	_	_	_	_	_
 4	ытабын	_	_	_	_	_	_	_	_
@@ -4877,7 +4877,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Түүн	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	сулустары	_	_	_	_	_	_	_	_
 4	көрөбүн	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -4906,7 +4906,7 @@
 # text = Уу үөнэ куска аһылыкбуолар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+1	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 2	үөнэ	_	_	_	_	_	_	_	_
 3	куска	_	_	_	_	_	_	_	_
 4	аһылыкбуолар	_	_	_	_	_	_	_	_
@@ -4939,7 +4939,7 @@
 # text_eng = (Khatironov, )
 1	Ити	ити	DET	det	_	_	_	_	this
 2	ханна	_	_	_	_	_	_	_	_
-3	үөрэнэр	_	_	_	_	_	_	_	_
+3	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 4	оҕолоруй	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -4968,7 +4968,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Кинилэр	_	_	_	_	_	_	_	_
-2	бары	_	_	_	_	_	_	_	_
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 3	үөрэх	_	_	_	_	_	_	_	_
 4	оҕолоро	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -5146,7 +5146,7 @@
 # text = Кини сымыыта туох буоларый ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	сымыыта	_	_	_	_	_	_	_	_
 3	туох	_	_	_	_	_	_	_	_
 4	буоларый	_	_	_	_	_	_	_	_
@@ -5207,7 +5207,7 @@
 # text = Кини билигин эбиэт буһарар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	билигин	_	_	_	_	_	_	_	_
 3	эбиэт	эт	NOUN	n	_	_	_	_	meat
 4	буһарар	_	_	_	_	_	_	_	_
@@ -5217,7 +5217,7 @@
 # text = Миэхэ тыс этэрбэстэ аҕалыҥ .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	тыс	_	_	_	_	_	_	_	_
 3	этэрбэстэ	_	_	_	_	_	_	_	_
 4	аҕалыҥ	_	_	_	_	_	_	_	_
@@ -5247,7 +5247,7 @@
 # text = Кини ордук улахан сыаналаах .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	ордук	_	_	_	_	_	_	_	_
 3	улахан	_	_	_	_	_	_	_	_
 4	сыаналаах	_	_	_	_	_	_	_	_
@@ -5360,7 +5360,7 @@
 # text = Мин аты үчүнэйдик көлүйэбин .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	аты	_	_	_	_	_	_	_	_
 3	үчүнэйдик	_	_	_	_	_	_	_	_
 4	көлүйэбин	_	_	_	_	_	_	_	_
@@ -5380,7 +5380,7 @@
 # text = Мин эмиэ маҕаһыыҥҥа барабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	эмиэ	_	_	_	_	_	_	_	_
 3	маҕаһыыҥҥа	_	_	_	_	_	_	_	_
 4	барабын	_	_	_	_	_	_	_	_
@@ -5481,7 +5481,7 @@
 # text = Сүөһүттэн өссө туох кэлэрий ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Сүөһүттэн	эн	PRON	pron	_	_	_	_	you
+1	Сүөһүттэн	_	_	_	_	_	_	_	_
 2	өссө	_	_	_	_	_	_	_	_
 3	туох	_	_	_	_	_	_	_	_
 4	кэлэрий	_	_	_	_	_	_	_	_
@@ -5531,7 +5531,7 @@
 # text = Миэхэ тыс этэрбэстэ тик эрэ .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	тыс	_	_	_	_	_	_	_	_
 3	этэрбэстэ	_	_	_	_	_	_	_	_
 4	тик	_	_	_	_	_	_	_	_
@@ -5556,7 +5556,7 @@
 1	эн	эн	PRON	pron	_	_	_	_	you
 2	поваргын	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
-4	Кини	кини	PRON	pron	_	_	_	_	hesheit
+4	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 5	остуорас	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -5644,7 +5644,7 @@
 # text = Мин бүгүн биир куһу өлөрдүм .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	бүгүн	_	_	_	_	_	_	_	_
 3	биир	_	_	_	_	_	_	_	_
 4	куһу	_	_	_	_	_	_	_	_
@@ -5666,7 +5666,7 @@
 # text = Кини бүгүн муостаны сууйбат .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	бүгүн	_	_	_	_	_	_	_	_
 3	муостаны	_	_	_	_	_	_	_	_
 4	сууйбат	_	_	_	_	_	_	_	_
@@ -5688,7 +5688,7 @@
 # text_eng = (Khatironov, )
 1	Улахан	_	_	_	_	_	_	_	_
 2	дьон	_	_	_	_	_	_	_	_
-3	бары	_	_	_	_	_	_	_	_
+3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 4	үлэлииллэр	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -5742,7 +5742,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Кэскил	_	_	_	_	_	_	_	_
-2	олорор	_	_	_	_	_	_	_	_
+2	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 3	уонначэй	_	_	_	_	_	_	_	_
 4	иһэр	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -5751,7 +5751,7 @@
 # text = Кини өссөүрбэт , ийэтэ үрэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	өссөүрбэт	эт	NOUN	n	_	_	_	_	meat
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	ийэтэ	_	_	_	_	_	_	_	_
@@ -5762,7 +5762,7 @@
 # text = Мин онус кылааска үөрэнэбин .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	онус	_	_	_	_	_	_	_	_
 3	кылааска	_	_	_	_	_	_	_	_
 4	үөрэнэбин	_	_	_	_	_	_	_	_
@@ -5794,8 +5794,8 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Кинилэр	_	_	_	_	_	_	_	_
-2	бары	_	_	_	_	_	_	_	_
-3	үөрэнэллэр	_	_	_	_	_	_	_	_
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
+3	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 4	дуо	дуо	PART	part	_	_	_	_	?
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -5941,7 +5941,7 @@
 1	Ийэм	_	_	_	_	_	_	_	_
 2	суунар	_	_	_	_	_	_	_	_
 3	иһиккэ	_	_	_	_	_	_	_	_
-4	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+4	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 5	кутта	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -5970,10 +5970,10 @@
 # text = Кини ахсыс кылааска үөрэнэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	ахсыс	_	_	_	_	_	_	_	_
 3	кылааска	_	_	_	_	_	_	_	_
-4	үөрэнэр	_	_	_	_	_	_	_	_
+4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 596
@@ -6074,7 +6074,7 @@
 # text_eng = (Khatironov, )
 1	Энрабочайгын	_	_	_	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
-3	Кини	кини	PRON	pron	_	_	_	_	hesheit
+3	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 4	рабочай	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -6198,7 +6198,7 @@
 # text = Мин сотору оскуолаҕа барабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	сотору	_	_	_	_	_	_	_	_
 3	оскуолаҕа	_	_	_	_	_	_	_	_
 4	барабын	_	_	_	_	_	_	_	_
@@ -6209,7 +6209,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Киникүөл	_	_	_	_	_	_	_	_
-2	үрдүнэн	эн	PRON	pron	_	_	_	_	you
+2	үрдүнэн	_	_	_	_	_	_	_	_
 3	ыраах	_	_	_	_	_	_	_	_
 4	барар	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -6304,7 +6304,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Баҕаны	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	эмиэ	_	_	_	_	_	_	_	_
 4	таптаабаппын	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -6448,7 +6448,7 @@
 # text = Уу үөнэ туохха аһылык буолар ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+1	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 2	үөнэ	_	_	_	_	_	_	_	_
 3	туохха	_	_	_	_	_	_	_	_
 4	аһылык	_	_	_	_	_	_	_	_
@@ -6469,7 +6469,7 @@
 # text = Мин сайын совхохка үлэлиибин .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	сайын	_	_	_	_	_	_	_	_
 3	совхохка	_	_	_	_	_	_	_	_
 4	үлэлиибин	_	_	_	_	_	_	_	_
@@ -6545,7 +6545,7 @@
 2	кыра	кыра	ADJ	adj	_	_	_	_	small
 3	оҕоҕо	_	_	_	_	_	_	_	_
 4	кинигэ	_	_	_	_	_	_	_	_
-5	ааҕар	_	_	_	_	_	_	_	_
+5	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 651
@@ -6627,7 +6627,7 @@
 # text = Миэхэ үрүҥ арыы наадата суох .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	үрүҥ	_	_	_	_	_	_	_	_
 3	арыы	_	_	_	_	_	_	_	_
 4	наадата	_	_	_	_	_	_	_	_
@@ -6638,7 +6638,7 @@
 # text = Кини түүтэ маҥан уонна хойуу .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	түүтэ	_	_	_	_	_	_	_	_
 3	маҥан	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -6680,7 +6680,7 @@
 # text = Миэхэ истээх үтүлүктэ аҕалыҥ .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	истээх	_	_	_	_	_	_	_	_
 3	үтүлүктэ	_	_	_	_	_	_	_	_
 4	аҕалыҥ	_	_	_	_	_	_	_	_
@@ -6745,7 +6745,7 @@
 # text_eng = (Khatironov, )
 1	Оҕуруот	_	_	_	_	_	_	_	_
 2	анныгарчугас	_	_	_	_	_	_	_	_
-3	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+3	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 4	баар	баар	AUX	aux	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -6764,11 +6764,11 @@
 # text = Мин аахпаппын , Кэскил ааҕар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	аахпаппын	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	Кэскил	_	_	_	_	_	_	_	_
-5	ааҕар	_	_	_	_	_	_	_	_
+5	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 672
@@ -6987,7 +6987,7 @@
 # text = Мин ыраастаабыт сирим бу баар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	ыраастаабыт	_	_	_	_	_	_	_	_
 3	сирим	_	_	_	_	_	_	_	_
 4	Бу	бу	DET	det	_	_	_	_	this
@@ -7151,7 +7151,7 @@
 # text = Кини сыммыта - бэрт үчүгэй ас .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	сыммыта	_	_	_	_	_	_	_	_
 3	-	-	PUNCT	punct	_	_	_	_	_
 4	бэрт	_	_	_	_	_	_	_	_
@@ -7226,7 +7226,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Биэ	_	_	_	_	_	_	_	_
-2	үүттүттэн	эн	PRON	pron	_	_	_	_	you
+2	үүттүттэн	_	_	_	_	_	_	_	_
 3	кымыс	_	_	_	_	_	_	_	_
 4	оҥороллор	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -7265,7 +7265,7 @@
 # text = Мин күнаайы оскуолаҕа барабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	күнаайы	_	_	_	_	_	_	_	_
 3	оскуолаҕа	_	_	_	_	_	_	_	_
 4	барабын	_	_	_	_	_	_	_	_
@@ -7444,7 +7444,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Биэлэри	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	ыабат	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	ийэм	_	_	_	_	_	_	_	_
@@ -7467,7 +7467,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Ханнык	_	_	_	_	_	_	_	_
-2	үүттэн	эн	PRON	pron	_	_	_	_	you
+2	үүттэн	_	_	_	_	_	_	_	_
 3	кымыс	_	_	_	_	_	_	_	_
 4	оҥороллор	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -7476,7 +7476,7 @@
 # text = Миэхэ билигин уһанар сэп суох .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	билигин	_	_	_	_	_	_	_	_
 3	уһанар	_	_	_	_	_	_	_	_
 4	сэп	_	_	_	_	_	_	_	_
@@ -7551,7 +7551,7 @@
 # text_eng = (Khatironov, )
 1	суох	суох	AUX	aux	_	_	_	_	thereisno
 2	,	,	PUNCT	punct	_	_	_	_	_
-3	миэхэ	_	_	_	_	_	_	_	_
+3	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 4	сыа	_	_	_	_	_	_	_	_
 5	наадата	_	_	_	_	_	_	_	_
 6	суох	суох	AUX	aux	_	_	_	_	thereisno
@@ -7584,7 +7584,7 @@
 # text_eng = (Khatironov, )
 1	Эбэм	_	_	_	_	_	_	_	_
 2	эмиэ	_	_	_	_	_	_	_	_
-3	ааҕар	_	_	_	_	_	_	_	_
+3	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 5	суруйар	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
@@ -7635,7 +7635,7 @@
 # text = Бары олороллор уонна аһыыллар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Бары	_	_	_	_	_	_	_	_
+1	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 2	олороллор	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	аһыыллар	_	_	_	_	_	_	_	_
@@ -7678,7 +7678,7 @@
 # text_eng = (Khatironov, )
 1	Үүтү	_	_	_	_	_	_	_	_
 2	ханнык	_	_	_	_	_	_	_	_
-3	сүөһүттэн	эн	PRON	pron	_	_	_	_	you
+3	сүөһүттэн	_	_	_	_	_	_	_	_
 4	ылаллар	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -7770,10 +7770,10 @@
 # text = Кини сахалыы хайдах үөрэнэрий ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	сахалыы	_	_	_	_	_	_	_	_
 3	хайдах	_	_	_	_	_	_	_	_
-4	үөрэнэрий	_	_	_	_	_	_	_	_
+4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 768
@@ -7812,7 +7812,7 @@
 # text = Кини бааһыналара бэрт киэҥнэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	бааһыналара	_	_	_	_	_	_	_	_
 3	бэрт	_	_	_	_	_	_	_	_
 4	киэҥнэр	_	_	_	_	_	_	_	_
@@ -7853,7 +7853,7 @@
 # text = Мин бүгүн элбэх маһы хайыттым .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	бүгүн	_	_	_	_	_	_	_	_
 3	элбэх	_	_	_	_	_	_	_	_
 4	маһы	_	_	_	_	_	_	_	_
@@ -7868,7 +7868,7 @@
 2	иһигэр	_	_	_	_	_	_	_	_
 3	икки	_	_	_	_	_	_	_	_
 4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
-5	олорор	_	_	_	_	_	_	_	_
+5	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 777
@@ -8032,10 +8032,10 @@
 # text = Кини сахалыы үчүгэйдик үөрэнэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	сахалыы	_	_	_	_	_	_	_	_
 3	үчүгэйдик	_	_	_	_	_	_	_	_
-4	үөрэнэр	_	_	_	_	_	_	_	_
+4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 793
@@ -8053,7 +8053,7 @@
 # text = Кини эһэтэ уонна эбэтэ бааллар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	эһэтэ	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	эбэтэ	_	_	_	_	_	_	_	_
@@ -8221,7 +8221,7 @@
 # text = Кини сымыыта элбэх уонна бөдөҥ .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	сымыыта	_	_	_	_	_	_	_	_
 3	элбэх	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -8273,11 +8273,11 @@
 # text = Кини бэрт күүстэх уонна түргэн .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	бэрт	_	_	_	_	_	_	_	_
 3	күүстэх	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-5	түргэн	эн	PRON	pron	_	_	_	_	you
+5	түргэн	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 816
@@ -8316,8 +8316,8 @@
 # text_eng = (Khatironov, )
 1	Эһиги	_	_	_	_	_	_	_	_
 2	тоҕо	_	_	_	_	_	_	_	_
-3	итинтэн	эн	PRON	pron	_	_	_	_	you
-4	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+3	итинтэн	_	_	_	_	_	_	_	_
+4	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 5	ылбаккыт	_	_	_	_	_	_	_	_
 6	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -8328,14 +8328,14 @@
 1	Доҕорум	_	_	_	_	_	_	_	_
 2	убайа	_	_	_	_	_	_	_	_
 3	куоракка	_	_	_	_	_	_	_	_
-4	үөрэнэр	_	_	_	_	_	_	_	_
+4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 821
 # text = Кини этэ бэрт минньигэс буолар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	этэ	_	_	_	_	_	_	_	_
 3	бэрт	_	_	_	_	_	_	_	_
 4	минньигэс	_	_	_	_	_	_	_	_
@@ -8381,7 +8381,7 @@
 2	паартаҕа	_	_	_	_	_	_	_	_
 3	икки	_	_	_	_	_	_	_	_
 4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
-5	олорор	_	_	_	_	_	_	_	_
+5	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 826
@@ -8408,7 +8408,7 @@
 # text = Бөһүөлэктэн улахан суол тахсар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Бөһүөлэктэн	эн	PRON	pron	_	_	_	_	you
+1	Бөһүөлэктэн	_	_	_	_	_	_	_	_
 2	улахан	_	_	_	_	_	_	_	_
 3	суол	_	_	_	_	_	_	_	_
 4	тахсар	_	_	_	_	_	_	_	_
@@ -8537,7 +8537,7 @@
 # text = Кини тириитэ ыарахан сыаналаах .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	тириитэ	_	_	_	_	_	_	_	_
 3	ыарахан	_	_	_	_	_	_	_	_
 4	сыаналаах	_	_	_	_	_	_	_	_
@@ -8547,7 +8547,7 @@
 # text = Кини биирдэ күөгүгэ тугу тутта ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	биирдэ	_	_	_	_	_	_	_	_
 3	күөгүгэ	_	_	_	_	_	_	_	_
 4	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
@@ -8580,10 +8580,10 @@
 # text = Мин аҕаһым хаппыстаҕа уу кутар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	аҕаһым	_	_	_	_	_	_	_	_
 3	хаппыстаҕа	_	_	_	_	_	_	_	_
-4	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+4	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 5	кутар	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -8671,7 +8671,7 @@
 # text = Миэхэ быарда уонна сүрэхтэ аҕал .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	быарда	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	сүрэхтэ	_	_	_	_	_	_	_	_
@@ -8716,7 +8716,7 @@
 1	Маҥан	_	_	_	_	_	_	_	_
 2	куурусса	_	_	_	_	_	_	_	_
 3	дьааһыкка	_	_	_	_	_	_	_	_
-4	олорор	_	_	_	_	_	_	_	_
+4	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 857
@@ -8822,7 +8822,7 @@
 2	оскуолаҕа	_	_	_	_	_	_	_	_
 3	элбэх	_	_	_	_	_	_	_	_
 4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
-5	үөрэнэр	_	_	_	_	_	_	_	_
+5	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 867
@@ -8865,7 +8865,7 @@
 # text_eng = (Khatironov, )
 1	Бу	бу	DET	det	_	_	_	_	this
 2	атынан	_	_	_	_	_	_	_	_
-3	мин	_	_	_	_	_	_	_	_
+3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 4	бүгүн	_	_	_	_	_	_	_	_
 5	от	_	_	_	_	_	_	_	_
 6	тиэйэбин	_	_	_	_	_	_	_	_
@@ -8910,11 +8910,11 @@
 # text = Кини тыыта чэпчэки уонна түргэн .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	тыыта	_	_	_	_	_	_	_	_
 3	чэпчэки	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-5	түргэн	эн	PRON	pron	_	_	_	_	you
+5	түргэн	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 875
@@ -8966,7 +8966,7 @@
 # text = Мин саҕынньаҕы тымныыга кэтэбин .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	саҕынньаҕы	_	_	_	_	_	_	_	_
 3	тымныыга	_	_	_	_	_	_	_	_
 4	кэтэбин	_	_	_	_	_	_	_	_
@@ -8991,7 +8991,7 @@
 2	остуолу	_	_	_	_	_	_	_	_
 3	сотума	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
-5	Кини	кини	PRON	pron	_	_	_	_	hesheit
+5	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 6	ыраас	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -9001,7 +9001,7 @@
 # text_eng = (Khatironov, )
 1	Эһигиханнык	_	_	_	_	_	_	_	_
 2	аты	_	_	_	_	_	_	_	_
-3	көлүйэн	эн	PRON	pron	_	_	_	_	you
+3	көлүйэн	_	_	_	_	_	_	_	_
 4	бараҕыт	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -9045,7 +9045,7 @@
 2	оҕолор	_	_	_	_	_	_	_	_
 3	эмиэ	_	_	_	_	_	_	_	_
 4	онно	_	_	_	_	_	_	_	_
-5	үөрэнэллэр	_	_	_	_	_	_	_	_
+5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 887
@@ -9083,7 +9083,7 @@
 # text = Миэхэ куобаҕынан үтүлүктэ тигиҥ .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	куобаҕынан	_	_	_	_	_	_	_	_
 3	үтүлүктэ	_	_	_	_	_	_	_	_
 4	тигиҥ	_	_	_	_	_	_	_	_
@@ -9114,7 +9114,7 @@
 # text = Кини сороҕо өлөр , сороҕо саһар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	сороҕо	_	_	_	_	_	_	_	_
 3	өлөр	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -9181,7 +9181,7 @@
 # text = Мин саҕынньаҕым -- таба тириитэ .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	саҕынньаҕым	_	_	_	_	_	_	_	_
 3	--	-	PUNCT	punct	_	_	_	_	_
 4	таба	_	_	_	_	_	_	_	_
@@ -9324,7 +9324,7 @@
 # text = Кини саамай элбэхтик үүнэр отон .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	саамай	_	_	_	_	_	_	_	_
 3	элбэхтик	_	_	_	_	_	_	_	_
 4	үүнэр	_	_	_	_	_	_	_	_
@@ -9346,7 +9346,7 @@
 # text = Бары олороллоруонна чэй иһэллэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Бары	_	_	_	_	_	_	_	_
+1	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 2	олороллоруонна	уонна	CCONJ	cconj	_	_	_	_	and
 3	чэй	_	_	_	_	_	_	_	_
 4	иһэллэр	_	_	_	_	_	_	_	_
@@ -9366,7 +9366,7 @@
 # text = Кини күнүс үлэлиир , түүнутуйар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	күнүс	_	_	_	_	_	_	_	_
 3	үлэлиир	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -9400,7 +9400,7 @@
 # text_eng = (Khatironov, )
 1	Бөрө	_	_	_	_	_	_	_	_
 2	суолаойуур	_	_	_	_	_	_	_	_
-3	иһиттэн	эн	PRON	pron	_	_	_	_	you
+3	иһиттэн	_	_	_	_	_	_	_	_
 4	таҕыста	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -9430,7 +9430,7 @@
 # text = Кинилэртэн эт уонна тирии кэлэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кинилэртэн	эн	PRON	pron	_	_	_	_	you
+1	Кинилэртэн	_	_	_	_	_	_	_	_
 2	эт	эт	NOUN	n	_	_	_	_	meat
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	тирии	_	_	_	_	_	_	_	_
@@ -9463,10 +9463,10 @@
 # text = Мин доҕотторум манна үөрэнэллэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	доҕотторум	_	_	_	_	_	_	_	_
 3	манна	_	_	_	_	_	_	_	_
-4	үөрэнэллэр	_	_	_	_	_	_	_	_
+4	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 926
@@ -9483,7 +9483,7 @@
 # text = Кини онно алта хонукка сыдьыаҕа .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	онно	_	_	_	_	_	_	_	_
 3	алта	_	_	_	_	_	_	_	_
 4	хонукка	_	_	_	_	_	_	_	_
@@ -9494,7 +9494,7 @@
 # text = Кини түүнүлэлиир , күнүс утуйар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	түүнүлэлиир	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	күнүс	_	_	_	_	_	_	_	_
@@ -9542,7 +9542,7 @@
 3	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 4	эмиэ	_	_	_	_	_	_	_	_
 5	кинигэ	_	_	_	_	_	_	_	_
-6	ааҕар	_	_	_	_	_	_	_	_
+6	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 933
@@ -9603,7 +9603,7 @@
 # text = Кини техникаҕа киэҥник туттуллар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	техникаҕа	_	_	_	_	_	_	_	_
 3	киэҥник	_	_	_	_	_	_	_	_
 4	туттуллар	_	_	_	_	_	_	_	_
@@ -9616,7 +9616,7 @@
 1	Бу	бу	DET	det	_	_	_	_	this
 2	хаһыс	_	_	_	_	_	_	_	_
 3	кылааска	_	_	_	_	_	_	_	_
-4	үөрэнэр	_	_	_	_	_	_	_	_
+4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	кыыһый	_	_	_	_	_	_	_	_
 6	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -9650,7 +9650,7 @@
 3	ат	_	_	_	_	_	_	_	_
 4	үүнэ	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
-6	Кини	кини	PRON	pron	_	_	_	_	hesheit
+6	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 7	олус	_	_	_	_	_	_	_	_
 8	кыра	кыра	ADJ	adj	_	_	_	_	small
 9	.	.	PUNCT	punct	_	_	_	_	_
@@ -9722,7 +9722,7 @@
 # text = Мин күөмэйим уонна баһым ыалдьар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	күөмэйим	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	баһым	_	_	_	_	_	_	_	_
@@ -9769,7 +9769,7 @@
 # text_eng = (Khatironov, )
 1	Киэһэ	_	_	_	_	_	_	_	_
 2	дьон	_	_	_	_	_	_	_	_
-3	бары	_	_	_	_	_	_	_	_
+3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 4	дьиэҕэ	_	_	_	_	_	_	_	_
 5	олороллор	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
@@ -9810,7 +9810,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Биһиги	_	_	_	_	_	_	_	_
-2	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+2	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 3	аттыгар	_	_	_	_	_	_	_	_
 4	кумаҕы	_	_	_	_	_	_	_	_
 5	хаһабыт	_	_	_	_	_	_	_	_
@@ -9820,7 +9820,7 @@
 # text = Мин хаатыҥкам улахан уоннаичигэс .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	хаатыҥкам	_	_	_	_	_	_	_	_
 3	улахан	_	_	_	_	_	_	_	_
 4	уоннаичигэс	_	_	_	_	_	_	_	_
@@ -9832,7 +9832,7 @@
 # text_eng = (Khatironov, )
 1	Хаптаҕасаһыы	_	_	_	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
-3	дьэдьэн	эн	PRON	pron	_	_	_	_	you
+3	дьэдьэн	_	_	_	_	_	_	_	_
 4	минньигэс	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -9904,7 +9904,7 @@
 # text_eng = (Khatironov, )
 1	Сыл	_	_	_	_	_	_	_	_
 2	аайы	_	_	_	_	_	_	_	_
-3	Кини	кини	PRON	pron	_	_	_	_	hesheit
+3	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 4	элбэх	_	_	_	_	_	_	_	_
 5	харчыны	_	_	_	_	_	_	_	_
 6	ылар	_	_	_	_	_	_	_	_
@@ -9938,7 +9938,7 @@
 1	Киэһэҥҥи	_	_	_	_	_	_	_	_
 2	оскуолаҕа	_	_	_	_	_	_	_	_
 3	ким	_	_	_	_	_	_	_	_
-4	үөрэнэрий	_	_	_	_	_	_	_	_
+4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 970
@@ -10097,7 +10097,7 @@
 # text = Кини олус кырдьаҕас уонна көрбөт .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	олус	_	_	_	_	_	_	_	_
 3	кырдьаҕас	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -10196,7 +10196,7 @@
 # text = Миэхэ ол хара саҕалаах сону аҕал .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	ол	_	_	_	_	_	_	_	_
 3	хара	_	_	_	_	_	_	_	_
 4	саҕалаах	_	_	_	_	_	_	_	_
@@ -10229,7 +10229,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Биһиги	_	_	_	_	_	_	_	_
-2	иккиэн	эн	PRON	pron	_	_	_	_	you
+2	иккиэн	_	_	_	_	_	_	_	_
 3	туспа	_	_	_	_	_	_	_	_
 4	балыктыахпыт	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -10239,7 +10239,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Өрүскэ	_	_	_	_	_	_	_	_
-2	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+2	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 3	кэлэр	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	кустарааһаллар	_	_	_	_	_	_	_	_
@@ -10295,7 +10295,7 @@
 # text = Кини быара уонна бүөрэкуһаҕаннар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	быара	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	бүөрэкуһаҕаннар	_	_	_	_	_	_	_	_
@@ -10391,7 +10391,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Булчуттар	_	_	_	_	_	_	_	_
-2	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+2	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 3	аттыгартугу	_	_	_	_	_	_	_	_
 4	гыннылар	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -10411,7 +10411,7 @@
 # text = Мин сылгысиэлии үчүгэйдик быһабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	сылгысиэлии	_	_	_	_	_	_	_	_
 3	үчүгэйдик	_	_	_	_	_	_	_	_
 4	быһабын	_	_	_	_	_	_	_	_
@@ -10518,7 +10518,7 @@
 # text = Кини кытыытыгар хойуу хомус үүнэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	кытыытыгар	_	_	_	_	_	_	_	_
 3	хойуу	уу	NOUN	n	Number=Sing	_	_	_	water
 4	хомус	_	_	_	_	_	_	_	_
@@ -10567,7 +10567,7 @@
 1	эн	эн	PRON	pron	_	_	_	_	you
 2	масууһаҕын	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
-4	мин	_	_	_	_	_	_	_	_
+4	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 5	тимир	_	_	_	_	_	_	_	_
 6	ууһабын	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
@@ -10631,7 +10631,7 @@
 # text = Кини өрүскэ уонна күөлгэ илимниир .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	өрүскэ	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	күөлгэ	_	_	_	_	_	_	_	_
@@ -10718,7 +10718,7 @@
 # text = Кини киһи уонна сүөһү хаанын иһэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	сүөһү	_	_	_	_	_	_	_	_
@@ -10740,12 +10740,12 @@
 # text = Кини аттыгар икки кыра оҕо олорор .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	аттыгар	_	_	_	_	_	_	_	_
 3	икки	_	_	_	_	_	_	_	_
 4	кыра	кыра	ADJ	adj	_	_	_	_	small
 5	оҕо	_	_	_	_	_	_	_	_
-6	олорор	_	_	_	_	_	_	_	_
+6	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1044
@@ -10773,7 +10773,7 @@
 # text = Кини үрүҥ көмүстээҕэр ордук күндү .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	үрүҥ	_	_	_	_	_	_	_	_
 3	көмүстээҕэр	_	_	_	_	_	_	_	_
 4	ордук	_	_	_	_	_	_	_	_
@@ -10816,7 +10816,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Дьон	_	_	_	_	_	_	_	_
-2	бары	_	_	_	_	_	_	_	_
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 3	ичигэс	_	_	_	_	_	_	_	_
 4	таҥаһы	_	_	_	_	_	_	_	_
 5	таҥналлар	_	_	_	_	_	_	_	_
@@ -10837,7 +10837,7 @@
 # text = Мин үөрэнэбин , эн эмиэ үөрэнэҕин .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	үөрэнэбин	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	эн	эн	PRON	pron	_	_	_	_	you
@@ -10850,7 +10850,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Ханнык	_	_	_	_	_	_	_	_
-2	үүттэн	эн	PRON	pron	_	_	_	_	you
+2	үүттэн	_	_	_	_	_	_	_	_
 3	сүөгэй	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	арыы	_	_	_	_	_	_	_	_
@@ -10882,7 +10882,7 @@
 # text = Үөрэнэр оҕолор оскуолаҕа бардылар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Үөрэнэр	_	_	_	_	_	_	_	_
+1	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 2	оҕолор	_	_	_	_	_	_	_	_
 3	оскуолаҕа	_	_	_	_	_	_	_	_
 4	бардылар	_	_	_	_	_	_	_	_
@@ -10983,7 +10983,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Сарсыарда	_	_	_	_	_	_	_	_
-2	дьиэттэн	эн	PRON	pron	_	_	_	_	you
+2	дьиэттэн	_	_	_	_	_	_	_	_
 3	төһөҕө	_	_	_	_	_	_	_	_
 4	бараҕыт	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -10996,7 +10996,7 @@
 2	хара	_	_	_	_	_	_	_	_
 3	бытыктаах	_	_	_	_	_	_	_	_
 4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
-5	мин	_	_	_	_	_	_	_	_
+5	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 6	убайым	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -11092,7 +11092,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Ол	_	_	_	_	_	_	_	_
-2	олорор	_	_	_	_	_	_	_	_
+2	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 3	дьахтар	_	_	_	_	_	_	_	_
 4	фермаҕа	_	_	_	_	_	_	_	_
 5	үлэлиир	_	_	_	_	_	_	_	_
@@ -11137,11 +11137,11 @@
 # text = Кини биир доҕоро куоракка үөрэнэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	биир	_	_	_	_	_	_	_	_
 3	доҕоро	_	_	_	_	_	_	_	_
 4	куоракка	_	_	_	_	_	_	_	_
-5	үөрэнэр	_	_	_	_	_	_	_	_
+5	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1080
@@ -11149,7 +11149,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Дьоннор	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	истилэр	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	эт	эт	NOUN	n	_	_	_	_	meat
@@ -11160,7 +11160,7 @@
 # text = Мин убайым саха оскуолатыгар баар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	убайым	_	_	_	_	_	_	_	_
 3	саха	_	_	_	_	_	_	_	_
 4	оскуолатыгар	_	_	_	_	_	_	_	_
@@ -11212,7 +11212,7 @@
 # text = Мин үөрэнээччибин , киниүөрэтээччи .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	үөрэнээччибин	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	киниүөрэтээччи	_	_	_	_	_	_	_	_
@@ -11222,7 +11222,7 @@
 # text = Кини саалаах киһини чугаскиллэрбэт .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	саалаах	_	_	_	_	_	_	_	_
 3	киһини	_	_	_	_	_	_	_	_
 4	чугаскиллэрбэт	эт	NOUN	n	_	_	_	_	meat
@@ -11235,7 +11235,7 @@
 1	Кинилэр	_	_	_	_	_	_	_	_
 2	оҕуруот	_	_	_	_	_	_	_	_
 3	аһыгар	_	_	_	_	_	_	_	_
-4	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+4	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 5	куталлар	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -11354,7 +11354,7 @@
 # text_eng = (Khatironov, )
 1	суох	суох	AUX	aux	_	_	_	_	thereisno
 2	,	,	PUNCT	punct	_	_	_	_	_
-3	мин	_	_	_	_	_	_	_	_
+3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 4	сарсын	_	_	_	_	_	_	_	_
 5	ходуһаҕа	_	_	_	_	_	_	_	_
 6	үлэлиэм	_	_	_	_	_	_	_	_
@@ -11374,7 +11374,7 @@
 # text = Мин оту охсобун , бурдугубыспаппын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	оту	_	_	_	_	_	_	_	_
 3	охсобун	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -11396,7 +11396,7 @@
 # text = Кини урут куһу элбэхтик өлөрөр этэ .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	урут	_	_	_	_	_	_	_	_
 3	куһу	_	_	_	_	_	_	_	_
 4	элбэхтик	_	_	_	_	_	_	_	_
@@ -11474,7 +11474,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Оччоҕо	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	ичигэс	_	_	_	_	_	_	_	_
 4	дойдуларгабарар	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -11530,7 +11530,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Дьон	_	_	_	_	_	_	_	_
-2	бары	_	_	_	_	_	_	_	_
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 3	аһаатылар	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 5	бардылар	_	_	_	_	_	_	_	_
@@ -11555,7 +11555,7 @@
 3	кэннигэр	_	_	_	_	_	_	_	_
 4	биир	_	_	_	_	_	_	_	_
 5	куобах	_	_	_	_	_	_	_	_
-6	олорор	_	_	_	_	_	_	_	_
+6	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1118
@@ -11595,7 +11595,7 @@
 # text = Кини кыһын уонна сайынынахтары ыыр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	кыһын	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	сайынынахтары	_	_	_	_	_	_	_	_
@@ -11608,7 +11608,7 @@
 # text_eng = (Khatironov, )
 1	Ынахтан	_	_	_	_	_	_	_	_
 2	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-3	биэттэн	эн	PRON	pron	_	_	_	_	you
+3	биэттэн	_	_	_	_	_	_	_	_
 4	үүтү	_	_	_	_	_	_	_	_
 5	ылаллар	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
@@ -11617,7 +11617,7 @@
 # text = Мин ньирэйитутабын , аты туппаппын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	ньирэйитутабын	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	аты	_	_	_	_	_	_	_	_
@@ -11785,7 +11785,7 @@
 # text_eng = (Khatironov, )
 1	Онтон	_	_	_	_	_	_	_	_
 2	карточканы	_	_	_	_	_	_	_	_
-3	кимиэхэ	_	_	_	_	_	_	_	_
+3	кимиэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 4	биэрэллэр	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -11804,7 +11804,7 @@
 # text = Мин сааскустуубун уонна хаастыыбын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	сааскустуубун	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	хаастыыбын	_	_	_	_	_	_	_	_
@@ -11837,7 +11837,7 @@
 # text = Мин оһохчуппун , ити киһи остуорас .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	оһохчуппун	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	Ити	ити	DET	det	_	_	_	_	this
@@ -11883,7 +11883,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Хотон	_	_	_	_	_	_	_	_
-2	иһиттэн	эн	PRON	pron	_	_	_	_	you
+2	иһиттэн	_	_	_	_	_	_	_	_
 3	биир	_	_	_	_	_	_	_	_
 4	дьахтар	_	_	_	_	_	_	_	_
 5	таҕыста	_	_	_	_	_	_	_	_
@@ -11915,7 +11915,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Онтон	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	атын	_	_	_	_	_	_	_	_
 4	кылаастары	_	_	_	_	_	_	_	_
 5	хомуйар	_	_	_	_	_	_	_	_
@@ -11969,7 +11969,7 @@
 # text = Мин ийэм совхоз ферматыгар үлэлиир .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	ийэм	_	_	_	_	_	_	_	_
 3	совхоз	_	_	_	_	_	_	_	_
 4	ферматыгар	_	_	_	_	_	_	_	_
@@ -12001,7 +12001,7 @@
 # text = Сэлиэһинэйтэн үчүгэй буулка тахсар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Сэлиэһинэйтэн	эн	PRON	pron	_	_	_	_	you
+1	Сэлиэһинэйтэн	_	_	_	_	_	_	_	_
 2	үчүгэй	_	_	_	_	_	_	_	_
 3	буулка	_	_	_	_	_	_	_	_
 4	тахсар	_	_	_	_	_	_	_	_
@@ -12021,7 +12021,7 @@
 # text = Мин сууннум , сотуннум , тараанным .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	сууннум	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	сотуннум	_	_	_	_	_	_	_	_
@@ -12044,7 +12044,7 @@
 # text = Кини коммунистическай үлэ ударнига .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	коммунистическай	_	_	_	_	_	_	_	_
 3	үлэ	_	_	_	_	_	_	_	_
 4	ударнига	_	_	_	_	_	_	_	_
@@ -12164,7 +12164,7 @@
 # text = Мин масууһабын , эн болуотунньуккун .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	масууһабын	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	эн	эн	PRON	pron	_	_	_	_	you
@@ -12186,7 +12186,7 @@
 # text = Дьэдьэн уонна хаптаҕасэрдэ буһаллар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Дьэдьэн	эн	PRON	pron	_	_	_	_	you
+1	Дьэдьэн	_	_	_	_	_	_	_	_
 2	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 3	хаптаҕасэрдэ	_	_	_	_	_	_	_	_
 4	буһаллар	_	_	_	_	_	_	_	_
@@ -12197,7 +12197,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Рабочайдар	_	_	_	_	_	_	_	_
-2	бары	_	_	_	_	_	_	_	_
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 3	Федотовы	_	_	_	_	_	_	_	_
 4	таптыыллар	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -12226,7 +12226,7 @@
 # text = Кини оҕуруот биригээдэтигэр үлэлиир .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	оҕуруот	_	_	_	_	_	_	_	_
 3	биригээдэтигэр	_	_	_	_	_	_	_	_
 4	үлэлиир	_	_	_	_	_	_	_	_
@@ -12269,7 +12269,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Кылаастар	_	_	_	_	_	_	_	_
-2	бары	_	_	_	_	_	_	_	_
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 3	хаһан	_	_	_	_	_	_	_	_
 4	бэлэмбуолаллар	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -12278,7 +12278,7 @@
 # text = Мин массыынанан от охсорго үөрэнним .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	массыынанан	_	_	_	_	_	_	_	_
 3	от	_	_	_	_	_	_	_	_
 4	охсорго	_	_	_	_	_	_	_	_
@@ -12411,7 +12411,7 @@
 # text = Мин эйигиннээҕэр куһаҕаннык ааҕабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	эйигиннээҕэр	_	_	_	_	_	_	_	_
 3	куһаҕаннык	_	_	_	_	_	_	_	_
 4	ааҕабын	_	_	_	_	_	_	_	_
@@ -12453,8 +12453,8 @@
 # text_eng = (Khatironov, )
 1	Убайымсыыспат	_	_	_	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
-3	Кини	кини	PRON	pron	_	_	_	_	hesheit
-4	бэргэн	эн	PRON	pron	_	_	_	_	you
+3	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
+4	бэргэн	_	_	_	_	_	_	_	_
 5	ытааччы	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -12493,7 +12493,7 @@
 # text = Кини атын көтөр уйатыгар сымыыттыыр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	атын	_	_	_	_	_	_	_	_
 3	көтөр	_	_	_	_	_	_	_	_
 4	уйатыгар	_	_	_	_	_	_	_	_
@@ -12689,7 +12689,7 @@
 2	үөрэтэр	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	оҕолор	_	_	_	_	_	_	_	_
-5	үөрэнэллэр	_	_	_	_	_	_	_	_
+5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1222
@@ -12707,7 +12707,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Хойут	_	_	_	_	_	_	_	_
-2	бары	_	_	_	_	_	_	_	_
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 3	аһыыллар	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 5	утуйаллар	_	_	_	_	_	_	_	_
@@ -12843,7 +12843,7 @@
 # text = Кини илиитэ ыраас да сирэйэ кирдээх .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	илиитэ	_	_	_	_	_	_	_	_
 3	ыраас	_	_	_	_	_	_	_	_
 4	да	_	_	_	_	_	_	_	_
@@ -12855,11 +12855,11 @@
 # text = Мин бүгүн биэдэрэнэн үстэ уу бастым .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	бүгүн	_	_	_	_	_	_	_	_
-3	биэдэрэнэн	эн	PRON	pron	_	_	_	_	you
+3	биэдэрэнэн	_	_	_	_	_	_	_	_
 4	үстэ	_	_	_	_	_	_	_	_
-5	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+5	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 6	бастым	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -12995,7 +12995,7 @@
 # text_eng = (Khatironov, )
 1	Биһиги	_	_	_	_	_	_	_	_
 2	өрүстэрбит	_	_	_	_	_	_	_	_
-3	бары	_	_	_	_	_	_	_	_
+3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 4	хоту	_	_	_	_	_	_	_	_
 5	түһэллэр	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
@@ -13006,7 +13006,7 @@
 # text_eng = (Khatironov, )
 1	Кэскил	_	_	_	_	_	_	_	_
 2	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-3	мин	_	_	_	_	_	_	_	_
+3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 4	оскуолаҕа	_	_	_	_	_	_	_	_
 5	үөрэнэбит	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
@@ -13025,7 +13025,7 @@
 # text = Кини саалатыгар икки сүүскиһи киирэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	саалатыгар	_	_	_	_	_	_	_	_
 3	икки	_	_	_	_	_	_	_	_
 4	сүүскиһи	_	_	_	_	_	_	_	_
@@ -13177,7 +13177,7 @@
 # text = Кини баһыгар улахан кыһыл тараахтаах .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	баһыгар	_	_	_	_	_	_	_	_
 3	улахан	_	_	_	_	_	_	_	_
 4	кыһыл	_	_	_	_	_	_	_	_
@@ -13304,7 +13304,7 @@
 # text = Мин от охсуоҕум , ити кыыс мунньуоҕа .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	от	_	_	_	_	_	_	_	_
 3	охсуоҕум	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -13327,7 +13327,7 @@
 # text = Мин Васялыын киэһэ өрүскэ киириэхпит .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	Васялыын	_	_	_	_	_	_	_	_
 3	киэһэ	_	_	_	_	_	_	_	_
 4	өрүскэ	_	_	_	_	_	_	_	_
@@ -13383,10 +13383,10 @@
 # text = Мин эбэм дьиэгэ олорор , киниыалдьар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	эбэм	_	_	_	_	_	_	_	_
 3	дьиэгэ	_	_	_	_	_	_	_	_
-4	олорор	_	_	_	_	_	_	_	_
+4	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
 6	киниыалдьар	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
@@ -13487,14 +13487,14 @@
 2	Союзка	_	_	_	_	_	_	_	_
 3	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 4	барыта	_	_	_	_	_	_	_	_
-5	үөрэнэр	_	_	_	_	_	_	_	_
+5	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1293
 # text = Кини миэбэли , буочуканы эҥин оҥорор .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	миэбэли	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	буочуканы	_	_	_	_	_	_	_	_
@@ -13585,7 +13585,7 @@
 # text_eng = (Khatironov, )
 1	Ити	ити	DET	det	_	_	_	_	this
 2	дьон	_	_	_	_	_	_	_	_
-3	үөрэнэр	_	_	_	_	_	_	_	_
+3	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 4	оскуолалараханнаный	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -13606,7 +13606,7 @@
 # text = Мин мас ууһабын , эн болуотунньуккун .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	мас	_	_	_	_	_	_	_	_
 3	ууһабын	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -13668,7 +13668,7 @@
 1	Сүөһүнү	_	_	_	_	_	_	_	_
 2	отунан	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
-4	сиилэһинэн	эн	PRON	pron	_	_	_	_	you
+4	сиилэһинэн	_	_	_	_	_	_	_	_
 5	аһаталлар	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -13734,7 +13734,7 @@
 # text = Кининэн уот оттоллор , дьиэ тутталлар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кининэн	эн	PRON	pron	_	_	_	_	you
+1	Кининэн	_	_	_	_	_	_	_	_
 2	уот	_	_	_	_	_	_	_	_
 3	оттоллор	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -13747,7 +13747,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Дьон	_	_	_	_	_	_	_	_
-2	кинилэртэн	эн	PRON	pron	_	_	_	_	you
+2	кинилэртэн	_	_	_	_	_	_	_	_
 3	ханныктары	_	_	_	_	_	_	_	_
 4	бултууллар	_	_	_	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -13847,7 +13847,7 @@
 2	дьахтар	_	_	_	_	_	_	_	_
 3	киэһэҥҥи	_	_	_	_	_	_	_	_
 4	оскуолаҕа	_	_	_	_	_	_	_	_
-5	үөрэнэр	_	_	_	_	_	_	_	_
+5	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1325
@@ -13908,7 +13908,7 @@
 # text = Мин бортунуойбун , эн болуотунньуккун .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	бортунуойбун	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	эн	эн	PRON	pron	_	_	_	_	you
@@ -13989,7 +13989,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Иһити	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	сууйбаппын	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	Сайаана	_	_	_	_	_	_	_	_
@@ -14040,7 +14040,7 @@
 1	Кыһын	_	_	_	_	_	_	_	_
 2	биһиги	_	_	_	_	_	_	_	_
 3	Бу	бу	DET	det	_	_	_	_	this
-4	күөлтэн	эн	PRON	pron	_	_	_	_	you
+4	күөлтэн	_	_	_	_	_	_	_	_
 5	ууну	_	_	_	_	_	_	_	_
 6	ылбаппыт	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
@@ -14049,9 +14049,9 @@
 # text = Мин манна уу куппатым , эн куттуҥ дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	манна	_	_	_	_	_	_	_	_
-3	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+3	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 4	куппатым	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
 6	эн	эн	PRON	pron	_	_	_	_	you
@@ -14147,7 +14147,7 @@
 2	аттыгар	_	_	_	_	_	_	_	_
 3	кырдаҕас	_	_	_	_	_	_	_	_
 4	оҕонньор	_	_	_	_	_	_	_	_
-5	олорор	_	_	_	_	_	_	_	_
+5	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1351
@@ -14158,7 +14158,7 @@
 2	торбостонууну	_	_	_	_	_	_	_	_
 3	ылыҥ	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
-5	Кини	кини	PRON	pron	_	_	_	_	hesheit
+5	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 6	уулаабат	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -14166,7 +14166,7 @@
 # text = Кини этэр : Хаатыҥка куһаҕан , тымныы .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	этэр	_	_	_	_	_	_	_	_
 3	:	_	_	_	_	_	_	_	_
 4	Хаатыҥка	_	_	_	_	_	_	_	_
@@ -14183,7 +14183,7 @@
 2	ыт	_	_	_	_	_	_	_	_
 3	анысаһыллаабат	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
-5	Кини	кини	PRON	pron	_	_	_	_	hesheit
+5	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 6	кырдьаҕас	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -14262,7 +14262,7 @@
 2	сорох	_	_	_	_	_	_	_	_
 3	оҕолор	_	_	_	_	_	_	_	_
 4	киэһэ	_	_	_	_	_	_	_	_
-5	үөрэнэллэр	_	_	_	_	_	_	_	_
+5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1361
@@ -14325,7 +14325,7 @@
 # text = Мин эһэм бостуугунан элбэх сылүлэлээтэ .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	эһэм	_	_	_	_	_	_	_	_
 3	бостуугунан	_	_	_	_	_	_	_	_
 4	элбэх	_	_	_	_	_	_	_	_
@@ -14384,7 +14384,7 @@
 # text = Кини элбэх алыһары уонна майаҕаһы ылла .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	элбэх	_	_	_	_	_	_	_	_
 3	алыһары	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -14439,12 +14439,12 @@
 # text = Мин биир атаһым убайа куоракка үөрэнэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	биир	_	_	_	_	_	_	_	_
 3	атаһым	_	_	_	_	_	_	_	_
 4	убайа	_	_	_	_	_	_	_	_
 5	куоракка	_	_	_	_	_	_	_	_
-6	үөрэнэр	_	_	_	_	_	_	_	_
+6	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1377
@@ -14490,7 +14490,7 @@
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	уол	_	_	_	_	_	_	_	_
 6	даҕаны	_	_	_	_	_	_	_	_
-7	үөрэнэр	_	_	_	_	_	_	_	_
+7	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 8	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1381
@@ -14498,7 +14498,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Бүгүн	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	истии	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	эт	эт	NOUN	n	_	_	_	_	meat
@@ -14521,7 +14521,7 @@
 # text = Кини эмиэ ХотугуМуустаах муораҕа туһэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	эмиэ	_	_	_	_	_	_	_	_
 3	ХотугуМуустаах	_	_	_	_	_	_	_	_
 4	муораҕа	_	_	_	_	_	_	_	_
@@ -14600,7 +14600,7 @@
 # text = Мин муннум тоҥно , эн муннуҥ тоҥор дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	муннум	_	_	_	_	_	_	_	_
 3	тоҥно	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -14786,7 +14786,7 @@
 # text = Кини онно коммунистическай үлэударнига .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	онно	_	_	_	_	_	_	_	_
 3	коммунистическай	_	_	_	_	_	_	_	_
 4	үлэударнига	_	_	_	_	_	_	_	_
@@ -14796,7 +14796,7 @@
 # text = Мин ийэм ынах ыаччы , аҕам отохсооччуу .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	ийэм	_	_	_	_	_	_	_	_
 3	ынах	_	_	_	_	_	_	_	_
 4	ыаччы	_	_	_	_	_	_	_	_
@@ -14821,7 +14821,7 @@
 # text = Миэхэ сыттык хаата уонна холуоһа наада .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	сыттык	_	_	_	_	_	_	_	_
 3	хаата	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -14848,7 +14848,7 @@
 2	эрдэ	_	_	_	_	_	_	_	_
 3	хаптаҕас	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-5	дьэдьэн	эн	PRON	pron	_	_	_	_	you
+5	дьэдьэн	_	_	_	_	_	_	_	_
 6	буһар	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -14910,7 +14910,7 @@
 # text = Мин кулгааҕым ыалдьыбат , баһым ыалдьар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	кулгааҕым	_	_	_	_	_	_	_	_
 3	ыалдьыбат	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -15003,7 +15003,7 @@
 # text = Мин сонум истээх , үтүлүгүм эмиэ истээх .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	сонум	_	_	_	_	_	_	_	_
 3	истээх	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -15016,7 +15016,7 @@
 # text = Кини куукунаҕа бастаан билиидэни отунна .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	куукунаҕа	_	_	_	_	_	_	_	_
 3	бастаан	_	_	_	_	_	_	_	_
 4	билиидэни	_	_	_	_	_	_	_	_
@@ -15062,7 +15062,7 @@
 # text_eng = (Khatironov, )
 1	Оһоҕуүчүгэй	_	_	_	_	_	_	_	_
 2	бөҕө	_	_	_	_	_	_	_	_
-3	кирпииччэнэн	эн	PRON	pron	_	_	_	_	you
+3	кирпииччэнэн	_	_	_	_	_	_	_	_
 4	оҥороллор	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -15070,13 +15070,13 @@
 # text = Мин уолбун , эн кыыскын , кини оҕонньор .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	уолбун	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	эн	эн	PRON	pron	_	_	_	_	you
 5	кыыскын	_	_	_	_	_	_	_	_
 6	,	,	PUNCT	punct	_	_	_	_	_
-7	Кини	кини	PRON	pron	_	_	_	_	hesheit
+7	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 8	оҕонньор	_	_	_	_	_	_	_	_
 9	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -15085,7 +15085,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Хаҥкынан	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	эмиэ	_	_	_	_	_	_	_	_
 4	бэрт	_	_	_	_	_	_	_	_
 5	түргэнник	_	_	_	_	_	_	_	_
@@ -15131,7 +15131,7 @@
 # text = Кини дуоска аттыгар турар уонна суруйар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	дуоска	_	_	_	_	_	_	_	_
 3	аттыгар	_	_	_	_	_	_	_	_
 4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
@@ -15155,7 +15155,7 @@
 # text = Мин убайым хороонтон саһыл оҕотун тутар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	убайым	_	_	_	_	_	_	_	_
 3	хороонтон	_	_	_	_	_	_	_	_
 4	саһыл	_	_	_	_	_	_	_	_
@@ -15211,7 +15211,7 @@
 # text = Уу үөнэ куска , балыкка , аһылык буолар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+1	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 2	үөнэ	_	_	_	_	_	_	_	_
 3	куска	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -15333,7 +15333,7 @@
 3	биирэр	_	_	_	_	_	_	_	_
 4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 5	хаһыат	_	_	_	_	_	_	_	_
-6	ааҕар	_	_	_	_	_	_	_	_
+6	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1453
@@ -15382,7 +15382,7 @@
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	хара	_	_	_	_	_	_	_	_
 6	килиэптэ	_	_	_	_	_	_	_	_
-7	быс	_	_	_	_	_	_	_	_
+7	быс	быс	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	_
 8	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1457
@@ -15402,7 +15402,7 @@
 # text = Мин дьонум нууччалыы үчүгэйдик билэллэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	дьонум	_	_	_	_	_	_	_	_
 3	нууччалыы	_	_	_	_	_	_	_	_
 4	үчүгэйдик	_	_	_	_	_	_	_	_
@@ -15472,7 +15472,7 @@
 # text_eng = (Khatironov, )
 1	Ити	ити	DET	det	_	_	_	_	this
 2	быһаҕынан	_	_	_	_	_	_	_	_
-3	мин	_	_	_	_	_	_	_	_
+3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 4	билигин	_	_	_	_	_	_	_	_
 5	туттуом	_	_	_	_	_	_	_	_
 6	суоҕа	_	_	_	_	_	_	_	_
@@ -15598,7 +15598,7 @@
 3	дьон	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 5	дьахталлар	_	_	_	_	_	_	_	_
-6	үөрэнэллэр	_	_	_	_	_	_	_	_
+6	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1476
@@ -15677,7 +15677,7 @@
 1	Бурдук	_	_	_	_	_	_	_	_
 2	быһар	_	_	_	_	_	_	_	_
 3	массыынаҕа	_	_	_	_	_	_	_	_
-4	мин	_	_	_	_	_	_	_	_
+4	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 5	үлэлээбэппин	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -15708,7 +15708,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Оһохчут	_	_	_	_	_	_	_	_
-2	кирилэһинэн	эн	PRON	pron	_	_	_	_	you
+2	кирилэһинэн	_	_	_	_	_	_	_	_
 3	дьиэ	_	_	_	_	_	_	_	_
 4	үрдүгэр	_	_	_	_	_	_	_	_
 5	таҕыста	_	_	_	_	_	_	_	_
@@ -15720,7 +15720,7 @@
 # text_eng = (Khatironov, )
 1	Бөрөттөн	_	_	_	_	_	_	_	_
 2	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-3	эһэттэн	эн	PRON	pron	_	_	_	_	you
+3	эһэттэн	_	_	_	_	_	_	_	_
 4	дьон	_	_	_	_	_	_	_	_
 5	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 6	ылаллар	_	_	_	_	_	_	_	_
@@ -15784,7 +15784,7 @@
 2	күн	_	_	_	_	_	_	_	_
 3	аайы	_	_	_	_	_	_	_	_
 4	көтөр	_	_	_	_	_	_	_	_
-5	этинэн	эн	PRON	pron	_	_	_	_	you
+5	этинэн	_	_	_	_	_	_	_	_
 6	эбиэттиибит	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -15856,7 +15856,7 @@
 1	Аҕам	_	_	_	_	_	_	_	_
 2	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 3	убайым	_	_	_	_	_	_	_	_
-4	үлэттэн	эн	PRON	pron	_	_	_	_	you
+4	үлэттэн	_	_	_	_	_	_	_	_
 5	хойут	_	_	_	_	_	_	_	_
 6	кэлэллэр	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
@@ -15898,7 +15898,7 @@
 # text = Мин сыыртан үчүгэйдик түстүм , охтубатым .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	сыыртан	_	_	_	_	_	_	_	_
 3	үчүгэйдик	_	_	_	_	_	_	_	_
 4	түстүм	_	_	_	_	_	_	_	_
@@ -15960,7 +15960,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Бүгүн	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	Кэскили	_	_	_	_	_	_	_	_
 4	кытта	_	_	_	_	_	_	_	_
 5	кирилиэс	_	_	_	_	_	_	_	_
@@ -15977,7 +15977,7 @@
 4	эдэр	_	_	_	_	_	_	_	_
 5	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 6	ханна	_	_	_	_	_	_	_	_
-7	үөрэнэр	_	_	_	_	_	_	_	_
+7	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 8	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1508
@@ -16066,19 +16066,19 @@
 # text = Мин биир аҕаһым үрдүкү оскуолаҕа үөрэнэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	биир	_	_	_	_	_	_	_	_
 3	аҕаһым	_	_	_	_	_	_	_	_
 4	үрдүкү	_	_	_	_	_	_	_	_
 5	оскуолаҕа	_	_	_	_	_	_	_	_
-6	үөрэнэр	_	_	_	_	_	_	_	_
+6	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1516
 # text = Кини түргэнник оргуйар , үчүгэй сылабаар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	түргэнник	_	_	_	_	_	_	_	_
 3	оргуйар	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -16125,10 +16125,10 @@
 1	эн	эн	PRON	pron	_	_	_	_	you
 2	оҕоҕун	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
-4	мин	_	_	_	_	_	_	_	_
+4	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 5	кырдьаҕаспын	_	_	_	_	_	_	_	_
 6	,	,	PUNCT	punct	_	_	_	_	_
-7	Кини	кини	PRON	pron	_	_	_	_	hesheit
+7	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 8	эдэр	_	_	_	_	_	_	_	_
 9	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -16150,7 +16150,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Күһүн	_	_	_	_	_	_	_	_
-2	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+2	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 3	тоҥор	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	кус	_	_	_	_	_	_	_	_
@@ -16179,7 +16179,7 @@
 2	кынаттыаһаата	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	онтон	_	_	_	_	_	_	_	_
-5	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+5	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 6	тыаһаата	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -16202,7 +16202,7 @@
 1	Сайаана	_	_	_	_	_	_	_	_
 2	убайа	_	_	_	_	_	_	_	_
 3	Алдаҥҥа	_	_	_	_	_	_	_	_
-4	инженеринэн	эн	PRON	pron	_	_	_	_	you
+4	инженеринэн	_	_	_	_	_	_	_	_
 5	үлэлиир	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -16293,7 +16293,7 @@
 2	түүтэх	_	_	_	_	_	_	_	_
 3	баайар	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
-5	мин	_	_	_	_	_	_	_	_
+5	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 6	түүтэх	_	_	_	_	_	_	_	_
 7	таһабын	_	_	_	_	_	_	_	_
 8	.	.	PUNCT	punct	_	_	_	_	_
@@ -16302,7 +16302,7 @@
 # text = Мин баһаарга барбаппын , оскуолаҕабарабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	баһаарга	_	_	_	_	_	_	_	_
 3	барбаппын	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -16371,7 +16371,7 @@
 # text = Сибиниэстэн боробулуоханы тоҕо оҥорботтор ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Сибиниэстэн	эн	PRON	pron	_	_	_	_	you
+1	Сибиниэстэн	_	_	_	_	_	_	_	_
 2	боробулуоханы	_	_	_	_	_	_	_	_
 3	тоҕо	_	_	_	_	_	_	_	_
 4	оҥорботтор	_	_	_	_	_	_	_	_
@@ -16422,7 +16422,7 @@
 2	тарбаҕыҥ	_	_	_	_	_	_	_	_
 3	суон	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
-5	мин	_	_	_	_	_	_	_	_
+5	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 6	тарбаҕым	_	_	_	_	_	_	_	_
 7	синньигэс	_	_	_	_	_	_	_	_
 8	.	.	PUNCT	punct	_	_	_	_	_
@@ -16482,7 +16482,7 @@
 2	оскуолаҕа	_	_	_	_	_	_	_	_
 3	улахан	_	_	_	_	_	_	_	_
 4	дьон	_	_	_	_	_	_	_	_
-5	үөрэнэллэр	_	_	_	_	_	_	_	_
+5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1551
@@ -16513,7 +16513,7 @@
 # text = Мин бурдук быһааччыбын , энот охсооччугун .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	бурдук	_	_	_	_	_	_	_	_
 3	быһааччыбын	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -16536,7 +16536,7 @@
 # text = Мин ити кыһыл суорҕаннаах ороҥҥо утуйабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	Ити	ити	DET	det	_	_	_	_	this
 3	кыһыл	_	_	_	_	_	_	_	_
 4	суорҕаннаах	_	_	_	_	_	_	_	_
@@ -16565,11 +16565,11 @@
 # text = Мин быраатым уоннабалтым манна үөрэнэллэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	быраатым	_	_	_	_	_	_	_	_
 3	уоннабалтым	_	_	_	_	_	_	_	_
 4	манна	_	_	_	_	_	_	_	_
-5	үөрэнэллэр	_	_	_	_	_	_	_	_
+5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1558
@@ -16593,7 +16593,7 @@
 3	үчүгэйдик	_	_	_	_	_	_	_	_
 4	сотуҥ	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
-6	Кини	кини	PRON	pron	_	_	_	_	hesheit
+6	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 7	кирдээх	_	_	_	_	_	_	_	_
 8	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -16653,7 +16653,7 @@
 1	Чыычаах	_	_	_	_	_	_	_	_
 2	уйатын	_	_	_	_	_	_	_	_
 3	отунануонна	уонна	CCONJ	cconj	_	_	_	_	and
-4	түүнэн	эн	PRON	pron	_	_	_	_	you
+4	түүнэн	_	_	_	_	_	_	_	_
 5	оҥостор	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -16696,7 +16696,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-2	үүттэн	эн	PRON	pron	_	_	_	_	you
+2	үүттэн	_	_	_	_	_	_	_	_
 3	өссө	_	_	_	_	_	_	_	_
 4	суорат	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
@@ -16742,9 +16742,9 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Кыһын	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	оскуолаҕахаатыҥка	_	_	_	_	_	_	_	_
-4	кэтэн	эн	PRON	pron	_	_	_	_	you
+4	кэтэн	_	_	_	_	_	_	_	_
 5	барабын	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -16873,7 +16873,7 @@
 2	оҕолор	_	_	_	_	_	_	_	_
 3	начальнай	_	_	_	_	_	_	_	_
 4	оскуолаҕа	_	_	_	_	_	_	_	_
-5	үөрэнэллэр	_	_	_	_	_	_	_	_
+5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1584
@@ -16903,9 +16903,9 @@
 # text = Кини сахалыы ааҕар даҕаны , суруйар даҕаны .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	сахалыы	_	_	_	_	_	_	_	_
-3	ааҕар	_	_	_	_	_	_	_	_
+3	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 4	даҕаны	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
 6	суруйар	_	_	_	_	_	_	_	_
@@ -16943,7 +16943,7 @@
 # text_eng = (Khatironov, )
 1	Кэскил	_	_	_	_	_	_	_	_
 2	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-3	мин	_	_	_	_	_	_	_	_
+3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 4	арыт	_	_	_	_	_	_	_	_
 5	мастерскойгауһанабыт	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
@@ -16953,7 +16953,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Манна	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	элбэх	_	_	_	_	_	_	_	_
 4	сыаналаах	_	_	_	_	_	_	_	_
 5	балыгы	_	_	_	_	_	_	_	_
@@ -16967,7 +16967,7 @@
 1	Биһиги	_	_	_	_	_	_	_	_
 2	кыһын	_	_	_	_	_	_	_	_
 3	ууну	_	_	_	_	_	_	_	_
-4	үрэхтэн	эн	PRON	pron	_	_	_	_	you
+4	үрэхтэн	_	_	_	_	_	_	_	_
 5	оҕуһунан	_	_	_	_	_	_	_	_
 6	баһабыт	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
@@ -17036,7 +17036,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Эрдэ	_	_	_	_	_	_	_	_
-2	туруҥ	_	_	_	_	_	_	_	_
+2	туруҥ	тур	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	оскуолаҕа	_	_	_	_	_	_	_	_
 5	түргэнник	_	_	_	_	_	_	_	_
@@ -17057,7 +17057,7 @@
 # text = Кини туораҕы уонна араас үөннэри эмиэ сиир .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	туораҕы	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	араас	_	_	_	_	_	_	_	_
@@ -17107,7 +17107,7 @@
 1	Энкырдьаҕас	_	_	_	_	_	_	_	_
 2	сааһыккын	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
-4	мин	_	_	_	_	_	_	_	_
+4	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 5	эдэр	_	_	_	_	_	_	_	_
 6	булчуппун	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
@@ -17117,7 +17117,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Эһэм	_	_	_	_	_	_	_	_
-2	өрүстэн	эн	PRON	pron	_	_	_	_	you
+2	өрүстэн	_	_	_	_	_	_	_	_
 3	бүгүн	_	_	_	_	_	_	_	_
 4	үс	_	_	_	_	_	_	_	_
 5	улахан	_	_	_	_	_	_	_	_
@@ -17153,12 +17153,12 @@
 # text = Мин ити сүгэнэн суоруомсуоҕа , кини сыппах .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	Ити	ити	DET	det	_	_	_	_	this
-3	сүгэнэн	эн	PRON	pron	_	_	_	_	you
+3	сүгэнэн	_	_	_	_	_	_	_	_
 4	суоруомсуоҕа	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
-6	Кини	кини	PRON	pron	_	_	_	_	hesheit
+6	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 7	сыппах	_	_	_	_	_	_	_	_
 8	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -17214,7 +17214,7 @@
 # text = Кини аты ыҥыырдыаҕа уоннасылгы көрө барыаҕа .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	аты	_	_	_	_	_	_	_	_
 3	ыҥыырдыаҕа	_	_	_	_	_	_	_	_
 4	уоннасылгы	_	_	_	_	_	_	_	_
@@ -17242,7 +17242,7 @@
 # text_eng = (Khatironov, )
 1	Ол	_	_	_	_	_	_	_	_
 2	оннугар	_	_	_	_	_	_	_	_
-3	киниттэн	эн	PRON	pron	_	_	_	_	you
+3	киниттэн	_	_	_	_	_	_	_	_
 4	элбэх	_	_	_	_	_	_	_	_
 5	быыл	_	_	_	_	_	_	_	_
 6	,	,	PUNCT	punct	_	_	_	_	_
@@ -17323,7 +17323,7 @@
 2	онно	_	_	_	_	_	_	_	_
 3	кэлиэҕэ	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-5	миэхэ	_	_	_	_	_	_	_	_
+5	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 6	көмөлөһүөҕэ	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -17355,7 +17355,7 @@
 # text = Мин дьэҥкир арыыны сиэбэппин , иһим ыалдьар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	дьэҥкир	_	_	_	_	_	_	_	_
 3	арыыны	_	_	_	_	_	_	_	_
 4	сиэбэппин	_	_	_	_	_	_	_	_
@@ -17418,7 +17418,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Билигин	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	куһаҕанных	_	_	_	_	_	_	_	_
 4	көрөр	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
@@ -17479,7 +17479,7 @@
 # text = Мин оҕолоох киһибин , эн оҕото суох киһигин .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	оҕолоох	_	_	_	_	_	_	_	_
 3	киһибин	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -17515,7 +17515,7 @@
 # text = Кини бэркэ үлэлиир , сыыһы , кири таптаабат .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	бэркэ	_	_	_	_	_	_	_	_
 3	үлэлиир	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -17773,7 +17773,7 @@
 4	ис	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
 6	ыстакааны	_	_	_	_	_	_	_	_
-7	миэхэ	_	_	_	_	_	_	_	_
+7	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 8	аҕал	_	_	_	_	_	_	_	_
 9	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -17901,7 +17901,7 @@
 3	үчүгэйдик	_	_	_	_	_	_	_	_
 4	көлүйбэккин	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
-6	мин	_	_	_	_	_	_	_	_
+6	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 7	көлуйэбин	_	_	_	_	_	_	_	_
 8	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -18035,7 +18035,7 @@
 # text = Кини уһуна түөрт тыһыынча биэс сүүс километр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	уһуна	_	_	_	_	_	_	_	_
 3	түөрт	_	_	_	_	_	_	_	_
 4	тыһыынча	_	_	_	_	_	_	_	_
@@ -18175,7 +18175,7 @@
 # text = Мин куһу ыраахтан сыыһабын , чугастан табабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	куһу	_	_	_	_	_	_	_	_
 3	ыраахтан	_	_	_	_	_	_	_	_
 4	сыыһабын	_	_	_	_	_	_	_	_
@@ -18188,7 +18188,7 @@
 # text = Мин ити акка олоруом суоҕа , ыҥыыр атымииниэм .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	Ити	ити	DET	det	_	_	_	_	this
 3	акка	_	_	_	_	_	_	_	_
 4	олоруом	_	_	_	_	_	_	_	_
@@ -18214,7 +18214,7 @@
 # text = Мин совхозка оҕуруот биригээдэтигэр үлэлиибин .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	совхозка	_	_	_	_	_	_	_	_
 3	оҕуруот	_	_	_	_	_	_	_	_
 4	биригээдэтигэр	_	_	_	_	_	_	_	_
@@ -18405,7 +18405,7 @@
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	нууччалар	_	_	_	_	_	_	_	_
 5	бииргэ	_	_	_	_	_	_	_	_
-6	үөрэнэллэр	_	_	_	_	_	_	_	_
+6	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1710
@@ -18437,8 +18437,8 @@
 # text = Кини миэхэ ырбаахыныуонна истээх ыстааны тиктэ .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
-2	миэхэ	_	_	_	_	_	_	_	_
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
+2	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	ырбаахыныуонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	истээх	_	_	_	_	_	_	_	_
 5	ыстааны	_	_	_	_	_	_	_	_
@@ -18449,7 +18449,7 @@
 # text = Мин түргэнник таҥнабын уонна ыраастык суунабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	түргэнник	_	_	_	_	_	_	_	_
 3	таҥнабын	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -18475,7 +18475,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Манна	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	элбэх	_	_	_	_	_	_	_	_
 4	собону	_	_	_	_	_	_	_	_
 5	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -18487,7 +18487,7 @@
 # text = Мин биирсордоҥу сиэтим уонна балык минин истим .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	биирсордоҥу	_	_	_	_	_	_	_	_
 3	сиэтим	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -18668,7 +18668,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Долбууру	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	дьиэҕэ	_	_	_	_	_	_	_	_
 4	аҕалыам	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
@@ -18750,7 +18750,7 @@
 # text = Мин быйыл кыһын хатыҥтансэттэ куртуйаҕы өлөрдүм .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	быйыл	_	_	_	_	_	_	_	_
 3	кыһын	_	_	_	_	_	_	_	_
 4	хатыҥтансэттэ	_	_	_	_	_	_	_	_
@@ -18770,7 +18770,7 @@
 6	,	,	PUNCT	punct	_	_	_	_	_
 7	өссө	_	_	_	_	_	_	_	_
 8	килиэптэ	_	_	_	_	_	_	_	_
-9	быс	_	_	_	_	_	_	_	_
+9	быс	быс	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	_
 10	!	!	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1739
@@ -18858,7 +18858,7 @@
 1	Бу	бу	DET	det	_	_	_	_	this
 2	оскуолаҕа	_	_	_	_	_	_	_	_
 3	кыыс	кыыс	NOUN	n	_	_	_	_	girl
-4	үөрэнэр	_	_	_	_	_	_	_	_
+4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	дуу	уу	NOUN	n	Number=Sing	_	_	_	water
 6	,	,	PUNCT	punct	_	_	_	_	_
 7	уол	_	_	_	_	_	_	_	_
@@ -18887,7 +18887,7 @@
 3	сахалыы	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 5	нууччалыы	_	_	_	_	_	_	_	_
-6	үөрэнэллэр	_	_	_	_	_	_	_	_
+6	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1748
@@ -19024,7 +19024,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Көтөрдөр	_	_	_	_	_	_	_	_
-2	бары	_	_	_	_	_	_	_	_
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 3	уйа	_	_	_	_	_	_	_	_
 4	оҥостоллор	_	_	_	_	_	_	_	_
 5	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -19040,7 +19040,7 @@
 3	аҕамбугул	_	_	_	_	_	_	_	_
 4	бугуллуур	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
-6	мин	_	_	_	_	_	_	_	_
+6	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 7	харбыыбын	_	_	_	_	_	_	_	_
 8	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -19167,7 +19167,7 @@
 2	тымныы	_	_	_	_	_	_	_	_
 3	уунансуунуҥ	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
-5	мин	_	_	_	_	_	_	_	_
+5	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 6	сылаас	_	_	_	_	_	_	_	_
 7	уунан	_	_	_	_	_	_	_	_
 8	сууннум	_	_	_	_	_	_	_	_
@@ -19177,7 +19177,7 @@
 # text = Мин аты уонна оҕуһу миинэбин , табаны мииммэппин .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	аты	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	оҕуһу	_	_	_	_	_	_	_	_
@@ -19270,7 +19270,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Бастаан	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	кылааска	_	_	_	_	_	_	_	_
 4	ааны	_	_	_	_	_	_	_	_
 5	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -19287,7 +19287,7 @@
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	эдьиийим	_	_	_	_	_	_	_	_
 5	бииргэ	_	_	_	_	_	_	_	_
-6	үөрэнэллэр	_	_	_	_	_	_	_	_
+6	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1779
@@ -19297,7 +19297,7 @@
 1	Энбиһиэхэ	_	_	_	_	_	_	_	_
 2	биригэдьииргин	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
-4	мин	_	_	_	_	_	_	_	_
+4	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 5	бүгүн	_	_	_	_	_	_	_	_
 6	дежурнайбын	_	_	_	_	_	_	_	_
 7	.	.	PUNCT	punct	_	_	_	_	_
@@ -19406,7 +19406,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Кыһын	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	хаатыҥканы	_	_	_	_	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 5	истээх	_	_	_	_	_	_	_	_
@@ -19465,7 +19465,7 @@
 # text = Мин охсор массыынаҕа үлэлиэм суоҕа , от охсуохпут .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	охсор	_	_	_	_	_	_	_	_
 3	массыынаҕа	_	_	_	_	_	_	_	_
 4	үлэлиэм	_	_	_	_	_	_	_	_
@@ -19498,7 +19498,7 @@
 4	баайыа	_	_	_	_	_	_	_	_
 5	суоҕа	_	_	_	_	_	_	_	_
 6	,	,	PUNCT	punct	_	_	_	_	_
-7	Кини	кини	PRON	pron	_	_	_	_	hesheit
+7	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 8	быһар	_	_	_	_	_	_	_	_
 9	эрэ	_	_	_	_	_	_	_	_
 10	.	.	PUNCT	punct	_	_	_	_	_
@@ -19623,7 +19623,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Эбиэккэ	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	килиэп	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
@@ -19739,7 +19739,7 @@
 # text = Кини чулкуну , наскыны эмиэкэппэт , этэрбэһи кэтэр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	чулкуну	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	наскыны	_	_	_	_	_	_	_	_
@@ -20015,7 +20015,7 @@
 # text = Мин тыыны даҕаны , оҥочону даҕаны үчүгэйдик эрдэбин .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	тыыны	_	_	_	_	_	_	_	_
 3	даҕаны	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -20110,7 +20110,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Онон	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	аһы	_	_	_	_	_	_	_	_
 4	тоҥсуйар	_	_	_	_	_	_	_	_
 5	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -20160,7 +20160,7 @@
 # text = Кини хайыһарынан хонууга , ойуурга , хайаҕа сылдьар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	хайыһарынан	_	_	_	_	_	_	_	_
 3	хонууга	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -20181,14 +20181,14 @@
 5	дьахтар	_	_	_	_	_	_	_	_
 6	уоннакырдаҕас	_	_	_	_	_	_	_	_
 7	даҕаны	_	_	_	_	_	_	_	_
-8	үөрэнэр	_	_	_	_	_	_	_	_
+8	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 9	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1847
 # text = Мин кулунутаптыыбын , сибиинньэ оҕотун таптаабаппын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	кулунутаптыыбын	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	сибиинньэ	_	_	_	_	_	_	_	_
@@ -20229,7 +20229,7 @@
 # text_eng = (Khatironov, )
 1	Саас	_	_	_	_	_	_	_	_
 2	биирдэ	_	_	_	_	_	_	_	_
-3	мин	_	_	_	_	_	_	_	_
+3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 4	убайым	_	_	_	_	_	_	_	_
 5	кытта	_	_	_	_	_	_	_	_
 6	өрүскэ	_	_	_	_	_	_	_	_
@@ -20267,7 +20267,7 @@
 # text = Миэхэ харах , сүрэх , тыҥа үчүгэйдэр , куртахкуһаҕан .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	харах	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	сүрэх	_	_	_	_	_	_	_	_
@@ -20350,7 +20350,7 @@
 # text = Мин доҕотторум уолаттар , балтым доҕотторо кыргыттар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	доҕотторум	_	_	_	_	_	_	_	_
 3	уолаттар	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -20431,7 +20431,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Аны	_	_	_	_	_	_	_	_
-2	Кини	кини	PRON	pron	_	_	_	_	hesheit
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 3	улахан	_	_	_	_	_	_	_	_
 4	тирээпкэни	_	_	_	_	_	_	_	_
 5	ылар	_	_	_	_	_	_	_	_
@@ -20444,7 +20444,7 @@
 # text = Мин кыһын аттарыуулатабын , ынах сүөһүнү уулаппаппын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	кыһын	_	_	_	_	_	_	_	_
 3	аттарыуулатабын	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -20537,7 +20537,7 @@
 6	Ийээ	_	_	_	_	_	_	_	_
 7	,	,	PUNCT	punct	_	_	_	_	_
 8	эн	эн	PRON	pron	_	_	_	_	you
-9	миэхэ	_	_	_	_	_	_	_	_
+9	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 10	ырбаахыта	_	_	_	_	_	_	_	_
 11	тик	_	_	_	_	_	_	_	_
 12	.	.	PUNCT	punct	_	_	_	_	_
@@ -20562,7 +20562,7 @@
 2	ыҥыыролус	_	_	_	_	_	_	_	_
 3	кытаанах	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
-5	мин	_	_	_	_	_	_	_	_
+5	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 6	сымнаҕас	_	_	_	_	_	_	_	_
 7	ыҥыыры	_	_	_	_	_	_	_	_
 8	таптыыбын	_	_	_	_	_	_	_	_
@@ -20572,7 +20572,7 @@
 # text = Кини сыата суох эти , хааһыны уонна үүтү ордуктаптыыр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	сыата	_	_	_	_	_	_	_	_
 3	суох	суох	AUX	aux	_	_	_	_	thereisno
 4	эти	_	_	_	_	_	_	_	_
@@ -20600,7 +20600,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Онтон	_	_	_	_	_	_	_	_
-2	бары	_	_	_	_	_	_	_	_
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 3	олордулар	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	чэй	_	_	_	_	_	_	_	_
@@ -20657,7 +20657,7 @@
 # text = Мин илимҥэсордоҥнору , алыһардары , майаҕастары ыллым .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	илимҥэсордоҥнору	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	алыһардары	_	_	_	_	_	_	_	_
@@ -20672,7 +20672,7 @@
 # text_eng = (Khatironov, )
 1	Аҕам	_	_	_	_	_	_	_	_
 2	хаһыат	_	_	_	_	_	_	_	_
-3	ааҕар	_	_	_	_	_	_	_	_
+3	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 5	кэпсиир	_	_	_	_	_	_	_	_
 6	,	,	PUNCT	punct	_	_	_	_	_
@@ -20686,7 +20686,7 @@
 # text_eng = (Khatironov, )
 1	Совхоз	_	_	_	_	_	_	_	_
 2	ферматыгар	_	_	_	_	_	_	_	_
-3	мин	_	_	_	_	_	_	_	_
+3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 4	ийэм	_	_	_	_	_	_	_	_
 5	үлэлээбэт	эт	NOUN	n	_	_	_	_	meat
 6	,	,	PUNCT	punct	_	_	_	_	_
@@ -20736,7 +20736,7 @@
 # text = Кини оҥорбут үлэтэ мэлдьи бастыҥ хаачыстыбалаахбуолар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	оҥорбут	_	_	_	_	_	_	_	_
 3	үлэтэ	_	_	_	_	_	_	_	_
 4	мэлдьи	_	_	_	_	_	_	_	_
@@ -20761,7 +20761,7 @@
 # text = Мин нууччалыы түргэнникааҕабын да , бытаннык саҥарабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	нууччалыы	_	_	_	_	_	_	_	_
 3	түргэнникааҕабын	_	_	_	_	_	_	_	_
 4	да	_	_	_	_	_	_	_	_
@@ -20787,7 +20787,7 @@
 # text = Миэхэ аҕам , ийэм , эһэм , эбэм , убайым , аҕаһым баар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Миэхэ	_	_	_	_	_	_	_	_
+1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	аҕам	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	ийэм	_	_	_	_	_	_	_	_
@@ -20806,14 +20806,14 @@
 # text = Мин түргэнникуһуктабын уонна көрөбүн : икки кус олорор .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	түргэнникуһуктабын	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	көрөбүн	_	_	_	_	_	_	_	_
 5	:	_	_	_	_	_	_	_	_
 6	икки	_	_	_	_	_	_	_	_
 7	кус	_	_	_	_	_	_	_	_
-8	олорор	_	_	_	_	_	_	_	_
+8	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 9	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1893
@@ -20964,7 +20964,7 @@
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	энбалыксыккын	_	_	_	_	_	_	_	_
 6	,	,	PUNCT	punct	_	_	_	_	_
-7	Кини	кини	PRON	pron	_	_	_	_	hesheit
+7	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 8	болуотунньук	_	_	_	_	_	_	_	_
 9	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -20979,7 +20979,7 @@
 5	тардыа	_	_	_	_	_	_	_	_
 6	суоҕа	_	_	_	_	_	_	_	_
 7	,	,	PUNCT	punct	_	_	_	_	_
-8	Кини	кини	PRON	pron	_	_	_	_	hesheit
+8	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 9	олус	_	_	_	_	_	_	_	_
 10	кырдьаҕас	_	_	_	_	_	_	_	_
 11	.	.	PUNCT	punct	_	_	_	_	_
@@ -21405,7 +21405,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Кинилэр	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	истилэр	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	килиэп	_	_	_	_	_	_	_	_
@@ -21610,7 +21610,7 @@
 1	Совхоз	_	_	_	_	_	_	_	_
 2	рабочайдара	_	_	_	_	_	_	_	_
 3	билигин	_	_	_	_	_	_	_	_
-4	бары	_	_	_	_	_	_	_	_
+4	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 5	хомуур	_	_	_	_	_	_	_	_
 6	үлэтигэр	_	_	_	_	_	_	_	_
 7	сылдьаллар	_	_	_	_	_	_	_	_
@@ -21639,7 +21639,7 @@
 3	истээх	_	_	_	_	_	_	_	_
 4	таҥаһытигэр	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
-6	Кини	кини	PRON	pron	_	_	_	_	hesheit
+6	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 7	көстүүмү	_	_	_	_	_	_	_	_
 8	тигиэ	_	_	_	_	_	_	_	_
 9	суоҕа	_	_	_	_	_	_	_	_
@@ -21662,7 +21662,7 @@
 # text = Мин арыт дьиэҕэ эбиэттиибин , арыт остолобуойга эбиэттиибин .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	арыт	_	_	_	_	_	_	_	_
 3	дьиэҕэ	_	_	_	_	_	_	_	_
 4	эбиэттиибин	_	_	_	_	_	_	_	_
@@ -21676,7 +21676,7 @@
 # text = Кини сүөһүнү элбэхтик сиир уоннатүүллээх кыыллары эмиэ сиир .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	сүөһүнү	_	_	_	_	_	_	_	_
 3	элбэхтик	_	_	_	_	_	_	_	_
 4	сиир	_	_	_	_	_	_	_	_
@@ -21709,7 +21709,7 @@
 # text = Кини ыалдьар киһини көрөр , истэр уонна киниэхэ эми суруйар .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	ыалдьар	_	_	_	_	_	_	_	_
 3	киһини	_	_	_	_	_	_	_	_
 4	көрөр	_	_	_	_	_	_	_	_
@@ -21777,7 +21777,7 @@
 # text = Мин кыһыҥҥы сонум үрүҥ саҕалаах , убайым соно хара саҕалаах .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	кыһыҥҥы	_	_	_	_	_	_	_	_
 3	сонум	_	_	_	_	_	_	_	_
 4	үрүҥ	_	_	_	_	_	_	_	_
@@ -21794,7 +21794,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Нуорманы	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	күн	_	_	_	_	_	_	_	_
 4	аайы	_	_	_	_	_	_	_	_
 5	сүүрбэ	_	_	_	_	_	_	_	_
@@ -21861,7 +21861,7 @@
 3	буочука	_	_	_	_	_	_	_	_
 4	баар	баар	AUX	aux	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
-6	Кини	кини	PRON	pron	_	_	_	_	hesheit
+6	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 7	аттыгар	_	_	_	_	_	_	_	_
 8	суунар	_	_	_	_	_	_	_	_
 9	иһиттурар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
@@ -21889,7 +21889,7 @@
 3	бастаансымыытынан	_	_	_	_	_	_	_	_
 4	аһатабыт	_	_	_	_	_	_	_	_
 5	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-6	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+6	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 7	биэрэбит	_	_	_	_	_	_	_	_
 8	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -21927,7 +21927,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Киэһэ	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	дьиэҕэ	_	_	_	_	_	_	_	_
 4	кэлэбин	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
@@ -21986,7 +21986,7 @@
 # text = Мин сарсыарда сэттэ чааска уһуктабын , эн эмиээрдэ үһүктаҕын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	сарсыарда	_	_	_	_	_	_	_	_
 3	сэттэ	_	_	_	_	_	_	_	_
 4	чааска	_	_	_	_	_	_	_	_
@@ -22160,7 +22160,7 @@
 # text = Кини үлэни үчүгэйдиктэрийэр , атын дьоҥно сүбэлиир , көмөлөһөр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	үлэни	_	_	_	_	_	_	_	_
 3	үчүгэйдиктэрийэр	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -22233,7 +22233,7 @@
 # text = Кини күһүн уонна кыһын түүлээҕи бултуур уонна арааскыылы өлөрөр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	күһүн	_	_	_	_	_	_	_	_
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	кыһын	_	_	_	_	_	_	_	_
@@ -22287,7 +22287,7 @@
 # text = Мин совхозка ньирэйдэри , торбостору , аһатабын уонна уулатабын .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Мин	_	_	_	_	_	_	_	_
+1	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	совхозка	_	_	_	_	_	_	_	_
 3	ньирэйдэри	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -22555,7 +22555,7 @@
 # text = Кини сыл аайы элбэх тииҥи , кырынааһы , саһылы уонна куобаҕыөлөрөр .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	сыл	_	_	_	_	_	_	_	_
 3	аайы	_	_	_	_	_	_	_	_
 4	элбэх	_	_	_	_	_	_	_	_
@@ -22580,7 +22580,7 @@
 6	чоху	_	_	_	_	_	_	_	_
 7	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 8	араас	_	_	_	_	_	_	_	_
-9	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+9	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 10	үөннэрэ	_	_	_	_	_	_	_	_
 11	бааллар	_	_	_	_	_	_	_	_
 12	.	.	PUNCT	punct	_	_	_	_	_
@@ -22589,7 +22589,7 @@
 # text = Кини куобаҕы , саһылы , табаны , араасатын кыылы уонна сүөһүнү сиир .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	куобаҕы	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	саһылы	_	_	_	_	_	_	_	_
@@ -22632,7 +22632,7 @@
 4	массынаны	_	_	_	_	_	_	_	_
 5	(vehicles)	_	_	_	_	_	_	_	_
 6	,	,	PUNCT	punct	_	_	_	_	_
-7	табары	_	_	_	_	_	_	_	_
+7	табары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 8	(goods)ылабыт	_	_	_	_	_	_	_	_
 9	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -22656,7 +22656,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Билигин	_	_	_	_	_	_	_	_
-2	мин	_	_	_	_	_	_	_	_
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 3	киэпкэм	_	_	_	_	_	_	_	_
 4	,	,	PUNCT	punct	_	_	_	_	_
 5	сайыҥҥы	_	_	_	_	_	_	_	_
@@ -22811,7 +22811,7 @@
 5	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
 6	буочукаттан	_	_	_	_	_	_	_	_
 7	биэдэрэҕэ	_	_	_	_	_	_	_	_
-8	уу	уу	NOUN	n	Number=Sing	_	_	_	water
+8	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 9	кутта	_	_	_	_	_	_	_	_
 10	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -22859,7 +22859,7 @@
 5	биилкэлэр	_	_	_	_	_	_	_	_
 6	,	,	PUNCT	punct	_	_	_	_	_
 7	быһахтар--	-	PUNCT	punct	_	_	_	_	_
-8	бары	_	_	_	_	_	_	_	_
+8	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 9	бэлэм	_	_	_	_	_	_	_	_
 10	буоллулар	_	_	_	_	_	_	_	_
 11	.	.	PUNCT	punct	_	_	_	_	_
@@ -22874,7 +22874,7 @@
 4	барыа	_	_	_	_	_	_	_	_
 5	суоҕа	_	_	_	_	_	_	_	_
 6	,	,	PUNCT	punct	_	_	_	_	_
-7	Кини	кини	PRON	pron	_	_	_	_	hesheit
+7	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 8	булуукка	_	_	_	_	_	_	_	_
 9	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 10	боромньуга	_	_	_	_	_	_	_	_
@@ -23151,7 +23151,7 @@
 # text = Кини ханнык даҕаны үлэҕэ барытыгар бэрт , барытыгар нуорманы аһара толорор .
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кини	кини	PRON	pron	_	_	_	_	hesheit
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	ханнык	_	_	_	_	_	_	_	_
 3	даҕаны	_	_	_	_	_	_	_	_
 4	үлэҕэ	_	_	_	_	_	_	_	_
@@ -23172,7 +23172,7 @@
 2	бырааттара	_	_	_	_	_	_	_	_
 3	уоннабалыстара	_	_	_	_	_	_	_	_
 4	сорохторо	_	_	_	_	_	_	_	_
-5	үөрэнэллэр	_	_	_	_	_	_	_	_
+5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	_
 6	,	,	PUNCT	punct	_	_	_	_	_
 7	сорохторо	_	_	_	_	_	_	_	_
 8	кыралар	_	_	_	_	_	_	_	_
@@ -23320,7 +23320,7 @@
 5	,	,	PUNCT	punct	_	_	_	_	_
 6	кырдьаҕас	_	_	_	_	_	_	_	_
 7	дьоннордуун	_	_	_	_	_	_	_	_
-8	бары	_	_	_	_	_	_	_	_
+8	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 9	кэлэллэр	_	_	_	_	_	_	_	_
 10	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -23990,14 +23990,14 @@
 # text = Килиэптэ сиэ
 # text_rus = Поешь хлеба
 # text_eng = ´Eat some bread.’ or ‘Eat some of the bread.’ (Baker, M., & Vinokurova, N. (2021), 1a)
-1	Килиэптэ	килиэп	NOUN	n	Case=Part|Number=Sing	2	obj	_	bread
+1	Килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	2	obj	_	bread
 2	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
 
 # sent_id = 2095
 # text = Кинигэтэ атыылас
 # text_rus = Купи книгу (любую)
 # text_eng = ‘Buy any book.’ (Not: #‘Buy some of the book.’) (Baker, M., & Vinokurova, N. (2021), 1b)
-1	Кинигэтэ	кинигэ	NOUN	n	Case=Part|Number=Sing	2	obj	_	book
+1	Кинигэтэ	кинигэ	NOUN	n	Case=Par|Number=Sing	2	obj	_	book
 2	атыылас	атыылас	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	buy
 
 # sent_id = 2096
@@ -24027,7 +24027,7 @@
 # text_rus = Съешь два яблока
 # text_eng = ´Eat two of the apples’ (Baker, M., & Vinokurova, N. (2021), 3a, b)
 1	Яблокаттан	яблоко	NOUN	n	Case=Abl|Number=Sing	2	obl	_	apple
-2	иккитэ	икки	NUM	num	Case=Part	3	obj	_	two
+2	иккитэ	икки	NUM	num	Case=Par	3	obj	_	two
 3	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
 
 # sent_id = 2100
@@ -24042,7 +24042,7 @@
 # text_rus = 
 # text_eng = ´Masha (you) eat some porridge!’ (Baker, M., & Vinokurova, N. (2021), 4a)
 1	Маша	Маша	PROPN	propn	_	3	nsubj	_	_
-2	саламаатта	саламаат	NOUN	n	Case=Part|Number=Sing	3	obj	_	porridge
+2	саламаатта	саламаат	NOUN	n	Case=Par|Number=Sing	3	obj	_	porridge
 3	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
 
 # sent_id = 2102
@@ -24050,7 +24050,7 @@
 # text_rus = 
 # text_eng = ´Have Masha eat some porridge’ (Baker, M., & Vinokurova, N. (2021), 4b)
 1	Маша	Маша	PROPN	propn	_	3	nsubj	_	_
-2	саламаатта	саламаат	NOUN	n	Case=Part|Number=Sing	3	obj	_	porridge
+2	саламаатта	саламаат	NOUN	n	Case=Par|Number=Sing	3	obj	_	porridge
 3	сиэтин	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=3|Tense=Pres	0	root	_	eat
 
 # sent_id = 2103
@@ -24064,7 +24064,7 @@
 # text = Килиэптэ сиэмэ
 # text_rus = Не ешь хлеба
 # text_eng = ´Do not eat any bread at all’ (Baker, M., & Vinokurova, N. (2021), 6)
-1	Килиэптэ	килиэп	NOUN	n	Case=Part|Number=Sing	2	obj	_	bread
+1	Килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	2	obj	_	bread
 2	сиэмэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	eat
 
 # sent_id = 2105
@@ -24078,7 +24078,7 @@
 # text = Кинигитэ бул
 # text_rus = Найди эту книгу
 # text_eng = ´Find this book!’ (Baker, M., & Vinokurova, N. (2021), 8)
-1	Кинигитэ	кинигэ	NOUN	n	Case=Part|Number=Sing	2	obj	_	book
+1	Кинигитэ	кинигэ	NOUN	n	Case=Par|Number=Sing	2	obj	_	book
 2	бул	бул	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	find
 
 # sent_id = 2107
