@@ -2033,22 +2033,23 @@
 # sent_id = 211
 # text = Ити аты бостуук ылыаҕа .
 # text_rus = 
-# text_eng = (Khatironov, )
+# text_eng = The shepard will take (tame?) this horse (Khatironov, 161)
 1	Ити	ити	DET	det	_	_	_	_	this
-2	аты	_	_	_	_	_	_	_	_
-3	бостуук	_	_	_	_	_	_	_	_
-4	ылыаҕа	_	_	_	_	_	_	_	_
+2	аты	ат	NOUN	n	Case=Acc|Number=Sing	_	_	_	horse
+3	бостуук	бостуук	NOUN	n	Case=Nom|Number=Sing	_	_	_	пастух
+4	ылыаҕа	ыл	VERB	v	Number=Sing|Person=3|Tense=Fut	_	_	_	take
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 212
-# text = Бу үрэхуута бэрт ыраас .
+# text = Бу үрэх уута бэрт ыраас .
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Бу	бу	DET	det	_	_	_	_	this
-2	үрэхуута	_	_	_	_	_	_	_	_
-3	бэрт	_	_	_	_	_	_	_	_
-4	ыраас	_	_	_	_	_	_	_	_
-5	.	.	PUNCT	punct	_	_	_	_	_
+2	үрэх	үрэх	NOUN	n	Case=Nom|Number=Sing	_	_	_	stream
+3	уута	уу	NOUN	n	Case=Part|Number=Sing	_	_	_	water
+4	бэрт	бэрт	ADV	adv	_	_	_	_	very
+5	ыраас	ыраас	ADJ	adj	_	_	_	_	clean
+6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 213
 # text = Оскуола дьиэтэ бу баар .
@@ -9660,7 +9661,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Киниэхэ	_	_	_	_	_	_	_	_
-2	уута	_	_	_	_	_	_	_	_
+2	уута	уу	NOUN	n	Case=Part|Number=Sing	_	_	_	water
 3	уоннаэбиэстэ	_	_	_	_	_	_	_	_
 4	биэриҥ	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
@@ -13712,7 +13713,7 @@
 # text_eng = (Khatironov, )
 1	Бу	бу	DET	det	_	_	_	_	this
 2	күөл	_	_	_	_	_	_	_	_
-3	уута	_	_	_	_	_	_	_	_
+3	уута	уу	NOUN	n	Case=Part|Number=Sing	_	_	_	water
 4	куһаҕан	_	_	_	_	_	_	_	_
 5	,	,	PUNCT	punct	_	_	_	_	_
 6	сүөһү	_	_	_	_	_	_	_	_
@@ -16883,7 +16884,7 @@
 1	Өлүөнэ	_	_	_	_	_	_	_	_
 2	өрүс	_	_	_	_	_	_	_	_
 3	саас	_	_	_	_	_	_	_	_
-4	уута	_	_	_	_	_	_	_	_
+4	уута	уу	NOUN	n	Case=Part|Number=Sing	_	_	_	water
 5	сүрдээх	_	_	_	_	_	_	_	_
 6	элбэх	_	_	_	_	_	_	_	_
 7	буолар	_	_	_	_	_	_	_	_
