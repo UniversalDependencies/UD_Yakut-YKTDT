@@ -21582,7 +21582,7 @@
 4	этэр	_	_	_	_	_	_	_	_
 5	:	_	_	_	_	_	_	_	_
 6	Алаадьы	_	_	_	_	_	_	_	_
-7		_	_	_	_	_	_	_	_
+7	этэр	_	_	_	_	_	_	_	_
 8	үчүгэй	_	_	_	_	_	_	_	_
 9	,	,	PUNCT	punct	_	_	_	_	_
 10	лэппиэскэкуһаҕан	_	_	_	_	_	_	_	_
@@ -21791,13 +21791,12 @@
 11	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1963
-# text = Ити дьоныҥыыр атынан  бараллар дуу , тэлиэгэнэн бараллар дуу ?
+# text = Ити дьоныҥыыр атынан бараллар дуу , тэлиэгэнэн бараллар дуу ?
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Ити	ити	DET	det	_	_	_	_	this
 2	дьоныҥыыр	_	_	_	_	_	_	_	_
 3	атынан	_	_	_	_	_	_	_	_
-4		_	_	_	_	_	_	_	_
 5	бараллар	_	_	_	_	_	_	_	_
 6	дуу	_	_	_	_	_	_	_	_
 7	,	,	PUNCT	punct	_	_	_	_	_
@@ -24072,4 +24071,3 @@
 # text_eng = ´Do not eat (any) bread’ (Baker, M., & Vinokurova, N. (2021), 9)
 1	Килиэп	килиэп	NOUN	n	Case=Nom|Number=Sing	2	obj	_	bread
 2	сиэмэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	eat
-
