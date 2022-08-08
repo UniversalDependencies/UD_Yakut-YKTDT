@@ -2099,7 +2099,7 @@
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	олоруҥ	олор	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	sit
 4	,	,	PUNCT	punct	_	_	_	_	_
-5	эбиэттэҥ		эбиэттээ	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	dine
+5	эбиэттэҥ	эбиэттээ	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	dine
 6	!	!	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 219
@@ -9328,7 +9328,7 @@
 # text_eng = (Khatironov, )
 1	Сүрэх	_	_	_	_	_	_	_	_
 2	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-3	тыҥа		_	_	_	_	_	_	_	_
+3	тыҥа	_	_	_	_	_	_	_	_
 4	түөскэ	_	_	_	_	_	_	_	_
 5	бааллар	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
@@ -9361,7 +9361,7 @@
 # text_eng = (Khatironov, )
 1	Ити	ити	DET	det	_	_	_	_	this
 2	оҕону	оҕо	NOUN	n	Case=Acc|Number=Sing	_	_	_	child
-3	ууга	уу		NOUN	n	Case=Dat|Number=Sing	_	_	_	water
+3	ууга	уу	NOUN	n	Case=Dat|Number=Sing	_	_	_	water
 4	ыраах	ыраах	ADV	adv	_	_	_	_	far
 5	киллэримэҥ	киллэр	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	_	_	_	dontenter
 6	.	.	PUNCT	punct	_	_	_	_	_
@@ -14383,7 +14383,7 @@
 2	ыалдьар	ыар	ADJ	adj	_	_	_	_	sick
 3	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
 4	ханна	ханна	PRON	pron	_	_	_	_	where
-5	баралларый	бар	VERB	v	Int=Yes|Number=Plur|Person=3|Tense=Pres		_	_	_	_
+5	баралларый	бар	VERB	v	Int=Yes|Number=Plur|Person=3|Tense=Pres	_	_	_	_
 6	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 1373
