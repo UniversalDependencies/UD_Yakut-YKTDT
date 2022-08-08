@@ -2,7 +2,7 @@
 # text = Кинилэр кэллилэр
 # text_rus = Они пришли
 # text_eng = They came
-1	Кинилэр	кинилэр	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+1	Кинилэр	кини	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	кэллилэр	кэл	VERB	v	Number=Plur|Person=3|Tense=NearPast	0	root	_	_
 
 # sent_id = 2
