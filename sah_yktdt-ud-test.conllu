@@ -2,7 +2,7 @@
 # text = Кинилэр кэллилэр
 # text_rus = Они пришли
 # text_eng = They came
-1	Кинилэр	кини	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+1	Кинилэр	кинилэр	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	кэллилэр	кэл	VERB	v	Number=Plur|Person=3|Tense=NearPast	0	root	_	_
 
 # sent_id = 2
@@ -1271,7 +1271,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	эн	эн	PRON	pron	_	2	nmod	_	you
-2	эһэҥ		эһэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	grandfather
+2	эһэҥ	эһэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	grandfather
 3	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	study
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
@@ -1481,8 +1481,8 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Бу	бу	DET	det	_	_	_	_	this
-2	муҥхаҕыт		_	_	_	_	_	_	_	_
-3	саҥа		_	_	_	_	_	_	_	_
+2	муҥхаҕыт	_	_	_	_	_	_	_	_
+3	саҥа	_	_	_	_	_	_	_	_
 4	дуо	дуо	PART	part	_	_	_	_	?
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -1490,8 +1490,8 @@
 # text = Эн иһиҥ ханна баарый ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	эн	эн	PRON	pron	_	_	_	_	you
-2	иһиҥ		_	_	_	_	_	_	_	_
+1	Эн	эн	PRON	pron	_	_	_	_	you
+2	иһиҥ	_	_	_	_	_	_	_	_
 3	ханна	_	_	_	_	_	_	_	_
 4	баарый	баар	AUX	aux	Int=Yes	_	_	_	exist
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -1530,7 +1530,7 @@
 # text = Ийэҥ туохха уу кутта ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ийэҥ		ийэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	mother
+1	Ийэҥ	ийэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	mother
 2	туохха	туох	PRON	pron	Case=Dat|PronType=Int	_	_	_	towhom
 3	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 4	кутта	кут	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	pour
@@ -1580,7 +1580,7 @@
 # text = Үрүҥ ас хантан тахсар ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Үрүҥ		үрүҥ		ADJ	adj	_	_	_	_	white
+1	Үрүҥ	үрүҥ	ADJ	adj	_	_	_	_	white
 2	ас	_	_	_	_	_	_	_	_
 3	хантан	_	_	_	_	_	_	_	_
 4	тахсар	_	_	_	_	_	_	_	_
