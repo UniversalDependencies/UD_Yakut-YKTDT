@@ -87,7 +87,7 @@
 2	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
 3	элбэх	элбэх	ADJ	adj	_	4	amod	_	_
 4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	_
-5	үөрэнэр	үөрэн	VERB	vi	Person=3|Tense=Pres	0	root	_	_
+5	үөрэнэр	үөрэн	VERB	vi	PNumber=Sing|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 11
 # text = Айаана уонна Сайаана, манна кэлиҥ, дуоска аттыгар туруҥ
@@ -133,7 +133,7 @@
 3	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
 4	күөгүрээпийэ	күөгүрээпийэ	NOUN	n	Case=Nom|Number=Sing	6	nsubj	_	_
 5	олус	олус	ADV	adv	_	6	advmod	_	_
-6	туһалаабыта	туһалаа	VERB	v	Tense=PastPart	0	root	_	_
+6	туһалаабыта	туһалаа	VERB	v	Number=Sing|Person=3|Tense=PastPerf	0	root	_	_
 
 # sent_id = 15
 # text = Баһаалыста, бары туруҥ
@@ -150,7 +150,7 @@
 # text_eng = Misha bought the book
 1	Миша	миша	PROPN	propn	Case=Nom|Number=Sing	3	nsubj	_	_
 2	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	3	obj	_	_
-3	атыыласта	атыылас	VERB	vt	Person=3|Tense=NearPast	0	root	_	_
+3	атыыласта	атыылас	VERB	vt	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
 # sent_id = 17
 # text = Саша аҕатыгар суругу ыытта
@@ -159,7 +159,7 @@
 1	Саша	саша	PROPN	propn	Case=Nom|Number=Sing	4	nsubj	_	_
 2	аҕатыгар	аҕа	NOUN	n	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	iobj	_	_
 3	суругу	сурук	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
-4	ыытта	ыыт	VERB	vd	Person=3|Tense=NearPast	0	root	_	_
+4	ыытта	ыыт	VERB	vd	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
 # sent_id = 18
 # text = биһиги бэҕэһээ Германияттан сурук тут
@@ -169,7 +169,7 @@
 2	бэҕэһээ	бэҕэһээ	ADV	adv	_	5	advmod	_	_
 3	Германияттан	германия	PROPN	propn	Case=Abl|Number=Sing	5	obl	_	_
 4	сурук	сурук	NOUN	n	Case=Nom|Number=Sing	5	obj	_	_
-5	тут	тут	VERB	vd	Tense=Pres	0	root	_	_
+5	тут	тут	VERB	vd	Tense=Pres|???	0	root	_	_
 
 # sent_id = 19
 # text = Бу кыыл таба буолбатах
@@ -178,14 +178,14 @@
 1	Бу	бу	DET	det	_	2	det	_	_
 2	кыыл	кыыл	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	_
 3	таба	таба	NOUN	n	Case=Nom|Number=Sing	0	root	_	_
-4	буолбатах	буол	AUX	aux	Polarity=Neg|Tense=Pres	3	cop	_	_
+4	буолбатах	буол	AUX	aux	Number=Sing|Person=3|Polarity=Neg|Tense=PastResultI	3	cop	_	_
 
 # sent_id = 20
 # text = Мин кэллим
 # text_rus = Я пришел
 # text_eng = I came
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
-2	кэллим	кэл	VERB	vi	Person=1|Tense=NearPast	0	root	_	_
+2	кэллим	кэл	VERB	vi	Number=Sing|Person=1|Tense=NearPast	0	root	_	_
 
 # sent_id = 21
 # text = Манна оҕолор олороллор
@@ -200,10 +200,10 @@
 # text_rus = Не ешь быстро, ешь медленно
 # text_eng = Do not eat fast, eat slowly
 1	Түргэнник	түргэнник	ADV	adv	_	2	advmod	_	_
-2	аһаама	аһаа	VERB	vi	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	0	root	_	SpaceAfter=No
+2	аһаама	аһаа	VERB	vi	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	punct	2	punct	_	_
 4	бытааннык	бытааннык	ADV	adv	_	5	advmod	_	_
-5	аһаа	аһаа	VERB	vi	Mood=Imp|Number=Sing|Person=2	2	parataxis	_	_
+5	аһаа	аһаа	VERB	vi	Mood=Imp|Number=Sing|Person=2|Tense=Pres	2	parataxis	_	_
 
 # sent_id = 23
 # text = Илии тарбаҕа уһун уонна синньигэс, атах тарбаҕа кылгас уонна суон
@@ -348,7 +348,7 @@
 # text_rus = Я упал в воду
 # text_eng = I fell into the water (Johanson, Turkic, 2021, 840)
 1	Ууга	уу	NOUN	n	Case=Dat|Number=Sing	2	obl	_	_
-2	түспүтүм	түс	VERB	vi	Number=Sing|Person=1|Tense=PastPart	0	root	_	_
+2	түспүтүм	түс	VERB	vi	Number=Sing|Person=1|Tense=PastPerf	0	root	_	_
 
 # sent_id = 39
 # text = Кини дьиэҕэ киирбитэ
@@ -356,7 +356,7 @@
 # text_eng = He/she entered the house (Johanson, Turkic, 2021, 840)
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	дьиэҕэ	дьиэ	NOUN	n	Case=Dat|Number=Sing	3	obl	_	_
-3	киирбитэ	киир	VERB	vi	Number=Sing|Person=3|Tense=PastPart	0	root	_	_
+3	киирбитэ	киир	VERB	vi	Number=Sing|Person=3|Tense=PastPerf	0	root	_	_
 
 # sent_id = 40
 # text = Оскуолаттан кэллэ
@@ -388,7 +388,7 @@
 1	үүтү	үүт	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 2	биhиги	биhиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 3	ынахтан	ынах	NOUN	n	Case=Abl|Number=Sing	4	obl	_	_
-4	ылабыт	ыл	VERB	vi	Number=Plur|Person=2|Tense=Pres	0	root	_	_
+4	ылабыт	ыл	VERB	vi	Number=Plur|Person=1|Tense=Pres	0	root	_	_
 
 # sent_id = 44
 # text = Кини яблоко аһыыр
@@ -417,11 +417,11 @@
 5	?	?	PUNCT	PUNCT	punct	4	punct	_	_
 
 # sent_id = 47
-# text = Кинилэр ааҕалар, суруйаллар, кэпсииллэр, уонна сахалыы, нууччалыы кэпсэтэллэр
+# text = Кинилэр ааҕаллар, суруйаллар, кэпсииллэр, уонна сахалыы, нууччалыы кэпсэтэллэр
 # text_rus = Они читают, пишут, говорят и беседуют на якутском и русском
 # text_eng = They read, write, speak, and converse in Sakha and in Russian (Yakut manual, 24)
 1	Кинилэр	кинилэр	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
-2	ааҕалар	ааҕ	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+2	ааҕаллар	ааҕ	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	punct	2	punct	_	_
 4	суруйаллар	суруй	VERB	v	Number=Plur|Person=3|Tense=Pres	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	punct	2	punct	_	_
@@ -447,10 +447,10 @@
 # text_eng = My eye does not hurt, my head hurts (Yakut manual, 26)
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
 2	кулгааҕым	кулгаах	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
-3	ыалдьыбат	ыарый	VERB	vi	Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+3	ыалдьыбат	ыарый	VERB	vi	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	punct	3	punct	_	_
 5	баһым	бас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
-6	ыалдьар	ыар	VERB	vi	Person=3|Tense=Pres	3	parataxis	_	_
+6	ыалдьар	ыар	VERB	vi	Number=Sing|Person=3|Tense=Pres	3	parataxis	_	_
 
 # sent_id = 50
 # text = Ханнык дьиэҕэ киирдэ?
@@ -601,7 +601,7 @@
 1	Ити	ити	DET	det	_	2	det	_	_
 2	уолга	уол	NOUN	n	Case=Dat|Number=Sing	4	obl	_	_
 3	харандааста	харандаас	NOUN	n	Case=Par|Number=Sing	4	obj	_	_
-4	биэр	биэр	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+4	биэр	биэр	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	_
 
 # sent_id = 64
 # text = Сорохтор муостаны сууйуҥ , сорохтор паартата , остуолла сотуҥ , сорохтор ааннары , ыскааптары сууйуҥ
@@ -687,7 +687,7 @@
 2	үрүҥ	үрүҥ	ADJ	adj	_	3	amod	_	_
 3	чаанньыгы	чаанньык	NOUN	n	Case=Acc|Number=Sing	5	nsubj	_	_
 4	сылабаарга	сылабаар	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
-5	туруораллар	туруор	VERB	v	Number=Plur|Person=2|Tense=Pres	0	root	_	_
+5	туруораллар	туруор	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 71
 # text = Кини куукунаҕа бастаан билиидэни отунна
@@ -697,7 +697,7 @@
 2	куукунаҕа	куукуна	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
 3	бастаан	бастаан	ADV	adv	_	5	advmod	_	_
 4	билиидэни	билиидэ	NOUN	n	Case=Acc|Number=Sing	5	obj	_	_
-5	отунна	отун	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	отунна	отун	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
 # sent_id = 72
 # text = Онтон хомуоһу ылла уонна муннукка турар буочукаттан биэдэрэҕэ уу кутта
@@ -705,14 +705,14 @@
 # text_eng = Then she took the ladle and poured water into the pail from the barrel standing in the corner (Kharitonov)
 1	Онтон	онтон	ADV	adv	_	3	advmod	_	_
 2	хомуоһу	хомуос	NOUN	n	Case=Acc|Number=Sing	3	obj	_	_
-3	ылла	ыл	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	ылла	ыл	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 4	уонна	уонна	CCONJ	_	_	6	cc	_	_
 5	муннукка	муннук	NOUN	n	Case=Dat|Number=Sing	6	obl	_	_
 6	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	3	conj	_	_
 7	буочукаттан	буочука	NOUN	n	Case=Abl|Number=Sing	10	obl	_	_
 8	биэдэрэҕэ	биэдэрэ	NOUN	n	Case=Dat|Number=Sing	10	obl	_	_
 9	уу	уу	NOUN	n	Case=Nom|Number=Sing	10	obj	_	_
-10	кутта	кут	VERB	v	Number=Sing|Person=3|Tense=Past	3	conj	_	_
+10	кутта	кут	VERB	v	Number=Sing|Person=3|Tense=NearPast	3	conj	_	_
 
 # sent_id = 73
 # text = Сэлээппэ туох ынырыктаах буолуой ?
@@ -730,7 +730,7 @@
 # text_eng = They objected me (The little prince, 10)  # Преждепрошедшее
 1	Дьонум	дьон	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
 2	миигин	мин	PRON	pron	Case=Acc	3	obj	_	_
-3	утарбыттара	утар	VERB	v	Number=Plur|Person=3|Tense=Past	0	root	_	_
+3	утарбыттара	утар	VERB	v	Number=Plur|Person=3|Tense=PastPerf	0	root	_	_
 
 # sent_id = 75
 # text = Доҕорум көрдөөхтүк күлэ түспүтэ
@@ -738,8 +738,8 @@
 # text_eng = My friend laughed merrily (The little prince, 17) # Преждепрошедшее повествовательное 
 1	Доҕорум	доҕор	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	myfriend
 2	көрдөөхтүк	көрдөөх	ADV	adv	_	3	amod	_	funny
-3	күлэ	күл	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	laughed
-4	түспүтэ	түс	VERB	v	Number=Sing|Person=3|Tense=Past	3	dep	_	fell
+3	күлэ	күл	VERB	v	Number=Sing|Person=3|Tense=Past|???	0	root	_	laughed
+4	түспүтэ	түс	VERB	v	Number=Sing|Person=3|Tense=PastPerf	3	dep	_	fell
 
 # sent_id = 76
 # text = Ол солуону ыйыстыбыт моҕой
@@ -747,7 +747,7 @@
 # text_eng = It was a boa constrictor that swallowed an elephant (The little prince, 10) # Прошедшее результативное
 1	Ол	ол	PRON	pron	PronType=Rel	4	nsubj	_	it
 2	солуону	солуон	NOUN	n	Case=Acc|Number=Sing	3	nsubj	_	elephant
-3	ыйыстыбыт	ыйыһын	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	eat
+3	ыйыстыбыт	ыйыһын	VERB	v	Number=Sing|Person=3|Tense=PastResultI	0	root	_	eat
 4	моҕой	моҕой	NOUN	n	Case=Nom|Number=Sing	3	obj	_	snake
 
 # sent_id = 78
@@ -761,7 +761,7 @@
 5	,	,	PUNCT	PUNCT	punct	4	punct	_	_
 6	өлүөччүк	өлүөччүк	NOUN	n	Case=Nom|Number=Sing	7	nmod	_	pilot
 7	үөрэҕэр	үөрэх	NOUN	n	Case=Dat|Number=Sing	8	obj	_	education
-8	үөрэммитим	үөрэн	VERB	v	Number=Sing|Person=1|Tense=Past	3	parataxis	_	tostudy
+8	үөрэммитим	үөрэн	VERB	v	Number=Sing|Person=1|Tense=PastPerf	3	parataxis	_	tostudy
 
 # sent_id = 79
 # text = Күн сирин барытын кэриэтэ тилийэ көппүтүм
@@ -772,7 +772,7 @@
 3	барытын	бары	DET	det	_	2	det	_	all
 4	кэриэтэ	кэриэтэ	ADV	adv	_	2	advmod	_	almost
 5	тилийэ	тилийэ	ADV	adv	_	6	advmod	_	withoutstopping
-6	көппүтүм	көт	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	fly
+6	көппүтүм	көт	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	root	_	fly
 
 # sent_id = 80
 # text = Биир көрүүнэн Өрүсүөнэттэн Кытайы тута араарары кытта сатыырым
@@ -785,7 +785,7 @@
 5	тута	тута	ADV	adv	_	6	advmod	_	atfirst
 6	араарары	араар	VERB	v	_	8	xcomp	_	separate
 7	кытта	кытта	ADP	adp	_	4	case	_	from
-8	сатыырым	сатаа	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	beableto
+8	сатыырым	сатаа	VERB	v	Number=Sing|Person=1|Tense=NearPast	0	root	_	beableto
 
 # sent_id = 81
 # text = Өр улахан дьон ортотугар олорбутум
@@ -795,7 +795,7 @@
 2	улахан	улахан	ADJ	adj	_	3	amod	_	big
 3	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	5	obl	_	people
 4	ортотугар	орто	ADP	adp	_	3	case	_	among
-5	олорбутум	олор	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	live
+5	олорбутум	олор	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	root	_	live
 
 # sent_id = 82
 # text = Кинилэри үчүгэйдик көрбүтүм билбитим
@@ -803,8 +803,8 @@
 # text_eng = I saw them very close (The little prince, 11) #
 1	Кинилэри	кинилэр	PRON	pron	Case=Acc	4	obj	_	they
 2	үчүгэйдик	үчүгэйдик	ADV	adv	_	4	advmod	_	well
-3	көрбүтүм	көр	VERB	v	Number=Sing|Person=1|Tense=Past	4	compound	_	see
-4	билбитим	бил	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	know
+3	көрбүтүм	көр	VERB	v	Number=Sing|Person=1|Tense=PastPerf	4	compound	_	see
+4	билбитим	бил	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	root	_	know
 
 # sent_id = 83
 # text = Ити курдук , мин өссө биир суолталааҕы арыйбытым
@@ -817,7 +817,7 @@
 5	өссө	өссө	ADV	adv	_	8	advmod	_	again
 6	биир	биир	NUM	num	_	7	nummod	_	one
 7	суолталааҕы	суолта	NOUN	n	Case=Acc|Number=Sing	8	obj	_	meaning
-8	арыйбытым	арый	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	opened
+8	арыйбытым	арый	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	root	_	opened
 
 # sent_id = 84
 # text = Иһэр уум аҕыйах хонукка тиийиэхтээҕэ
@@ -827,7 +827,7 @@
 2	уум	уу	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obj	_	water
 3	аҕыйах	аҕыйах	ADV	adv	_	5	advmod	_	somewhat
 4	хонукка	хонук	NOUN	n	Case=Dat|Number=Sing	5	obl	_	24hours
-5	тиийиэхтээҕэ	тиий	VERB	v	_	0	root	_	reach
+5	тиийиэхтээҕэ	тиий	VERB	v	Tense=???	0	root	_	reach
 
 # sent_id = 85
 # text = Миэхэ хойчоонно уруһуйдаан кулу
@@ -835,7 +835,7 @@
 # text_eng = Draw me a lamb (The little prince, 12) #
 1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	me
 2	хойчоонно	_	NOUN	n	_	3	obj	_	ram
-3	уруһуйдаан	уруһуйдаа	VERB	v	_	0	root	_	draw
+3	уруһуйдаан	уруһуйдаа	VERB	v	Tense=???	0	root	_	draw
 4	кулу	кулу	ADV	adv	_	2	discourse	_	please
 
 # sent_id = 86
@@ -845,7 +845,7 @@
 1	Үрдүбэр	үрдүнэн	ADP	adp	Person=1	4	obl	_	aboveme
 2	этиҥ	этиҥ	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	thunder
 3	эппитинии	_	INTJ	intj	_	4	discourse	_	astheysay
-4	соһуйан	соһуй	VERB	v	_	7	dep	_	besurprised
+4	соһуйан	соһуй	VERB	v	Tense=???	7	dep	_	besurprised
 5	,	,	PUNCT	punct	_	7	punct	_	_
 6	олоро	олор	VERB	v	_	7	compound	_	sit
 7	түстүм	түс	VERB	v	_	0	root	_	fall
@@ -880,7 +880,7 @@
 5	,	,	PUNCT	PUNCT	punct	6	punct	_	_
 6	оттомноохтук	оттомноох	ADV	adv	_	3	conj	_	reasonable
 7	хат	хат	ADV	adv	_	8	advmod	_	again
-8	көрдөстө	көрдөс	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	request
+8	көрдөстө	көрдөс	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	request
 
 # sent_id = 90
 # text = Син биир хойчоонно уруһуйдаа
@@ -888,8 +888,8 @@
 # text_eng = Okay, draw one lamb (The little prince, 14) #
 1	Син	син	INTJ	intj	_	4	discourse	_	fine
 2	биир	биир	NUM	num	_	3	nmod	_	one
-3	хойчоонно	хой	NOUN	n	Case=Acc|Number=Sing	4	obj	_	ram
-4	уруһуйдаа	уруһуйдаа	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	paint
+3	хойчоонно	хойчоонно	NOUN	n	Case=Acc|Number=Sing	4	obj	_	ram
+4	уруһуйдаа	уруһуйдаа	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	paint
 
 # sent_id = 92
 # text = Ити курдук мин Кыра тыгыны кытта билсибитим
@@ -901,7 +901,7 @@
 4	Кыра	кыра	ADJ	adj	_	5	amod	_	little
 5	тыгыны	тыгын	NOUN	n	Case=Acc|Number=Sing	7	obj	_	prince
 6	кытта	кытта	ADP	adp	_	5	case	_	with
-7	билсибитим	бил	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	toknow
+7	билсибитим	бил	VERB	v	Number=Sing|Person=1|Tense=???	0	root	_	toknow
 
 # sent_id = 93
 # text = Бу туох тэрилий ?
@@ -909,7 +909,7 @@
 # text_eng = What is this thing? # (The little prince, 15) #
 1	Бу	бу	DET	det	_	3	det	_	this
 2	туох	туох	PRON	pron	PronType=Int	3	nsubj	_	what
-3	тэрилий	тэрил	NOUN	n	_	0	root	_	thing
+3	тэрилий	тэрил	NOUN	n	Case=Nom|Number=Sing|Int=Yes	0	root	_	thing
 4	?	?	PUNCT	PUNCT	punct	3	punct	_	_
 
 # sent_id = 94
@@ -919,7 +919,7 @@
 1	Оччоҕо	оччоҕо	ADV	adv	_	4	advmod	_	then
 2	эн	эн	PRON	PRON	pron	4	nsubj	_	you
 3	халлаантан	халлаан	NOUN	n	Case=Abl|Number=Sing	4	obl	_	sky
-4	сууллубутуҥ	суулун	VERB	v	Number=Sing|Person=2|Tense=Past	0	root	_	tofall
+4	сууллубутуҥ	суулун	VERB	v	Number=Sing|Person=2|Tense=PastPerf	0	root	_	tofall
 5	дуо	дуо	PART	part	_	4	discourse	_	_
 6	?	?	PUNCT	PUNCT	punct	4	punct	_	_
 
@@ -948,7 +948,7 @@
 4	бэйэ	бэйэ	NOUN	n	Case=Nom|Number=Sing	7	obl	_	body
 5	бэйэлэрин	бэйэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	4	fixed	_	body=eachOther
 6	кытта	кытта	ADP	adp	_	4	case	_	with
-7	холбоммут	холбон	VERB	v	_	2	csubj	_	toconnect
+7	холбоммут	холбон	VERB	v	Tense=???	2	csubj	_	toconnect
 8	бүтүн	бүтүн	ADV	adv	_	7	advmod	_	entire
 9	аан	аан	NOUN	n	_	10	nmod	_	entrance
 10	дойдутааҕы	дойду	NOUN	n	Case=Acc|Number=Sing	11	nmod	_	world=Мировой
@@ -960,7 +960,7 @@
 # text_eng = It is believed that it was founded in 1632 # (Sakha wiki, Дьокуускай) #
 1	1632	1632	NUM	num	_	2	nummod	_	_
 2	сыллаахха	сыллаах	NOUN	n	Case=Dat|Number=Sing	4	obl	_	year
-3	олохтоммутунан	олохтон	VERB	v	Number=Sing|Person=3|Reflex=Yes|Tense=Past	4	ccomp	_	established
+3	олохтоммутунан	олохтон	VERB	v	Number=Sing|Person=3|Reflex=Yes|Tense=???	4	ccomp	_	established
 4	ааҕыллар	аах	VERB	v	Number=Plur|Person=3|Tense=NearPast|Voice=Pass	0	root	_	considered
 
 # sent_id = 99
@@ -1032,7 +1032,7 @@
 # text_eng = Come, let's go (Khatironov, )
 1	Чэ	чэ	INTJ	intj	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
-3	барыах	бар	VERB	v	Tense=Fut	_	_	_	come
+3	барыах	бар	VERB	v	Clusivity=In|Mood=Imp|Number=Sing|Person=1|Tense=Pres	_	_	_	come
 4	эрэ	эрэ	PART	part	_	_	_	_	ка
 5	!	!	PUNCT	punct	_	_	_	_	_
 
@@ -1093,7 +1093,7 @@
 1	Аа	аа	INTJ	intj	_	_	_	_	look
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	Кэскил	Кэскил	PROPN	propn	_	_	_	_	_
-4	кэллэ	кэл	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	came
+4	кэллэ	кэл	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	came
 5	!	!	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 114
@@ -1303,7 +1303,7 @@
 1	кыра	кыра	ADJ	adj	_	_	_	_	small
 2	кыыс	кыыс	NOUN	n	Case=Nom|Number=Sing	_	_	_	girl
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
-4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	say
+4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	say
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 139
@@ -1313,7 +1313,7 @@
 1	Онно	онно	ADV	adv	_	_	_	_	there
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
-4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	say
+4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	say
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 140
@@ -1383,7 +1383,7 @@
 1	Уонна	уонна	CCONJ	cconj	_	_	_	_	and
 2	өссө	өссө	ADV	adv	_	_	_	_	else
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
-4	ылла	ыл	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	take
+4	ылла	ыл	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	take
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 147
@@ -1432,7 +1432,7 @@
 # text_eng = (Khatironov, )
 1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
 2	эмис	_	_	_	_	_	_	_	_
-3	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	say
+3	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	say
 4	аҕал	_	_	_	_	_	_	_	_
 5	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -1512,7 +1512,7 @@
 # text_eng = (Khatironov, )
 1	Кэскил	Кэскил	PROPN	propn	_	_	_	_	Keskil
 2	сону	сон	NOUN	n	Case=Acc|Number=Sing	_	_	_	coat
-3	ылла	ыл	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	took
+3	ылла	ыл	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	took
 4	дуо	дуо	PART	part	_	_	_	_	?
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -1533,7 +1533,7 @@
 1	Ийэҥ	ийэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	mother
 2	туохха	туох	PRON	pron	Case=Dat|PronType=Int	_	_	_	towhom
 3	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
-4	кутта	кут	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	pour
+4	кутта	кут	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	pour
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 163
@@ -1573,7 +1573,7 @@
 1	кыра	кыра	ADJ	adj	_	_	_	_	small
 2	балык	балык	NOUN	n	Case=Nom|Number=Sing	_	_	_	fish
 3	үөнү	үөн	NOUN	n	Case=Acc|Number=Sing	_	_	_	worm
-4	сиир	сиир	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	tear/fressen
+4	сиир	сиир	VERB	v	Number=Sing|Person=3|Tense=???	_	_	_	tear/fressen
 5	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 167
@@ -1916,7 +1916,7 @@
 1	Кэскил	_	_	_	_	_	_	_	_
 2	онно	онно	ADV	adv	_	_	_	_	there
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
-4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	say
+4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	say
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 201
@@ -2270,7 +2270,7 @@
 1	Миннэ	_	_	_	_	_	_	_	_
 2	иһиҥ	_	_	_	_	_	_	_	_
 3	,	,	PUNCT	punct	_	_	_	_	_
-4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	say
+4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	say
 5	сиэҥ	_	_	_	_	_	_	_	_
 6	.	.	PUNCT	punct	_	_	_	_	_
 
@@ -2597,7 +2597,7 @@
 1	Мичил	_	_	_	_	_	_	_	_
 2	Айталга	_	_	_	_	_	_	_	_
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
-4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=Past	_	_	_	say
+4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	say
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 268
@@ -9363,7 +9363,7 @@
 2	оҕону	оҕо	NOUN	n	Case=Acc|Number=Sing	_	_	_	child
 3	ууга	уу	NOUN	n	Case=Dat|Number=Sing	_	_	_	water
 4	ыраах	ыраах	ADV	adv	_	_	_	_	far
-5	киллэримэҥ	киллэр	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	_	_	_	dontenter
+5	киллэримэҥ	киллэр	VERB	v	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres	_	_	_	dontenter
 6	.	.	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 918
@@ -24071,3 +24071,4 @@
 # text_eng = ´Do not eat (any) bread’ (Baker, M., & Vinokurova, N. (2021), 9)
 1	Килиэп	килиэп	NOUN	n	Case=Nom|Number=Sing	2	obj	_	bread
 2	сиэмэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	eat
+
