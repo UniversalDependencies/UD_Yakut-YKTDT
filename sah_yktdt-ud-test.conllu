@@ -10,7 +10,7 @@
 # text_rus = Я читаю книги каждый день
 # text_eng = I read the books every day
 1	Кинигэлэри	кинигэ	NOUN	n	Case=Acc|Number=Plur	4	obj	_	_
-2	күн	күн	NOUN	n	_	4	obl	_	_
+2	күн	күн	NOUN	n	Case=Nom|Number=Sing	4	obl	_	_
 3	аайы	аайы	DET	det	_	2	det	_	_
 4	ааҕабын	аах	VERB	v	Number=Sing|Person=1|Tense=Pres	0	root	_	_
 
@@ -750,7 +750,7 @@
 # text = Күн сирин барытын кэриэтэ тилийэ көппүтүм
 # text_rus = Облетел я чуть ли не весь свет
 # text_eng = I flew around almost the whole world (The little prince, 10) #
-1	Күн	күн	NOUN	n	_	2	compound	_	sun
+1	Күн	күн	NOUN	n	Case=Nom|Number=Sing	2	compound	_	sun
 2	сирин	сир	NOUN	n	Case=Acc|Number=Sing	6	obl	_	world
 3	барытын	бары	DET	det	_	2	det	_	all
 4	кэриэтэ	кэриэтэ	ADV	adv	_	2	advmod	_	almost
