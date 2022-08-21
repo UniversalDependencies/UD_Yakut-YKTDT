@@ -1776,7 +1776,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	ол	ол	DET	det	_	_	_	_	this
-2	ыт	ыт	NOUN	n	Case=Nom|Person=Sing	_	_	_	_	dog
+2	ыт	ыт	NOUN	n	Case=Nom|Person=Sing	_	_	_	dog
 3	куосканы	куоска	NOUN	n	Case=Acc|Person=Sing	_	_	_	cat
 4	таптыыр	таптаа	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	love
 
@@ -2896,7 +2896,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	дьиэҕэ	дьиэ	NOUN	n	Case=Dat|Number=Sing	_	_	_	house
-2	ыт	ыт	NOUN	n	Case=Nom|Person=Sing	_	_	_	_	dog
+2	ыт	ыт	NOUN	n	Case=Nom|Person=Sing	_	_	_	dog
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	куоска	куоска	NOUN	n	Case=Nom|Number=Sing	_	_	_	cat
 5	баар	баар	AUX	aux	_	_	_	_	_
@@ -3329,7 +3329,7 @@
 # text_eng = (Khatironov, )
 1	онно	онно	ADV	adv	_	_	_	_	there
 2	кыра	кыра	ADJ	adj	_	_	_	_	small
-3	ыт	ыт	NOUN	n	Case=Nom|Person=Sing	_	_	_	_	dog
+3	ыт	ыт	NOUN	n	Case=Nom|Person=Sing	_	_	_	dog
 4	оҕото	оҕо	NOUN	n	Case=Par|Person=Sing	_	_	_	child
 5	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 
@@ -3349,7 +3349,7 @@
 # text_eng = (Khatironov, )
 1	эһиэхэ	эһиги	PRON	pron	Case=Dat|Number=Plur|Person=2|PronType=Prs	_	_	_	_
 2	булчут	булчут	NOUN	n	Case=Nom|Number=Sing	_	_	_	hunter
-3	ыт	ыт	NOUN	n	Case=Nom|Person=Sing	_	_	_	_	dog
+3	ыт	ыт	NOUN	n	Case=Nom|Person=Sing	_	_	_	dog
 4	баар	баар	AUX	aux	_	_	_	_	_
 5	дуо	дуо	PART	part	_	_	_	_	?
 6	?	?	PUNCT	punct	_	_	_	_	_
