@@ -3398,7 +3398,7 @@
 # text = Бүгүн оскуолаҕа элбэх кинигэни , тэтэрээти , харандааһы биэрэллэр
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Бүгүн	бүгүн	ADV	adv	_	_	_	_	_	today
+1	Бүгүн	бүгүн	ADV	adv	_	_	_	_	today
 2	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
 3	элбэх	элбэх	ADJ	adj	_	_	_	_	many
 4	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	_	_	_	book
