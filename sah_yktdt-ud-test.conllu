@@ -3044,15 +3044,12 @@
 3	олус	олус	ADV	adv	_	_	advmod	_	quite
 4	таптыыллар	таптаа	VERB	v	Number=Plur|Person=2|Tense=Pres	_	_	_	love
 
-# sent_id = 919
-# text = Бөрө суола ойуур иһиттэн таҕыста
+# sent_id = 2103
+# text = Оҕо ыллаатин
 # text_rus = 
-# text_eng = (Khatironov, )
-1	Бөрө	бөрө	NOUN	n	Case=Nom|Number=Sing	_	_	_	wolf
-2	суола	суол	NOUN	n	Case=Acc|Number=Sing	_	_	_	footprints
-2	ойуур	ойуур	NOUN	n	Case=Nom|Number=Sing	_	_	_	forest
-3	иһиттэн	иһит	_	_	Case=Abl|Number=Sing	_	_	_	???
-4	таҕыста	таҕыс	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	leave
+# text_eng = ´Have a/any child sing’ (Baker, M., & Vinokurova, N. (2021), 5)
+1	Оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	2	nsubj	_	child
+2	ыллаатин	ыллаа	VERB	v	Mood=Imp|Number=Sing|Person=3|Tense=Pres	0	root	_	sing
 
 # sent_id = 911
 # text = Ол харандаас паарталааҕар үрдүк
