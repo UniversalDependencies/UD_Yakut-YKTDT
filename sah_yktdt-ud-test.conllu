@@ -822,10 +822,10 @@
 4	кулу	кулу	ADV	adv	_	2	discourse	_	please
 
 # sent_id = 86
-# text = Үрдүбэр этиҥ эппитинии соһуйан , олоро түстүм
+# text = үрдүгэр этиҥ эппитинии соһуйан , олоро түстүм
 # text_rus = Я вскочил, будто надо мной грянул гром
 # text_eng = I jumped up as if thunder had struck above me (The little prince, 12) #
-1	Үрдүбэр	үрдүнэн	ADP	adp	Person=1	4	obl	_	aboveme
+1	үрдүгэр	үрдүгэр	ADP	adp	_	4	obl	_	aboveme
 2	этиҥ	этиҥ	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	thunder
 3	эппитинии	_	INTJ	intj	_	4	discourse	_	astheysay
 4	соһуйан	соһуй	VERB	v	Tense=???	7	dep	_	besurprised
