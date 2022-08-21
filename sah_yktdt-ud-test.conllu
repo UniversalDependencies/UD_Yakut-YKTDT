@@ -2069,3 +2069,1459 @@
 2	убайым	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	olderbrother
 3	үчүгэй	үчүгэй	ADV	adv	_	_	_	_	good
 4	булчут	булчут	NOUN	n	Case=Nom|Number=Sing	_	_	_	hunter
+
+# sent_id = 347
+# text = Сайаана хотоҥҥо ынах ыыр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Сайаана	Сайаана	PROPN	propn	_	_	_	_	_
+2	хотоҥҥо	хотон	NOUN	n	Case=Dat|Number=Sing	_	_	_	barn
+3	Ынах	ынах	NOUN	n	Case=Nom|Number=Sing	_	_	_	cow
+4	ыыр	ыа	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	milk
+
+# sent_id = 361
+# text = Бу оскуолаҕа ким үөрэнэр ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бу	бу	DET	det	_	_	_	_	this
+2	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
+3	ким	ким	PRON	PRON	_	_	_	_	who
+4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 385
+# text = Биир уол тураруонна ааҕар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	биир	биир	NUM	num	NumType=Card	_	_	_	one
+2	уол	уол	NOUN	n	Case=Nom|Number=Sing	_	_	_	boy
+3	тураруонна	уонна	CCONJ	cconj	_	_	_	_	and
+4	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+
+# sent_id = 389
+# text = Киэһэ манна кэлбэккит дуо ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	киэһэ	киэһэ	ADV	adv	_	_	_	_	tonight
+2	манна	манна	ADV	adv	_	_	_	_	_
+3	кэлбэккит	кэл	VERB	v	Number=Plur|Person=2|Polarity=Neg|Tense=Pres	_	_	_	come
+4	дуо	дуо	PART	part	_	_	_	_	?
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 390
+# text = Тиит мутукчата эмиэ түһэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Тиит	тиит	NOUN	n	Case=Nom|Number=Sing	_	_	_	larch
+2	мутукчата	мутукча	NOUN	n	Case=Par|Number=Sing	_	_	_	twig
+3	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+4	түһэр	түс	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	fall
+
+# sent_id = 407
+# text = Дьон саас тугу бултууллар ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
+2	саас	саас	NOUN	n	Case=Nom|Number=Sing	_	_	_	age
+3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
+4	бултууллар	бултаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	hunt
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 412
+# text = Ханна киһи бары үөрэнэрий ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ханна	ханна	ADV	adv	_	_	_	_	where
+2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
+3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
+4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	_
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 414
+# text = Айаана , кэл , манна олор
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Айаана	Айаана	PROPN	propn	_	_	_	_	_
+2	,	,	PUNCT	punct	_	_	_	_	_
+3	Кэл	кэл	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	come
+4	,	,	PUNCT	punct	_	_	_	_	_
+5	манна	манна	ADV	adv	_	_	_	_	_
+6	олор	олор	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	sit
+
+# sent_id = 419
+# text = Улахан киһи ханна үөрэнэр ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Улахан	улахан	ADJ	adj	_	_	_	_	big
+2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
+3	ханна	ханна	ADV	adv	_	_	_	_	where
+4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 423
+# text = Ити дьон тугу атыылыыллар ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ити	ити	DET	det	_	_	_	_	this
+2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
+3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
+4	атыылыыллар	атыылаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	sell
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 427
+# text = Кэскил , эн тур уонна аах
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Кэскил	Кэскил	PROPN	propn	_	_	_	_	_
+2	,	,	PUNCT	punct	_	_	_	_	_
+3	эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	_	you
+4	тур	тур	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	stand
+5	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+6	аах	аах	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	read
+
+# sent_id = 430
+# text = Эдэр киһи ханна үөрэнэрий ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Эдэр	эдэр	ADJ	adj	_	_	_	_	young
+2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
+3	ханна	ханна	ADV	adv	_	_	_	_	where
+4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	_
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 431
+# text = Муннукка икки ыскаап турар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Муннукка	муннук	NOUN	n	Case=Dat|Number=Sing	_	_	_	corner
+2	икки	икки	NUM	num	NumType=Card	_	_	_	two
+3	ыскаап	ыскаап	NOUN	n	Case=Nom|Number=Sing	_	_	_	wardrobe
+4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
+
+# sent_id = 433
+# text = Ойуурга өссө тэллэй үүнэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ойуурга	ойуур	NOUN	n	Case=Dat|Number=Sing	_	_	_	forest
+2	өссө	өссө	ADV	adv	_	_	_	_	still
+3	тэллэй	тэллэй	NOUN	n	_	_	_	_	mushroom
+4	үүнэр	үүн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	grow
+
+# sent_id = 440
+# text = Ити уол түргэнник суруйар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ити	ити	DET	det	_	_	_	_	this
+2	уол	уол	NOUN	n	Case=Nom|Number=Sing	_	_	_	boy
+3	түргэнник	түргэнник	ADV	adv	_	_	_	_	fast
+4	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	write
+
+# sent_id = 444
+# text = Кини эмиэ сахалыы үөрэнэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
+2	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+3	сахалыы	сахалыы	ADV	adv	ADVLZ=Yes	_	_	_	inyakut
+4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+
+# sent_id = 446
+# text = Үчүгэй харандаас бу сытар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Үчүгэй	үчүгэй	ADJ	adj	_	_	_	_	good
+2	харандаас	харандаас	NOUN	n	Case=Nom|Number=Sing	_	_	_	pencil
+3	бу	бу	DET	det	_	_	_	_	this
+4	сытар	сыт	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	lie
+
+# sent_id = 448
+# text = Ыскаапка кинигэ элбэх дуо ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ыскаапка	ыскаап	NOUN	n	Case=Dat|Number=Sing	_	_	_	wardrobe
+2	кинигэ	кинигэ	NOUN	n	Case=Nom|Number=Sing	_	_	_	_
+3	элбэх	элбэх	ADV	adv	_	_	_	_	many
+4	дуо	дуо	PART	part	_	_	_	_	?
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 451
+# text = Ити быраас кимий эмтиирий ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ити	ити	DET	det	_	_	_	_	this
+2	быраас	быраас	NOUN	n	Case=Nom|Number=Sing	_	_	_	doctor
+3	кимий	ким	PRON	pron	Int=Yes	_	_	_	who
+4	эмтиирий	эмтээ	VERB	v	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	heal/treat
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 459
+# text = Бу бэргэһэни долбуурга уур
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бу	бу	DET	det	_	_	_	_	this
+2	бэргэһэни	бэргэһэ	NOUN	n	Case=Acc|Number=Sing	_	_	_	cap
+3	долбуурга	долбуур	NOUN	n	Case=Dat|Number=Sing	_	_	_	shelf
+4	уур	уур	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	put
+
+# sent_id = 475
+# text = Үөрэххэ барар оҕо баар дуо ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Үөрэххэ	үөрэх	NOUN	n	Case=Dat|Number=Sing	_	_	_	studies
+2	барар	бар	NOUN	n	Number=Sing|Person=3|Tense=Pres	_	_	_	walk
+3	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	child
+4	баар	баар	AUX	aux	_	_	_	_	_
+5	дуо	дуо	PART	part	_	_	_	_	?
+6	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 480
+# text = Дьонуҥ киэһэ тугу гыналлар ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Дьонуҥ	дьон	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	person
+2	киэһэ	киэһэ	ADV	adv	_	_	_	_	tonight
+3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
+4	гыналлар	гын	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	do
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 482
+# text = Ийэм ууну буочукаттан ылар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ийэм	ийэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	mother
+2	ууну	уу	NOUN	n	Case=Acc|Number=Sing	_	_	_	water
+3	буочукаттан	буочука	NOUN	n	Case=Abl|Number=Sing	_	_	_	barrel
+4	ылар	ыл	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	take
+
+# sent_id = 483
+# text = Ити кинигэни аахпаппыт дуо ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ити	ити	DET	det	_	_	_	_	this
+2	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	_	_	_	book
+3	аахпаппыт	аах	VERB	v	Number=Plur|Person=1|Polarity=Neg|Tense=Pres	_	_	_	read
+4	дуо	дуо	PART	part	_	_	_	_	?
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 484
+# text = Эһиэхэ кыра тоһоҕо баар дуо ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Эһиэхэ	эһиги	PRON	pron	Case=Dat|Number=Plur|Person=2|PronType=Prs	_	_	_	_
+2	кыра	кыра	ADJ	adj	_	_	_	_	little
+2	тоһоҕо	тоһоҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	nail
+3	баар	баар	AUX	aux	_	_	_	_	_
+4	дуо	дуо	PART	part	_	_	_	_	?
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 485
+# text = Түннүгү аһымаҥ , ааны аһыҥ
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Түннүгү	түннүк	NOUN	n	Case=Acc|Number=Sing	_	_	_	window
+2	аһымаҥ	ас	VERB	v	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres	_	_	_	open
+3	,	,	PUNCT	punct	_	_	_	_	_
+4	ааны	аан	NOUN	n	Case=Acc|Number=Sing	_	_	_	door
+5	аһыҥ	ас	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	open
+
+# sent_id = 2094
+# text = Килиэптэ сиэ
+# text_rus = Поешь хлеба
+# text_eng = ´Eat some bread.’ or ‘Eat some of the bread.’ (Baker, M., & Vinokurova, N. (2021), 1a)
+1	Килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	2	obj	_	bread
+2	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
+
+# sent_id = 2095
+# text = Кинигэтэ атыылас
+# text_rus = Купи книгу (любую)
+# text_eng = ‘Buy any book.’ (Not: #‘Buy some of the book.’) (Baker, M., & Vinokurova, N. (2021), 1b)
+1	Кинигэтэ	кинигэ	NOUN	n	Case=Par|Number=Sing	2	obj	_	book
+2	атыылас	атыылас	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	buy
+
+# sent_id = 2096
+# text = Килиэби сиэ
+# text_rus = Ешь хлеб
+# text_eng = ´Eat the bread.’ (Baker, M., & Vinokurova, N. (2021), 2a)
+1	Килиэби	килиэп	NOUN	n	Case=Acc|Number=Sing	2	obj	_	bread
+2	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
+
+# sent_id = 2098
+# text = Яблокаттан иккини сиэ
+# text_rus = Съешь два яблока
+# text_eng = ´Eat two of the apples’ (Baker, M., & Vinokurova, N. (2021), 3a, a)
+1	Яблокаттан	яблоко	NOUN	n	Case=Abl|Number=Sing	2	obl	_	apple
+2	иккини	икки	NUM	num	Case=Acc	3	obj	_	two
+3	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
+
+# sent_id = 2099
+# text = Яблокаттан иккитэ сиэ
+# text_rus = Съешь два яблока
+# text_eng = ´Eat two of the apples’ (Baker, M., & Vinokurova, N. (2021), 3a, b)
+1	Яблокаттан	яблоко	NOUN	n	Case=Abl|Number=Sing	2	obl	_	apple
+2	иккитэ	икки	NUM	num	Case=Par	3	obj	_	two
+3	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
+
+# sent_id = 2104
+# text = Килиэптэ сиэмэ
+# text_rus = Не ешь хлеба
+# text_eng = ´Do not eat any bread at all’ (Baker, M., & Vinokurova, N. (2021), 6)
+1	Килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	2	obj	_	bread
+2	сиэмэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	eat
+
+# sent_id = 2105
+# text = Килиэби сиэмэ
+# text_rus = Не ешь этот хлеб
+# text_eng = ´Do not eat that bread’ (Baker, M., & Vinokurova, N. (2021), 7)
+1	Килиэби	килиэп	NOUN	n	Case=Acc|Number=Sing	2	obj	_	bread
+2	сиэмэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	eat
+
+# sent_id = 2106
+# text = Кинигитэ бул
+# text_rus = Найди эту книгу
+# text_eng = ´Find this book!’ (Baker, M., & Vinokurova, N. (2021), 8)
+1	Кинигитэ	кинигэ	NOUN	n	Case=Par|Number=Sing	2	obj	_	book
+2	бул	бул	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	find
+
+# sent_id = 1947
+# text = Ити аты ыҥыырдаамаҥ , кинини охсор массыынаҕа көлүйүөхтэрэ
+# text_rus = 
+# text_eng = Don't saddle this horse, harness it to the mower (Khatironov, )
+1	Ити	ити	DET	det	_	_	_	_	this
+2	аты	ат	NOUN	n	Case=Acc|Number=Sing	_	_	_	horse
+3	ыҥыырдаамаҥ	ыҥыырдаа	VERB	v	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres	_	_	_	saddle
+4	,	,	PUNCT	punct	_	_	_	_	_
+5	кинини	кини	PRON	pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	_	_	_	_
+6	охсор	оҕус	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	hit
+7	массыынаҕа	массыына	NOUN	n	Case=Dat|Number=Sing	_	_	_	machine
+8	көлүйүөхтэрэ	көлүй	VERB	v	Number=Plur|Person=3|Tense=Fut	_	_	_	yoke
+
+# sent_id = 1822
+# text = Хоту дойдуга үс ый күн көрбөт , сайын үс ый киирбэт
+# text_rus = 
+# text_eng = In the northern hemisphere , the sun does not set for three months , and in summer it does not set for three months . (Khatironov, )
+1	Хоту	хоту	NOUN	n	Case=Nom|Number=Sing	_	_	_	north
+1	дойдуга	дойду	NOUN	n	Case=Dat|Number=Sing	_	_	_	land
+2	үс	үс	NUM	num	NumType=Card	_	_	_	three
+3	ый	ый	NOUN	n	Case=Nom|Number=Sing	_	_	_	month
+4	күн	күн	NOUN	n	Case=Nom|Number=Sing	_	_	_	sun
+5	көрбөт	көр	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	_	_	_	see
+6	,	,	PUNCT	punct	_	_	_	_	_
+7	сайын	сайын	ADV	adv	_	_	_	_	summer
+8	үс	үс	NUM	num	NumType=Card	_	_	_	three
+9	ый	ый	NOUN	n	Case=Nom|Number=Sing	_	_	_	month
+10	киирбэт	киир	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	_	_	_	enter
+
+# sent_id = 1814
+# text = Кини чулкуну , наскыны эмиэ кэппэт , этэрбэһи кэтэр
+# text_rus = Он не носит чулки и носки , он носит ботинки
+# text_eng = (Khatironov, )
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
+2	чулкуну	чулку	NOUN	n	Case=Acc|Number=Sing	_	_	_	stockings
+3	,	,	PUNCT	punct	_	_	_	_	_
+4	наскыны	наскы	NOUN	n	Case=Acc|Number=Sing	_	_	_	socks
+5	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+5	кэппэт	кэт	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	_	_	_	wear
+6	,	,	PUNCT	punct	_	_	_	_	_
+7	этэрбэһи	этэрбэс	NOUN	n	Case=Acc|Number=Sing	_	_	_	boots
+8	кэтэр	кэт	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	put
+
+# sent_id = 1803
+# text = Быраас көрөр , истэр уонна Айхалга рецепт суруйар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Быраас	быраас	NOUN	n	Case=Nom|Number=Sing	_	_	_	doctor
+2	көрөр	көр	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	look
+3	,	,	PUNCT	punct	_	_	_	_	_
+4	истэр	иһит	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	listen
+5	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+6	Айхалга	Айхал	PROPN	propn	Case=Dat	_	_	_	_
+7	рецепт	рецепт	NOUN	n	Case=Nom|Number=Sing	_	_	_	prescription
+8	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	write
+
+# sent_id = 1804
+# text = Уонна сыттыктар , матараастар , тэллэхтэр бааллар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Уонна	уонна	CCONJ	cconj	_	_	_	_	and
+2	сыттыктар	сыттык	NOUN	n	Case=Nom|Number=Plur	_	_	_	pillow
+3	,	,	PUNCT	punct	_	_	_	_	_
+4	матараастар	матараас	NOUN	n	Case=Nom|Number=Plur	_	_	_	mattress
+5	,	,	PUNCT	punct	_	_	_	_	_
+6	тэллэхтэр	тэллэх	NOUN	n	Case=Nom|Number=Plur	_	_	_	bed
+7	бааллар	баар	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	tobe
+
+# sent_id = 1805
+# text = Эбиэккэ мин , килиэп , эт уонна хомпуот биэрэллэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Эбиэккэ	эбиэт	NOUN	n	Case=Dat|Number=Sing	_	_	_	lunch
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+3	,	,	PUNCT	punct	_	_	_	_	_
+4	килиэп	килиэп	NOUN	n	Case=Nom|Number=Sing	_	_	_	bread
+5	,	,	PUNCT	punct	_	_	_	_	_
+6	эт	эт	NOUN	n	Case=Nom|Number=Sing	_	_	_	meat
+7	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+8	хомпуот	хомпуот	NOUN	n	Case=Nom|Number=Sing	_	_	_	компот
+9	биэрэллэр	биэр	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	give
+
+# sent_id = 1789
+# text = Кус түүтүнэн биһиги сыттык уонна бэргэһэ оҥоробут
+# text_rus = Мы делаем подушки и шапки из утиной шерсти
+# text_eng = (Khatironov, )
+1	Кус	кус	NOUN	n	Case=Nom|Number=Sing	_	_	_	duck
+1	түүтүнэн	түү	NOUN	n	Case=Ins|Number=Sing	_	_	_	fur
+2	биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	_	_	_	we
+3	сыттык	сыттык	NOUN	n	Case=Nom|Number=Sing	_	_	_	pillow
+4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+5	бэргэһэ	бэргэһэ	NOUN	n	Case=Nom|Number=Sing	_	_	_	hat
+6	оҥоробут	оҥор	VERB	v	Number=Plur|Person=1|Tense=Pres	_	_	_	make
+
+# sent_id = 1790
+# text = Ичигэс дойдуларга кии уонна солуома оттук буолар
+# text_rus = В теплых странах кий и солома являются топливом
+# text_eng = (Khatironov, )
+1	Ичигэс	ичигэс	ADJ	adj	_	_	_	_	warm
+2	дойдуларга	дойдуларга	NOUN	n	Case=Dat|Number=Plur	_	_	_	land
+3	кии	кии	NOUN	n	Case=Nom|Number=Sing	_	_	_	manure
+4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+5	солуома	солуома	NOUN	n	Case=Nom|Number=Sing	_	_	_	straw
+6	оттук	оттук	NOUN	n	Case=Nom|Number=Plur	_	_	_	fuel
+7	буолар	буол	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	tobe
+
+# sent_id = 1784
+# text = Хотой , мохсоҕол , кыырт араас көтөрдөрү сииллэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Хотой	хотой	NOUN	n	Case=Nom|Number=Sing	_	_	_	eagle
+2	,	,	PUNCT	punct	_	_	_	_	_
+3	мохсоҕол	мохсоҕол	NOUN	n	Case=Nom|Number=Sing	_	_	_	hawk
+4	,	,	PUNCT	punct	_	_	_	_	_
+5	кыырт	кыырт	NOUN	n	Case=Nom|Number=Sing	_	_	_	hawk
+6	араас	араас	ADV	adv	_	_	_	_	different
+7	көтөрдөрү	көтөр	NOUN	n	Case=Acc|Number=Plur	_	_	_	fly
+8	сииллэр	сиэ	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	eat
+
+# sent_id = 1782
+# text = Кылааска биир аан , икки оһох , алта түннүк баар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	_	_	_	classroom
+2	биир	биир	NUM	num	NumType=Card	_	_	_	one
+3	аан	аан	NOUN	n	Case=Nom|Number=Sing	_	_	_	door
+4	,	,	PUNCT	punct	_	_	_	_	_
+5	икки	икки	NUM	num	NumType=Card	_	_	_	two
+6	оһох	оһох	NOUN	n	Case=Nom|Number=Sing	_	_	_	stove
+7	,	,	PUNCT	punct	_	_	_	_	_
+8	алта	алта	NUM	num	NumType=Card	_	_	_	six
+9	түннүк	түннүк	NOUN	n	Case=Nom|Number=Sing	_	_	_	window
+10	баар	баар	AUX	aux	_	_	_	_	_
+
+# sent_id = 1777
+# text = Бастаан кини кылааска ааны уонна форточканы аһар
+# text_rus = Сначала он открывает дверь и форточку в классе
+# text_eng = (Khatironov, )
+1	Бастаан	бастаан	ADV	adv	_	_	_	_	first
+2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
+3	кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	_	_	_	classroom
+4	ааны	аан	NOUN	n	Case=Acc|Number=Sing	_	_	_	door
+5	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+6	форточканы	форточка	NOUN	n	Case=Acc|Number=Sing	_	_	_	window
+7	аһар	ас	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	open
+
+# sent_id = 1778
+# text = Куоракка убайым уонна эдьиийим бииргэ үөрэнэллэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Куоракка	куорат	NOUN	n	Case=Dat|Number=Sing	_	_	_	city
+2	убайым	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	olderbrother
+3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+4	эдьиийим	эдьиий	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	oldersister
+5	бииргэ	бииргэ	ADV	adv	_	_	_	_	together
+6	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	study
+
+# sent_id = 1773
+# text = Бу куһаҕан сир , манна оту хотуурунан охсуохтара
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бу	бу	DET	det	_	_	_	_	this
+2	куһаҕан	куһаҕан	ADJ	adj	_	_	_	_	bad
+3	сир	сир	NOUN	n	Case=Nom|Number=Sing	_	_	_	land
+4	,	,	PUNCT	punct	_	_	_	_	_
+5	манна	манна	ADV	adv	_	_	_	_	_
+6	оту	от	NOUN	n	Case=Acc|Number=Sing	_	_	_	grass
+7	хотуурунан	хотуур	NOUN	n	Case=Ins|Number=Sing	_	_	_	scythe
+8	охсуохтара	оҕус	VERB	v	Number=Plur|Person=3|Tense=Fut	_	_	_	hit
+
+# sent_id = 1762
+# text = Биир улахан ыраас хоско кыра остуоллар тураллар
+# text_rus = 
+# text_eng = There are small tables in one large clean room (Khatironov, )
+1	биир	биир	NUM	num	NumType=Card	_	_	_	one
+2	улахан	улахан	ADJ	adj	_	_	_	_	big
+3	ыраас	ыраас	ADJ	adj	_	_	_	_	clean
+4	хоско	хос	NOUN	n	Case=Dat|Number=Sing	_	_	_	room
+5	кыра	кыра	ADJ	adj	_	_	_	_	small
+6	остуоллар	остуол	NOUN	n	Case=Nom|Number=Plur	_	_	_	table
+7	тураллар	тур	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	stand
+
+# sent_id = 1754
+# text = Остуолга кинигэ , харандаас уонна тэтэрээт баар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Остуолга	остуол	NOUN	n	Case=Dat|Number=Sing	_	_	_	table
+2	кинигэ	кинигэ	NOUN	n	Case=Nom|Number=Sing	_	_	_	_
+3	,	,	PUNCT	punct	_	_	_	_	_
+4	харандаас	харандаас	NOUN	n	Case=Nom|Number=Sing	_	_	_	pencil
+5	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+6	тэтэрээт	тэтэрээт	NOUN	n	Case=Nom|Number=Sing	_	_	_	notebook
+7	баар	баар	AUX	aux	_	_	_	_	_
+
+# sent_id = 1746
+# text = Таҥаһы көхөҕө ыйыыллар уонна дьааһыкка уураллар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	таҥаһы	таҥас	NOUN	n	Case=Acc|Number=Sing	_	_	_	clothes
+2	көхөҕө	көхө	NOUN	n	Case=Dat|Number=Sing	_	_	_	hook
+3	ыйыыллар	ыйаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	hang
+4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+5	дьааһыкка	дьааһык	NOUN	n	Case=Dat|Number=Sing	_	_	_	box
+6	уураллар	уур	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	put
+
+# sent_id = 1720
+# text = Бу уолаттар мас кэрдиэхтэрэ , эн сүөһү маныаҕыҥ
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бу	бу	DET	det	_	_	_	_	this
+2	уолаттар	уол	NOUN	n	Case=Plur|Number=Sing	_	_	_	boy
+3	мас	мас	NOUN	n	Case=Noun|Number=Sing	_	_	_	tree
+4	кэрдиэхтэрэ	кэр	VERB	v	Number=Plur|Person=3|Tense=Fut	_	_	_	fell
+5	,	,	PUNCT	punct	_	_	_	_	_
+6	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	_	you
+7	сүөһү	сүөһү	NOUN	n	Case=Nom|Number=Sing	_	_	_	cattle
+7	маныаҕыҥ	манаа	VERB	v	Number=Sing|Person=2|Tense=Fut	_	_	_	graze
+
+# sent_id = 1623
+# text = Быт , былахы , кулахы киһи хаанынан аһыыллар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Быт	быт	NOUN	n	Case=Nom|Number=Sing	_	_	_	louse
+2	,	,	PUNCT	punct	_	_	_	_	_
+3	былахы	былахы	NOUN	n	Case=Nom|Number=Sing	_	_	_	flee
+4	,	,	PUNCT	punct	_	_	_	_	_
+5	кулахы	кулахы	NOUN	n	Case=Nom|Number=Sing	_	_	_	bug
+6	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
+7	хаанынан	хаан	NOUN	n	Case=Ins|Number=Sing	_	_	_	blood
+7	аһыыллар	аһаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	eat
+
+# sent_id = 1601
+# text = Утуйар таҥаһы биһиги арыт таһырдьа ыйыыбыт
+# text_rus = 1-2 постельное белье
+# text_eng = Sometimes we hang sheets outside (Khatironov, )
+1	Утуйар	утуй	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	sleep
+2	таҥаһы	таҥас	NOUN	n	Case=Acc|Number=Sing	_	_	_	clothes
+3	биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	_	_	_	we
+4	арыт	арыт	ADV	adv	_	_	_	_	sometimes
+5	таһырдьа	таһырдьа	ADV	adv	_	_	_	_	draußen
+6	ыйыыбыт	ыйаа	VERB	v	Number=Plur|Person=1|Tense=Pres	_	_	_	hang
+
+# sent_id = 1599
+# text = Кини туораҕы уонна араас үөннэри эмиэ сиир
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
+2	туораҕы	туорах	NOUN	n	Case=Acc|Number=Sing	_	_	_	pinecones
+3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+4	араас	араас	ADV	adv	_	_	_	_	different
+5	үөннэри	үөн	NOUN	n	Case=Acc|Number=Plur	_	_	_	worm
+6	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+7	сиир	сиэ	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	eat
+
+# sent_id = 1583
+# text = Кыра оҕолор начальнай оскуолаҕа үөрэнэллэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Кыра	кыра	ADJ	adj	_	_	_	_	small
+2	оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	_	_	_	children
+3	начальнай	начальнай	ADJ	adj	_	_	_	_	primary
+4	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
+5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	study
+
+# sent_id = 1550
+# text = Киэһээҥи оскуолаҕа улахан дьон үөрэнэллэр
+# text_rus = Взрослые учатся в вечерней школе
+# text_eng = (Khatironov, )
+1	Киэһээҥи	киэһээҥи	ADJ	adj	_	_	_	_	evening
+2	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
+3	улахан	улахан	ADJ	adj	_	_	_	_	big
+4	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
+5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	study
+
+# sent_id = 1515
+# text = Мин биир аҕаһым үрдүкү оскуолаҕа үөрэнэр
+# text_rus = Моя сестра учится в Hochschule
+# text_eng = (Khatironov, )
+1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+2	биир	биир	NUM	num	NumType=Card	_	_	_	one
+3	аҕаһым	аҕас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	sister
+4	үрдүкү	үрдүкү	ADJ	adj	_	_	_	_	high
+5	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
+6	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+
+# sent_id = 1507
+# text = Улахан оҕо уонна эдэр киһи ханна үөрэнэр ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	улахан	улахан	ADJ	adj	_	_	_	_	big
+2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	child
+3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+4	Эдэр	эдэр	ADJ	adj	_	_	_	_	young
+5	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
+6	ханна	ханна	ADV	adv	_	_	_	_	where
+7	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+8	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 1475
+# text = Онно эр дьон уонна дьахталлар үөрэнэллэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	онно	онно	ADV	adv	_	_	_	_	there
+2	эр	эр	NOUN	n	Case=Nom|Number=Sing	_	_	_	man
+3	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
+4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+5	Дьахталлар	дьахтар	NOUN	n	Case=Nom|Number=Plur	_	_	_	woman
+6	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	study
+
+# sent_id = 1463
+# text = Бөрөнү уонна эһэни дьон эмиэ бултууллар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бөрөнү	бөрө	NOUN	n	Case=Acc|Number=Sing	_	_	_	wolf
+2	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+3	эһэни	эһэ	NOUN	n	Case=Acc|Number=Sing	_	_	_	bear
+4	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
+5	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+6	бултууллар	бултаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	hunt
+
+# sent_id = 1448
+# text = Кылааска биир остуол , үс олоппос турар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	_	_	_	classroom
+2	биир	биир	NUM	num	NumType=Card	_	_	_	one
+3	остуол	остуол	NOUN	n	Case=Nom|Number=Sing	_	_	_	table
+4	,	,	PUNCT	punct	_	_	_	_	_
+5	үс	үс	NUM	num	NumType=Card	_	_	_	three
+6	олоппос	олоппос	NOUN	n	Case=Nom|Number=Sing	_	_	_	chair
+7	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
+
+# sent_id = 1396
+# text = Быраас эмиэ көрөр уонна рецепт суруйар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Быраас	быраас	NOUN	n	Case=Nom|Number=Sing	_	_	_	doctor
+2	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+3	көрөр	көр	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	look
+4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+5	рецепт	рецепт	NOUN	n	Case=Nom|Number=Sing	_	_	_	prescribtion
+6	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	write
+
+# sent_id = 1376
+# text = Мин биир атаһым убайа куоракка үөрэнэр
+# text_rus = 
+# text_eng = One of my friend's older brother studies in the city (Khatironov, 24)
+1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	I
+2	биир	биир	NUM	num	_	_	_	_	one
+3	атаһым	атас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	myfriend
+4	убайа	убай	NOUN	n	Case=Acc|Number=Sing	_	_	_	oldbrother
+5	куоракка	куорат	NOUN	n	Case=Dat|Number=Sing	_	_	_	city
+6	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	studies
+
+# sent_id = 1377
+# text = Мичил Сергейдиин үрэххэ хайыһардыыллар
+# text_rus = Мичил c Сергеем катаются на лыжах по реке
+# text_eng = Michil with Sergey are skiing on the river (Khatironov, 165)
+1	Мичил	Мичил	PROPN	propn	_	_	_	_	Michil
+2	Сергейдиин	Сергей	PROPN	propn	Case=Com	_	_	_	withSergey
+3	үрэххэ	үрэх	NOUN	n	Case=Dat|Number=Sing	_	_	_	river
+4	хайыһардыыллар	хайыһардаа	VERB	v	Number=Plur|Person=2|Tense=Pres	_	_	_	ski
+
+# sent_id = 1378
+# text = Утуйар хоско биир улахан дьааһык турар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Утуйар	утуй	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	sleep
+2	хоско	хос	NOUN	n	Case=Dat|Number=Sing	_	_	_	room
+3	биир	биир	NUM	num	NumType=Card	_	_	_	one
+4	улахан	улахан	ADJ	adj	_	_	_	_	big
+5	дьааһык	дьааһык	NOUN	n	Case=Nom|Number=Sing	_	_	_	chest
+6	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
+
+# sent_id = 1372
+# text = Улаханнык ыалдьар дьон ханна баралларый ?
+# text_rus = 
+# text_eng = Where (these) very ill people go ? (Khatironov, 34)
+1	Улаханнык	улахан	ADV	adv	_	_	_	_	strong
+2	ыалдьар	ыар	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	sick
+3	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
+4	ханна	ханна	PRON	pron	_	_	_	_	where
+5	баралларый	бар	VERB	v	Int=Yes|Number=Plur|Person=3|Tense=Pres	_	_	_	_
+6	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 1373
+# text = Онно түөрт эрдиилээх улахан оҥочо турар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Онно	онно	ADV	adv	_	_	_	_	there
+2	түөрт	түөрт	NUM	num	NumType=Card	_	_	_	four
+3	эрдиилээх	эрдии	ADJ	adj	Poss=Yes	_	_	_	paddle
+4	улахан	улахан	ADJ	adj	_	_	_	_	big
+5	оҥочо	оҥочо	NOUN	n	Case=Nom|Number=Sing	_	_	_	boat
+6	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
+
+# sent_id = 1374
+# text = Оҕолор уруок ааҕаллар уонна суруйаллар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	_	_	_	children
+2	уруок	уруок	NOUN	n	Case=Nom|Number=Sing	_	_	_	lesson
+3	ааҕаллар	аах	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	read
+4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+5	суруйаллар	суруй	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	write
+
+# sent_id = 1356
+# text = Айаана , ол паартаҕа олор уонна суруй
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Айаана	Айаана	PROPN	propn	_	_	_	_	_
+2	,	,	PUNCT	punct	_	_	_	_	_
+3	ол	ол	DET	det	_	_	_	_	this
+4	паартаҕа	паарта	NOUN	n	Case=Dat|Number=Sing	_	_	_	table
+5	олор	олор	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	sit
+6	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+7	суруй	суруй	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	write
+
+# sent_id = 1324
+# text = Бу дьахтар киэһээҥи оскуолаҕа үөрэнэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бу	бу	DET	det	_	_	_	_	this
+2	дьахтар	дьахтар	NOUN	n	Case=Nom|Number=Sing	_	_	_	woman
+3	Киэһээҥи	киэһээҥи	ADJ	adj	_	_	_	_	evening
+4	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
+5	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+
+# sent_id = 1320
+# text = Сарсын мин эмиэ мастерскойга үлэлиэҕим
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Сарсын	сарсын	ADV	adv	_	_	_	_	tomorrow
+2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	I
+3	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+4	мастерскойга	мастерской	NOUN	n	Case=Dat|Number=Sing	_	_	_	workshop
+5	үлэлиэҕим	үлэлээ	VERB	v	Number=Sing|Person=1|Tense=Fut	_	_	_	work
+
+# sent_id = 1273
+# text = Чэйгэ саахар , килиэп , арыы ылаллар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	чэйгэ	чэй	NOUN	n	Case=Dat|Number=Sing	_	_	_	tea
+2	саахар	саахар	NOUN	n	Case=Nom|Number=Sing	_	_	_	sugar
+3	,	,	PUNCT	punct	_	_	_	_	_
+4	килиэп	килиэп	NOUN	n	Case=Nom|Number=Sing	_	_	_	bread
+5	,	,	PUNCT	punct	_	_	_	_	_
+6	арыы	арыы	NOUN	n	Case=Nom|Number=Sing	_	_	_	butter
+7	ылаллар	ыл	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	take
+
+# sent_id = 1249
+# text = Кэскил уонна мин оскуолаҕа үөрэнэбит
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Кэскил	Кэскил	PROPN	propn	_	_	_	_	_
+2	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+4	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
+5	үөрэнэбит	үөрэн	VERB	v	Number=Plur|Person=1|Tense=Pres	_	_	_	learn
+
+# sent_id = 1223
+# text = Хойут бары аһыыллар уонна утуйаллар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Хойут	хойут	ADV	adv	_	_	_	_	later
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
+3	аһыыллар	аһаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	eat
+4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+5	утуйаллар	утуй	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	sleep
+
+# sent_id = 1202
+# text = Быйыл кинилэр үчүгэйдик бултаатылар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Быйыл	быйыл	ADV	adv	_	_	_	_	thisyear
+2	кинилэр	кини	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	they
+3	үчүгэйдик	үчүгэй	ADV	adv	ADVLZ=Yes	_	_	_	well
+4	бултаатылар	бултаа	VERB	v	Number=Plur|Person=3|Tense=NearPast	_	_	_	hunt
+
+# sent_id = 1126
+# text = Туруйа баҕаны уонна күлгэрини сиир
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Туруйа	туруйа	NOUN	n	Case=Nom|Number=Sing	_	_	_	crane
+2	баҕаны	баҕа	NOUN	n	Case=Acc|Number=Sing	_	_	_	frog
+3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+4	күлгэрини	күлгэри	NOUN	n	Case=Acc|Number=Sing	_	_	_	lizard
+5	сиир	сиэ	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	eat
+
+# sent_id = 1115
+# text = Дьон бары аһаатылар уонна бардылар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
+3	аһаатылар	аһаа	VERB	v	Number=Plur|Person=3|Tense=NearPast	_	_	_	eat
+4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+5	бардылар	бар	VERB	v	Number=Plur|Person=3|Tense=NearPast	_	_	_	go
+
+# sent_id = 1116
+# text = Бу атынан бүгүн таһаҕас тиэйиэхтэрэ
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бу	бу	DET	det	_	_	_	_	this
+2	атынан	ат	NOUN	n	Case=Ins|Number=Sing	_	_	_	horse
+2	бүгүн	бүгүн	ADV	adv	_	_	_	_	today
+3	таһаҕас	таһаҕас	NOUN	n	Case=Nom|Number=Sing	_	_	_	cargo
+4	тиэйиэхтэрэ	тиэй	VERB	v	Number=Plur|Person=3|Tense=Fut	_	_	_	load
+
+# sent_id = 1108
+# text = Дьиэҕэ ыт уонна куоска баар буолар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	дьиэҕэ	дьиэ	NOUN	n	Case=Dat|Number=Sing	_	_	_	house
+2	ыт	ыт	NOUN	n	Case=Nom|Person=Sing	_	_	_	_	dog
+3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+4	куоска	куоска	NOUN	n	Case=Nom|Number=Sing	_	_	_	cat
+5	баар	баар	AUX	aux	_	_	_	_	_
+6	буолар	буол	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	tobe
+
+# sent_id = 1084
+# text = Хара таҥаһы үрүҥ сабынан тикпэттэр
+# text_rus = Черные вещи подшивают белыми нитками
+# text_eng = (Khatironov, ) # таҥас-сап
+1	Хара	хара	ADJ	adj	_	_	_	_	black
+2	таҥаһы	таҥас	NOUN	n	Case=Acc|Number=Sing	_	_	_	clothes
+3	үрүҥ	үрүҥ	ADJ	adj	_	_	_	white	_
+4	сабынан	сап	NOUN	n	Case=Ins|Number=Sing	_	_	_	thread
+5	тикпэттэр	тик	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	sew
+
+# sent_id = 1082
+# text = Ыстаалтан бэрт боробулуоха тахсар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ыстаалтан	ыстаал	NOUN	n	Case=Abl|Number=Sing	_	_	_	steel
+2	бэрт	бэрт	ADV	adv	_	_	_	_	perfect
+3	боробулуоха	боробулуоха	NOUN	n	Case=Nom|Number=Sing	_	_	_	wire
+4	тахсар	таҕыс	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	takeout
+
+# sent_id = 1079
+# text = Кини биир доҕоро куоракка үөрэнэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
+2	биир	биир	NUM	num	NumType=Card	_	_	_	one
+3	доҕоро	доҕор	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	friend
+4	куоракка	куорат	NOUN	n	Case=Dat|Number=Sing	_	_	_	city
+5	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+
+# sent_id = 1056
+# text = Үөрэнэр оҕолор оскуолаҕа бардылар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+2	оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	_	_	_	children
+3	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
+4	бардылар	бар	VERB	v	Number=Plur|Person=3|Tense=NearPast	_	_	_	go
+
+# sent_id = 1016
+# text = Кинилэр дьэҥкир арыы атыылаһаллар
+# text_rus = 
+# text_eng = They are buying clarified butter (Khatironov, )
+1	Кинилэр	кини	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	they
+2	дьэҥкир	дьэҥкир	ADJ	adj	_	_	_	_	transparent
+3	арыы	арыы	NOUN	n	Case=Nom|Number=Sing	_	_	_	butter
+4	атыылаһаллар	атыылас	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	buy
+
+# sent_id = 1014
+# text = Кэл , бу олоппоско олор уонна аах
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Кэл	кэл	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	come
+2	,	,	PUNCT	punct	_	_	_	_	_
+3	бу	бу	DET	det	_	_	_	_	this
+4	олоппоско	олоппос	NOUN	n	Case=Dat|Number=Sing	_	_	_	chair
+5	олор	олор	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	sit
+6	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+7	аах	аах	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	read
+
+# sent_id = 1009
+# text = Оҕуруот үүнүүтэ быйыл эмиэ үчүгэй
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Оҕуруот	оҕуруот	NOUN	n	Case=Nom|Number=Sing	_	_	_	vegarden
+2	үүнүүтэ	үүнүү	NOUN	n	Case=Par|Number=Sing	_	_	_	harvest
+3	быйыл	быйыл	ADV	adv	_	_	_	_	thisyear
+4	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+5	үчүгэй	үчүгэй	ADV	adv	_	_	_	_	good
+
+# sent_id = 983
+# text = Ити ойуурга элбэх кыра күөл баар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ити	ити	DET	det	_	_	_	_	this
+2	ойуурга	ойуур	NOUN	n	Case=Dat|Number=Sing	_	_	_	forest
+3	элбэх	элбэх	ADJ	adj	_	_	_	_	many
+4	кыра	кыра	ADJ	adj	_	_	_	_	small
+5	күөл	күөл	NOUN	n	Case=Nom|Number=Sing	_	_	_	lake
+6	баар	баар	AUX	aux	_	_	_	_	_
+
+# sent_id = 984
+# text = Кини олус кырдьаҕас уонна көрбөт
+# text_rus = Он очень старый и слепой
+# text_eng = (Khatironov, )
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
+2	олус	олус	ADV	adv	_	_	advmod	_	quite
+3	кырдьаҕас	кырдьаҕас	ADJ	adj	_	_	_	_	old
+4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+5	көрбөт	көр	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	_	_	_	see
+
+# sent_id = 979
+# text = Икки атахха эмиэ уон тарбах баар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	икки	икки	NUM	num	NumType=Card	_	_	_	two
+2	атахха	атах	NOUN	n	Case=Dat|Number=Sing	_	_	_	foot
+3	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+4	уон	уон	NUM	num	NumType=Card	_	_	_	ten
+5	тарбах	тарбах	NOUN	n	Case=Nom|Number=Sing	_	_	_	finger
+6	баар	баар	AUX	aux	_	_	_	_	_
+
+# sent_id = 932
+# text = Биир эдэр киһи эмиэ кинигэ ааҕар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Биир	биир	NUM	num	NumType=Card	_	_	_	one
+2	Эдэр	эдэр	ADJ	adj	_	_	_	_	young
+3	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
+4	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+5	кинигэ	кинигэ	NOUN	n	Case=Nom|Number=Sing	_	_	_	_
+6	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+
+# sent_id = 916
+# text = Кини күнүс үлэлиир , түүн утуйар
+# text_rus = 
+# text_eng = He works in the daytime and sleeps at night (Khatironov, )
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
+2	күнүс	күнүс	NOUN	n	Case=Nom|Number=Sing	_	_	_	noon
+3	үлэлиир	үлэлээ	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	works
+4	,	,	PUNCT	punct	_	_	_	_	_
+5	түүн	түүн	NOUN	n	Case=Nom|Number=Sing	_	_	_	night
+5	утуйар	утуй	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	sleep
+
+# sent_id = 917
+# text = Ити оҕону ууга ыраах киллэримэҥ
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ити	ити	DET	det	_	_	_	_	this
+2	оҕону	оҕо	NOUN	n	Case=Acc|Number=Sing	_	_	_	child
+3	ууга	уу	NOUN	n	Case=Dat|Number=Sing	_	_	_	water
+4	ыраах	ыраах	ADV	adv	_	_	_	_	far
+5	киллэримэҥ	киллэр	VERB	v	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres	_	_	_	dontenter
+
+# sent_id = 918
+# text = Дьэдьэни оҕолор олус таптыыллар
+# text_rus = Дети очень любят землянику
+# text_eng = (Khatironov, )
+1	Дьэдьэни	дьэдьэн	NOUN	n	Case=Acc|Number=Sing	_	_	_	strawberry
+2	оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	_	_	_	children
+3	олус	олус	ADV	adv	_	_	advmod	_	quite
+4	таптыыллар	таптаа	VERB	v	Number=Plur|Person=2|Tense=Pres	_	_	_	love
+
+# sent_id = 919
+# text = Бөрө суола ойуур иһиттэн таҕыста
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бөрө	бөрө	NOUN	n	Case=Nom|Number=Sing	_	_	_	wolf
+2	суола	суол	NOUN	n	Case=Acc|Number=Sing	_	_	_	footprints
+2	ойуур	ойуур	NOUN	n	Case=Nom|Number=Sing	_	_	_	forest
+3	иһиттэн	иһит	_	_	Case=Abl|Number=Sing	_	_	_	???
+4	таҕыста	таҕыс	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	leave
+
+# sent_id = 911
+# text = Ол харандаас паарталааҕар үрдүк
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ол	ол	DET	det	_	_	_	_	this
+2	харандаас	харандаас	NOUN	n	Case=Nom|Number=Sing	_	_	_	pencil
+3	паарталааҕар	паарта	NOUN	n	Case=Cmp|Number=Sing	_	_	_	desk
+4	үрдүк	үрдүк	ADJ	adj	_	_	_	_	high
+
+# sent_id = 886
+# text = Ити оҕолор эмиэ онно үөрэнэллэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ити	ити	DET	det	_	_	_	_	this
+2	оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	_	_	_	children
+3	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+4	онно	онно	ADV	adv	_	_	_	_	there
+5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	study
+
+# sent_id = 866
+# text = Бу оскуолаҕа элбэх киһи үөрэнэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бу	бу	DET	det	_	_	_	_	this
+2	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
+3	элбэх	элбэх	ADJ	adj	_	_	_	_	many
+4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
+5	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+
+# sent_id = 848
+# text = Биир , икки , үс , түөрт , биэс
+# text_rus = 
+# text_eng = (Khatironov, )
+1	биир	биир	NUM	num	NumType=Card	_	_	_	one
+2	,	,	PUNCT	punct	_	_	_	_	_
+3	икки	икки	NUM	num	NumType=Card	_	_	_	two
+4	,	,	PUNCT	punct	_	_	_	_	_
+5	үс	үс	NUM	num	NumType=Card	_	_	_	three
+6	,	,	PUNCT	punct	_	_	_	_	_
+7	түөрт	түөрт	NUM	num	NumType=Card	_	_	_	four
+8	,	,	PUNCT	punct	_	_	_	_	_
+9	биэс	биэс	NUM	num	NumType=Card	_	_	_	five
+
+# sent_id = 834
+# text = Биһиги киэһэ эмиэ балыктыахпыт
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	_	_	_	we
+2	киэһэ	киэһэ	ADV	adv	_	_	_	_	tonight
+3	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+4	балыктыахпыт	балыктаа	VERB	v	Number=Plur|Person=1|Tense=Fut	_	_	_	fish
+
+# sent_id = 825
+# text = Биир паартаҕа икки киһи олорор
+# text_rus = 
+# text_eng = (Khatironov, )
+1	биир	биир	NUM	num	NumType=Card	_	_	_	one
+2	паартаҕа	паарта	NOUN	n	Case=Dat|Number=Sing	_	_	_	table
+3	икки	икки	NUM	num	NumType=Card	_	_	_	two
+4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
+5	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+
+# sent_id = 820
+# text = Доҕорум убайа куоракка үөрэнэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Доҕорум	доҕор	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	myfriend
+2	убайа	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	oldbrother
+3	Куоракка	куорат	NOUN	n	Case=Dat|Number=Sing	_	_	_	city
+4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+
+# sent_id = 803
+# text = Ити дьон тоҕо манна киирбэттэр ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ити	ити	DET	det	_	_	_	_	this
+2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
+3	тоҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	child
+4	манна	манна	ADV	adv	_	_	_	_	_
+5	киирбэттэр	киир	VERB	v	Number=Plur|Person=3|Polarity=Neg|Tense=Pres	_	_	_	enter
+6	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 765
+# text = Дьон аһыыллар уонна утуйаллар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
+2	аһыыллар	аһаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	eat
+3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+4	утуйаллар	утуй	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	sleep
+
+# sent_id = 749
+# text = Эбэм эмиэ ааҕар уонна суруйар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Эбэм	эбэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	grandmother
+2	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
+3	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+5	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	write
+
+# sent_id = 724
+# text = Биир хоско улахан остуол баар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	биир	биир	NUM	num	NumType=Card	_	_	_	one
+2	хоско	хос	NOUN	n	Case=Dat|Number=Sing	_	_	_	room
+3	улахан	улахан	ADJ	adj	_	_	_	_	big
+4	остуол	остуол	NOUN	n	Case=Nom|Number=Sing	_	_	_	table
+5	баар	баар	AUX	aux	_	_	_	_	_
+
+# sent_id = 689
+# text = Бу кылааска хас түннүк баарый ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бу	бу	DET	det	_	_	_	_	this
+2	кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	_	_	_	classroom
+3	хас	хас	ADV	adv	_	_	_	_	howmany
+4	түннүк	түннүк	NOUN	n	Case=Nom|Number=Sing	_	_	_	window
+5	баарый	баар	AUX	aux	Int=Yes	_	_	_	exist
+6	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 613
+# text = Дьонуҥ саас тугу бултаатылар ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Дьонуҥ	дьон	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	person
+2	саас	саас	NOUN	n	Case=Nom|Number=Sing	_	_	_	age
+3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
+4	бултаатылар	бултаа	VERB	v	Number=Plur|Person=3|Tense=NearPast	_	_	_	hunt
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 608
+# text = Айаана иһити ханна туруорар ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Айаана	Айаана	PROPN	propn	_	_	_	_	_
+2	иһити	иһит	NOUN	n	Case=Acc|Number=Sing	_	_	_	dishes
+3	ханна	ханна	ADV	adv	_	_	_	_	where
+4	туруорар	туруор	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	put
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 603
+# text = Ол нуучча оскуолаҕа үөрэтэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ол	ол	DET	det	_	_	_	_	this
+2	нуучча	нуучча	NOUN	n	Case=Nom|Number=Sing	_	_	_	russian
+3	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
+4	үөрэтэр	үөрэт	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	study
+
+# sent_id = 600
+# text = Оройуоҥҥа барар ат ол турар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Оройуоҥҥа	оройуон	NOUN	n	Case=Dat|Number=Sing	_	_	_	district
+2	барар	бар	NOUN	n	Number=Sing|Person=3|Tense=Pres	_	_	_	walk
+3	ат	ат	NOUN	n	Case=Nom|Number=Sing	_	_	_	horse
+4	ол	ол	DET	det	_	_	_	_	this
+5	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
+
+# sent_id = 596
+# text = Ханнык сүөһү таһырдьа аһыыр ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ханнык	ханнык	ADV	adv	_	_	_	_	which
+2	сүөһү	сүөһү	NOUN	n	Case=Nom|Number=Sing	_	_	_	cattle
+3	таһырдьа	таһырдьа	ADV	adv	_	_	_	_	outside
+4	аһыыр	аһаа	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	eat
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 597
+# text = Ити тэлиэгэҕэ тугу тиэйэҕит ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ити	ити	DET	det	_	_	_	_	this
+2	тэлиэгэҕэ	тэлиэгэ	NOUN	n	Case=Dat|Number=Sing	_	_	_	cart
+3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
+4	тиэйэҕит	тиэй	VERB	v	Number=Plur|Person=2|Tense=Pres	_	_	_	carry
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 598
+# text = Эһиэхэ хас сибиинньэ баарый ?
+# text_rus = 
+# text_eng = How many pigs do you have ? (Khatironov, )
+1	эһиэхэ	эһиги	PRON	pron	Case=Dat|Number=Plur|Person=2|PronType=Prs	_	_	_	_
+2	хас	хас	ADV	adv	_	_	_	_	howmany
+3	сибиинньэ	сибиинньэ	NOUN	n	Case=Nom|Number=Sing	_	_	_	pig
+4	баарый	баар	AUX	aux	Int=Yes	_	_	_	exist
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 590
+# text = Кылааска элбэх паарта турар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	_	_	_	classroom
+2	элбэх	элбэх	ADJ	adj	_	_	_	_	many
+3	паарта	паарта	NOUN	n	Case=Nom|Number=Sing	_	_	_	table
+4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
+
+# sent_id = 588
+# text = Бу дьон ханнык балыктыыллар ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бу	бу	DET	det	_	_	_	_	this
+2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
+3	Ханнык	ханнык	ADV	adv	_	_	_	_	which
+4	балыктыыллар	балыктаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	fish
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 578
+# text = Кинилэр бары үөрэнэллэр дуо ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Кинилэр	кини	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	they
+2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
+3	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	_	_	_	study
+4	дуо	дуо	PART	part	_	_	_	_	?
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 579
+# text = Эн ханнык наскыны таптыыгын ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	_	you
+2	Ханнык	ханнык	ADV	adv	_	_	_	_	which
+3	наскыны	наскы	NOUN	n	Case=Acc|Number=Sing	_	_	_	socks
+4	таптыыгын	таптаа	VERB	v	Number=Sing|Person=2|Tense=Pres	_	_	_	love
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 570
+# text = Бу оҕонньорго алта оҕо баар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бу	бу	DET	det	_	_	_	_	this
+2	оҕонньорго	оҕонньор	NOUN	n	Case=Dat|Number=Sing	_	_	_	oldman
+3	алта	алта	NUM	num	NumType=Card	_	_	_	six
+4	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	child
+5	баар	баар	AUX	aux	_	_	_	_	_
+
+# sent_id = 565
+# text = Икки илиигэ уон тарбах баар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	икки	икки	NUM	num	NumType=Card	_	_	_	two
+2	илиигэ	илии	NOUN	n	Case=Dat|Number=Sing	_	_	_	hand
+3	уон	уон	NUM	num	NumType=Card	_	_	_	ten
+4	тарбах	тарбах	NOUN	n	Case=Nom|Number=Sing	_	_	_	finger
+5	баар	баар	AUX	aux	_	_	_	_	_
+
+# sent_id = 551
+# text = Мүнүүтэҕэ алта уон сөкүүндэ
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Мүнүүтэҕэ	мүнүүтэ	NOUN	n	Case=Dat|Number=Sing	_	_	_	minute
+2	алта	алта	NUM	num	NumType=Card	_	_	_	six
+3	уон	уон	NUM	num	NumType=Card	_	_	_	ten
+4	сөкүүндэ	сөкүүндэ	NOUN	n	Case=Nom|Number=Sing	_	_	_	second
+
+# sent_id = 517
+# text = Бу бурдугу тоҕо быспатыгыт ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бу	бу	DET	det	_	_	_	_	this
+2	бурдугу	бурдук	NOUN	n	Case=Acc|Number=Sing	_	_	_	grain
+3	тоҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	child
+4	быспатыгыт	быс	VERB	v	Number=Plur|Person=2|Polarity=Neg|Tense=NearPast	_	_	_	cut
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 421
+# text = Онно кыра ыт оҕото олорор
+# text_rus = 
+# text_eng = (Khatironov, )
+1	онно	онно	ADV	adv	_	_	_	_	there
+2	кыра	кыра	ADJ	adj	_	_	_	_	small
+3	ыт	ыт	NOUN	n	Case=Nom|Person=Sing	_	_	_	_	dog
+4	оҕото	оҕо	NOUN	n	Case=Par|Person=Sing	_	_	_	child
+5	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+
+# sent_id = 415
+# text = Бу хоско үс киһи утуйабыт
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бу	бу	DET	det	_	_	_	_	this
+2	хоско	хос	NOUN	n	Case=Dat|Number=Sing	_	_	_	room
+3	үс	үс	NUM	num	NumType=Card	_	_	_	three
+4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
+5	утуйабыт	утуй	VERB	v	Number=Plur|Person=1|Tense=Pres	_	_	_	sleep
+
+# sent_id = 405
+# text = Эһиэхэ булчут ыт баар дуо ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	эһиэхэ	эһиги	PRON	pron	Case=Dat|Number=Plur|Person=2|PronType=Prs	_	_	_	_
+2	булчут	булчут	NOUN	n	Case=Nom|Number=Sing	_	_	_	hunter
+3	ыт	ыт	NOUN	n	Case=Nom|Person=Sing	_	_	_	_	dog
+4	баар	баар	AUX	aux	_	_	_	_	_
+5	дуо	дуо	PART	part	_	_	_	_	?
+6	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 349
+# text = Манна биир кэргэн олорор
+# text_rus = 
+# text_eng = (Khatironov, )
+1	манна	манна	ADV	adv	_	_	_	_	_
+2	биир	биир	NUM	num	NumType=Card	_	_	_	one
+3	кэргэн	кэргэн	NOUN	n	Case=Nom|Number=Sing	_	_	_	family
+4	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+
+# sent_id = 1867
+# text = Кыһын биһиги ичигэс таҥаһы кэтэбит , оччоҕо тоҥмоппут
+# text_rus = 
+# text_eng = (Khatironov, )
+1	кыһын	кыһын	ADV	adv	_	_	_	_	winter
+2	биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	_	_	_	we
+3	Ичигэс	ичигэс	ADJ	adj	_	_	_	_	warm
+4	таҥаһы	таҥас	NOUN	n	Case=Acc|Number=Sing	_	_	_	clothes
+5	кэтэбит	_	_	_	_	_	_	_	_
+6	,	,	PUNCT	punct	_	_	_	_	_
+7	оччоҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	child
+8	тоҥмоппут	тоҥ	VERB	v	Number=Plur|Person=1|Polarity=Neg|Tense=Pres	_	_	_	freeze
+
+# sent_id = 1891
+# text = Миэхэ аҕам , ийэм , эһэм , эбэм , убайым , аҕаһым баар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+2	аҕам	аҕа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	father
+3	,	,	PUNCT	punct	_	_	_	_	_
+4	Ийэм	ийэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	mother
+5	,	,	PUNCT	punct	_	_	_	_	_
+6	Эһэм	эһэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	grandfather
+7	,	,	PUNCT	punct	_	_	_	_	_
+8	Эбэм	эбэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	grandmother
+9	,	,	PUNCT	punct	_	_	_	_	_
+10	убайым	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	olderbrother
+11	,	,	PUNCT	punct	_	_	_	_	_
+12	аҕаһым	аҕас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	sister
+13	баар	баар	AUX	aux	_	_	_	_	_
+
+# sent_id = 2007
+# text = Бүгүн оскуолаҕа элбэх кинигэни , тэтэрээти , харандааһы биэрэллэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Бүгүн	бүгүн	ADV	adv	_	_	_	_	_	today
+2	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
+3	элбэх	элбэх	ADJ	adj	_	_	_	_	many
+4	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	_	_	_	book
+5	,	,	PUNCT	punct	_	_	_	_	_
+6	тэтэрээти	тэтэрээт	NOUN	n	Case=Acc|Number=Sing	_	_	_	notebook
+7	,	,	PUNCT	punct	_	_	_	_	_
+8	харандааһы	харандаас	NOUN	n	Case=Acc|Number=Sing	_	_	_	pencil
+9	биэрэллэр	биэр	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	give
+
+# sent_id = 1845
+# text = Кини хайыһарынан хонууга , ойуурга , хайаҕа сылдьар
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
+2	хайыһарынан	хайыһар	NOUN	n	Case=Ins|Number=Sing	_	_	_	turn
+3	хонууга	уу	NOUN	n	Case=Dat|Number=Sing	_	_	_	water
+4	,	,	PUNCT	punct	_	_	_	_	_
+5	ойуурга	ойуур	NOUN	n	Case=Dat|Number=Sing	_	_	_	forest
+6	,	,	PUNCT	punct	_	_	_	_	_
+7	хайаҕа	хайа	NOUN	n	Case=Dat|Number=Sing	_	_	_	mountain
+8	сылдьар	сырыт	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	visit
+
+# sent_id = 189
+# text = Эһиги бу сири билэҕит
+# text_rus = Вы знаете это место
+# text_eng = (Khatironov, )
+1	Эһиги	эһиги	PRON	pron	Case=Dat|Number=Plur|Person=2|PronType=Prs	_	_	_	_
+2	бу	бу	DET	det	_	_	_	_	this
+3	сири	сир	NOUN	n	Case=Acc|Number=Sing	_	_	_	earth
+4	билэҕит	бил	VERB	v	Number=Plur|Person=2|Tense=Pres	_	_	_	know
+
+# sent_id = 190
+# text = Кэскил убайа мас ууһа
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Кэскил	Кэскил	PROPN	propn	_	_	_	_	_
+2	убайа	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	oldbrother
+3	мас	мас	NOUN	n	Case=Nom|Number=Sing	_	_	_	wood
+4	ууһа	уус	VERB	v	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	master
+
+# sent_id = 647
+# text = Оскуолаҕа хас чааска бараҕыт ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
+2	хас	хас	ADV	adv	_	_	_	_	howmany
+3	чааска	чаас	NOUN	n	Case=Dat|Number=Sing	_	_	_	hour
+4	бараҕыт	бар	VERB	v	Number=Plur|Person=2|Tense=Pres	_	_	_	go
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 636
+# text = Эһиги ол оскуолаҕа үөрэнэҕит
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Эһиги	эһиги	PRON	pron	Case=Dat|Number=Plur|Person=2|PronType=Prs	_	_	_	_
+2	ол	ол	DET	det	_	_	_	_	this
+3	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
+4	үөрэнэҕит	үөрэн	VERB	v	Number=Plur|Person=2|Tense=Pres	_	_	_	learn
+
+# sent_id = 199
+# text = Ити киһи тугу кэпсиир ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ити	ити	DET	det	_	_	_	_	this
+2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
+3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
+4	кэпсиир	кэпсээ	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	tell
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 249
+# text = Онно кыһын сүөһү аһыыр
+# text_rus = Зимой там кормятся животные 
+# text_eng = (Khatironov, )
+1	Онно	онно	ADV	adv	_	_	_	_	there
+2	кыһын	кыһын	ADV	adv	_	_	_	_	winter
+3	сүөһү	сүөһү	NOUN	n	Case=Nom|Number=Sing	_	_	_	cattle
+4	аһыыр	аһаа	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	eat
+
+# sent_id = 253
+# text = Бэс ханнык сиргэ үүнэр ?
+# text_rus = В каких местах (где) растет сосна ?
+# text_eng = (Khatironov, )
+1	Бэс	бэс	NOUN	n	Case=Nom|Number=Sing	_	_	_	pine
+2	Ханнык	ханнык	ADV	adv	_	_	_	_	which
+3	сиргэ	сир	NOUN	n	Case=Dat|Number=Sing	_	_	_	earth
+4	үүнэр	үүн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	grow
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 254
+# text = Аны миэхэ тимэхтэ аҕал
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Аны	аны	ADV	adv	_	_	_	_	now
+2	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+3	тимэхтэ	тимэх	NOUN	n	Case=Par|Number=Sing	_	_	_	button
+4	аҕал	аҕал	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	givebring
+
+# sent_id = 258
+# text = Эһиэхэ ким от тиэйэрий ?
+# text_rus = 
+# text_eng = (Khatironov, )
+1	эһиэхэ	эһиги	PRON	pron	Case=Dat|Number=Plur|Person=2|PronType=Prs	_	_	_	_
+2	ким	ким	PRON	PRON	_	_	_	_	who
+3	от	от	NOUN	n	Case=Nom|Number=Sing	_	_	_	grass
+4	тиэйэрий	тиэй	VERB	v	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	load
+5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 288
+# text = Эһэм тыс этэрбэһи кэтэр
+# text_rus = Мой дедушка надевает унты
+# text_eng = (Khatironov, )
+1	Эһэм	эһэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	grandfather
+2	тыс	тыс	NOUN	n	Case=Nom|Number=Sing	_	_	_	furskin
+3	этэрбэһи	этэрбэс	NOUN	n	Case=Acc|Number=Sing	_	_	_	boots
+4	кэтэр	кэт	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	put
+
+# sent_id = 300
+# text = Ити кыыс аҕата мас ууһа
+# text_rus = Отец этой девочки столяр . 4-5 carpenter
+# text_eng = (Khatironov, )
+1	Ити	ити	DET	det	_	_	_	_	this
+2	кыыс	кыыс	NOUN	n	Case=Nom|Number=Sing	_	_	_	girl
+3	аҕата	аҕа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	father
+4	мас	мас	NOUN	n	Case=Nom|Number=Sing	_	_	_	wood
+5	ууһа	уус	VERB	v	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	master
+
