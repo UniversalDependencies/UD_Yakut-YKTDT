@@ -1050,7 +1050,7 @@
 # text_eng = What is this dog barking at ?(Khatironov, )
 1	Ити	ити	DET	det	_	_	_	_	this
 2	ыт	ыт	NOUN	n	Case=Nom|Number=Sing	_	_	_	dog
-3	тугу	тук	_	_	_	_	_	_	towhat
+3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 4	үрэр	үр	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	bark
 5	?	?	PUNCT	punct	_	_	_	_	_
 
