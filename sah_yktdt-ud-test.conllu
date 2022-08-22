@@ -765,7 +765,7 @@
 3	Өрүсүөнэттэн	Өрүсүөнэ	PROPN	propn	Case=Abl|Number=Sing	6	obl	_	_
 4	Кытайы	китай	PROPN	propn	Case=Acc|Number=Sing	6	obj	_	_
 5	тута	тута	ADV	adv	_	6	advmod	_	atfirst
-6	араарары	араар	VERB	v	_	8	xcomp	_	separate
+6	араарары	араар	VERB	v	Number=Sing|Person=3|Tense=Pres|VerbForm=Trans	8	xcomp	_	separate
 7	кытта	кытта	ADP	adp	_	4	case	_	from
 8	сатыырым	сатаа	VERB	v	Number=Sing|Person=1|Tense=NearPast	0	root	_	beableto
 
@@ -2111,7 +2111,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
-2	бүгүн	бүгүн	ADV	adv	_	_	_	_	_	today
+2	бүгүн	бүгүн	ADV	adv	_	_	_	_	today
 3	биир	биир	NUM	num	NumType=Card	_	_	_	one
 4	куһу	кус	NOUN	n	Case=Acc|Number=Sing	_	_	_	duck
 5	өлөрдүм	өлөр	VERB	v	Number=Sing|Person=1|Tense=NearPast	_	_	_	kill
