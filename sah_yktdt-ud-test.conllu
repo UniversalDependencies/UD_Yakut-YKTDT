@@ -732,18 +732,15 @@
 3	ыйыстыбыт	ыйыһын	VERB	v	Number=Sing|Person=3|Tense=PastResultI	0	root	_	eat
 4	моҕой	моҕой	NOUN	n	Case=Nom|Number=Sing	3	obj	_	snake
 
-# sent_id = 78
-# text = Атын идэни таларга күһэллэн , өлүөччүк үөрэҕэр үөрэммитим
-# text_rus = Мне пришлось выбрать другую профессию, и я выучился на лётчика 
-# text_eng = I had to choose another profession, and I learned to be a pilot (The little prince, 10) # прошедшее незаконченное время (имперфест)
-1	Атын	атын	ADJ	ajv	_	2	amod	_	another
-2	идэни	идэ	NOUN	n	Case=Acc|Number=Sing	3	obj	_	profession
-3	таларга	тал	VERB	v	VerbForm=Inf	0	root	_	choose
-4	күһэллэн	күһэй	VERB	v	_	3	dep	_	hadto
-5	,	,	PUNCT	punct	_	4	punct	_	_
-6	өлүөччүк	өлүөччүк	NOUN	n	Case=Nom|Number=Sing	7	nmod	_	pilot
-7	үөрэҕэр	үөрэх	NOUN	n	Case=Dat|Number=Sing	8	obj	_	education
-8	үөрэммитим	үөрэн	VERB	v	Number=Sing|Person=1|Tense=PastPerf	3	parataxis	_	tostudy
+# sent_id = 592
+# text = Ийэм суунар иһиккэ уу кутта
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ийэм	ийэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	mother
+2	суунар	суу	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	wash
+3	иһиккэ	иһит	NOUN	n	Case=Dat|Number=Sing	_	_	_	dishes
+4	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
+5	кутта	кут	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	water
 
 # sent_id = 79
 # text = Күн сирин барытын кэриэтэ тилийэ көппүтүм
@@ -776,7 +773,7 @@
 1	Өр	өр	ADV	adv	_	5	advmod	_	long
 2	улахан	улахан	ADJ	adj	_	3	amod	_	big
 3	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	5	obl	_	people
-4	ортотугар	орто	ADP	adp	_	3	case	_	among
+4	ортотугар	ортотугар	ADP	adp	_	3	case	_	among
 5	олорбутум	олор	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	root	_	live
 
 # sent_id = 82
@@ -815,7 +812,7 @@
 # text_rus = Где находится здание школы? 
 # text_eng = (Khatironov, )
 1	оскуола	оскуола	NOUN	n	Case=Nom|Number=Sing	_	_	_	school
-2	дьиэтэ	дьиэ	NOM	n	Case=Par|Number=Sing	_	_	_	building
+2	дьиэтэ	дьиэ	NOUN	n	Case=Par|Number=Sing	_	_	_	building
 3	ханна	ханна	ADV	adv	_	_	_	_	where
 4	баарый	баар	AUX	aux	Int=Yes	_	_	_	exist
 5	?	?	PUNCT	punct	_	_	_	_	_
