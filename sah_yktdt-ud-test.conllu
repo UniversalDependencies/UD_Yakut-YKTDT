@@ -74,7 +74,7 @@
 # text_eng = One boy is standing and reading.
 1	Биир	биир	NUM	num	NumType=Card	2	nummod	_	_
 2	уол	уол	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	_
-3	турар	тур	VERB	vi	Person=3|Tense=Pres	0	root	_	_
+3	турар	тур	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	_	_
 5	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	3	conj	_	SpaceAfter=No
 6	.	.	PUNCT	punct	_	3	punct	_	_
