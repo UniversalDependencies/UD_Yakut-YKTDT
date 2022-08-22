@@ -122,7 +122,7 @@
 2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	_
 3	ханна	ханна	PRON	pronint	PronType=Int	4	obl	_	_
 4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
-5	?	?	PUNCT	PUNCT	punct	4	punct	_	_
+5	?	?	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 14
 # text = Кырдьык, миэхэ күөгүрээпийэ олус туһалаабыта
@@ -413,7 +413,7 @@
 2	убайыҥ	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	4	nsubj	_	_
 3	ханна	ханна	PRON	pronint	PronType=Int	4	obl	_	_
 4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
-5	?	?	PUNCT	PUNCT	punct	4	punct	_	_
+5	?	?	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 48
 # text = Кини доҕотторо нууччалар
@@ -441,7 +441,7 @@
 1	Ханнык	ханнык	PRON	pronint	PronType=Int	2	det	_	_
 2	дьиэҕэ	дьиэ	NOUN	n	Case=Dat|Number=Sing	3	obl	_	_
 3	киирдэ	киир	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	_	SpaceAfter=No
-4	?	?	PUNCT	PUNCT	punct	3	punct	_	_
+4	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 51
 # text = Мин биир атаһым убайа куоракка үөрэнэр
@@ -538,7 +538,7 @@
 1	Кэскилга	Кэскил	PROPN	propn	Case=Dat|Number=Sing	3	iobj	_	_
 2	чэйдэ	чэй	NOUN	n	Case=Par|Number=Sing	3	obj	_	_
 3	кут	кут	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
-4	!	!	PUNCT	PUNCT	punct	3	punct	_	_
+4	!	!	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 60
 # text = Кэскил элбэхтик аһаата, улаханнык тотто
@@ -562,7 +562,7 @@
 5	,	,	PUNCT	punct	_	1	punct	_	_
 6	күөрчэхтэ	күөрчэх	NOUN	n	Case=Par|Number=Sing	7	obj	_	_
 7	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	1	conj	_	_
-8	!	!	PUNCT	PUNCT	punct	1	punct	_	_
+8	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 62
 # text = Үрүҥ килиэби быһыма , хара килиэптэ быс
@@ -704,7 +704,7 @@
 2	туох	туох	PRON	pron	PronType=Int	3	obj	_	what
 3	ынырыктаах	ынырык	ADJ	adj	Poss=Yes	1	amod	_	horrible
 4	буолуой	буол	AUX	aux	_	2	cop	_	exist
-5	?	?	PUNCT	PUNCT	punct	3	punct	_	_
+5	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 74
 # text = Дьонум миигин утарбыттара
@@ -848,7 +848,7 @@
 2	төһө	төһө	ADV	adv	_	3	advmod	_	howmuch
 3	хамнаһы	хамнас	NOUN	n	Case=Acc|Number=Sing	4	obj	_	salary
 4	өлөрөр	өлөр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	earn
-5	?	?	PUNCT	PUNCT	punct	4	punct	_	_
+5	?	?	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 89
 # text = Онуоха кини симиктик эрээри , оттомноохтук хат көрдөстө
@@ -879,7 +879,7 @@
 1	Бу	бу	DET	det	_	3	det	_	this
 2	туох	туох	PRON	pron	PronType=Int	3	nsubj	_	what
 3	тэрилий	тэрил	NOUN	n	Case=Nom|Number=Sing|Int=Yes	0	root	_	thing
-4	?	?	PUNCT	PUNCT	punct	3	punct	_	_
+4	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 94
 # text = Оччоҕо эн халлаантан сууллубутуҥ дуо ?
@@ -890,7 +890,7 @@
 3	халлаантан	халлаан	NOUN	n	Case=Abl|Number=Sing	4	obl	_	sky
 4	сууллубутуҥ	суулун	VERB	v	Number=Sing|Person=2|Tense=PastPerf	0	root	_	tofall
 5	дуо	дуо	PART	part	_	4	discourse	_	_
-6	?	?	PUNCT	PUNCT	punct	4	punct	_	_
+6	?	?	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 96
 # text = Коперник сүрүн уонна соҕотох кэриэтэ айымньыта - Халлаан эргимтэлэрин хамсааһына
@@ -902,7 +902,7 @@
 4	соҕотох	соҕотох	ADJ	adj	_	6	amod	_	single
 5	кэриэтэ	кэриэтэ	ADV	adv	_	4	advmod	_	almost
 6	айымньыта	айымньы	NOUN	n	Case=Par|Number=Sing	0	root	_	creation
-7	-	_	PUNCT	PUNCT	punct	6	punct	_	_
+7	-	-	PUNCT	punct	_	6	punct	_	_
 8	Халлаан	халлаан	NOUN	n	Case=Nom|Number=Sing	9	nmod	_	sky
 9	эргимтэлэрин	эргимтэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nmod	_	sphere
 10	хамсааһына	хамсаа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	appos	_	movement
@@ -930,7 +930,7 @@
 # text_rus = Олонхо — Якутское художественное творчество
 # text_eng = Olonkho — Yakut artistic creativity # (Sakha wiki, Олоҥхо) #
 1	Олоҥхо	олоҥхо	NOUN	n	Case=Nom|Number=Sing	6	nsubj	_	epicpoem
-2	—	—	PUNCT	PUNCT	punct	1	punct	_	_
+2	—	—	PUNCT	punct	_	1	punct	_	_
 3	саха	саха	ADJ	adj	_	6	amod	_	_
 4-5	уус-уран	_	_	_	_	_	_	_	_
 4	уус	уус	NOUN	n	_	6	amod	_	eloquence
@@ -1118,7 +1118,7 @@
 2	хас	хас	PRON	pron	_	_	_	_	howmuch
 3	ынаҕы	ынах	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	cow
 4	ыыр	ыа	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	tomilk
-5	?	?	PUNCT	PUNCT	punct	4	punct	4:punct	_
+5	?	?	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 122
 # text = Эн ынаҕы ыыгын дуо ?
@@ -1138,7 +1138,7 @@
 2	кус	кус	NOUN	n	Case=Nom|Number=Sing	3	nsubj	3:nsubj	duck
 3	кэлэр	кэл	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	comes
 4	дуо	дуо	PART	part	_	3	discourse	3:discourse	?
-5	?	?	PUNCT	PUNCT	punct	3	punct	3:punct	_
+5	?	?	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 125
 # text = Кымыс эмиэ үрүҥ ас
