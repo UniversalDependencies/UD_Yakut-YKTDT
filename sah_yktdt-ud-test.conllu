@@ -161,15 +161,14 @@
 3	суругу	сурук	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 4	ыытта	ыыт	VERB	vd	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
-# sent_id = 18
-# text = биһиги бэҕэһээ Германияттан сурук тут
-# text_rus = Мы получили письмо из Германии вчера
-# text_eng = Yesterday we received a letter from Germany
-1	биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
-2	бэҕэһээ	бэҕэһээ	ADV	adv	_	5	advmod	_	_
-3	Германияттан	германия	PROPN	propn	Case=Abl|Number=Sing	5	obl	_	_
-4	сурук	сурук	NOUN	n	Case=Nom|Number=Sing	5	obj	_	_
-5	тут	тут	VERB	vd	Tense=Pres|???	0	root	_	_
+# sent_id = 587
+# text = Ийэм баһаартан эт атыыласта
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Ийэм	ийэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	mother
+2	баһаартан	баһаар	NOUN	n	Case=Abl|Number=Sing	_	_	_	market
+3	эт	эт	NOUN	n	Case=Nom|Number=Sing	_	_	_	meat
+4	атыыласта	атыылас	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	buy
 
 # sent_id = 19
 # text = Бу кыыл таба буолбатах
@@ -721,7 +720,7 @@
 # text_eng = My friend laughed merrily (The little prince, 17) # Преждепрошедшее повествовательное 
 1	Доҕорум	доҕор	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	myfriend
 2	көрдөөхтүк	көрдөөх	ADV	adv	_	3	amod	_	funny
-3	күлэ	күл	VERB	v	Number=Sing|Person=3|Tense=Past|???	0	root	_	laughed
+3	күлэ	күл	VERB	v	Number=Sing|Person=3|Tense=Pres|VerbForm=Trans	0	root	_	laugh
 4	түспүтэ	түс	VERB	v	Number=Sing|Person=3|Tense=PastPerf	3	dep	_	fell
 
 # sent_id = 76
@@ -802,36 +801,35 @@
 7	суолталааҕы	суолта	NOUN	n	Case=Acc|Number=Sing	8	obj	_	meaning
 8	арыйбытым	арый	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	root	_	opened
 
-# sent_id = 84
-# text = Иһэр уум аҕыйах хонукка тиийиэхтээҕэ
-# text_rus = Воды у меня едва хватило бы на неделю
-# text_eng = I barely had enough water for a week (The little prince, 11) #
-1	Иһэр	иһэр	ADJ	adj	_	2	amod	_	drinking
-2	уум	уу	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obj	_	water
-3	аҕыйах	аҕыйах	ADV	adv	_	5	advmod	_	somewhat
-4	хонукка	хонук	NOUN	n	Case=Dat|Number=Sing	5	obl	_	24hours
-5	тиийиэхтээҕэ	тиий	VERB	v	Tense=???	0	root	_	reach
+# sent_id = 575
+# text = Мин онус кылааска үөрэнэбин
+# text_rus = Я учусь в 10 классе
+# text_eng = (Khatironov, )
+1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+2	онус	онус	NUM	n	NumType=Card	_	_	_	ten
+3	кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	_	_	_	classroom
+4	үөрэнэбин	үөрэн	VERB	v	Number=Sing|Person=1|Tense=Pres	_	_	_	study
 
-# sent_id = 85
-# text = Миэхэ хойчоонно уруһуйдаан кулу
-# text_rus = Нарисуй мне барашка
-# text_eng = Draw me a lamb (The little prince, 12) #
-1	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	me
-2	хойчоонно	хойчоонно	NOUN	n	Case=Nom|Number=Sing	3	obj	_	ram
-3	уруһуйдаан	уруһуйдаа	VERB	v	Tense=???	0	root	_	draw
-4	кулу	кулу	ADV	adv	_	2	discourse	_	please
+# sent_id = 580
+# text = Оскуола дьиэтэ ханна баарый ?
+# text_rus = Где находится здание школы? 
+# text_eng = (Khatironov, )
+1	оскуола	оскуола	NOUN	n	Case=Nom|Number=Sing	_	_	_	school
+2	дьиэтэ	дьиэ	NOM	n	Case=Par|Number=Sing	_	_	_	building
+3	ханна	ханна	ADV	adv	_	_	_	_	where
+4	баарый	баар	AUX	aux	Int=Yes	_	_	_	exist
+5	?	?	PUNCT	punct	_	_	_	_	_
 
-# sent_id = 86
-# text = үрдүгэр этиҥ эппитинии соһуйан , олоро түстүм
-# text_rus = Я вскочил, будто надо мной грянул гром
-# text_eng = I jumped up as if thunder had struck above me (The little prince, 12) #
-1	үрдүгэр	үрдүгэр	ADP	adp	_	4	obl	_	aboveme
-2	этиҥ	этиҥ	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	thunder
-3	эппитинии	_	INTJ	intj	_	4	discourse	_	astheysay
-4	соһуйан	соһуй	VERB	v	Tense=???	7	dep	_	besurprised
-5	,	,	PUNCT	punct	_	7	punct	_	_
-6	олоро	олор	VERB	v	_	7	compound	_	sit
-7	түстүм	түс	VERB	v	_	0	root	_	fall
+# sent_id = 585
+# text = Эн тыс этэрбэһи кэтэҕин дуо ?
+# text_rus = Ты носишь унты?
+# text_eng = (Khatironov, )
+1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	_	you
+2	тыс	тыс	NOUN	n	Case=Nom|Number=Sing	_	_	_	furskin
+3	этэрбэһи	этэрбэс	NOUN	n	Case=Acc|Number=Sing	_	_	_	boots
+4	кэтэҕин	кэт	VERB	v	Number=Sing|Person=2|Tense=Pres	_	_	_	wear
+5	дуо	дуо	PART	part	_	_	_	_	?
+6	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 87
 # text = Онно мин буруйум суох
@@ -874,18 +872,6 @@
 3	хойчоонно	хойчоонно	NOUN	n	Case=Acc|Number=Sing	4	obj	_	ram
 4	уруһуйдаа	уруһуйдаа	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	paint
 
-# sent_id = 92
-# text = Ити курдук мин Кыра тыгыны кытта билсибитим
-# text_rus = Так я познакомился с Маленьким принцем
-# text_eng = That's how I met the Little Prince # (The little prince, 15) # Past
-1	Ити	ити	PRON	PRON	pron	7	dep	_	this
-2	курдук	курдук	ADV	adv	_	7	advmod	_	like
-3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	I
-4	Кыра	кыра	ADJ	adj	_	5	amod	_	little
-5	тыгыны	тыгын	NOUN	n	Case=Acc|Number=Sing	7	obj	_	prince
-6	кытта	кытта	ADP	adp	_	5	case	_	with
-7	билсибитим	бил	VERB	v	Number=Sing|Person=1|Tense=???	0	root	_	toknow
-
 # sent_id = 93
 # text = Бу туох тэрилий ?
 # text_rus = Что это за штука?
@@ -921,30 +907,23 @@
 9	эргимтэлэрин	эргимтэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nmod	_	sphere
 10	хамсааһына	хамсаа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	appos	_	movement
 
-# sent_id = 97
-# text = Интэриниэт диэн көмпүүтэрдэр бэйэ бэйэлэрин кытта холбоммут бүтүн аан дойдутааҕы ситимнэрэ
-# text_rus = Интернетом называется всемирная сеть, объединяющая между собой компьютеры
-# text_eng = A worldwide network connecting computers is called the Internet # (Sakha wiki, Интэриниэт) #
-1	Интэриниэт	Интэриниэт	NOUN	n	Case=Nom|Number=Sing	2	obj	_	internet
-2	диэн	диэ	VERB	v	_	0	root	_	say
-3	көмпүүтэрдэр	көмпүүтэр	NOUN	n	Case=Nom|Number=Plur	7	obj	_	computer
-4	бэйэ	бэйэ	NOUN	n	Case=Nom|Number=Sing	7	obl	_	body
-5	бэйэлэрин	бэйэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	4	fixed	_	body=eachOther
-6	кытта	кытта	ADP	adp	_	4	case	_	with
-7	холбоммут	холбон	VERB	v	Tense=???	2	csubj	_	toconnect
-8	бүтүн	бүтүн	ADV	adv	_	7	advmod	_	entire
-9	аан	аан	NOUN	n	_	10	nmod	_	entrance
-10	дойдутааҕы	дойду	NOUN	n	Case=Acc|Number=Sing	11	nmod	_	world=Мировой
-11	ситимнэрэ	ситим	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	7	nsubj	_	7:nsubj
+# sent_id = 568
+# text = Улахан дьон бары үлэлииллэр
+# text_rus = 
+# text_eng = (Khatironov, )
+1	улахан	улахан	ADJ	adj	_	_	_	_	big
+2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
+3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
+4	үлэлииллэр	үлэлээ	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	work
 
-# sent_id = 98
-# text = 1632 сыллаахха олохтоммутунан ааҕыллар
-# text_rus = Считается, что основан в 1632 году
-# text_eng = It is believed that it was founded in 1632 # (Sakha wiki, Дьокуускай) #
-1	1632	1632	NUM	num	_	2	nummod	_	_
-2	сыллаахха	сыллаах	NOUN	n	Case=Dat|Number=Sing	4	obl	_	year
-3	олохтоммутунан	олохтон	VERB	v	Number=Sing|Person=3|Reflex=Yes|Tense=???	4	ccomp	_	established
-4	ааҕыллар	аах	VERB	v	Number=Plur|Person=3|Tense=NearPast|Voice=Pass	0	root	_	considered
+# sent_id = 569
+# text = Бурдук быйыл үчүгэйдик үүнэ
+# text_rus = Зерно в этом году хорошо растет
+# text_eng = (Khatironov, )
+1	Бурдук	бурдук	NOUN	n	Case=Nom|Number=Sing	4	obl	_	grain
+2	быйыл	быйыл	ADV	adv	_	_	_	_	thisyear
+3	үчүгэйдик	үчүгэй	ADV	adv	ADVLZ=Yes	_	_	_	well
+4	үүнэ	үүн	VERB	v	Number=Sing|Person=3|Tense=Pres|VerbForm=Trans	_	_	_	growing
 
 # sent_id = 99
 # text = Олоҥхо — саха уус-уран айымньыта
@@ -1644,7 +1623,7 @@
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	_	you
 2	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
 3	билбэккин	бил	VERB	v	Number=Sing|Person=2|Polarity=Neg|Tense=Pres	_	_	_	go
-4	дуу	уу	NOUN	n	Number=Sing	_	_	_	???
+4	дуу	дуу	PART	part	_	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 206
@@ -2126,6 +2105,16 @@
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 4	бултууллар	бултаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	hunt
 5	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 564
+# text = Мин бүгүн биир куһу өлөрдүм
+# text_rus = 
+# text_eng = (Khatironov, )
+1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+2	бүгүн	бүгүн	ADV	adv	_	_	_	_	_	today
+3	биир	биир	NUM	num	NumType=Card	_	_	_	one
+4	куһу	кус	NOUN	n	Case=Acc|Number=Sing	_	_	_	duck
+5	өлөрдүм	өлөр	VERB	v	Number=Sing|Person=1|Tense=NearPast	_	_	_	kill
 
 # sent_id = 412
 # text = Ханна киһи бары үөрэнэрий ?
