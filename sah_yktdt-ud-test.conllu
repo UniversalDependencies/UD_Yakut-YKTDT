@@ -277,7 +277,7 @@
 1	Ити	ити	PRON	pron	_	2	det	_	_
 2	уол	уол	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	_
 3	эбэтэ	эбэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
-4	ыалдьар	ыар	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	ыалдьар	ыарый	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 30
 # text = Аҕаҥ кэллэ
@@ -432,7 +432,7 @@
 3	ыалдьыбат	ыарый	VERB	vi	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	punct	_	3	punct	_	_
 5	баһым	бас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
-6	ыалдьар	ыар	VERB	vi	Number=Sing|Person=3|Tense=Pres	3	parataxis	_	_
+6	ыалдьар	ыарый	VERB	vi	Number=Sing|Person=3|Tense=Pres	3	parataxis	_	_
 
 # sent_id = 50
 # text = Ханнык дьиэҕэ киирдэ?
@@ -459,7 +459,7 @@
 # text_rus = Сначала они записывают пациентов в карту
 # text_eng = At the beginning they write the patients[' names] on a card (Kharitonov) 
 1	Бастаан	бастаан	ADV	adv	_	5	advmod	_	_
-2	ыалдьар	ыар	VERB	v	Number=Sing|Person=3|Tense=Pres	3	nmod	_	_
+2	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3|Tense=Pres	3	nmod	_	_
 3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	5	obj	_	_
 4	карточкаҕа	карточка	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
 5	суруйаллар	суруй	VERB	vt	Number=Plur|Person=3|Tense=Pres	0	root	_	_
@@ -478,7 +478,7 @@
 # text_rus = Врач приглашает пациентов в очередь 
 # text_eng = A doctor invites patients to the line (Kharitonov) 
 1	Быраас	быраас	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	_
-2	ыалдьар	ыар	VERB	v	Number=Sing|Person=3|Tense=Pres	3	nmod	_	_
+2	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3|Tense=Pres	3	nmod	_	_
 3	дьону	дьон	NOUN	n	Case=Acc|Number=Sing	5	obj	_	_
 4	уочаратынан	уочарат	NOUN	n	Case=Ins|Number=Sing	5	obl	_	_
 5	ыҥырар	ыҥыр	VERB	vd	Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -488,7 +488,7 @@
 # text_rus = Он смотрит на пациента, слушает и выписывает ему лекарство
 # text_eng = He looks at the patinet, listens, and writes him [the name of] the medicine  (Kharitonov) 
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	ыалдьар	ыар	VERB	v	Number=Sing|Person=3|Tense=Pres	3	nmod	_	_
+2	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3|Tense=Pres	3	nmod	_	_
 3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 4	көрөр	көр	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	punct	_	4	punct	_	_
@@ -1316,7 +1316,7 @@
 # text_eng = Do you have a headache? (Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nmod	_	you
 2	баһыҥ	бас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	head
-3	ыалдьар	ыар	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+3	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
@@ -1547,7 +1547,7 @@
 # text_eng = (Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	_	you
 2	тииһиҥ	тиис	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	tooth
-3	ыалдьар	ыар	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	besick
+3	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	besick
 4	дуо	дуо	PART	part	_	_	_	_	?
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -2742,7 +2742,7 @@
 # text_rus = 
 # text_eng = Where (these) very ill people go ? (Khatironov, 34)
 1	Улаханнык	улахан	ADV	adv	_	_	_	_	strong
-2	ыалдьар	ыар	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	sick
+2	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	sick
 3	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
 4	ханна	ханна	PRON	pron	_	_	_	_	where
 5	баралларый	бар	VERB	v	Int=Yes|Number=Plur|Person=3|Tense=Pres	_	_	_	_
@@ -2777,9 +2777,9 @@
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	ол	ол	PRON	pron	_	_	_	_	this
 4	паартаҕа	паарта	NOUN	n	Case=Dat|Number=Sing	_	_	_	table
-5	олор	олор	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	sit
+5	олор	олор	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	sit
 6	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-7	суруй	суруй	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	write
+7	суруй	суруй	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	write
 
 # sent_id = 1324
 # text = Бу дьахтар киэһээҥи оскуолаҕа үөрэнэр
@@ -2934,13 +2934,13 @@
 # text = Кэл , бу олоппоско олор уонна аах
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Кэл	кэл	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	come
+1	Кэл	кэл	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	come
 2	,	,	PUNCT	punct	_	_	_	_	_
 3	бу	бу	DET	det	_	_	_	_	this
 4	олоппоско	олоппос	NOUN	n	Case=Dat|Number=Sing	_	_	_	chair
-5	олор	олор	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	sit
+5	олор	олор	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	sit
 6	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-7	аах	аах	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	_	_	_	read
+7	аах	аах	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	read
 
 # sent_id = 1009
 # text = Оҕуруот үүнүүтэ быйыл эмиэ үчүгэй
