@@ -836,7 +836,7 @@
 # text = Аҕата төһө хамнаһы өлөрөр ?
 # text_rus = Сколько зарабатывает его отец ?
 # text_eng = How much does his father earn ?(The little prince, 20) #
-1	Аҕата	аҕа	NOUN	n	_	4	nsubj	_	hisfather
+1	Аҕата	аҕа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	hisfather
 2	төһө	төһө	ADV	adv	_	3	advmod	_	howmuch
 3	хамнаһы	хамнас	NOUN	n	Case=Acc|Number=Sing	4	obj	_	salary
 4	өлөрөр	өлөр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	earn
@@ -925,7 +925,7 @@
 2	—	—	PUNCT	punct	_	1	punct	_	_
 3	саха	саха	ADJ	adj	_	6	amod	_	_
 4-5	уус-уран	_	_	_	_	_	_	_	_
-4	уус	уус	NOUN	n	_	6	amod	_	eloquence
+4	уус	уус	NOUN	n	Case=Nom|Number=Sing	6	amod	_	eloquence
 5	уран	уран	ADJ	adj	_	4	compound	_	exquisite
 6	айымньыта	айымньы	NOUN	n	Case=Par|Number=Sing	0	root	_	creation
 
@@ -1029,7 +1029,7 @@
 # text = Атын эт баар дуо ?
 # text_rus = У вас есть другое мясо ?
 # text_eng = Do you have other meat ? (Khatironov, )
-1	Атын	атын	NOUN	n	_	2	nmod	_	other
+1	Атын	атын	ADJ	adj	_	2	nmod	_	other
 2	эт	эт	NOUN	n	Case=Nom|Number=Sing	_	_	_	meat
 3	баар	баар	AUX	aux	_	_	_	_	have
 4	дуо	дуо	PART	part	_	_	_	_	?
@@ -1115,10 +1115,10 @@
 # sent_id = 122
 # text = Эн ынаҕы ыыгын дуо ?
 # text_rus = Ты - дояр(ка) ?
-# text_eng = Are you a milk maid ?(Khatironov, ) # гын - noun predicate
+# text_eng = Are you a milk maid ?(Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	_	you
 2	ынаҕы	ынах	NOUN	n	Case=Acc|Number=Sing	_	_	_	cow
-3	ыыгын	ыы	NOUN	n	_	_	_	_	milker
+3	ыыгын	ыа	VERB	v	Number=Sing|Person=2|Tense=Pres	_	_	_	milk
 4	дуо	дуо	PART	part	_	_	_	_	?
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -1126,7 +1126,7 @@
 # text = Түүн кус кэлэр дуо ?
 # text_rus = Утка приходит ночью ?
 # text_eng = Does a duck come at night ?(Khatironov, )
-1	Түүн	түүн	NOUN	n	_	2	nmod	2:nmod	atnight
+1	Түүн	түүн	NOUN	n	Case=Nom|Number=Sing	2	nmod	2:nmod	atnight
 2	кус	кус	NOUN	n	Case=Nom|Number=Sing	3	nsubj	3:nsubj	duck
 3	кэлэр	кэл	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	comes
 4	дуо	дуо	PART	part	_	3	discourse	3:discourse	?
@@ -2186,7 +2186,7 @@
 # text_eng = (Khatironov, )
 1	Ойуурга	ойуур	NOUN	n	Case=Dat|Number=Sing	_	_	_	forest
 2	өссө	өссө	ADV	adv	_	_	_	_	still
-3	тэллэй	тэллэй	NOUN	n	_	_	_	_	mushroom
+3	тэллэй	тэллэй	NOUN	n	Case=Nom|Number=Sing	_	_	_	mushroom
 4	үүнэр	үүн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	grow
 
 # sent_id = 440
@@ -2204,7 +2204,7 @@
 # text_eng = (Khatironov, )
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
 2	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
-3	сахалыы	сахалыы	ADV	adv	ADVLZ=Yes	_	_	_	inyakut
+3	сахалыы	саха	ADV	adv	ADVLZ=Yes	_	_	_	inyakut
 4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 
 # sent_id = 446
