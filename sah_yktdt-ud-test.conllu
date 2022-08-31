@@ -2066,9 +2066,9 @@
 # text_eng = (Khatironov, )
 1	биир	биир	NUM	num	NumType=Card	_	_	_	one
 2	уол	уол	NOUN	n	Case=Nom|Number=Sing	_	_	_	boy
-3	турар	тур	VERB	_	Number=Sing|Person=3|Tense=Pres	_	_	_	_	and
-3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
-4	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+3	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+5	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 
 # sent_id = 389
 # text = Киэһэ манна кэлбэккит дуо ?
