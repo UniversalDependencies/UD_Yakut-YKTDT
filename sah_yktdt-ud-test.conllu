@@ -27,7 +27,7 @@
 # text_eng = We are here
 1	Биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	манна	манна	ADV	adv	_	3	advmod	_	_
-3	баарбыт	баар	VERB	v	Number=Plur|Person=1|Tense=Pres	0	root	_	_
+3	баарбыт	баар	AUX	aux	Number=Plur|Person=1|Tense=Pres	0	root	_	_
 
 # sent_id = 5
 # text = Эн профессор буолуоҥ
@@ -47,7 +47,7 @@
 4	олоппос	олоппос	NOUN	n	Case=Nom|Number=Sing	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	punct	_	_	_	_	_
 6	ыскамыайка	ыскамыайка	NOUN	n	Case=Nom|Number=Sing	2	conj	_	_
-7	баар	баар	AUX	v	Tense=Pres	1	cop	_	_
+7	баар	баар	AUX	aux	_	1	cop	_	_
 
 # sent_id = 7
 # text = Кылааска элбэх паарта турар
@@ -93,9 +93,9 @@
 # text = Айаана уонна Сайаана, манна кэлиҥ, дуоска аттыгар туруҥ
 # text_rus = Айаана и Сайаана, идите сюда, встаньте рядом с доской
 # text_eng = Aiaana and Saiaana, come here, stand near the blackboard
-1	Айаана	Айаана	PROPN	propn	Case=Nom|Number=Sing	6	vocative	_	_
+1	Айаана	Айаана	PROPN	propn	_	6	vocative	_	_
 2	уонна	уонна	CCONJ	cconj	_	3	cc	_	_
-3	Сайаана	Сайаана	PROPN	propn	Case=Nom|Number=Sing	1	conj	_	SpaceAfter=No
+3	Сайаана	Сайаана	PROPN	propn	_	1	conj	_	SpaceAfter=No
 4	,	,	PUNCT	punct	_	3	punct	_	_
 5	манна	манна	ADV	adv	_	6	advmod	_	_
 6	кэлиҥ	кэл	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
@@ -148,7 +148,7 @@
 # text = Миша кинигэни атыыласта
 # text_rus = Миша купил книгу
 # text_eng = Misha bought the book
-1	Миша	миша	PROPN	propn	Case=Nom|Number=Sing	3	nsubj	_	_
+1	Миша	миша	PROPN	propn	_	3	nsubj	_	_
 2	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	3	obj	_	_
 3	атыыласта	атыылас	VERB	vt	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
@@ -156,7 +156,7 @@
 # text = Саша аҕатыгар суругу ыытта
 # text_rus = Саша отправила письмо своему отцу
 # text_eng = Sasha sent the letter to her dad
-1	Саша	саша	PROPN	propn	Case=Nom|Number=Sing	4	nsubj	_	_
+1	Саша	саша	PROPN	propn	_	4	nsubj	_	_
 2	аҕатыгар	аҕа	NOUN	n	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	iobj	_	_
 3	суругу	сурук	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 4	ыытта	ыыт	VERB	vd	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
@@ -177,7 +177,7 @@
 1	Бу	бу	DET	det	_	2	det	_	_
 2	кыыл	кыыл	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	_
 3	таба	таба	NOUN	n	Case=Nom|Number=Sing	0	root	_	_
-4	буолбатах	буол	AUX	aux	Number=Sing|Person=3|Polarity=Neg|Tense=PastResultI	3	cop	_	_
+4	буолбатах	буол	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=PastResultI	3	cop	_	_
 
 # sent_id = 20
 # text = Мин кэллим
@@ -268,7 +268,7 @@
 # text_eng = My name is Keskil
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
 2	аатым	аат	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
-3	Кэскил	кэскил	PROPN	propn	Case=Nom|Number=Sing	0	root	_	_
+3	Кэскил	кэскил	PROPN	propn	_	0	root	_	_
 
 # sent_id = 29
 # text = Ити уол эбэтэ ыалдьар
@@ -307,7 +307,7 @@
 # text = Петровка ыыттым
 # text_rus = Я отправил Петрову
 # text_eng = I sent it to Petrov (Johanson, Turkic, 2021, 840)
-1	Петровка	петров	PROPN	propn	Case=Dat|Number=Sing	2	obj	_	_
+1	Петровка	петров	PROPN	propn	Case=Dat	2	obj	_	_
 2	ыыттым	ыыт	VERB	vd	Number=Sing|Person=1|Tense=NearPast	0	root	_	_
 
 # sent_id = 34
@@ -315,14 +315,14 @@
 # text_rus = Он/она поехал в Якутск
 # text_eng = He/she went to Yakutsk (Johanson, Turkic, 2021, 840)
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat|Number=Sing	3	obl	_	_
+2	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat	3	obl	_	_
 3	барда	бар	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
 # sent_id = 35
 # text = Дьокуускайга хаар түһэр
 # text_rus = В Якутске идёт снег
 # text_eng = Snow is falling in/on Yakutsk (Johanson, Turkic, 2021, 840)
-1	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat|Number=Sing	3	obj	_	_
+1	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat	3	obj	_	_
 2	хаар	хаар	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	_
 3	түһэр	түс	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
@@ -331,7 +331,7 @@
 # text_rus = Он/она живёт в Москве
 # text_eng = He/she lives in Moscow (Johanson, Turkic, 2021, 840)
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	Москваҕа	москва	PROPN	propn	Case=Dat|Number=Sing	3	obl	_	_
+2	Москваҕа	москва	PROPN	propn	Case=Dat	3	obl	_	_
 3	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 37
@@ -507,14 +507,14 @@
 3	олороллор	олор	VERB	vt	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 57
-# text = Саахары, арыыны аҕалла уоннa килиэп быста
+# text = Саахары, арыыны аҕалла уонна килиэп быста
 # text_rus = X принес(ла) сахар, масло и нарезал(а) хлеб
 # text_eng = X brought the sugar, the butter, and cut the bread  (Kharitonov)
 1	Саахары	саахар	NOUN	n	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	_	_
 3	арыыны	арыы	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 4	аҕалла	аҕал	VERB	vt	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
-5	уоннa	уоннa	CCONJ	cconj	_	7	cc	_	_
+5	уонна	уонна	CCONJ	cconj	_	7	cc	_	_
 6	килиэп	килиэп	NOUN	n	Case=Nom|Number=Sing	7	obj	_	_
 7	быста	быс	VERB	vt	Number=Sing|Person=3|Tense=NearPast	4	conj	_	_
 
@@ -522,7 +522,7 @@
 # text = Сардана, буулката аҕал, өссө килиэптэ быс
 # text_rus = Сардана, принеси булку и порежь хлеба
 # text_eng = Sardana, bring a breadroll, also cut some more bread  (Kharitonov)
-1	Сардана	Сардана	PROPN	propn	Case=Nom|Number=Sing	4	vocative	_	SpaceAfter=No
+1	Сардана	Сардана	PROPN	propn	_	4	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	_	_
 3	буулката	буулка	NOUN	n	Case=Par|Number=Sing	4	obj	_	_
 4	аҕал	аҕал	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
@@ -535,7 +535,7 @@
 # text = Кэскилга чэйдэ кут!
 # text_rus = Налей Кэскилу чаю!
 # text_eng = Pour some tea for Keskil!  (Kharitonov)
-1	Кэскилга	Кэскил	PROPN	propn	Case=Dat|Number=Sing	3	iobj	_	_
+1	Кэскилга	Кэскил	PROPN	propn	Case=Dat	3	iobj	_	_
 2	чэйдэ	чэй	NOUN	n	Case=Par|Number=Sing	3	obj	_	_
 3	кут	кут	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	punct	_	3	punct	_	_
@@ -544,7 +544,7 @@
 # text = Кэскил элбэхтик аһаата, улаханнык тотто
 # text_rus = Кэскил много съел, наелся досыта
 # text_eng = Kaskil ate a lot, he was full  (Kharitonov)
-1	Кэскил	Кэскил	PROPN	propn	Case=Nom|Number=Sing	3	nsubj	_	_
+1	Кэскил	Кэскил	PROPN	propn	_	3	nsubj	_	_
 2	элбэхтик	элбэх	ADV	adv	ADVLZ=Yes	3	advmod	_	_
 3	аһаата	аһаа	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	punct	_	3	punct	_	_
@@ -589,11 +589,11 @@
 # text = Сорохтор муостаны сууйуҥ , сорохтор паартата , остуолла сотуҥ , сорохтор ааннары , ыскааптары сууйуҥ
 # text_rus = 
 # text_eng = Clean some floors, wipe some benches and tables, clean some doors and closets. (Kharitonov)
-1	Сорохтор	сорох	DET	det	PronType=Ind	2	det	_	_
+1	Сорохтор	cорох	PRON	pron	PronType=Ind|Number=Plur	2	det	_	_
 2	муостаны	муоста	NOUN	n	Case=Par|Number=Sing	3	obj	_	_
 3	сууйуҥ	сууй	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	wash
 4	,	,	PUNCT	punct	_	3	punct	_	_
-5	сорохтор	сорох	DET	det	PronType=Ind	6	det	_	_
+5	сорохтор	сорох	PRON	pron	PronType=Ind|Number=Plur	6	det	_	_
 6	паартата	паарта	NOUN	n	Case=Par|Number=Sing	3	obj	_	_
 7	,	,	PUNCT	punct	_	3	punct	_	_
 8	остуолла	остуол	NOUN	n	Case=Par|Number=Sing	9	obj	_	_
@@ -614,7 +614,7 @@
 3	уонна	уонна	CCONJ	cconj	_	1	cc	_	_
 4	эмис	эмис	ADJ	adj	_	5	amod	_	_
 5	эт	эт	NOUN	n	Case=Nom|Number=Sing	0	root	_	_
-6	бу	бу	DET	det	PronType=Dem	5	det	_	_
+6	бу	бу	DET	det	_	5	det	_	_
 7	баар	баар	AUX	aux	_	5	cop	_	_
 
 # sent_id = 66
@@ -629,12 +629,12 @@
 # text = Сорох иһити чэйгэ туруораллар , сорох иһити эбиэккэ туруораллар
 # text_rus = 
 # text_eng = Place some tea set, put some lunch set ??? (Kharitonov)
-1	Сорох	сорох	DET	det	PronType=Ind	2	det	_	_
+1	Сорох	сорох	PRON	pron	PronType=Ind	2	det	_	_
 2	иһити	иһит	NOUN	n	Case=Par|Number=Sing	4	obj	_	_
 3	чэйгэ	чэй	NOUN	n	Case=Par|Number=Sing	2	compound	_	_
 4	туруораллар	туруор	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 5	,	,	PUNCT	punct	_	4	punct	_	_
-6	сорох	сорох	DET	det	PronType=Ind	7	det	_	_
+6	сорох	сорох	PRON	pron	PronType=Ind	7	det	_	_
 7	иһити	иһит	NOUN	n	Case=Par|Number=Sing	9	obj	_	_
 8	эбиэккэ	эбиэт	NOUN	n	Case=Dat|Number=Sing	7	compound	_	_
 9	туруораллар	туруор	VERB	v	Number=Plur|Person=3|Tense=Pres	4	ccomp	_	_
@@ -648,7 +648,7 @@
 3	улахан	улахан	ADJ	adj	_	5	amod	_	_
 4	алтан	алтан	ADJ	adj	_	5	amod	_	_
 5	сылабаар	сылабаар	NOUN	n	Case=Nom|Number=Sing	0	root	_	_
-6	баар	баар	AUX	aux	Tense=Pres	5	AUX	aux	_
+6	баар	баар	AUX	aux	_	5	AUX	aux	_
 
 # sent_id = 69
 # text = Кини түргэнник оргуйар , үчүгэй сылабаар
@@ -703,7 +703,7 @@
 1	Сэлээппэ	сэлээппэ	NOUN	n	Case=Nom|Number=Sing	0	root	_	hat
 2	туох	туох	PRON	pron	PronType=Int	3	obj	_	what
 3	ынырыктаах	ынырык	ADJ	adj	Poss=Yes	1	amod	_	horrible
-4	буолуой	буол	AUX	aux	_	2	cop	_	exist
+4	буолуой	буолуой	PART	part	_	2	cop	_	intens
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 74
@@ -727,7 +727,7 @@
 # text = Ол солуону ыйыстыбыт моҕой
 # text_rus = Это был удав, который проглотил слона
 # text_eng = It was a boa constrictor that swallowed an elephant (The little prince, 10) # Прошедшее результативное
-1	Ол	ол	PRON	pron	PronType=Rel	4	nsubj	_	it
+1	Ол	ол	PRON	pron	_	4	nsubj	_	it
 2	солуону	солуон	NOUN	n	Case=Acc|Number=Sing	3	nsubj	_	elephant
 3	ыйыстыбыт	ыйыһын	VERB	v	Number=Sing|Person=3|Tense=PastResultI	0	root	_	eat
 4	моҕой	моҕой	NOUN	n	Case=Nom|Number=Sing	3	obj	_	snake
@@ -847,7 +847,7 @@
 # text_rus = Он опять попросил тихо и серьёзно
 # text_eng = He asked again quietly and seriously (The little prince, 12) #
 1	Онуоха	ол	DET	det	Case=Dat	8	obj	_	this
-2	кини	кини	PRON	PRON	pron	8	nsubj	_	_
+2	кини	кини	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 3	симиктик	симик	ADV	adv	ADVLZ=Yes	8	advmod	_	shy
 4	эрээри	эрээри	CCONJ	cconj	_	6	cc	_	_
 5	,	,	PUNCT	punct	_	6	punct	_	_
@@ -878,7 +878,7 @@
 # text_rus = Ты упал с неба?
 # text_eng = Did you fall from the sky? # (The little prince, 15) #
 1	Оччоҕо	оччоҕо	ADV	adv	_	4	advmod	_	then
-2	эн	эн	PRON	PRON	pron	4	nsubj	_	you
+2	эн	эн	PRON	PRON	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	you
 3	халлаантан	халлаан	NOUN	n	Case=Abl|Number=Sing	4	obl	_	sky
 4	сууллубутуҥ	суулун	VERB	v	Number=Sing|Person=2|Tense=PastPerf	0	root	_	tofall
 5	дуо	дуо	PART	part	_	4	discourse	_	_
@@ -888,7 +888,7 @@
 # text = Коперник сүрүн уонна соҕотох кэриэтэ айымньыта - Халлаан эргимтэлэрин хамсааһына
 # text_rus = Главное и почти единственное произведение Коперника называется "О вращении небесных сфер"
 # text_eng = The main and practically the only work of Copernicus is "On the Revolutions of the Celestial Spheres" # (Sakha wiki, Николай_Коперник) #
-1	Коперник	Коперник	PROPN	propn	Case=Nom|Number=Sing	6	nmod	_	_
+1	Коперник	Коперник	PROPN	propn	_	6	nmod	_	_
 2	сүрүн	сүрүн	ADJ	adj	_	6	amod	_	fundamental
 3	уонна	уонна	CCONJ	cconj	_	4	cc	_	_
 4	соҕотох	соҕотох	ADJ	adj	_	6	amod	_	single
@@ -1765,7 +1765,7 @@
 # text = Үрүҥ чаанньык баар дуо ?
 # text_rus = 1-2 чайник для заварки
 # text_eng = (Khatironov, )
-1	Үрүҥ	урүҥ	ADJ	adj	_	_	_	_	_
+1	Үрүҥ	үрүҥ	ADJ	adj	_	_	_	_	_
 2	чаанньык	чаанньык	NOUN	n	Case=Nom|Person=Sing	_	_	_	teapot
 3	баар	баар	AUX	aux	_	_	_	_	_
 4	дуо	дуо	PART	part	_	_	_	_	?
@@ -2066,7 +2066,8 @@
 # text_eng = (Khatironov, )
 1	биир	биир	NUM	num	NumType=Card	_	_	_	one
 2	уол	уол	NOUN	n	Case=Nom|Number=Sing	_	_	_	boy
-3	тураруонна	уонна	CCONJ	cconj	_	_	_	_	and
+3	турар	тур	VERB	_	Number=Sing|Person=3|Tense=Pres	_	_	_	_	and
+3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 
 # sent_id = 389
@@ -2331,7 +2332,7 @@
 # text_rus = Съешь два яблока
 # text_eng = ´Eat two of the apples’ (Baker, M., & Vinokurova, N. (2021), 3a, a)
 1	Яблокаттан	яблоко	NOUN	n	Case=Abl|Number=Sing	2	obl	_	apple
-2	иккини	икки	NUM	num	Case=Acc	3	obj	_	two
+2	иккини	икки	NUM	num	Case=Acc|NumType=Card	3	obj	_	two
 3	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
 
 # sent_id = 2099
@@ -2339,7 +2340,7 @@
 # text_rus = Съешь два яблока
 # text_eng = ´Eat two of the apples’ (Baker, M., & Vinokurova, N. (2021), 3a, b)
 1	Яблокаттан	яблоко	NOUN	n	Case=Abl|Number=Sing	2	obl	_	apple
-2	иккитэ	икки	NUM	num	Case=Par	3	obj	_	two
+2	иккитэ	икки	NUM	num	Case=Par|NumType=Card	3	obj	_	two
 3	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
 
 # sent_id = 2104
@@ -2711,7 +2712,7 @@
 # text_rus = 
 # text_eng = One of my friend's older brother studies in the city (Khatironov, 24)
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	I
-2	биир	биир	NUM	num	_	_	_	_	one
+2	биир	биир	NUM	num	NumType=Card	_	_	_	one
 3	атаһым	атас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	myfriend
 4	убайа	убай	NOUN	n	Case=Acc|Number=Sing	_	_	_	oldbrother
 5	куоракка	куорат	NOUN	n	Case=Dat|Number=Sing	_	_	_	city
@@ -2889,7 +2890,7 @@
 # text_eng = (Khatironov, ) # таҥас-сап
 1	Хара	хара	ADJ	adj	_	_	_	_	black
 2	таҥаһы	таҥас	NOUN	n	Case=Acc|Number=Sing	_	_	_	clothes
-3	үрүҥ	үрүҥ	ADJ	adj	_	_	_	white	_
+3	үрүҥ	үрүҥ	ADJ	adj	_	_	_	_	white
 4	сабынан	сап	NOUN	n	Case=Ins|Number=Sing	_	_	_	thread
 5	тикпэттэр	тик	VERB	v	Number=Plur|Person=3|Polarity=Neg|Tense=Pres	_	_	_	sew
 
@@ -3502,3 +3503,4 @@
 3	аҕата	аҕа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	father
 4	мас	мас	NOUN	n	Case=Nom|Number=Sing	_	_	_	wood
 5	ууһа	уус	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	master
+
