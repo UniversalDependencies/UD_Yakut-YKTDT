@@ -381,11 +381,11 @@
 3	күүстээх	күүстээх	ADJ	adj	_	0	root	_	_
 
 # sent_id = 43
-# text = үүтү биhиги ынахтан ылабыт
+# text = үүтү биһиги ынахтан ылабыт
 # text_rus = Мы получаем молоко от коров
 # text_eng = Milk we get from cows (Johanson, Turkic, 2021, 948)
 1	үүтү	үүт	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
-2	биhиги	биhиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 3	ынахтан	ынах	NOUN	n	Case=Abl|Number=Sing	4	obl	_	_
 4	ылабыт	ыл	VERB	vi	Number=Plur|Person=1|Tense=Pres	0	root	_	_
 
@@ -2722,7 +2722,7 @@
 1	Улаханнык	улахан	ADV	adv	ADVLZ=Yes	_	_	_	strong
 2	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	sick
 3	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
-4	ханна	ханна	PRON	pron	_	_	_	_	where
+4	ханна	ханна	PRON	pronint	PronType=Int	_	_	_	where
 5	баралларый	бар	VERB	v	Int=Yes|Number=Plur|Person=3|Tense=Pres	_	_	_	_
 6	?	?	PUNCT	punct	_	_	_	_	_
 
