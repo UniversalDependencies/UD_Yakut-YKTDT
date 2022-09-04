@@ -1255,7 +1255,7 @@
 1	ити	ити	PRON	pron	PronType=Dem	2	det	_	this
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	аата	аат	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	name
-4	кимий	ким	PRON	PRON	Int=Yes	_	_	_	who
+4	кимий	ким	PRON	PRON	Int=Yes|PronType=Int	_	_	_	who
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 142
@@ -1458,7 +1458,7 @@
 1	Бу	бу	DET	det	_	_	_	_	this
 2	дьахтар	дьахтар	NOUN	n	Case=Nom|Number=Sing	_	_	_	woman
 3	аата	аат	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	name
-4	кимий	ким	PRON	pron	Int=Yes	_	_	_	who
+4	кимий	ким	PRON	pron	Int=Yes|PronType=Int	_	_	_	who
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 173
@@ -1834,7 +1834,7 @@
 1	Бу	бу	DET	det	_	_	_	_	this
 2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	child
 3	илиитэ	илии	NOUN	n	Case=Par|Number=Sing	_	_	_	hand
-4	хайдаҕый	хайдах	PRON	pron	Int=Yes	_	_	_	how
+4	хайдаҕый	хайдах	PRON	pron	Int=Yes|PronType=Int	_	_	_	how
 5	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 248
@@ -2209,7 +2209,7 @@
 # text_eng = (Khatironov, )
 1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	быраас	быраас	NOUN	n	Case=Nom|Number=Sing	_	_	_	doctor
-3	кимий	ким	PRON	pron	Int=Yes	_	_	_	who
+3	кимий	ким	PRON	pron	Int=Yes|PronType=Int	_	_	_	who
 4	эмтиирий	эмтээ	VERB	v	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	heal/treat
 5	?	?	PUNCT	punct	_	_	_	_	_
 
