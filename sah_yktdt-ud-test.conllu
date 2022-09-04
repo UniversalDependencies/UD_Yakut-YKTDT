@@ -274,7 +274,7 @@
 # text = Ити уол эбэтэ ыалдьар
 # text_rus = Бабушка этого мальчика болеет
 # text_eng = This boy's grandmother is sick
-1	Ити	ити	PRON	pron	_	2	det	_	_
+1	ити	ити	PRON	pron	PronType=Dem	2	det	_	_
 2	уол	уол	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	_
 3	эбэтэ	эбэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	ыалдьар	ыарый	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -580,7 +580,7 @@
 # text = Ити уолга харандааста биэр
 # text_rus = 
 # text_eng = Give a pencil (any pencil) to that boy (Kharitonov)
-1	Ити	ити	PRON	pron	_	2	det	_	_
+1	ити	ити	PRON	pron	PronType=Dem	2	det	_	_
 2	уолга	уол	NOUN	n	Case=Dat|Number=Sing	4	obl	_	_
 3	харандааста	харандаас	NOUN	n	Case=Par|Number=Sing	4	obj	_	_
 4	биэр	биэр	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	_
@@ -599,7 +599,7 @@
 8	остуолла	остуол	NOUN	n	Case=Par|Number=Sing	9	obj	_	_
 9	сотуҥ	сот	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	3	conj	_	_
 10	,	,	PUNCT	punct	_	9	punct	_	_
-11	сорохтор	сорох	DET	det	PronType=Ind	12	det	_	_
+11	сорохтор	сорох	PRON	pron	PronType=Ind|Number=Plur	12	det	_	_
 12	ааннары	аан	NOUN	n	Case=Acc|Number=Plur	9	obj	_	_
 13	,	,	PUNCT	punct	_	15	punct	_	_
 14	ыскааптары	ыскаап	NOUN	n	Case=Acc|Number=Plur	15	obj	_	_
@@ -727,7 +727,7 @@
 # text = Ол солуону ыйыстыбыт моҕой
 # text_rus = Это был удав, который проглотил слона
 # text_eng = It was a boa constrictor that swallowed an elephant (The little prince, 10) # Прошедшее результативное
-1	Ол	ол	PRON	pron	_	4	nsubj	_	it
+1	ол	ол	PRON	pron	PronType=Dem	4	nsubj	_	it
 2	солуону	солуон	NOUN	n	Case=Acc|Number=Sing	3	nsubj	_	elephant
 3	ыйыстыбыт	ыйыһын	VERB	v	Number=Sing|Person=3|Tense=PastResultI	0	root	_	eat
 4	моҕой	моҕой	NOUN	n	Case=Nom|Number=Sing	3	obj	_	snake
@@ -748,7 +748,7 @@
 # text_eng = I flew around almost the whole world (The little prince, 10) #
 1	Күн	күн	NOUN	n	Case=Nom|Number=Sing	2	compound	_	sun
 2	сирин	сир	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	world
-3	барытын	барытын	PRON	pron	_	2	_	_	all
+3	барытын	бары	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Tot	2	_	_	all
 4	кэриэтэ	кэриэтэ	ADV	adv	_	2	advmod	_	almost
 5	тилийэ	тилийэ	ADV	adv	_	6	advmod	_	withoutstopping
 6	көппүтүм	көт	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	root	_	fly
@@ -775,7 +775,7 @@
 # text = Кинилэри үчүгэйдик көрбүтүм билбитим
 # text_rus = Я видел их совсем близко
 # text_eng = I saw them very close (The little prince, 11) #
-1	Кинилэри	кини	PRON	pron	Case=Acc	4	obj	_	they
+1	Кинилэри	кини	PRON	pron	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	they
 2	үчүгэйдик	үчүгэй	ADV	adv	ADVLZ=Yes	4	advmod	_	well
 3	көрбүтүм	көр	VERB	v	Number=Sing|Person=1|Tense=PastPerf	4	compound	_	see
 4	билбитим	бил	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	root	_	know
@@ -795,7 +795,7 @@
 # text_eng = (Khatironov, )
 1	оскуола	оскуола	NOUN	n	Case=Nom|Number=Sing	_	_	_	school
 2	дьиэтэ	дьиэ	NOUN	n	Case=Par|Number=Sing	_	_	_	building
-3	ханна	ханна	ADV	adv	_	_	_	_	where
+3	ханна	ханна	PRON	pron	PronType=Int	_	_	_	where
 4	баарый	баар	AUX	aux	Int=Yes	_	_	_	exist
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -1006,7 +1006,7 @@
 # text = Ити ыт тугу үрэр ?
 # text_rus = На что лает эта собака ?
 # text_eng = What is this dog barking at ?(Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	ыт	ыт	NOUN	n	Case=Nom|Number=Sing	_	_	_	dog
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 4	үрэр	үр	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	bark
@@ -1075,7 +1075,7 @@
 # text_rus = Надень эти коньки
 # text_eng = Put these skates on (Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	_	you
-2	Ити	ити	PRON	pron	_	_	_	_	this
+2	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 3	хаҥкыны	хаҥкы	NOUN	n	Case=Acc|Number=Sing	_	_	_	iceskates
 4	кэт	кэт	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	wear
 
@@ -1083,7 +1083,7 @@
 # text = Ити суораты эн сиэ
 # text_rus = Ешь суорат
 # text_eng = Eat this sour milk (Khatironov, )
-1	Ити	ити	PRON	pron	_	2	det	2:det	this
+1	ити	ити	PRON	pron	PronType=Dem	2	det	2:det	this
 2	суораты	суорат	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	sourmilk
 3	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	you
 4	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	сиэ
@@ -1132,7 +1132,7 @@
 # text = Ити ыт киһини үрэр
 # text_rus = Эта собака лает на людей
 # text_eng = This dog barks at people (Khatironov, )
-1	Ити	ити	PRON	pron	_	2	det	2:det	this
+1	ити	ити	PRON	pron	PronType=Dem	2	det	2:det	this
 2	ыт	ыт	NOUN	n	Case=Nom|Number=Sing	4	nsubj	4:nsubj	dog
 3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	4	obl	4:obl	person
 4	үрэр	үр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	bark
@@ -1213,7 +1213,7 @@
 # text_rus = Мой дедушка носит это пальто
 # text_eng = My grandfather wears this coat . (Khatironov, )
 1	Эһэм	эһэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	gransfather
-2	Ити	ити	PRON	pron	_	3	det	_	this
+2	ити	ити	PRON	pron	PronType=Dem	3	det	_	this
 3	сону	сон	NOUN	n	Case=Acc|Number=Sing	4	obj	_	coat
 4	кэтэр	кэт	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	wear
 5	.	.	PUNCT	punct	_	4	punct	_	_
@@ -1222,7 +1222,7 @@
 # text = Ити киһи эрдэ турар
 # text_rus = Этот человек рано встаёт
 # text_eng = This man wakes up early . (Khatironov, )
-1	Ити	ити	PRON	pron	_	2	det	_	this
+1	ити	ити	PRON	pron	PronType=Dem	2	det	_	this
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	эрдэ	эрдэ	ADV	adv	_	4	advmod	_	early
 4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
@@ -1252,7 +1252,7 @@
 # text = Ити киһи аата кимий ?
 # text_rus = Кто этот человек ?
 # text_eng = Who is this man ? (Khatironov, )
-1	Ити	ити	PRON	pron	_	2	det	_	this
+1	ити	ити	PRON	pron	PronType=Dem	2	det	_	this
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	аата	аат	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	name
 4	кимий	ким	PRON	PRON	Int=Yes	_	_	_	who
@@ -1272,7 +1272,7 @@
 # text = Ити кыыс тугу гынар ?
 # text_rus = 
 # text_eng = What is this girl doing ?(Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	кыыс	кыыс	NOUN	n	Case=Nom|Number=Sing	_	_	_	girl
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 4	гынар	гын	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	do
@@ -1330,7 +1330,7 @@
 # text = Ити дьиэ олус тымныы
 # text_rus = 
 # text_eng = It's quite cold in this house (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	дьиэ	дьиэ	NOUN	n	Case=Nom|Number=Sing	_	_	_	house
 3	олус	олус	ADV	adv	_	_	advmod	_	quite
 4	тымныы	тымныы	ADJ	adj	_	_	_	_	cold
@@ -1446,7 +1446,7 @@
 # text = Ол эмиэ үөрэммэт кыыс
 # text_rus = Эта девочка тоже не учится
 # text_eng = This girl also doesn't study (Khatironov, )
-1	ол	ол	PRON	pron	_	_	_	_	this
+1	ол	ол	PRON	pron	PronType=Dem	_	_	_	this
 2	эмиэ	эмиэ	ADV	adv	_	_	_	_	эмиэ
 3	үөрэммэт	үөрэн	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	_	_	_	learn
 4	кыыс	кыыс	NOUN	n	Case=Nom|Number=Sing	_	_	_	girl
@@ -1465,7 +1465,7 @@
 # text = Ити ууга мэлдьи аһыыр
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	ууга	уу	NOUN	n	Case=Dat|Number=Sing	_	_	_	water
 3	мэлдьи	мэлдьи	ADV	adv	_	_	_	_	always
 4	аһыыр	аһаа	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	eat
@@ -1485,7 +1485,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Огурсуга	огурсу	NOUN	n	Case=Dat|Number=Sing	_	_	_	cucumber
-2	ким	ким	PRON	PRON	_	_	_	_	who
+2	ким	ким	PRON	PRON	PronType=Int	_	_	_	who
 3	уу	уу	NOUN	n	Case=Nom|Number=Sing	_	_	_	water
 4	кутта	кут	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	water
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -1503,7 +1503,7 @@
 # text = Ити оҕо тоҕо саҥарбат ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	child
 3	тоҕо	тоҕо	PRON	pron	PronType=Int	_	_	_	why
 4	саҥарбат	саҥар	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	_	_	_	say
@@ -1590,7 +1590,7 @@
 # text = Ити ат ыҥыырга үчүгэй
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	ат	ат	NOUN	n	Case=Nom|Number=Sing	_	_	_	horse
 3	ыҥыырга	ыҥыыр	NOUN	n	Case=Dat|Number=Sing	_	_	_	saddle
 4	үчүгэй	үчүгэй	ADV	adv	_	_	_	_	good
@@ -1629,7 +1629,7 @@
 # text = Ити аты бостуук ылыаҕа
 # text_rus = 
 # text_eng = The shepard will take (tame?) this horse (Khatironov, 161)
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	аты	ат	NOUN	n	Case=Acc|Number=Sing	_	_	_	horse
 3	бостуук	бостуук	NOUN	n	Case=Nom|Number=Sing	_	_	_	пастух
 4	ылыаҕа	ыл	VERB	v	Number=Sing|Person=3|Tense=Fut	_	_	_	take
@@ -1695,7 +1695,7 @@
 # text = Ити ынах хотоҥҥо аһыыр
 # text_rus = Эта корова ест в коровнике
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	ынах	ынах	NOUN	n	Case=Nom|Number=Sing	_	_	_	cow
 3	хотоҥҥо	хотон	NOUN	n	Case=Dat|Number=Sing	_	_	_	barn
 4	аһыыр	аһаа	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	eat
@@ -1704,7 +1704,7 @@
 # text = Ити оҕонньор ааҕар дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	оҕонньор	оҕонньор	NOUN	n	Case=Nom|Number=Sing	_	_	_	oldman
 3	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	_	_	_	read
 4	дуо	дуо	PART	part	_	_	_	_	?
@@ -1733,7 +1733,7 @@
 # text = Ол ыт куосканы таптыыр
 # text_rus = 
 # text_eng = (Khatironov, )
-1	ол	ол	PRON	pron	_	_	_	_	this
+1	ол	ол	PRON	pron	PronType=Dem	_	_	_	this
 2	ыт	ыт	NOUN	n	Case=Nom|Number=Sing	_	_	_	dog
 3	куосканы	куоска	NOUN	n	Case=Acc|Number=Sing	_	_	_	cat
 4	таптыыр	таптаа	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	love
@@ -1784,7 +1784,7 @@
 # text_eng = (Khatironov, )
 1	Сис	Сис	NOUN	n	Case=Nom|Number=Sing	_	_	_	saddle
 2	быата	быа	NOUN	n	Case=Par|Number=Sing	_	_	_	strap
-3	ханна	ханна	ADV	adv	_	_	_	_	where
+3	ханна	ханна	PRON	pron	PronType=Int	_	_	_	where
 4	баарый	баар	AUX	aux	Int=Yes	_	_	_	exist
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -1792,7 +1792,7 @@
 # text = Ити эти быс уонна ыйаа !
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	эти	эт	NOUN	n	Case=Acc|Number=Sing	_	_	_	meat
 3	быс	быс	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	cut
 4	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -1812,7 +1812,7 @@
 # text = Ити ынахха от биэрэҕит
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	ынахха	ынах	NOUN	n	Case=Dat|Number=Sing	_	_	_	cow
 3	от	от	NOUN	n	Case=Nom|Number=Sing	_	_	_	grass
 4	биэрэҕит	биэр	VERB	v	Number=Plur|Person=2|Tense=Pres	_	_	_	give
@@ -1850,7 +1850,7 @@
 # text = Ити киһи тугу атыылыыр ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 4	атыылыыр	атыылаа	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	sell
@@ -1896,7 +1896,7 @@
 # text = Ити хотууру мин ылыаҕым
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	хотууру	хотуур	NOUN	n	Case=Acc|Number=Sing	_	_	_	scythe
 3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	I
 4	ылыаҕым	ыл	VERB	v	Number=Sing|Person=1|Tense=Fut	_	_	_	take
@@ -1933,9 +1933,9 @@
 # text = Ити ууга ким сөтүөлээтэ ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	ууга	уу	NOUN	n	Case=Dat|Number=Sing	_	_	_	water
-3	ким	ким	PRON	PRON	_	_	_	_	who
+3	ким	ким	PRON	PRON	PronType=Int	_	_	_	who
 4	сөтүөлээтэ	сөтүөлээ	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	bathe
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -1953,7 +1953,7 @@
 # text = Ити ат массыынаҕа барар
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	ат	ат	NOUN	n	Case=Nom|Number=Sing	_	_	_	horse
 3	массыынаҕа	массыына	NOUN	n	Case=Dat|Number=Sing	_	_	_	auto
 4	барар	бар	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	walk
@@ -1973,9 +1973,9 @@
 # text = Ол аты тоҕо көлүйбэккит ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	ол	ол	PRON	pron	_	_	_	_	this
+1	ол	ол	PRON	pron	PronType=Dem	_	_	_	this
 2	аты	ат	NOUN	n	Case=Acc|Number=Sing	_	_	_	horse
-3	тоҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	child
+3	тоҕо	тоҕо	PRON	pron	PronType=Int	_	_	_	why
 4	көлүйбэккит	көлүй	VERB	v	Number=Plur|Person=2|Polarity=Neg|Tense=Pres	_	_	_	yoke
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -1985,7 +1985,7 @@
 # text_eng = (Khatironov, )
 1	кыра	кыра	ADJ	adj	_	_	_	_	small
 2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	child
-3	ханна	ханна	ADV	adv	_	_	_	_	where
+3	ханна	ханна	PRON	pron	PronType=Int	_	_	_	where
 4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -1995,7 +1995,7 @@
 # text_eng = (Khatironov, )
 1	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 2	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	3sg
-3	ханна	ханна	ADV	adv	_	_	_	_	where
+3	ханна	ханна	PRON	pron	PronType=Int	_	_	_	where
 4	барарый	бар	VERB	v	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	go
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -2033,7 +2033,7 @@
 # text_eng = (Khatironov, )
 1	Бу	бу	DET	det	_	_	_	_	this
 2	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
-3	ким	ким	PRON	PRON	_	_	_	_	who
+3	ким	ким	PRON	PRON	PronType=Int	_	_	_	who
 4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -2090,7 +2090,7 @@
 # text = Ханна киһи бары үөрэнэрий ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ханна	ханна	ADV	adv	_	_	_	_	where
+1	ханна	ханна	PRON	pron	PronType=Int	_	_	_	where
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
 4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	_
@@ -2113,7 +2113,7 @@
 # text_eng = (Khatironov, )
 1	Улахан	улахан	ADJ	adj	_	_	_	_	big
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
-3	ханна	ханна	ADV	adv	_	_	_	_	where
+3	ханна	ханна	PRON	pron	PronType=Int	_	_	_	where
 4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -2121,7 +2121,7 @@
 # text = Ити дьон тугу атыылыыллар ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 4	атыылыыллар	атыылаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	sell
@@ -2144,7 +2144,7 @@
 # text_eng = (Khatironov, )
 1	Эдэр	эдэр	ADJ	adj	_	_	_	_	young
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
-3	ханна	ханна	ADV	adv	_	_	_	_	where
+3	ханна	ханна	PRON	pron	PronType=Int	_	_	_	where
 4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	_
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -2170,7 +2170,7 @@
 # text = Ити уол түргэнник суруйар
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	уол	уол	NOUN	n	Case=Nom|Number=Sing	_	_	_	boy
 3	түргэнник	түргэн	ADV	adv	ADVLZ=Yes	_	_	_	fast
 4	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	write
@@ -2207,7 +2207,7 @@
 # text = Ити быраас кимий эмтиирий ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	быраас	быраас	NOUN	n	Case=Nom|Number=Sing	_	_	_	doctor
 3	кимий	ким	PRON	pron	Int=Yes	_	_	_	who
 4	эмтиирий	эмтээ	VERB	v	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	heal/treat
@@ -2256,7 +2256,7 @@
 # text = Ити кинигэни аахпаппыт дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	_	_	_	book
 3	аахпаппыт	аах	VERB	v	Number=Plur|Person=1|Polarity=Neg|Tense=Pres	_	_	_	read
 4	дуо	дуо	PART	part	_	_	_	_	?
@@ -2345,7 +2345,7 @@
 # text = Ити аты ыҥыырдаамаҥ , кинини охсор массыынаҕа көлүйүөхтэрэ
 # text_rus = 
 # text_eng = Don't saddle this horse, harness it to the mower (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	аты	ат	NOUN	n	Case=Acc|Number=Sing	_	_	_	horse
 3	ыҥыырдаамаҥ	ыҥыырдаа	VERB	v	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres	_	_	_	saddle
 4	,	,	PUNCT	punct	_	_	_	_	_
@@ -2635,7 +2635,7 @@
 3	уонна	уонна	CCONJ	cconj	_	_	_	_	and
 4	Эдэр	эдэр	ADJ	adj	_	_	_	_	young
 5	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
-6	ханна	ханна	ADV	adv	_	_	_	_	where
+6	ханна	ханна	PRON	pron	PronType=Int	_	_	_	where
 7	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 8	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -2753,7 +2753,7 @@
 # text_eng = (Khatironov, )
 1	Айаана	Айаана	PROPN	propn	_	_	_	_	_
 2	,	,	PUNCT	punct	_	_	_	_	_
-3	ол	ол	PRON	pron	_	_	_	_	this
+3	ол	ол	PRON	pron	PronType=Dem	_	_	_	this
 4	паартаҕа	паарта	NOUN	n	Case=Dat|Number=Sing	_	_	_	table
 5	олор	олор	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	sit
 6	уонна	уонна	CCONJ	cconj	_	_	_	_	and
@@ -2934,7 +2934,7 @@
 # text = Ити ойуурга элбэх кыра күөл баар
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	ойуурга	ойуур	NOUN	n	Case=Dat|Number=Sing	_	_	_	forest
 3	элбэх	элбэх	ADJ	adj	_	_	_	_	many
 4	кыра	кыра	ADJ	adj	_	_	_	_	small
@@ -2988,7 +2988,7 @@
 # text = Ити оҕону ууга ыраах киллэримэҥ
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	оҕону	оҕо	NOUN	n	Case=Acc|Number=Sing	_	_	_	child
 3	ууга	уу	NOUN	n	Case=Dat|Number=Sing	_	_	_	water
 4	ыраах	ыраах	ADV	adv	_	_	_	_	far
@@ -3014,7 +3014,7 @@
 # text = Ол харандаас паарталааҕар үрдүк
 # text_rus = 
 # text_eng = (Khatironov, )
-1	ол	ол	PRON	pron	_	_	_	_	this
+1	ол	ол	PRON	pron	PronType=Dem	_	_	_	this
 2	харандаас	харандаас	NOUN	n	Case=Nom|Number=Sing	_	_	_	pencil
 3	паарталааҕар	паарта	NOUN	n	Case=Cmp|Number=Sing	_	_	_	desk
 4	үрдүк	үрдүк	ADJ	adj	_	_	_	_	high
@@ -3023,7 +3023,7 @@
 # text = Ити оҕолор эмиэ онно үөрэнэллэр
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	_	_	_	children
 3	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
 4	онно	онно	ADV	adv	_	_	_	_	there
@@ -3085,9 +3085,9 @@
 # text = Ити дьон тоҕо манна киирбэттэр ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
-3	тоҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	child
+3	тоҕо	тоҕо	PRON	pron	PronType=Int	_	_	_	why
 4	манна	манна	ADV	adv	_	_	_	_	here
 5	киирбэттэр	киир	VERB	v	Number=Plur|Person=3|Polarity=Neg|Tense=Pres	_	_	_	enter
 6	?	?	PUNCT	punct	_	_	_	_	_
@@ -3148,7 +3148,7 @@
 # text_eng = (Khatironov, )
 1	Айаана	Айаана	PROPN	propn	_	_	_	_	_
 2	иһити	иһит	NOUN	n	Case=Acc|Number=Sing	_	_	_	dishes
-3	ханна	ханна	ADV	adv	_	_	_	_	where
+3	ханна	ханна	PRON	pron	PronType=Int	_	_	_	where
 4	туруорар	туруор	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	put
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -3156,7 +3156,7 @@
 # text = Ол нуучча оскуолаҕа үөрэтэр
 # text_rus = 
 # text_eng = (Khatironov, )
-1	ол	ол	PRON	pron	_	_	_	_	this
+1	ол	ол	PRON	pron	PronType=Dem	_	_	_	this
 2	нуучча	нуучча	NOUN	n	Case=Nom|Number=Sing	_	_	_	russian
 3	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
 4	үөрэтэр	үөрэт	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	study
@@ -3168,14 +3168,14 @@
 1	Оройуоҥҥа	оройуон	NOUN	n	Case=Dat|Number=Sing	_	_	_	district
 2	барар	бар	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	walk
 3	ат	ат	NOUN	n	Case=Nom|Number=Sing	_	_	_	horse
-4	ол	ол	PRON	pron	_	_	_	_	this
+4	ол	ол	PRON	pron	PronType=Dem	_	_	_	this
 5	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
 
 # sent_id = 596
 # text = Ханнык сүөһү таһырдьа аһыыр ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ханнык	Ханнык	PRON	pron	_	_	_	_	which
+1	Ханнык	Ханнык	PRON	pron	PronType=Int	_	_	_	which
 2	сүөһү	сүөһү	NOUN	n	Case=Nom|Number=Sing	_	_	_	cattle
 3	таһырдьа	таһырдьа	ADV	adv	_	_	_	_	outside
 4	аһыыр	аһаа	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	eat
@@ -3185,7 +3185,7 @@
 # text = Ити тэлиэгэҕэ тугу тиэйэҕит ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	тэлиэгэҕэ	тэлиэгэ	NOUN	n	Case=Dat|Number=Sing	_	_	_	cart
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 4	тиэйэҕит	тиэй	VERB	v	Number=Plur|Person=2|Tense=Pres	_	_	_	carry
@@ -3216,7 +3216,7 @@
 # text_eng = (Khatironov, )
 1	Бу	бу	DET	det	_	_	_	_	this
 2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
-3	Ханнык	Ханнык	PRON	pron	_	_	_	_	which
+3	Ханнык	Ханнык	PRON	pron	PronType=Int	_	_	_	which
 4	балыктыыллар	балыктаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	fish
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -3235,7 +3235,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	_	you
-2	Ханнык	Ханнык	PRON	pron	_	_	_	_	which
+2	Ханнык	Ханнык	PRON	pron	PronType=Int	_	_	_	which
 3	наскыны	наскы	NOUN	n	Case=Acc|Number=Sing	_	_	_	socks
 4	таптыыгын	таптаа	VERB	v	Number=Sing|Person=2|Tense=Pres	_	_	_	love
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -3275,7 +3275,7 @@
 # text_eng = (Khatironov, )
 1	Бу	бу	DET	det	_	_	_	_	this
 2	бурдугу	бурдук	NOUN	n	Case=Acc|Number=Sing	_	_	_	grain
-3	тоҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	child
+3	тоҕо	тоҕо	PRON	pron	PronType=Int	_	_	_	why
 4	быспатыгыт	быс	VERB	v	Number=Plur|Person=2|Polarity=Neg|Tense=NearPast	_	_	_	cut
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -3410,7 +3410,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Эһиги	эһиги	PRON	pron	Case=Nom|Number=Plur|Person=2|PronType=Prs	_	_	_	_
-2	ол	ол	PRON	pron	_	_	_	_	this
+2	ол	ол	PRON	pron	PronType=Dem	_	_	_	this
 3	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	_	_	_	school
 4	үөрэнэҕит	үөрэн	VERB	v	Number=Plur|Person=2|Tense=Pres	_	_	_	learn
 
@@ -3418,7 +3418,7 @@
 # text = Ити киһи тугу кэпсиир ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
 4	кэпсиир	кэпсээ	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	tell
@@ -3438,7 +3438,7 @@
 # text_rus = В каких местах (где) растет сосна ?
 # text_eng = (Khatironov, )
 1	Бэс	бэс	NOUN	n	Case=Nom|Number=Sing	_	_	_	pine
-2	Ханнык	Ханнык	PRON	pron	_	_	_	_	which
+2	Ханнык	Ханнык	PRON	pron	PronType=Int	_	_	_	which
 3	сиргэ	сир	NOUN	n	Case=Dat|Number=Sing	_	_	_	earth
 4	үүнэр	үүн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	grow
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -3457,7 +3457,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	эһиэхэ	эһиги	PRON	pron	Case=Dat|Number=Plur|Person=2|PronType=Prs	_	_	_	_
-2	ким	ким	PRON	PRON	_	_	_	_	who
+2	ким	ким	PRON	PRON	PronType=Int	_	_	_	who
 3	от	от	NOUN	n	Case=Nom|Number=Sing	_	_	_	grass
 4	тиэйэрий	тиэй	VERB	v	Int=Yes|Number=Sing|Person=3|Tense=Pres	_	_	_	load
 5	?	?	PUNCT	punct	_	_	_	_	_
@@ -3475,7 +3475,7 @@
 # text = Ити кыыс аҕата мас ууһа
 # text_rus = Отец этой девочки столяр . 4-5 carpenter
 # text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	_	_	_	_	this
+1	ити	ити	PRON	pron	PronType=Dem	_	_	_	this
 2	кыыс	кыыс	NOUN	n	Case=Nom|Number=Sing	_	_	_	girl
 3	аҕата	аҕа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	father
 4	мас	мас	NOUN	n	Case=Nom|Number=Sing	_	_	_	wood
