@@ -1068,7 +1068,7 @@
 1	Бу	бу	DET	det	_	_	_	_	this
 2	эт	эт	NOUN	n	Case=Nom|Number=Sing	_	_	_	meat
 3	уҥуоҕа	уҥуох	NOUN	n	Case=Dat|Number=Sing	_	_	_	bone
-4	элбэх	элбэх	ADV	adv	_	_	_	_	many
+4	элбэх	элбэх	ADJ	adj	_	_	_	_	many
 
 # sent_id = 118
 # text = Эн ити хаҥкыны кэт
@@ -2199,7 +2199,7 @@
 # text_eng = (Khatironov, )
 1	Ыскаапка	ыскаап	NOUN	n	Case=Dat|Number=Sing	_	_	_	wardrobe
 2	кинигэ	кинигэ	NOUN	n	Case=Nom|Number=Sing	_	_	_	_
-3	элбэх	элбэх	ADV	adv	_	_	_	_	many
+3	элбэх	элбэх	ADJ	adj	_	_	_	_	many
 4	дуо	дуо	PART	part	_	_	_	_	?
 5	?	?	PUNCT	punct	_	_	_	_	_
 
@@ -2407,7 +2407,7 @@
 4	матараастар	матараас	NOUN	n	Case=Nom|Number=Plur	_	_	_	mattress
 5	,	,	PUNCT	punct	_	_	_	_	_
 6	тэллэхтэр	тэллэх	NOUN	n	Case=Nom|Number=Plur	_	_	_	bed
-7	бааллар	баар	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	tobe
+7	бааллар	баар	AUX	aux	Number=Plur|Person=3|Tense=Pres	_	_	_	tobe
 
 # sent_id = 1805
 # text = Эбиэккэ мин , килиэп , эт уонна хомпуот биэрэллэр
