@@ -3327,7 +3327,7 @@
 2	биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	_	_	_	we
 3	Ичигэс	ичигэс	ADJ	adj	_	_	_	_	warm
 4	таҥаһы	таҥас	NOUN	n	Case=Acc|Number=Sing	_	_	_	clothes
-5	кэтэбит	_	_	_	_	_	_	_	_
+5	кэтэбит	кэт	VERB	v	Number=Plur|Person=1|Tense=Pres	_	_	_	puton
 6	,	,	PUNCT	punct	_	_	_	_	_
 7	оччоҕо	оччоҕо	ADV	adv	_	_	_	_	then
 8	тоҥмоппут	тоҥ	VERB	v	Number=Plur|Person=1|Polarity=Neg|Tense=Pres	_	_	_	freeze
