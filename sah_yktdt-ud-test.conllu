@@ -954,16 +954,6 @@
 3	эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	you
 4	аах	аах	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	read
 
-# sent_id = 107
-# text = Чэ , барыах эрэ !
-# text_rus = Пойдем
-# text_eng = Come, let's go (Khatironov, )
-1	Чэ	чэ	INTJ	intj	_	3	discourse	_	_
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	барыах	бар	VERB	v	Clusivity=In|Mood=Imp|Number=Sing|Person=1|Tense=Pres	0	root	_	come
-4	эрэ	эрэ	PART	part	_	3	discourse	_	ка
-5	!	!	PUNCT	punct	_	3	punct	_	_
-
 # sent_id = 108
 # text = Бу бэрт бөҕө быа
 # text_rus = Это очень прочная верёвка
@@ -2250,10 +2240,10 @@
 # text_eng = (Khatironov, )
 1	Эһиэхэ	эһиги	PRON	pron	Case=Dat|Number=Plur|Person=2|PronType=Prs	_	_	_	_
 2	кыра	кыра	ADJ	adj	_	_	_	_	little
-2	тоһоҕо	тоһоҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	nail
-3	баар	баар	AUX	aux	_	_	_	_	_
-4	дуо	дуо	PART	part	_	_	_	_	?
-5	?	?	PUNCT	punct	_	_	_	_	_
+3	тоһоҕо	тоһоҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	nail
+4	баар	баар	AUX	aux	_	_	_	_	_
+5	дуо	дуо	PART	part	_	_	_	_	?
+6	?	?	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 485
 # text = Түннүгү аһымаҥ , ааны аһыҥ
@@ -2348,7 +2338,7 @@
 6	көрбөт	көр	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	_	_	_	see
 7	,	,	PUNCT	punct	_	_	_	_	_
 8	сайын	сайын	ADV	adv	_	_	_	_	summer
-8	үс	үс	NUM	num	NumType=Card	_	_	_	three
+9	үс	үс	NUM	num	NumType=Card	_	_	_	three
 10	ый	ый	NOUN	n	Case=Nom|Number=Sing	_	_	_	month
 11	киирбэт	киир	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	_	_	_	enter
 
@@ -2361,10 +2351,10 @@
 3	,	,	PUNCT	punct	_	_	_	_	_
 4	наскыны	наскы	NOUN	n	Case=Acc|Number=Sing	_	_	_	socks
 5	эмиэ	эмиэ	ADV	adv	_	_	_	_	too
-5	кэппэт	кэт	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	_	_	_	wear
-6	,	,	PUNCT	punct	_	_	_	_	_
-7	этэрбэһи	этэрбэс	NOUN	n	Case=Acc|Number=Sing	_	_	_	boots
-8	кэтэр	кэт	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	put
+6	кэппэт	кэт	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	_	_	_	wear
+7	,	,	PUNCT	punct	_	_	_	_	_
+8	этэрбэһи	этэрбэс	NOUN	n	Case=Acc|Number=Sing	_	_	_	boots
+9	кэтэр	кэт	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	put
 
 # sent_id = 1803
 # text = Быраас көрөр , истэр уонна Айхалга рецепт суруйар
@@ -2539,7 +2529,7 @@
 5	,	,	PUNCT	punct	_	_	_	_	_
 6	эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	_	you
 7	сүөһү	сүөһү	NOUN	n	Case=Nom|Number=Sing	_	_	_	cattle
-7	маныаҕыҥ	манаа	VERB	v	Number=Sing|Person=2|Tense=Fut	_	_	_	graze
+8	маныаҕыҥ	манаа	VERB	v	Number=Sing|Person=2|Tense=Fut	_	_	_	graze
 
 # sent_id = 1623
 # text = Быт , былахы , кулахы киһи хаанынан аһыыллар
@@ -2552,7 +2542,7 @@
 5	кулахы	кулахы	NOUN	n	Case=Nom|Number=Sing	_	_	_	bug
 6	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 7	хаанынан	хаан	NOUN	n	Case=Ins|Number=Sing	_	_	_	blood
-7	аһыыллар	аһаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	eat
+8	аһыыллар	аһаа	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	eat
 
 # sent_id = 1601
 # text = Утуйар таҥаһы биһиги арыт таһырдьа ыйыыбыт
@@ -2828,9 +2818,9 @@
 # text_eng = (Khatironov, )
 1	Бу	бу	DET	det	_	_	_	_	this
 2	атынан	ат	NOUN	n	Case=Ins|Number=Sing	_	_	_	horse
-2	бүгүн	бүгүн	ADV	adv	_	_	_	_	today
-3	таһаҕас	таһаҕас	NOUN	n	Case=Nom|Number=Sing	_	_	_	cargo
-4	тиэйиэхтэрэ	тиэй	VERB	v	Number=Plur|Person=3|Tense=Fut	_	_	_	load
+4	бүгүн	бүгүн	ADV	adv	_	_	_	_	today
+5	таһаҕас	таһаҕас	NOUN	n	Case=Nom|Number=Sing	_	_	_	cargo
+6	тиэйиэхтэрэ	тиэй	VERB	v	Number=Plur|Person=3|Tense=Fut	_	_	_	load
 
 # sent_id = 1108
 # text = Дьиэҕэ ыт уонна куоска баар буолар
@@ -3494,3 +3484,4 @@
 2	көстүмээри	_	VERB	v	Polarity=Neg|VerbForm=Conv	_	_	_	_
 3	маска	мас	NOUN	n	Case=Dat|Number=Sing	_	_	_	wood
 4	сөрөннө	сөрөн	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	coverup
+
