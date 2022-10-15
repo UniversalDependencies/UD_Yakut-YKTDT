@@ -1085,9 +1085,8 @@
 # text_eng = Eat this sour milk (Khatironov, )
 1	Ити	ити	PRON	pron	PronType=Dem	2	det	2:det	this
 2	суораты	суорат	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	sourmilk
-3	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	you
+3	эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	you
 4	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	сиэ
-5	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 120
 # text = Кини хас ынаҕы ыыр ?
@@ -1136,7 +1135,6 @@
 2	ыт	ыт	NOUN	n	Case=Nom|Number=Sing	4	nsubj	4:nsubj	dog
 3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	4	obl	4:obl	person
 4	үрэр	үр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	bark
-5	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 127
 # text = Бу сыаны туспа ыйаа
@@ -1146,7 +1144,6 @@
 2	сыаны	сыа	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	fat
 3	туспа	туспа	ADV	adv	_	4	advmod	4:advmod	_
 4	ыйаа	ыйаа	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	0:root	scale
-5	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 129
 # text = Бу тоһоҕо олус кыра
@@ -1156,7 +1153,6 @@
 2	тоһоҕо	тоһоҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	nail
 3	олус	олус	ADV	adv	_	4	advmod	4:advmod	very
 4	кыра	кыра	ADJ	adj	_	_	_	_	small
-5	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 130
 # text = Бу куоска ууну иһэр
@@ -1166,7 +1162,6 @@
 2	куоска	куоска	NOUN	n	Case=Nom|Number=Sing	4	nsubj	4:nsubj	cat
 3	ууну	уу	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	water
 4	иһэр	ис	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	drinks
-5	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 131
 # text = Оҕолор , эмиэ аһааҥ !
@@ -1186,7 +1181,6 @@
 2	искэҕэ	искэх	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	caviar
 3	суох	суох	AUX	aux	_	2	cop	2:cop	non-exist
 4	собо	собо	NOUN	n	Case=Nom|Number=Sing	_	_	_	crucian
-5	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 133
 # text = Ааны сабымаҥ , аһыҥ
@@ -1196,7 +1190,6 @@
 2	сабымаҥ	сап	VERB	v	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres	0	root	0:root	dontclose
 3	,	,	PUNCT	punct	_	2	punct	2:punct	_
 4	аһыҥ	ас	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	2	conj	2:conj	open
-5	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 135
 # text = Эн эһэҥ үөрэнэр дуо ?
@@ -1216,7 +1209,6 @@
 2	ити	ити	PRON	pron	PronType=Dem	3	det	_	this
 3	сону	сон	NOUN	n	Case=Acc|Number=Sing	4	obj	_	coat
 4	кэтэр	кэт	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	wear
-5	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 137
 # text = Ити киһи эрдэ турар
@@ -1226,7 +1218,6 @@
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	эрдэ	эрдэ	ADV	adv	_	4	advmod	_	early
 4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	stand
-5	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 138
 # text = Кыра кыыс тугу эттэ ?
@@ -2555,7 +2546,7 @@
 3	мас	мас	NOUN	n	Case=Nom|Number=Sing	_	_	_	tree
 4	кэрдиэхтэрэ	кэр	VERB	v	Number=Plur|Person=3|Tense=Fut	_	_	_	fell
 5	,	,	PUNCT	punct	_	_	_	_	_
-6	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	_	you
+6	эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	_	_	_	you
 7	сүөһү	сүөһү	NOUN	n	Case=Nom|Number=Sing	_	_	_	cattle
 7	маныаҕыҥ	манаа	VERB	v	Number=Sing|Person=2|Tense=Fut	_	_	_	graze
 
