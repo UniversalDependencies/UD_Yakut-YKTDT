@@ -793,11 +793,11 @@
 # text = Оскуола дьиэтэ ханна баарый ?
 # text_rus = Где находится здание школы? 
 # text_eng = (Khatironov, )
-1	Оскуола	оскуола	NOUN	n	Case=Nom|Number=Sing	2	compound	_	school
-2	дьиэтэ	дьиэ	NOUN	n	Case=Par|Number=Sing	0	root	_	building
-3	ханна	ханна	PRON	pron	PronType=Int	2	_	_	where
-4	баарый	баар	AUX	aux	Int=Yes	2	cop	_	exist
-5	?	?	PUNCT	punct	_	2	punct	_	_
+1	Оскуола	оскуола	NOUN	n	Case=Nom|Number=Sing	2	nmod	_	school
+2	дьиэтэ	дьиэ	NOUN	n	Case=Par|Number=Sing	3	nsubj	_	building
+3	ханна	ханна	PRON	pron	PronType=Int	0	root	_	where
+4	баарый	баар	AUX	aux	Int=Yes	3	cop	_	exist
+5	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 585
 # text = Эн тыс этэрбэһи кэтэҕин дуо ?
@@ -881,10 +881,10 @@
 # text = Улахан дьон бары үлэлииллэр
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Улахан	улахан	ADJ	adj	_	_	_	_	big
-2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	_	_	_	person
-3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	_	_	_	_
-4	үлэлииллэр	үлэлээ	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	work
+1	Улахан	улахан	ADJ	adj	_	2	amod	_	big
+2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	person
+3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	2	nmod	_	_
+4	үлэлииллэр	үлэлээ	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	work
 
 # sent_id = 569
 # text = Бурдук быйыл үчүгэйдик үүнэ
@@ -1071,10 +1071,10 @@
 
 # sent_id = 120
 # text = Кини хас ынаҕы ыыр ?
-# text_rus = 3sg доит коров
-# text_eng = 3sg milks the cow (Khatironov, )
+# text_rus = Сколько коров он доит ?
+# text_eng = (Khatironov, )
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	3sg
-2	хас	хас	PRON	pron	PronType=Int	_	_	_	howmuch
+2	хас	хас	PRON	pron	PronType=Int	3	nmod	_	howmuch
 3	ынаҕы	ынах	NOUN	n	Case=Acc|Number=Sing	4	obj	_	cow
 4	ыыр	ыа	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	tomilk
 5	?	?	PUNCT	punct	_	4	punct	_	_
@@ -1093,11 +1093,11 @@
 # text = Түүн кус кэлэр дуо ?
 # text_rus = Утка приходит ночью ?
 # text_eng = Does a duck come at night ?(Khatironov, )
-1	Түүн	түүн	NOUN	n	Case=Nom|Number=Sing	2	nmod	2:nmod	atnight
-2	кус	кус	NOUN	n	Case=Nom|Number=Sing	3	nsubj	3:nsubj	duck
-3	кэлэр	кэл	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	comes
-4	дуо	дуо	PART	part	_	3	discourse	3:discourse	?
-5	?	?	PUNCT	punct	_	3	punct	3:punct	_
+1	Түүн	түүн	NOUN	n	Case=Nom|Number=Sing	2	nmod	_	atnight
+2	кус	кус	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	duck
+3	кэлэр	кэл	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	comes
+4	дуо	дуо	PART	part	_	3	discourse	_	?
+5	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 125
 # text = Кымыс эмиэ үрүҥ ас
@@ -1185,11 +1185,11 @@
 # sent_id = 137
 # text = Ити киһи эрдэ турар
 # text_rus = Этот человек рано встаёт
-# text_eng = This man wakes up early . (Khatironov, )
+# text_eng = This man wakes up early (Khatironov, )
 1	Ити	ити	PRON	pron	PronType=Dem	2	det	_	this
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	эрдэ	эрдэ	ADV	adv	_	4	advmod	_	early
-4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	0	_	_	stand
+4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	stand
 
 # sent_id = 138
 # text = Кыра кыыс тугу эттэ ?
