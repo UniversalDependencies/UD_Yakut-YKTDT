@@ -3379,41 +3379,41 @@
 
 # sent_id = 199
 # text = Ити киһи тугу кэпсиир ?
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Ити	ити	PRON	pron	PronType=Dem	_	_	_	this
+# text_rus = Что говорит этот человек ?
+# text_eng = What does this man say ? (Khatironov, )
+1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
-3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
-4	кэпсиир	кэпсээ	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	tell
-5	?	?	PUNCT	punct	_	_	_	_	_
+3	тугу	тугу	PRON	pron	PronType=Int	4	obj	_	what
+4	кэпсиир	кэпсээ	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	tell
+5	?	?	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 249
 # text = Онно кыһын сүөһү аһыыр
 # text_rus = Зимой там кормятся животные 
-# text_eng = (Khatironov, )
-1	Онно	онно	ADV	adv	_	_	_	_	there
-2	кыһын	кыһын	ADV	adv	_	_	_	_	winter
-3	сүөһү	сүөһү	NOUN	n	Case=Nom|Number=Sing	_	_	_	cattle
-4	аһыыр	аһаа	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	eat
+# text_eng = In winter cattle is fed there (Khatironov, )
+1	Онно	онно	ADV	adv	_	4	advmod	_	there
+2	кыһын	кыһын	ADV	adv	_	4	advmod	_	winter
+3	сүөһү	сүөһү	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	cattle
+4	аһыыр	аһаа	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	eat
 
 # sent_id = 253
 # text = Бэс ханнык сиргэ үүнэр ?
 # text_rus = В каких местах (где) растет сосна ?
-# text_eng = (Khatironov, )
-1	Бэс	бэс	NOUN	n	Case=Nom|Number=Sing	_	_	_	pine
-2	Ханнык	Ханнык	PRON	pron	PronType=Int	_	_	_	which
-3	сиргэ	сир	NOUN	n	Case=Dat|Number=Sing	_	_	_	earth
-4	үүнэр	үүн	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	grow
-5	?	?	PUNCT	punct	_	_	_	_	_
+# text_eng = Where does pine grow ? (Khatironov, )
+1	Бэс	бэс	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	pine
+2	ханнык	ханнык	PRON	pron	PronType=Int	3	nmod	_	which
+3	сиргэ	сир	NOUN	n	Case=Dat|Number=Sing	4	obl	_	earth
+4	үүнэр	үүн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	grow
+5	?	?	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 254
 # text = Аны миэхэ тимэхтэ аҕал
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Аны	аны	ADV	adv	_	_	_	_	now
-2	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	_	_	_	_
-3	тимэхтэ	тимэх	NOUN	n	Case=Par|Number=Sing	_	_	_	button
-4	аҕал	аҕал	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	_	_	_	givebring
+1	Аны	аны	ADV	adv	_	4	advmod	_	now
+2	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+3	тимэхтэ	тимэх	NOUN	n	Case=Par|Number=Sing	4	obj	_	button
+4	аҕал	аҕал	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	givebring
 
 # sent_id = 258
 # text = Эһиэхэ ким от тиэйэрий ?
@@ -3429,10 +3429,10 @@
 # text = Эһэм тыс этэрбэһи кэтэр
 # text_rus = Мой дедушка надевает унты
 # text_eng = (Khatironov, )
-1	Эһэм	эһэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	grandfather
-2	тыс	тыс	NOUN	n	Case=Nom|Number=Sing	_	_	_	furskin
-3	этэрбэһи	этэрбэс	NOUN	n	Case=Acc|Number=Sing	_	_	_	boots
-4	кэтэр	кэт	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	put
+1	Эһэм	эһэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	grandfather
+2	тыс	тыс	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	furskin
+3	этэрбэһи	этэрбэс	NOUN	n	Case=Acc|Number=Sing	4	obj	_	boots
+4	кэтэр	кэт	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	put
 
 # sent_id = 300
 # text = Ити кыыс аҕата мас ууһа
@@ -3459,15 +3459,6 @@
 9	барар	бар	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	_
 
 # sent_id = 350
-# text = Оҕонньор көстүмээри маска сөрөннө
-# text_rus = Старик, чтобы его не заметили (букв: чтобы быть незамеченным), скрылся за деревом
-# text_eng = (FSC, 66)
-1	Оҕонньор	старик	NOUN	n	_	_	_	_	oldman
-2	көстүмээри	_	VERB	v	Polarity=Neg|VerbForm=Conv	_	_	_	_
-3	маска	мас	NOUN	n	Case=Dat|Number=Sing	_	_	_	wood
-4	сөрөннө	сөрөн	VERB	v	Number=Sing|Person=3|Tense=NearPast	_	_	_	coverup
-
-# sent_id = 351
 # text = Оҕонньор көстүмээри маска сөрөннө
 # text_rus = Старик, чтобы его не заметили (букв: чтобы быть незамеченным), скрылся за деревом
 # text_eng = (FSC, 66)
