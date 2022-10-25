@@ -2160,11 +2160,11 @@
 # text = Ыскаапка кинигэ элбэх дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Ыскаапка	ыскаап	NOUN	n	Case=Dat|Number=Sing	_	_	_	wardrobe
-2	кинигэ	кинигэ	NOUN	n	Case=Nom|Number=Sing	_	_	_	_
-3	элбэх	элбэх	ADJ	adj	_	_	_	_	many
-4	дуо	дуо	PART	part	_	_	_	_	?
-5	?	?	PUNCT	punct	_	_	_	_	_
+1	Ыскаапка	ыскаап	NOUN	n	Case=Dat|Number=Sing	2	obl	_	wardrobe
+2	кинигэ	кинигэ	NOUN	n	Case=Nom|Number=Sing	0	root	_	_
+3	элбэх	элбэх	ADJ	adj	_	2	amod	_	many
+4	дуо	дуо	PART	part	_	2	discourse	_	?
+5	?	?	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 451
 # text = Ити быраас кимий эмтиирий ?
@@ -2200,11 +2200,11 @@
 # text = Дьонуҥ киэһэ тугу гыналлар ?
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Дьонуҥ	дьон	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	_	_	_	person
-2	киэһэ	киэһэ	ADV	adv	_	_	_	_	tonight
-3	тугу	тугу	PRON	pron	PronType=Int	_	_	_	what
-4	гыналлар	гын	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	do
-5	?	?	PUNCT	punct	_	_	_	_	_
+1	Дьонуҥ	дьон	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	4	nsubj	_	person
+2	киэһэ	киэһэ	ADV	adv	_	4	advmod	_	tonight
+3	тугу	тугу	PRON	pron	PronType=Int	4	obj	_	what
+4	гыналлар	гын	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	do
+5	?	?	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 482
 # text = Ийэм ууну буочукаттан ылар
@@ -2230,11 +2230,11 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Эһиэхэ	эһиги	PRON	pron	Case=Dat|Number=Plur|Person=2|PronType=Prs	_	_	_	_
-2	кыра	кыра	ADJ	adj	_	_	_	_	little
-3	тоһоҕо	тоһоҕо	NOUN	n	Case=Nom|Number=Sing	_	_	_	nail
-4	баар	баар	AUX	aux	_	_	_	_	_
-5	дуо	дуо	PART	part	_	_	_	_	?
-6	?	?	PUNCT	punct	_	_	_	_	_
+2	кыра	кыра	ADJ	adj	_	3	amod	_	little
+3	тоһоҕо	тоһоҕо	NOUN	n	Case=Nom|Number=Sing	0	root	_	nail
+4	баар	баар	AUX	aux	_	3	aux	_	_
+5	дуо	дуо	PART	part	_	3	discourse	_	?
+6	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 485
 # text = Түннүгү аһымаҥ , ааны аһыҥ
