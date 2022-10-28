@@ -1129,10 +1129,10 @@
 # text = Бу куоска ууну иһэр
 # text_rus = Эта кошка пьет воду
 # text_eng = This cat is drinking water (Khatironov, )
-1	Бу	бу	DET	det	_	2	det	2:det	this
-2	куоска	куоска	NOUN	n	Case=Nom|Number=Sing	4	nsubj	4:nsubj	cat
-3	ууну	уу	NOUN	n	Case=Acc|Number=Sing	4	obj	4:obj	water
-4	иһэр	ис	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	0:root	drinks
+1	Бу	бу	DET	det	_	2	det	_	this
+2	куоска	куоска	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	cat
+3	ууну	уу	NOUN	n	Case=Acc|Number=Sing	4	obj	_	water
+4	иһэр	ис	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	drinks
 
 # sent_id = 131
 # text = Оҕолор , эмиэ аһааҥ !
@@ -1383,16 +1383,6 @@
 3	,	,	PUNCT	punct	_	1	punct	_	_
 4	тиис	тиис	NOUN	n	Case=Nom|Number=Sing	1	conj	_	teeth
 5	элбэх	элбэх	ADJ	adj	_	4	amod	_	many
-
-# sent_id = 178
-# text = Огурсуга ким уу кутта ?
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Огурсуга	огурсу	NOUN	n	Case=Dat|Number=Sing	4	obj	_	cucumber
-2	ким	ким	PRON	PRON	PronType=Int	4	nsubj	_	who
-3	уу	уу	NOUN	n	Case=Nom|Number=Sing	4	_	_	water
-4	кутта	кут	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	water
-5	?	?	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 182
 # text = Ыраас уу эмиэ дьэҥкир
@@ -2106,7 +2096,6 @@
 5	бииргэ	бииргэ	ADV	adv	_	6	advmod	_	together
 6	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	0	root	_	study
 
-
 # sent_id = 1762
 # text = Биир улахан ыраас хоско кыра остуоллар тураллар
 # text_rus = 
@@ -2558,16 +2547,6 @@
 4	уонна	уонна	CCONJ	cconj	_	5	cc	_	and
 5	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	3	conj	_	write
 
-# sent_id = 724
-# text = Биир хоско улахан остуол баар
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Биир	биир	NUM	num	NumType=Card	2	nummod	_	one
-2	хоско	хос	NOUN	n	Case=Dat|Number=Sing	_	_	_	room
-3	улахан	улахан	ADJ	adj	_	4	amod	_	big
-4	остуол	остуол	NOUN	n	Case=Nom|Number=Sing	0	root	_	table
-5	баар	баар	AUX	aux	_	4	aux	_	_
-
 # sent_id = 588
 # text = Бу дьон ханнык балыктыыллар ?
 # text_rus = 
@@ -2707,4 +2686,3 @@
 3	аҕата	аҕа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	father
 4	мас	мас	NOUN	n	Case=Nom|Number=Sing	5	nmod	_	wood
 5	ууһа	уус	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	master
-
