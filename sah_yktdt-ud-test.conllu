@@ -69,14 +69,14 @@
 5	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
 # sent_id = 9
-# text = Биир уол турар уонна ааҕар.
+# text = Биир уол турар уонна ааҕар
 # text_rus = Один мальчик стоит и читает.
 # text_eng = One boy is standing and reading.
 1	Биир	биир	NUM	num	NumType=Card	2	nummod	_	_
 2	уол	уол	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	_
 3	турар	тур	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	уонна	уонна	CCONJ	cconj	_	5	cc	_	_
-5	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	3	conj	_	SpaceAfter=No
+5	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	3	conj	_	_
 6	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 10
@@ -1827,16 +1827,6 @@
 4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 385
-# text = Биир уол турар уонна ааҕар
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Биир	биир	NUM	num	NumType=Card	2	nummod	_	one
-2	уол	уол	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	boy
-3	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
-4	уонна	уонна	CCONJ	cconj	_	5	cc	_	and
-5	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	3	conj	_	_
-
 # sent_id = 389
 # text = Киэһэ манна кэлбэккит дуо ?
 # text_rus = 
@@ -2520,16 +2510,6 @@
 4	онно	онно	ADV	adv	_	5	advmod	_	there
 5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	0	root	_	study
 
-# sent_id = 866
-# text = Бу оскуолаҕа элбэх киһи үөрэнэр
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Бу	бу	DET	det	_	2	det	_	this
-2	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	5	obl	_	school
-3	элбэх	элбэх	ADJ	adj	_	4	amod	_	many
-4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	man
-5	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
-
 # sent_id = 834
 # text = Биһиги киэһэ эмиэ балыктыахпыт
 # text_rus = 
@@ -2538,16 +2518,6 @@
 2	киэһэ	киэһэ	ADV	adv	_	4	advmod	_	tonight
 3	эмиэ	эмиэ	ADV	adv	_	4	advmod	_	too
 4	балыктыахпыт	балыктаа	VERB	v	Number=Plur|Person=1|Tense=Fut	0	root	_	fish
-
-# sent_id = 825
-# text = Биир паартаҕа икки киһи олорор
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Биир	биир	NUM	num	NumType=Card	2	nummod	_	one
-2	паартаҕа	паарта	NOUN	n	Case=Dat|Number=Sing	5	obl	_	table
-3	икки	икки	NUM	num	NumType=Card	4	nummod	_	two
-4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	man
-5	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	sit
 
 # sent_id = 820
 # text = Доҕорум убайа куоракка үөрэнэр
@@ -2597,15 +2567,6 @@
 3	улахан	улахан	ADJ	adj	_	4	amod	_	big
 4	остуол	остуол	NOUN	n	Case=Nom|Number=Sing	0	root	_	table
 5	баар	баар	AUX	aux	_	4	aux	_	_
-
-# sent_id = 590
-# text = Кылааска элбэх паарта турар
-# text_rus = 
-# text_eng = There are many desks in the classroom (Khatironov, )
-1	Кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	4	obl	_	classroom
-2	элбэх	элбэх	ADJ	adj	_	3	amod	_	many
-3	паарта	паарта	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	table
-4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	stand
 
 # sent_id = 588
 # text = Бу дьон ханнык балыктыыллар ?
@@ -2659,7 +2620,7 @@
 4	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	9	obj	_	book
 5	,	,	PUNCT	punct	_	4	punct	_	_
 6	тэтэрээти	тэтэрээт	NOUN	n	Case=Acc|Number=Sing	4	conj	_	notebook
-7	,	,	PUNCT	punct	_	_	_	_	_
+7	,	,	PUNCT	punct	_	8	punct	_	_
 8	харандааһы	харандаас	NOUN	n	Case=Acc|Number=Sing	4	conj	_	pencil
 9	биэрэллэр	биэр	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	give
 
