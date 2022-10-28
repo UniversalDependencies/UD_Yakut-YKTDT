@@ -2261,12 +2261,12 @@
 # text = Быраас эмиэ көрөр уонна рецепт суруйар
 # text_rus = 
 # text_eng = (Khatironov, )
-1	Быраас	быраас	NOUN	n	Case=Nom|Number=Sing	6	nsubj	_	doctor
-2	эмиэ	эмиэ	ADV	adv	_	6	advmod	_	too
-3	көрөр	көр	VERB	v	Number=Sing|Person=3|Tense=Pres	6	conj	_	look
-4	уонна	уонна	CCONJ	cconj	_	3	cc	_	and
+1	Быраас	быраас	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	doctor
+2	эмиэ	эмиэ	ADV	adv	_	3	advmod	_	too
+3	көрөр	көр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	look
+4	уонна	уонна	CCONJ	cconj	_	6	cc	_	and
 5	рецепт	рецепт	NOUN	n	Case=Nom|Number=Sing	6	obj	_	prescribtion
-6	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	write
+6	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	3	conj	_	write
 
 # sent_id = 1376
 # text = Мин биир атаһым убайа куоракка үөрэнэр
