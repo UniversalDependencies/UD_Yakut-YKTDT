@@ -1064,7 +1064,7 @@
 # text_rus = Сколько коров он доит ?
 # text_eng = (Khatironov, )
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	3sg
-2	хас	хас	PRON	pron	PronType=Int	3	nmod	_	howmuch
+2	хас	хас	NUM	num	NumType=Card|PronType=Int	3	nmod	_	howmuch
 3	ынаҕы	ынах	NOUN	n	Case=Acc|Number=Sing	4	obj	_	cow
 4	ыыр	ыа	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	tomilk
 5	?	?	PUNCT	punct	_	4	punct	_	_
@@ -1762,7 +1762,7 @@
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Манна	манна	ADV	adv	_	3	advmod	_	here
-2	хас	хас	PRON	pron	PronType=Int	3	nummod	_	howmuch
+2	хас	хас	NUM	num	NumType=Card|PronType=Int	3	nummod	_	howmuch
 3	тарбах	тарбах	NOUN	n	Case=Nom|Number=Sing	0	root	_	finger
 4	баарый	баар	AUX	aux	Int=Yes	3	aux	_	exist
 5	?	?	PUNCT	punct	_	3	punct	_	_
@@ -1808,15 +1808,6 @@
 4	барарый	бар	VERB	v	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	go
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 346
-# text = Мин убайым үчүгэй булчут
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
-2	убайым	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	olderbrother
-3	үчүгэй	үчүгэй	ADV	adv	_	4	nmod	_	good
-4	булчут	булчут	NOUN	n	Case=Nom|Number=Sing	_	_	_	hunter
-
 # sent_id = 347
 # text = Сайаана хотоҥҥо ынах ыыр
 # text_rus = 
@@ -1837,7 +1828,7 @@
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 385
-# text = Биир уол тураруонна ааҕар
+# text = Биир уол турар уонна ааҕар
 # text_rus = 
 # text_eng = (Khatironov, )
 1	Биир	биир	NUM	num	NumType=Card	2	nummod	_	one
