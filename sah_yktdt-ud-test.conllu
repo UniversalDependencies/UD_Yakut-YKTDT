@@ -695,16 +695,6 @@
 9	уу	уу	NOUN	n	Case=Nom|Number=Sing	10	obj	_	_
 10	кутта	кут	VERB	v	Number=Sing|Person=3|Tense=NearPast	3	conj	_	_
 
-# sent_id = 73
-# text = Сэлээппэ туох ынырыктаах буолуой ?
-# text_rus = Страшная ли шляпа?
-# text_eng = Is the hat scary? (The little prince, 10)
-1	Сэлээппэ	сэлээппэ	NOUN	n	Case=Nom|Number=Sing	0	root	_	hat
-2	туох	туох	PRON	pron	PronType=Int	3	obj	_	what
-3	ынырыктаах	ынырык	ADJ	adj	Poss=Yes	1	amod	_	horrible
-4	буолуой	буолуой	PART	part	_	2	cop	_	intens
-5	?	?	PUNCT	punct	_	3	punct	_	_
-
 # sent_id = 74
 # text = Дьонум миигин утарбыттара
 # text_rus = Мне возразили
@@ -865,15 +855,6 @@
 2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	person
 3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	2	nmod	_	_
 4	үлэлииллэр	үлэлээ	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	work
-
-# sent_id = 569
-# text = Бурдук быйыл үчүгэйдик үүнэ
-# text_rus = Зерно в этом году хорошо растет
-# text_eng = (Khatironov, )
-1	Бурдук	бурдук	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	grain
-2	быйыл	быйыл	ADV	adv	_	4	amod	_	thisyear
-3	үчүгэйдик	үчүгэй	ADV	adv	Advlz=Yes	4	amod	_	well
-4	үүнэ	үүн	VERB	v	Tense=Pres|VerbForm=Trans	0	root	_	growing
 
 # sent_id = 99
 # text = Олоҥхо — саха уус-уран айымньыта
