@@ -169,15 +169,6 @@
 3	эт	эт	NOUN	n	Case=Nom|Number=Sing	4	obj	_	meat
 4	атыыласта	атыылас	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	buy
 
-# sent_id = 19
-# text = Бу кыыл таба буолбатах
-# text_rus = Это животное не олень
-# text_eng = This animal is not a deer
-1	Бу	бу	DET	det	_	2	det	_	_
-2	кыыл	кыыл	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	_
-3	таба	таба	NOUN	n	Case=Nom|Number=Sing	0	root	_	_
-4	буолбатах	буол	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=PastResultI	3	cop	_	_
-
 # sent_id = 20
 # text = Мин кэллим
 # text_rus = Я пришел
@@ -255,11 +246,11 @@
 # text = Хойут бары аһыыллар уонна утуйаллар
 # text_rus = Все поздно едят и ложятся спать
 # text_eng = Everybody eats late and goes to sleep
-1	Хойут	хойут	ADV	adv	_	3	advmod	_	_
+1	Хойут	хойут	ADV	adv	_	3	advmod	_	later
 2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	3	nsubj	_	_
-3	аһыыллар	аһаа	VERB	vi	Number=Plur|Person=3|Tense=Pres	0	root	_	_
-4	уонна	уонна	CCONJ	cconj	_	5	cc	_	_
-5	утуйаллар	утуй	VERB	vi	Number=Plur|Person=3|Tense=Pres	3	conj	_	_
+3	аһыыллар	аһаа	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	eat
+4	уонна	уонна	CCONJ	cconj	_	5	cc	_	and
+5	утуйаллар	утуй	VERB	v	Number=Plur|Person=3|Tense=Pres	3	conj	_	sleep
 
 # sent_id = 28
 # text = Мин аатым Кэскил
@@ -445,13 +436,13 @@
 # sent_id = 51
 # text = Мин биир атаһым убайа куоракка үөрэнэр
 # text_rus = Один старший брат моего друга учится в городе
-# text_eng = One of my friend's older brother studies in the city (Kharitonov) 
-1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
-2	биир	биир	NUM	num	NumType=Card	4	nummod	_	_
-3	атаһым	атас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nmod	_	_
-4	убайа	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
-5	куоракка	куорат	NOUN	v	Case=Dat|Number=Sing	6	obl	_	_
-6	үөрэнэр	үөрэн	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+# text_eng = One of my friend's older brother studies in the city (Kharitonov, 24) 
+1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nmod	_	I
+2	биир	биир	NUM	num	NumType=Card	3	nummod	_	one
+3	атаһым	атас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nmod	_	myfriend
+4	убайа	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	oldbrother
+5	куоракка	куорат	NOUN	n	Case=Dat|Number=Sing	6	obl	_	city
+6	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	studies
 
 # sent_id = 52
 # text = Бастаан ыалдьар киһини карточкаҕа суруйаллар
@@ -2139,16 +2130,6 @@
 6	эмиэ	эмиэ	ADV	adv	_	7	advmod	_	too
 7	сиир	сиэ	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	eat
 
-# sent_id = 1583
-# text = Кыра оҕолор начальнай оскуолаҕа үөрэнэллэр
-# text_rus = 
-# text_eng = (Khatironov, )
-1	Кыра	кыра	ADJ	adj	_	2	amod	_	small
-2	оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	5	nsubj	_	children
-3	начальнай	начальнай	ADJ	adj	_	4	amod	_	primary
-4	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	5	obl	_	school
-5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	0	root	_	study
-
 # sent_id = 1550
 # text = Киэһээҥи оскуолаҕа улахан дьон үөрэнэллэр
 # text_rus = Взрослые учатся в вечерней школе
@@ -2228,17 +2209,6 @@
 5	рецепт	рецепт	NOUN	n	Case=Nom|Number=Sing	6	obj	_	prescribtion
 6	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	3	conj	_	write
 
-# sent_id = 1376
-# text = Мин биир атаһым убайа куоракка үөрэнэр
-# text_rus = 
-# text_eng = One of my friend's older brother studies in the city (Khatironov, 24)
-1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nmod	_	I
-2	биир	биир	NUM	num	NumType=Card	3	nummod	_	one
-3	атаһым	атас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nmod	_	myfriend
-4	убайа	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	oldbrother
-5	куоракка	куорат	NOUN	n	Case=Dat|Number=Sing	6	obl	_	city
-6	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	studies
-
 # sent_id = 1378
 # text = Утуйар хоско биир улахан дьааһык турар
 # text_rus = 
@@ -2301,16 +2271,6 @@
 3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
 4	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	5	obl	_	school
 5	үөрэнэбит	үөрэн	VERB	v	Number=Plur|Person=1|Tense=Pres	0	root	_	learn
-
-# sent_id = 1223
-# text = Хойут бары аһыыллар уонна утуйаллар
-# text_rus = 
-# text_eng = Then everyone eats and sleeps (Khatironov, )
-1	Хойут	хойут	ADV	adv	_	3	advmod	_	later
-2	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	3	nsubj	_	_
-3	аһыыллар	аһаа	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	eat
-4	уонна	уонна	CCONJ	cconj	_	5	cc	_	and
-5	утуйаллар	утуй	VERB	v	Number=Plur|Person=3|Tense=Pres	3	conj	_	sleep
 
 # sent_id = 1202
 # text = Быйыл кинилэр үчүгэйдик бултаатылар
