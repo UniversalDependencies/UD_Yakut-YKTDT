@@ -1743,7 +1743,7 @@
 # text_eng = (Khatironov, )
 1	Уонна	уонна	CCONJ	cconj	_	4	cc	_	and
 2	кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	3sg
-3	тугу	тугу	PRON	pron	PronType=Int	4	nsubj	_	what
+3	тугу	тугу	PRON	pron	PronType=Int	4	obj	_	what
 4	гынарый	гын	VERB	v	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	do
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
@@ -1784,7 +1784,7 @@
 # text_eng = (Khatironov, )
 1	Ол	ол	DET	pron	PronType=Dem	2	det	_	this
 2	аты	ат	NOUN	n	Case=Acc|Number=Sing	4	nsubj	_	horse
-3	тоҕо	тоҕо	ADV	pron	PronType=Int	4	advmod	_	why
+3	тоҕо	тоҕо	ADV	adv	_	4	advmod	_	why
 4	көлүйбэккит	көлүй	VERB	v	Number=Plur|Person=2|Polarity=Neg|Tense=Pres	0	root	_	yoke
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
@@ -1794,7 +1794,7 @@
 # text_eng = (Khatironov, )
 1	Кыра	кыра	ADJ	adj	_	2	amod	_	small
 2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	child
-3	ханна	ханна	ADV	pron	PronType=Int	4	advmod	_	where
+3	ханна	ханна	ADV	adv	_	4	advmod	_	where
 4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
@@ -1804,7 +1804,7 @@
 # text_eng = (Khatironov, )
 1	Уонна	уонна	CCONJ	cconj	_	4	cc	_	and
 2	кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	3sg
-3	ханна	ханна	ADV	pron	PronType=Int	4	advmod	_	where
+3	ханна	ханна	ADV	adv	_	4	advmod	_	where
 4	барарый	бар	VERB	v	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	go
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
@@ -1864,7 +1864,7 @@
 # text_eng = (Khatironov, )
 1	Улахан	улахан	ADJ	adj	_	2	amod	_	big
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
-3	ханна	ханна	ADV	pron	PronType=Int	4	advmod	_	where
+3	ханна	ханна	ADV	adv	_	4	advmod	_	where
 4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
@@ -1895,7 +1895,7 @@
 # text_eng = (Khatironov, )
 1	Эдэр	эдэр	ADJ	adj	_	2	amod	_	young
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
-3	ханна	ханна	ADV	pron	PronType=Int	4	advmod	_	where
+3	ханна	ханна	ADV	adv	_	4	advmod	_	where
 4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
@@ -2219,7 +2219,7 @@
 3	уонна	уонна	CCONJ	cconj	_	5	cc	_	and
 4	эдэр	эдэр	ADJ	adj	_	5	amod	_	young
 5	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	2	conj	_	man
-6	ханна	ханна	ADV	pron	PronType=Int	7	advmod	_	where
+6	ханна	ханна	ADV	adv	_	7	advmod	_	where
 7	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 8	?	?	PUNCT	punct	_	7	punct	_	_
 
@@ -2264,7 +2264,7 @@
 1	Быраас	быраас	NOUN	n	Case=Nom|Number=Sing	6	nsubj	_	doctor
 2	эмиэ	эмиэ	ADV	adv	_	6	advmod	_	too
 3	көрөр	көр	VERB	v	Number=Sing|Person=3|Tense=Pres	6	conj	_	look
-4	уонна	уонна	CCONJ	cconj	_	6	cc	_	and
+4	уонна	уонна	CCONJ	cconj	_	3	cc	_	and
 5	рецепт	рецепт	NOUN	n	Case=Nom|Number=Sing	6	obj	_	prescribtion
 6	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	write
 
@@ -2386,9 +2386,9 @@
 # text_rus = Черные вещи не подшивают белыми нитками
 # text_eng = (Khatironov, ) # таҥас-сап
 1	Хара	хара	ADJ	adj	_	2	amod	_	black
-2	таҥаһы	таҥас	NOUN	n	Case=Acc|Number=Sing	5	_	_	clothes
+2	таҥаһы	таҥас	NOUN	n	Case=Acc|Number=Sing	5	nsubj	_	clothes
 3	үрүҥ	үрүҥ	ADJ	adj	_	4	amod	_	white
-4	сабынан	сап	NOUN	n	Case=Ins|Number=Sing	_	_	_	thread
+4	сабынан	сап	NOUN	n	Case=Ins|Number=Sing	5	obj	_	thread
 5	тикпэттэр	тик	VERB	v	Number=Plur|Person=3|Polarity=Neg|Tense=Pres	0	root	_	sew
 
 # sent_id = 1079
@@ -2534,7 +2534,7 @@
 # text_eng = (Khatironov, )
 1	Ити	ити	DET	det	PronType=Dem	2	det	_	this
 2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	person
-3	тоҕо	тоҕо	ADV	pron	PronType=Int	5	advmod	_	why
+3	тоҕо	тоҕо	ADV	adv	_	5	advmod	_	why
 4	манна	манна	ADV	adv	_	5	advmod	_	here
 5	киирбэттэр	киир	VERB	v	Number=Plur|Person=3|Polarity=Neg|Tense=Pres	0	root	_	enter
 6	?	?	PUNCT	punct	_	5	punct	_	_
