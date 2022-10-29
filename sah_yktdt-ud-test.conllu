@@ -160,7 +160,7 @@
 3	суругу	сурук	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 4	ыытта	ыыт	VERB	vd	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
-# sent_id = 587
+# sent_id = 18
 # text = Ийэм баһаартан эт атыыласта
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -169,14 +169,14 @@
 3	эт	эт	NOUN	n	Case=Nom|Number=Sing	4	obj	_	meat
 4	атыыласта	атыылас	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	buy
 
-# sent_id = 20
+# sent_id = 19
 # text = Мин кэллим
 # text_rus = Я пришел
 # text_eng = I came
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	кэллим	кэл	VERB	vi	Number=Sing|Person=1|Tense=NearPast	0	root	_	_
 
-# sent_id = 21
+# sent_id = 20
 # text = Манна оҕолор олороллор
 # text_rus = Здесь учатся дети
 # text_eng = Children study here
@@ -184,7 +184,7 @@
 2	оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	3	nsubj	_	_
 3	олороллор	олор	VERB	vt	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 22
+# sent_id = 21
 # text = Түргэнник аһаама, бытааннык аһаа
 # text_rus = Не ешь быстро, ешь медленно
 # text_eng = Do not eat fast, eat slowly
@@ -194,7 +194,7 @@
 4	бытааннык	бытаан	ADV	adv	Advlz=Yes	5	advmod	_	_
 5	аһаа	аһаа	VERB	vi	Mood=Imp|Number=Sing|Person=2|Tense=Pres	2	parataxis	_	_
 
-# sent_id = 23
+# sent_id = 22
 # text = Илии тарбаҕа уһун уонна синньигэс, атах тарбаҕа кылгас уонна суон
 # text_rus = Пальцы рук длинные и тонкие, пальцы ног короткие и толстые
 # text_eng = The fingers of the hand are long and thin, the toes of the foot are short and thick
@@ -210,7 +210,7 @@
 10	уонна	уонна	CCONJ	cconj	_	11	cc	_	_
 11	суон	суон	ADJ	adj	_	9	conj	_	_
 
-# sent_id = 24
+# sent_id = 23
 # text = Мин илиим ыраас
 # text_rus = Мои руки чистые
 # text_eng = My hands are clean
@@ -218,7 +218,7 @@
 2	илиим	илии	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
 3	ыраас	ыраас	ADJ	adj	_	0	root	_	_
 
-# sent_id = 25
+# sent_id = 24
 # text = Ийэм кыра оҕоҕо кинигэ ааҕар
 # text_rus = Моя мама читает книгу маленьким детям
 # text_eng = My mother is reading a book to small children
@@ -228,7 +228,7 @@
 4	кинигэ	кинигэ	NOUN	n	Case=Nom|Number=Sing	5	obj	_	_
 5	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 26
+# sent_id = 25
 # text = Аҕам хаһыат ааҕар уонна кэпсиир, улахан дьон истэллэр
 # text_rus = Мой папа читает газету и рассказывает, взрослые слушают
 # text_eng = My father reads a newspaper and narrates, adults listen
@@ -242,7 +242,7 @@
 8	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	9	nsubj	_	_
 9	истэллэр	иһит	VERB	v	Number=Plur|Person=3|Tense=Pres	3	conj	_	_
 
-# sent_id = 27
+# sent_id = 26
 # text = Хойут бары аһыыллар уонна утуйаллар
 # text_rus = Все поздно едят и ложятся спать
 # text_eng = Everybody eats late and goes to sleep
@@ -252,7 +252,7 @@
 4	уонна	уонна	CCONJ	cconj	_	5	cc	_	and
 5	утуйаллар	утуй	VERB	v	Number=Plur|Person=3|Tense=Pres	3	conj	_	sleep
 
-# sent_id = 28
+# sent_id = 27
 # text = Мин аатым Кэскил
 # text_rus = Меня зовут Кэскил
 # text_eng = My name is Keskil
@@ -260,7 +260,7 @@
 2	аатым	аат	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
 3	Кэскил	кэскил	PROPN	propn	_	0	root	_	_
 
-# sent_id = 29
+# sent_id = 28
 # text = Ити уол эбэтэ ыалдьар
 # text_rus = Бабушка этого мальчика болеет
 # text_eng = This boy's grandmother is sick
@@ -269,14 +269,14 @@
 3	эбэтэ	эбэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 4	ыалдьар	ыарый	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 30
+# sent_id = 29
 # text = Аҕаҥ кэллэ
 # text_rus = Твой папа пришёл
 # text_eng = Your father came
 1	Аҕаҥ	аҕа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
 2	кэллэ	кэл	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
-# sent_id = 31
+# sent_id = 30
 # text = Быраатым уонна балтым үөрэнэллэр
 # text_rus = Мой младший брат и моя младшая сестра учатся
 # text_eng = My little brother and my little sister study
@@ -285,7 +285,7 @@
 3	балтым	балыс	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	conj	_	_
 4	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 32
+# sent_id = 31
 # text = Килиэптэ аҕалыахха наада
 # text_rus = Надо принести хлеба
 # text_eng = One has to bring some bread  (Johanson, Turkic, 2021, 824)
@@ -293,14 +293,14 @@
 2	аҕалыахха	аҕал	NOUN	n	Case=Dat|Nomzr=Action|Number=Sing	3	csubj	_	_
 3	наада	наада	ADV	adv	_	0	root	_	_
 
-# sent_id = 33
+# sent_id = 32
 # text = Петровка ыыттым
 # text_rus = Я отправил Петрову
 # text_eng = I sent it to Petrov (Johanson, Turkic, 2021, 840)
 1	Петровка	петров	PROPN	propn	Case=Dat	2	obj	_	_
 2	ыыттым	ыыт	VERB	vd	Number=Sing|Person=1|Tense=NearPast	0	root	_	_
 
-# sent_id = 34
+# sent_id = 33
 # text = Кини Дьокуускайга барда
 # text_rus = Он/она поехал в Якутск
 # text_eng = He/she went to Yakutsk (Johanson, Turkic, 2021, 840)
@@ -308,7 +308,7 @@
 2	Дьокуускайга	дьокуускай	PROPN	propn	Case=Dat	3	obl	_	_
 3	барда	бар	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
-# sent_id = 35
+# sent_id = 34
 # text = Дьокуускайга хаар түһэр
 # text_rus = В Якутске идёт снег
 # text_eng = Snow is falling in/on Yakutsk (Johanson, Turkic, 2021, 840)
@@ -316,7 +316,7 @@
 2	хаар	хаар	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	_
 3	түһэр	түс	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 36
+# sent_id = 35
 # text = Кини Москваҕа олорор
 # text_rus = Он/она живёт в Москве
 # text_eng = He/she lives in Moscow (Johanson, Turkic, 2021, 840)
@@ -324,7 +324,7 @@
 2	Москваҕа	москва	PROPN	propn	Case=Dat	3	obl	_	_
 3	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 37
+# sent_id = 36
 # text = Балык ууга үөскүүр
 # text_rus = Рыба водится в воде   #Dat.Loc
 # text_eng = The fish lives in the water (Johanson, Turkic, 2021, 840)
@@ -332,14 +332,14 @@
 2	ууга	уу	NOUN	n	Case=Dat|Number=Sing	3	obl	_	_
 3	үөскүүр	үөскээ	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 38
+# sent_id = 37
 # text = Ууга түспүтүм
 # text_rus = Я упал в воду
 # text_eng = I fell into the water (Johanson, Turkic, 2021, 840)
 1	Ууга	уу	NOUN	n	Case=Dat|Number=Sing	2	obl	_	_
 2	түспүтүм	түс	VERB	vi	Number=Sing|Person=1|Tense=PastPerf	0	root	_	_
 
-# sent_id = 39
+# sent_id = 38
 # text = Кини дьиэҕэ киирбитэ
 # text_rus = Он/она вош(ёл)ла в дом
 # text_eng = He/she entered the house (Johanson, Turkic, 2021, 840)
@@ -347,14 +347,14 @@
 2	дьиэҕэ	дьиэ	NOUN	n	Case=Dat|Number=Sing	3	obl	_	_
 3	киирбитэ	киир	VERB	vi	Number=Sing|Person=3|Tense=PastPerf	0	root	_	_
 
-# sent_id = 40
+# sent_id = 39
 # text = Оскуолаттан кэллэ
 # text_rus = Он/она приш(ёл)ла из школы
 # text_eng = He/she came from school (Johanson, Turkic, 2021, 842)
 1	Оскуолаттан	оскуола	NOUN	n	Case=Abl|Number=Sing	2	obl	_	_
 2	кэллэ	кэл	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
-# sent_id = 41
+# sent_id = 40
 # text = Үс километры бардыбыт
 # text_rus = Мы прошли три километра
 # text_eng = We walked three kilometers (Johanson, Turkic, 2021, 844)
@@ -362,7 +362,7 @@
 2	километры	километр	NOUN	n	Case=Acc|Number=Plur	3	obj	_	_
 3	бардыбыт	бар	VERB	vi	Number=Plur|Person=1|Tense=NearPast	0	root	_	_
 
-# sent_id = 42
+# sent_id = 41
 # text = Хахай эһэтээҕэр күүстээх
 # text_rus = Лев сильнее медведя
 # text_eng = A lion is stronger than a bear (Johanson, Turkic, 2021, 845)
@@ -370,7 +370,7 @@
 2	эһэтээҕэр	эһэ	NOUN	n	Case=Cmp|Number=Sing	3	obl	_	_
 3	күүстээх	күүстээх	ADJ	adj	_	0	root	_	_
 
-# sent_id = 43
+# sent_id = 42
 # text = үүтү биһиги ынахтан ылабыт
 # text_rus = Мы получаем молоко от коров
 # text_eng = Milk we get from cows (Johanson, Turkic, 2021, 948)
@@ -379,7 +379,7 @@
 3	ынахтан	ынах	NOUN	n	Case=Abl|Number=Sing	4	obl	_	_
 4	ылабыт	ыл	VERB	vi	Number=Plur|Person=1|Tense=Pres	0	root	_	_
 
-# sent_id = 44
+# sent_id = 43
 # text = Кини яблоко аһыыр
 # text_rus = Он/она ест яблоко
 # text_eng = He/she eats an apple
@@ -387,7 +387,7 @@
 2	яблоко	яблоко	NOUN	n	Case=Nom|Number=Sing	3	obj	_	_
 3	аһыыр	аһыы	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 45
+# sent_id = 44
 # text = Кини яблоконы аһыыр
 # text_rus = Он/она ест яблоко
 # text_eng = He/she eats the apple
@@ -395,7 +395,7 @@
 2	яблоконы	яблоко	NOUN	n	Case=Acc|Number=Sing	3	obj	_	_
 3	аһыыр	аһыы	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 46
+# sent_id = 45
 # text = Эн убайыҥ ханна үөрэнэрий?
 # text_rus = Где учится твой старший брат?
 # text_eng = Where does your older brother study? (Yakut manual, 22)
@@ -405,7 +405,7 @@
 4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 48
+# sent_id = 46
 # text = Кини доҕотторо нууччалар
 # text_rus = Его друзья русские
 # text_eng = His friends are Russians (Yakut manual, 24)
@@ -413,7 +413,7 @@
 2	доҕотторо	доҕор	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	нууччалар	нуучча	NOUN	n	Case=Nom|Number=Plur	0	root	_	_
 
-# sent_id = 49
+# sent_id = 47
 # text = Мин кулгааҕым ыалдьыбат, баһым ыалдьар
 # text_rus = Мой глаз не болит, моя голова болит
 # text_eng = My eye does not hurt, my head hurts (Yakut manual, 26)
@@ -424,7 +424,7 @@
 5	баһым	бас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
 6	ыалдьар	ыарый	VERB	vi	Number=Sing|Person=3|Tense=Pres	3	parataxis	_	_
 
-# sent_id = 50
+# sent_id = 48
 # text = Ханнык дьиэҕэ киирдэ?
 # text_rus = В который дом он вошёл?
 # text_eng = Which house did he enter?
@@ -433,7 +433,7 @@
 3	киирдэ	киир	VERB	vi	Number=Sing|Person=3|Tense=NearPast	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 51
+# sent_id = 49
 # text = Мин биир атаһым убайа куоракка үөрэнэр
 # text_rus = Один старший брат моего друга учится в городе
 # text_eng = One of my friend's older brother studies in the city (Kharitonov, 24) 
@@ -444,7 +444,7 @@
 5	куоракка	куорат	NOUN	n	Case=Dat|Number=Sing	6	obl	_	city
 6	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	studies
 
-# sent_id = 52
+# sent_id = 50
 # text = Бастаан ыалдьар киһини карточкаҕа суруйаллар
 # text_rus = Сначала они записывают пациентов в карту
 # text_eng = At the beginning they write the patients[' names] on a card (Kharitonov) 
@@ -454,7 +454,7 @@
 4	карточкаҕа	карточка	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
 5	суруйаллар	суруй	VERB	vt	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 53
+# sent_id = 51
 # text = Онтон карточканы бырааска биэрэллэр
 # text_rus = Затем они дают карту врачу
 # text_eng = Then they give the card to a doctor  (Kharitonov) 
@@ -463,7 +463,7 @@
 3	бырааска	быраас	NOUN	n	Case=Dat|Number=Sing	4	obl	_	_
 4	биэрэллэр	биэр	VERB	vd	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 54
+# sent_id = 52
 # text = Быраас ыалдьар дьону уочаратынан ыҥырар
 # text_rus = Врач приглашает пациентов в очередь 
 # text_eng = A doctor invites patients to the line (Kharitonov) 
@@ -473,7 +473,7 @@
 4	уочаратынан	уочарат	NOUN	n	Case=Ins|Number=Sing	5	obl	_	_
 5	ыҥырар	ыҥыр	VERB	vd	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 55
+# sent_id = 53
 # text = Кини ыалдьар киһини көрөр, истэр уонна киниэхэ эми суруйар
 # text_rus = Он смотрит на пациента, слушает и выписывает ему лекарство
 # text_eng = He looks at the patinet, listens, and writes him [the name of] the medicine  (Kharitonov) 
@@ -488,7 +488,7 @@
 9	эми	эмп	NOUN	n	Case=Acc|Number=Sing	10	obj	_	_
 10	суруйар	суруй	VERB	vt	Number=Sing|Person=3|Tense=Pres	4	conj	_	_
 
-# sent_id = 56
+# sent_id = 54
 # text = Олоппосторго дьоннор олороллор
 # text_rus = На стульях сидят люди
 # text_eng = People sit on chairs  (Kharitonov) 
@@ -496,7 +496,7 @@
 2	дьоннор	дьон	NOUN	n	Case=Nom|Number=Plur	3	nsubj	_	_
 3	олороллор	олор	VERB	vt	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 57
+# sent_id = 55
 # text = Саахары, арыыны аҕалла уонна килиэп быста
 # text_rus = X принес(ла) сахар, масло и нарезал(а) хлеб
 # text_eng = X brought the sugar, the butter, and cut the bread  (Kharitonov)
@@ -508,7 +508,7 @@
 6	килиэп	килиэп	NOUN	n	Case=Nom|Number=Sing	7	obj	_	_
 7	быста	быс	VERB	vt	Number=Sing|Person=3|Tense=NearPast	4	conj	_	_
 
-# sent_id = 58
+# sent_id = 56
 # text = Сардана, буулката аҕал, өссө килиэптэ быс
 # text_rus = Сардана, принеси булку и порежь хлеба
 # text_eng = Sardana, bring a breadroll, also cut some more bread  (Kharitonov)
@@ -521,7 +521,7 @@
 7	килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	8	obj	_	_
 8	быс	быс	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	4	conj	_	_
 
-# sent_id = 59
+# sent_id = 57
 # text = Кэскилга чэйдэ кут!
 # text_rus = Налей Кэскилу чаю!
 # text_eng = Pour some tea for Keskil!  (Kharitonov)
@@ -530,7 +530,7 @@
 3	кут	кут	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 60
+# sent_id = 58
 # text = Кэскил элбэхтик аһаата, улаханнык тотто
 # text_rus = Кэскил много съел, наелся досыта
 # text_eng = Kaskil ate a lot, he was full  (Kharitonov)
@@ -541,7 +541,7 @@
 5	улаханнык	улахан	ADV	adv	Advlz=Yes	6	advmod	_	_
 6	тотто	тот	VERB	vi	Number=Sing|Person=3|Tense=NearPast	3	parataxis	_	_
 
-# sent_id = 61
+# sent_id = 59
 # text = Кэл , сүөгэйдэ ис , күөрчэхтэ сиэ !
 # text_rus = 
 # text_eng = Come, drink some cream, eat some sbiten! (Kharitonov)
@@ -554,7 +554,7 @@
 7	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	1	conj	_	_
 8	!	!	PUNCT	punct	_	1	punct	_	_
 
-# sent_id = 62
+# sent_id = 60
 # text = Үрүҥ килиэби быһыма , хара килиэптэ быс
 # text_rus = 
 # text_eng = Do not cut the white bread, cut some of the black bread (Kharitonov)
@@ -566,7 +566,7 @@
 6	килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	7	obj	_	_
 7	быс	быс	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	3	conj	_	_
 
-# sent_id = 63
+# sent_id = 61
 # text = Ити уолга харандааста биэр
 # text_rus = 
 # text_eng = Give a pencil (any pencil) to that boy (Kharitonov)
@@ -575,7 +575,7 @@
 3	харандааста	харандаас	NOUN	n	Case=Par|Number=Sing	4	obj	_	_
 4	биэр	биэр	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	_
 
-# sent_id = 64
+# sent_id = 62
 # text = Сорохтор муостаны сууйуҥ , сорохтор паартата , остуолла сотуҥ , сорохтор ааннары , ыскааптары сууйуҥ
 # text_rus = 
 # text_eng = Clean some floors, wipe some benches and tables, clean some doors and closets. (Kharitonov)
@@ -595,7 +595,7 @@
 14	ыскааптары	ыскаап	NOUN	n	Case=Acc|Number=Plur	15	obj	_	_
 15	сууйуҥ	сууй	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	3	conj	_	wash
 
-# sent_id = 65
+# sent_id = 63
 # text = Уҥуоҕа суох уонна эмис эт бу баар
 # text_rus = 
 # text_eng = This is boneless and fat meat (Kharitonov)
@@ -607,7 +607,7 @@
 6	бу	бу	DET	det	_	5	det	_	_
 7	баар	баар	AUX	aux	_	5	cop	_	_
 
-# sent_id = 66
+# sent_id = 64
 # text = Биһиги иһиппит элбэх
 # text_rus = У нас много посуды
 # text_eng = We have a lot of dishware (Kharitonov)
@@ -615,7 +615,7 @@
 2	иһиппит	иһит	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	3	nsubj	_	_
 3	элбэх	элбэх	ADJ	adj	_	0	root	_	_
 
-# sent_id = 67
+# sent_id = 65
 # text = Сорох иһити чэйгэ туруораллар , сорох иһити эбиэккэ туруораллар
 # text_rus = 
 # text_eng = Place some tea set, put some lunch set ??? (Kharitonov)
@@ -629,7 +629,7 @@
 8	эбиэккэ	эбиэт	NOUN	n	Case=Dat|Number=Sing	7	compound	_	_
 9	туруораллар	туруор	VERB	v	Number=Plur|Person=3|Tense=Pres	4	ccomp	_	_
 
-# sent_id = 68
+# sent_id = 66
 # text = Биһиэхэ биир улахан алтан сылабаар баар
 # text_rus = У нас есть большой медный самовар
 # text_eng =  We have one big copper samovar (Kharitonov)
@@ -640,7 +640,7 @@
 5	сылабаар	сылабаар	NOUN	n	Case=Nom|Number=Sing	0	root	_	_
 6	баар	баар	AUX	aux	_	5	aux	_	_
 
-# sent_id = 69
+# sent_id = 67
 # text = Кини түргэнник оргуйар , үчүгэй сылабаар
 # text_rus = 
 # text_eng = It boils quickly, it is a good samovar (Kharitonov)
@@ -651,7 +651,7 @@
 5	үчүгэй	үчүгэй	ADV	adv	_	6	advmod	_	_
 6	сылабаар	сылабаар	NOUN	n	Case=Nom|Number=Sing	3	obj	_	_
 
-# sent_id = 70
+# sent_id = 68
 # text = Кыра үрүҥ чаанньыгы сылабаарга туруораллар
 # text_rus = 
 # text_eng = The small teapot for boiling water is placed on the samovar (Kharitonov)
@@ -661,7 +661,7 @@
 4	сылабаарга	сылабаар	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
 5	туруораллар	туруор	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 71
+# sent_id = 69
 # text = Кини куукунаҕа бастаан билиидэни отунна
 # text_rus = 
 # text_eng = First she heated the stove in the kitchen (Kharitonov)
@@ -671,7 +671,7 @@
 4	билиидэни	билиидэ	NOUN	n	Case=Acc|Number=Sing	5	obj	_	_
 5	отунна	отун	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	_
 
-# sent_id = 72
+# sent_id = 70
 # text = Онтон хомуоһу ылла уонна муннукка турар буочукаттан биэдэрэҕэ уу кутта
 # text_rus = 
 # text_eng = Then she took the ladle and poured water into the pail from the barrel standing in the corner (Kharitonov)
@@ -686,7 +686,7 @@
 9	уу	уу	NOUN	n	Case=Nom|Number=Sing	10	obj	_	_
 10	кутта	кут	VERB	v	Number=Sing|Person=3|Tense=NearPast	3	conj	_	_
 
-# sent_id = 74
+# sent_id = 71
 # text = Дьонум миигин утарбыттара
 # text_rus = Мне возразили
 # text_eng = They objected me (The little prince, 10)  # Преждепрошедшее
@@ -694,7 +694,7 @@
 2	миигин	мин	PRON	pron	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
 3	утарбыттара	утар	VERB	v	Number=Plur|Person=3|Tense=PastPerf	0	root	_	_
 
-# sent_id = 76
+# sent_id = 72
 # text = Ол солуону ыйыстыбыт моҕой
 # text_rus = Это был удав, который проглотил слона
 # text_eng = It was a boa constrictor that swallowed an elephant (The little prince, 10) # Прошедшее результативное
@@ -703,7 +703,7 @@
 3	ыйыстыбыт	ыйыһын	VERB	v	Number=Sing|Person=3|Tense=PastResultI	0	root	_	eat
 4	моҕой	моҕой	NOUN	n	Case=Nom|Number=Sing	3	obj	_	snake
 
-# sent_id = 79
+# sent_id = 73
 # text = Күн сирин барытын кэриэтэ тилийэ көппүтүм
 # text_rus = Облетел я чуть ли не весь свет
 # text_eng = I flew around almost the whole world (The little prince, 10) #
@@ -714,7 +714,7 @@
 5	тилийэ	тилийэ	ADV	adv	_	6	advmod	_	withoutstopping
 6	көппүтүм	көт	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	root	_	fly
 
-# sent_id = 2102
+# sent_id = 74
 # text = Маша саламаатта сиэтин
 # text_rus = 
 # text_eng = ´Have Masha eat some porridge’ (Baker, M., & Vinokurova, N. (2021), 4b)
@@ -722,7 +722,7 @@
 2	саламаатта	саламаат	NOUN	n	Case=Par|Number=Sing	3	obj	_	porridge
 3	сиэтин	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=3|Tense=Pres	0	root	_	eat
 
-# sent_id = 81
+# sent_id = 75
 # text = Өр улахан дьон ортотугар олорбутум
 # text_rus = Я долго жил среди взрослых
 # text_eng = I lived long amond people (The little prince, 10) #
@@ -732,7 +732,7 @@
 4	ортотугар	ортотугар	ADP	adp	_	3	case	_	among
 5	олорбутум	олор	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	root	_	live
 
-# sent_id = 82
+# sent_id = 76
 # text = Кинилэри үчүгэйдик көрбүтүм билбитим
 # text_rus = Я видел их совсем близко
 # text_eng = I saw them very close (The little prince, 11) #
@@ -741,7 +741,7 @@
 3	көрбүтүм	көр	VERB	v	Number=Sing|Person=1|Tense=PastPerf	4	compound	_	see
 4	билбитим	бил	VERB	v	Number=Sing|Person=1|Tense=PastPerf	0	root	_	know
 
-# sent_id = 575
+# sent_id = 77
 # text = Мин онус кылааска үөрэнэбин
 # text_rus = Я учусь в 10 классе
 # text_eng = (Khatironov, )
@@ -750,7 +750,7 @@
 3	кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	4	obl	_	classroom
 4	үөрэнэбин	үөрэн	VERB	v	Number=Sing|Person=1|Tense=Pres	0	root	_	study
 
-# sent_id = 580
+# sent_id = 78
 # text = Оскуола дьиэтэ ханна баарый ?
 # text_rus = Где находится здание школы? 
 # text_eng = (Khatironov, )
@@ -760,7 +760,7 @@
 4	баарый	баар	AUX	aux	Int=Yes	3	cop	_	exist
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 585
+# sent_id = 79
 # text = Эн тыс этэрбэһи кэтэҕин дуо ?
 # text_rus = Ты носишь унты?
 # text_eng = (Khatironov, )
@@ -771,7 +771,7 @@
 5	дуо	дуо	PART	part	_	4	discourse	_	?
 6	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 87
+# sent_id = 80
 # text = Онно мин буруйум суох
 # text_rus = Это не моя вина
 # text_eng = It's not my fault (The little prince, 12) #
@@ -780,7 +780,7 @@
 3	буруйум	буруй	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	fault
 4	суох	суох	AUX	aux	_	3	cop	_	isno
 
-# sent_id = 88
+# sent_id = 81
 # text = Аҕата төһө хамнаһы өлөрөр ?
 # text_rus = Сколько зарабатывает его отец ?
 # text_eng = How much does his father earn ?(The little prince, 20) #
@@ -790,7 +790,7 @@
 4	өлөрөр	өлөр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	earn
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 89
+# sent_id = 82
 # text = Онуоха кини симиктик эрээри , оттомноохтук хат көрдөстө
 # text_rus = Он опять попросил тихо и серьёзно
 # text_eng = He asked again quietly and seriously (The little prince, 12) #
@@ -803,7 +803,7 @@
 7	хат	хат	ADV	adv	_	8	advmod	_	again
 8	көрдөстө	көрдөс	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	request
 
-# sent_id = 90
+# sent_id = 83
 # text = Син биир хойчоонно уруһуйдаа
 # text_rus = Ладно, нарисуй одного барашка 
 # text_eng = Okay, draw one lamb (The little prince, 14) #
@@ -812,7 +812,7 @@
 3	хойчоонно	хойчоонно	NOUN	n	Case=Nom|Number=Sing	4	obj	_	ram
 4	уруһуйдаа	уруһуйдаа	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	paint
 
-# sent_id = 94
+# sent_id = 84
 # text = Оччоҕо эн халлаантан сууллубутуҥ дуо ?
 # text_rus = Ты упал с неба?
 # text_eng = Did you fall from the sky? # (The little prince, 15) #
@@ -823,7 +823,7 @@
 5	дуо	дуо	PART	part	_	4	discourse	_	_
 6	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 96
+# sent_id = 85
 # text = Коперник сүрүн уонна соҕотох кэриэтэ айымньыта - Халлаан эргимтэлэрин хамсааһына
 # text_rus = Главное и почти единственное произведение Коперника называется "О вращении небесных сфер"
 # text_eng = The main and practically the only work of Copernicus is "On the Revolutions of the Celestial Spheres" # (Sakha wiki, Николай_Коперник) #
@@ -838,7 +838,7 @@
 9	эргимтэлэрин	эргимтэ	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	10	nmod	_	sphere
 10	хамсааһына	хамсааһын	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	appos	_	movement
 
-# sent_id = 568
+# sent_id = 86
 # text = Улахан дьон бары үлэлииллэр
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -847,7 +847,7 @@
 3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	2	nmod	_	_
 4	үлэлииллэр	үлэлээ	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	work
 
-# sent_id = 99
+# sent_id = 87
 # text = Олоҥхо — саха уус-уран айымньыта
 # text_rus = Олонхо — Якутское художественное творчество
 # text_eng = Olonkho — Yakut artistic creativity # (Sakha wiki, Олоҥхо) #
@@ -859,7 +859,7 @@
 5	уран	уран	ADJ	adj	_	4	compound	_	exquisite
 6	айымньыта	айымньы	NOUN	n	Case=Par|Number=Sing	0	root	_	creation
 
-# sent_id = 100
+# sent_id = 88
 # text = Мэ , маны ыл
 # text_rus = Иди сюда, возьми это
 # text_eng = Come, take this (Khatironov, )
@@ -868,7 +868,7 @@
 3	маны	бу	DET	DemPron	Case=Acc	4	obj	_	this
 4	ыл	ыл	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	take
 
-# sent_id = 102
+# sent_id = 89
 # text = Бар , көр эрэ
 # text_rus = Подойди, смотри-ка
 # text_eng = Come, take a look (Khatironov, )
@@ -877,7 +877,7 @@
 3	көр	көр	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	1	parataxis	_	look
 4	эрэ	эрэ	PART	part	_	3	discourse	_	ка
 
-# sent_id = 104
+# sent_id = 90
 # text = Мэ , бу үүтү ис !
 # text_rus = Иди сюда, выпей этого молока
 # text_eng = Come, drink this milk (Khatironov, )
@@ -888,7 +888,7 @@
 5	ис	ис	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	drink
 6	!	!	PUNCT	punct	_	5	punct	_	_
 
-# sent_id = 105
+# sent_id = 91
 # text = Эмис эт бу баар
 # text_rus = Это мясо жирное
 # text_eng =  (Khatironov, )
@@ -897,7 +897,7 @@
 3	бу	бу	DET	det	_	2	det	_	this
 4	баар	баар	AUX	aux	_	2	aux	_	exist
 
-# sent_id = 106
+# sent_id = 92
 # text = Айаана , эн аах
 # text_rus = Айаана, читай
 # text_eng = Айаана, read (Khatironov, )
@@ -906,7 +906,7 @@
 3	эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	you
 4	аах	аах	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	read
 
-# sent_id = 108
+# sent_id = 93
 # text = Бу бэрт бөҕө быа
 # text_rus = Это очень прочная верёвка
 # text_eng = This is a very strong rope (Khatironov, )
@@ -915,7 +915,7 @@
 3	бөҕө	бөҕө	ADJ	adj	_	4	amod	_	strong
 4	быа	быа	NOUN	n	Case=Nom|Number=Sing	0	root	_	rope
 
-# sent_id = 109
+# sent_id = 94
 # text = Эһээ , эн кэпсээ !
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -925,7 +925,7 @@
 4	кэпсээ	кэпсээ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	tell
 5	!	!	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 110
+# sent_id = 95
 # text = Кэл , манна олор !
 # text_rus = Иди, сядь здесь
 # text_eng = Come, sit here (Khatironov, )
@@ -935,7 +935,7 @@
 4	олор	олор	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	1	parataxis	_	sit
 5	!	!	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 111
+# sent_id = 96
 # text = Ити ыт тугу үрэр ?
 # text_rus = На что лает эта собака ?
 # text_eng = What is this dog barking at ? (Khatironov, )
@@ -945,7 +945,7 @@
 4	үрэр	үр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	bark
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 112
+# sent_id = 97
 # text = Атын эт баар дуо ?
 # text_rus = У вас есть другое мясо ?
 # text_eng = Do you have other meat ? (Khatironov, )
@@ -955,7 +955,7 @@
 4	дуо	дуо	PART	part	_	2	discourse	_	?
 5	?	?	PUNCT	punct	_	2	punct	_	_
 
-# sent_id = 113
+# sent_id = 98
 # text = Аа , Кэскил кэллэ !
 # text_rus = Смотри , Кэскил пришел !
 # text_eng = Look, Кэскил came (Khatironov, )
@@ -965,7 +965,7 @@
 4	кэллэ	кэл	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	came
 5	!	!	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 114
+# sent_id = 99
 # text = Кэскил , онно тур
 # text_rus = Кэскил, встань туда
 # text_eng = Кэскил, stand there (Khatironov, )
@@ -974,7 +974,7 @@
 3	онно	онно	ADV	adv	_	4	advmod	_	there
 4	тур	тур	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	stand
 
-# sent_id = 115
+# sent_id = 100
 # text = Бу саа үчүгэй дуо ?
 # text_rus = Это хорошее ружье ?
 # text_eng = Is it a good gun ?(Khatironov, )
@@ -984,7 +984,7 @@
 4	дуо	дуо	PART	part	_	2	discourse	_	?
 5	?	?	PUNCT	punct	_	2	punct	_	_
 
-# sent_id = 116
+# sent_id = 101
 # text = Эн илииҥ тоҥор дуо ?
 # text_rus = У тебя замёрзли руки ?
 # text_eng = Are your hands cold ?(Khatironov, )
@@ -994,7 +994,7 @@
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 117
+# sent_id = 102
 # text = Бу эт уҥуоҕа элбэх
 # text_rus = В этом мясе много костей
 # text_eng = This meat has many bones (Khatironov, )
@@ -1003,7 +1003,7 @@
 3	уҥуоҕа	уҥуох	NOUN	n	Case=Dat|Number=Sing	2	nmod	_	bone
 4	элбэх	элбэх	ADJ	adj	_	3	amod	_	many
 
-# sent_id = 118
+# sent_id = 103
 # text = Эн ити хаҥкыны кэт
 # text_rus = Надень эти коньки
 # text_eng = Put these skates on (Khatironov, )
@@ -1012,7 +1012,7 @@
 3	хаҥкыны	хаҥкы	NOUN	n	Case=Acc|Number=Sing	4	obj	_	iceskates
 4	кэт	кэт	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	wear
 
-# sent_id = 119
+# sent_id = 104
 # text = Ити суораты эн сиэ
 # text_rus = Ешь суорат
 # text_eng = Eat this sour milk (Khatironov, )
@@ -1021,7 +1021,7 @@
 3	эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	you
 4	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	сиэ
 
-# sent_id = 120
+# sent_id = 105
 # text = Кини хас ынаҕы ыыр ?
 # text_rus = Сколько коров он доит ?
 # text_eng = (Khatironov, )
@@ -1031,7 +1031,7 @@
 4	ыыр	ыа	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	tomilk
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 122
+# sent_id = 106
 # text = Эн ынаҕы ыыгын дуо ?
 # text_rus = Ты - дояр(ка) ?
 # text_eng = Are you a milk maid ?(Khatironov, )
@@ -1041,7 +1041,7 @@
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 123
+# sent_id = 107
 # text = Түүн кус кэлэр дуо ?
 # text_rus = Утка приходит ночью ?
 # text_eng = Does a duck come at night ?(Khatironov, )
@@ -1051,7 +1051,7 @@
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 125
+# sent_id = 108
 # text = Кымыс эмиэ үрүҥ ас
 # text_rus = Кумыс - это тоже молочный продукт
 # text_eng = Kumis is also a dairy product (Khatironov, )
@@ -1060,7 +1060,7 @@
 3	үрүҥ	үрүҥ	ADJ	adj	_	4	amod	_	white
 4	ас	ас	NOUN	n	Case=Nom|Number=Sing	0	root	_	food3-4dairy
 
-# sent_id = 126
+# sent_id = 109
 # text = Ити ыт киһини үрэр
 # text_rus = Эта собака лает на людей
 # text_eng = This dog barks at people (Khatironov, )
@@ -1069,7 +1069,7 @@
 3	киһини	киһи	NOUN	n	Case=Acc|Number=Sing	4	obl	_	person
 4	үрэр	үр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	bark
 
-# sent_id = 127
+# sent_id = 110
 # text = Бу сыаны туспа ыйаа
 # text_rus = Взвесьте это сало отдельно
 # text_eng = Scale this fat separately(Khatironov, )
@@ -1078,7 +1078,7 @@
 3	туспа	туспа	ADV	adv	_	4	advmod	_	_
 4	ыйаа	ыйаа	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	scale
 
-# sent_id = 129
+# sent_id = 111
 # text = Бу тоһоҕо олус кыра
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1087,7 +1087,7 @@
 3	олус	олус	ADV	adv	_	4	advmod	_	very
 4	кыра	кыра	ADJ	adj	_	2	amod	_	small
 
-# sent_id = 130
+# sent_id = 112
 # text = Бу куоска ууну иһэр
 # text_rus = Эта кошка пьет воду
 # text_eng = This cat is drinking water (Khatironov, )
@@ -1096,7 +1096,7 @@
 3	ууну	уу	NOUN	n	Case=Acc|Number=Sing	4	obj	_	water
 4	иһэр	ис	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	drinks
 
-# sent_id = 131
+# sent_id = 113
 # text = Оҕолор , эмиэ аһааҥ !
 # text_rus = Дети, кушайте ещё !
 # text_eng = Childen, eat more !(Khatironov, )
@@ -1106,7 +1106,7 @@
 4	аһааҥ	аһаа	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	eat
 5	!	!	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 133
+# sent_id = 114
 # text = Ааны сабымаҥ , аһыҥ
 # text_rus = Не закрывайте дверь, откройте
 # text_eng = Do not close the door, open (it) .(Khatironov, )
@@ -1115,7 +1115,7 @@
 3	,	,	PUNCT	punct	_	2	punct	_	_
 4	аһыҥ	ас	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	2	conj	_	open
 
-# sent_id = 135
+# sent_id = 115
 # text = Эн эһэҥ үөрэнэр дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1125,7 +1125,7 @@
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 136
+# sent_id = 116
 # text = Эһэм ити сону кэтэр
 # text_rus = Мой дедушка носит это пальто
 # text_eng = My grandfather wears this coat . (Khatironov, )
@@ -1134,7 +1134,7 @@
 3	сону	сон	NOUN	n	Case=Acc|Number=Sing	4	obj	_	coat
 4	кэтэр	кэт	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	wear
 
-# sent_id = 137
+# sent_id = 117
 # text = Ити киһи эрдэ турар
 # text_rus = Этот человек рано встаёт
 # text_eng = This man wakes up early (Khatironov, )
@@ -1143,7 +1143,7 @@
 3	эрдэ	эрдэ	ADV	adv	_	4	advmod	_	early
 4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	stand
 
-# sent_id = 138
+# sent_id = 118
 # text = Кыра кыыс тугу эттэ ?
 # text_rus = Что сказала маленькая девочка ? 
 # text_eng = What did a little girl say ? (Khatironov, )
@@ -1153,7 +1153,7 @@
 4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	say
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 139
+# sent_id = 119
 # text = Онно киһи тугу эттэ ?
 # text_rus = 
 # text_eng = What did a man say there ? (Khatironov, )
@@ -1163,7 +1163,7 @@
 4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	say
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 142
+# sent_id = 120
 # text = Бүгүн уу тымныы дуо ?
 # text_rus = 
 # text_eng = Is water cold today ? (Khatironov, )
@@ -1173,7 +1173,7 @@
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	2	punct	_	_
 
-# sent_id = 143
+# sent_id = 121
 # text = Ити кыыс тугу гынар ?
 # text_rus = 
 # text_eng = What is this girl doing ?(Khatironov, )
@@ -1183,7 +1183,7 @@
 4	гынар	гын	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	do
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 146
+# sent_id = 122
 # text = Уонна өссө тугу ылла ?
 # text_rus = 
 # text_eng = And what else he took?(Khatironov, )
@@ -1193,7 +1193,7 @@
 4	ылла	ыл	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	take
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 147
+# sent_id = 123
 # text = Эн баһыҥ ыалдьар дуо ?
 # text_rus = 
 # text_eng = Do you have a headache? (Khatironov, )
@@ -1203,7 +1203,7 @@
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 150
+# sent_id = 124
 # text = Онон кини тугу гынар ?
 # text_rus = 
 # text_eng = So, what does he do ?(Khatironov, )
@@ -1213,7 +1213,7 @@
 4	гынар	гын	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	do
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 151
+# sent_id = 125
 # text = Миэхэ эмис эттэ аҕал
 # text_rus = 
 # text_eng = Bring me some fat meat (Khatironov, )
@@ -1222,7 +1222,7 @@
 3	эттэ	эт	NOUN	n	Case=Par|Number=Sing	4	obj	_	meat
 4	аҕал	аҕал	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	givebring
 
-# sent_id = 153
+# sent_id = 126
 # text = Ити дьиэ олус тымныы
 # text_rus = 
 # text_eng = It's quite cold in this house (Khatironov, )
@@ -1231,7 +1231,7 @@
 3	олус	олус	ADV	adv	_	4	advmod	_	quite
 4	тымныы	тымныы	ADJ	adj	_	2	amod	_	cold
 
-# sent_id = 156
+# sent_id = 127
 # text = Бу муҥхаҕыт саҥа дуо ?
 # text_rus = 
 # text_eng = Is this fishnet new? (Khatironov, )
@@ -1241,7 +1241,7 @@
 4	дуо	дуо	PART	part	_	2	discourse	_	?
 5	?	?	PUNCT	punct	_	2	punct	_	_
 
-# sent_id = 159
+# sent_id = 128
 # text = Кэскил сону ылла дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1251,7 +1251,7 @@
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 161
+# sent_id = 129
 # text = Уол убайа тугу гынар ?
 # text_rus = Что делает старший брат мальчика ?
 # text_eng = What does boy's older brother do ? (Khatironov, )
@@ -1261,7 +1261,7 @@
 4	гынар	гын	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	do
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 162
+# sent_id = 130
 # text = Ийэҥ туохха уу кутта ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1271,7 +1271,7 @@
 4	кутта	кут	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	pour
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 163
+# sent_id = 131
 # text = Ууга элбэх кус устар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1280,7 +1280,7 @@
 3	кус	кус	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	duck
 4	устар	уст	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	swim
 
-# sent_id = 164
+# sent_id = 132
 # text = Бу сир чиэрбэтэ суох
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1289,7 +1289,7 @@
 3	чиэрбэтэ	чиэрбэ	NOUN	n	Case=Par|Number=Sing	0	root	_	worm
 4	суох	суох	AUX	aux	_	3	aux	_	thereisno
 
-# sent_id = 166
+# sent_id = 133
 # text = Кыра балык үөнү сиир
 # text_rus = Маленькая рыба питается личинками
 # text_eng = Small fish eats maggots  (Khatironov, )
@@ -1298,7 +1298,7 @@
 3	үөнү	үөн	NOUN	n	Case=Acc|Number=Sing	4	obj	_	worm
 4	сиир	сиэ	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	eat
 
-# sent_id = 168
+# sent_id = 134
 # text = Хаар маҥан , чох хара
 # text_rus = Снег - белый, уголь - чёрный
 # text_eng = Snow is white, charcoal is black (Khatironov, )
@@ -1308,7 +1308,7 @@
 4	чох	чох	NOUN	n	Case=Nom|Number=Sing	1	conj	_	charcoal
 5	хара	хара	ADJ	adj	_	4	amod	_	black
 
-# sent_id = 170
+# sent_id = 135
 # text = Ол эмиэ үөрэммэт кыыс
 # text_rus = Эта девочка тоже не учится
 # text_eng = This girl also doesn't study (Khatironov, ) ???
@@ -1317,7 +1317,7 @@
 3	үөрэммэт	үөрэн	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	learn
 4	кыыс	кыыс	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	girl
 
-# sent_id = 171
+# sent_id = 136
 # text = Бу дьахтар аата кимий ?
 # text_rus = 
 # text_eng = What is this woman's name? (Khatironov, )
@@ -1327,7 +1327,7 @@
 4	кимий	ким	PRON	pron	Int=Yes|PronType=Int	3	obj	_	who
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 173
+# sent_id = 137
 # text = Ити ууга мэлдьи аһыыр
 # text_rus = 
 # text_eng = (Khatironov, ) ???
@@ -1336,7 +1336,7 @@
 3	мэлдьи	мэлдьи	ADV	adv	_	4	advmod	_	always
 4	аһыыр	аһаа	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	eat
 
-# sent_id = 175
+# sent_id = 138
 # text = Тыл биир , тиис элбэх
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1346,7 +1346,7 @@
 4	тиис	тиис	NOUN	n	Case=Nom|Number=Sing	1	conj	_	teeth
 5	элбэх	элбэх	ADJ	adj	_	4	amod	_	many
 
-# sent_id = 182
+# sent_id = 139
 # text = Ыраас уу эмиэ дьэҥкир
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1355,7 +1355,7 @@
 3	эмиэ	эмиэ	ADV	adv	_	4	advmod	_	too
 4	дьэҥкир	дьэҥкир	ADJ	adj	_	2	amod	_	transparent
 
-# sent_id = 185
+# sent_id = 140
 # text = Ити оҕо тоҕо саҥарбат ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1365,7 +1365,7 @@
 4	саҥарбат	саҥар	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	say
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 186
+# sent_id = 141
 # text = Эн кыһын тугу гынаҕын ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1375,7 +1375,7 @@
 4	гынаҕын	гын	VERB	v	Number=Sing|Person=2|Tense=Pres	0	root	_	do
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 187
+# sent_id = 142
 # text = Хоту элбэх хаар түһэр
 # text_rus = На севере выпадает много снега
 # text_eng = (Khatironov, )
@@ -1384,7 +1384,7 @@
 3	хаар	хаар	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	snow
 4	түһэр	түс	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	fall
 
-# sent_id = 188
+# sent_id = 143
 # text = Эн тииһиҥ ыалдьар дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1394,7 +1394,7 @@
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 191
+# sent_id = 144
 # text = Эн бөрөнү көрөҕүн дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1404,7 +1404,7 @@
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 195
+# sent_id = 145
 # text = Дьэҥкир арыы баар дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1414,7 +1414,7 @@
 4	дуо	дуо	PART	part	_	2	discourse	_	?
 5	?	?	PUNCT	punct	_	2	punct	_	_
 
-# sent_id = 197
+# sent_id = 146
 # text = Ууга кыра суол киирэр
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1423,7 +1423,7 @@
 3	суол	суол	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	footprints
 4	киирэр	киир	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	enter
 
-# sent_id = 200
+# sent_id = 147
 # text = Кэскил онно тугу эттэ ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1433,7 +1433,7 @@
 4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	say
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 203
+# sent_id = 148
 # text = Мин икки куһу өлөрдүм
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1442,7 +1442,7 @@
 3	куһу	кус	NOUN	n	Case=Acc|Number=Sing	4	obj	_	duck
 4	өлөрдүм	өлөр	VERB	v	Number=Sing|Person=1|Tense=NearPast	0	root	_	kill
 
-# sent_id = 205
+# sent_id = 149
 # text = Эн эмиэ билбэккин дуу ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1452,7 +1452,7 @@
 4	дуу	дуу	PART	part	_	3	discourse	_	_
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 206
+# sent_id = 150
 # text = Бу дьиэҕэ үс хос баар
 # text_rus = В этом доме три комнаты
 # text_eng = (Khatironov, )
@@ -1462,7 +1462,7 @@
 4	хос	хос	NOUN	n	Case=Nom|Number=Sing	0	root	_	room
 5	баар	баар	AUX	aux	_	4	aux	_	_
 
-# sent_id = 211
+# sent_id = 151
 # text = Ити аты бостуук ылыаҕа
 # text_rus = 
 # text_eng = The shepard will take (tame?) this horse (Khatironov, 161)
@@ -1471,7 +1471,7 @@
 3	бостуук	бостуук	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	пастух
 4	ылыаҕа	ыл	VERB	v	Number=Sing|Person=3|Tense=Fut	0	root	_	take
 
-# sent_id = 212
+# sent_id = 152
 # text = Бу үрэх уута бэрт ыраас
 # text_rus = B этом ручье очень чистая вода
 # text_eng = Water in this stream is very clean (Khatironov, )
@@ -1481,7 +1481,7 @@
 4	бэрт	бэрт	ADV	adv	_	5	advmod	_	very
 5	ыраас	ыраас	ADJ	adj	_	3	amod	_	clean
 
-# sent_id = 217
+# sent_id = 153
 # text = Бу сыалыһар быара баар
 # text_rus = У этого налима есть печень
 # text_eng = (Khatironov, )
@@ -1490,7 +1490,7 @@
 3	быара	быар	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	liver
 4	баар	баар	AUX	aux	_	3	aux	_	_
 
-# sent_id = 218
+# sent_id = 154
 # text = Чэ , олоруҥ , эбиэттэҥ !
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1501,7 +1501,7 @@
 5	эбиэттэҥ	эбиэттээ	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	3	conj	_	dine
 6	!	!	PUNCT	punct	_	5	punct	_	_
 
-# sent_id = 219
+# sent_id = 155
 # text = Бу сыыр олус халтархай
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1510,7 +1510,7 @@
 3	олус	олус	ADV	adv	_	4	advmod	_	quite
 4	халтархай	халтархай	ADJ	adj	_	2	amod	_	slippery
 
-# sent_id = 221
+# sent_id = 156
 # text = Манна биэс тарбах баар
 # text_rus = Здесь пять пальцев
 # text_eng = (Khatironov, )
@@ -1519,7 +1519,7 @@
 3	тарбах	тарбах	NOUN	n	Case=Nom|Number=Sing	0	root	_	finger
 4	баар	баар	AUX	aux	_	3	aux	_	_
 
-# sent_id = 225
+# sent_id = 157
 # text = Ити ынах хотоҥҥо аһыыр
 # text_rus = Эта корова ест в коровнике
 # text_eng = (Khatironov, )
@@ -1528,7 +1528,7 @@
 3	хотоҥҥо	хотон	NOUN	n	Case=Dat|Number=Sing	4	obl	_	barn
 4	аһыыр	аһаа	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	eat
 
-# sent_id = 226
+# sent_id = 158
 # text = Ити оҕонньор ааҕар дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1538,7 +1538,7 @@
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 227
+# sent_id = 159
 # text = Харах икки , айах биир
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1548,7 +1548,7 @@
 4	айах	айах	NOUN	n	Case=Nom|Number=Sing	1	conj	_	mouth
 5	биир	биир	NUM	num	NumType=Card	4	nummod	_	one
 
-# sent_id = 229
+# sent_id = 160
 # text = Уһук хотугу түүн ааһар
 # text_rus = Пик полярной ночи заканчивается
 # text_eng = (Khatironov, )
@@ -1557,7 +1557,7 @@
 3	түүн	түүн	NOUN	n	Case=Nom|Number=Sing	1	nmod	_	night
 4	ааһар	аас	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	fall/pass
 
-# sent_id = 233
+# sent_id = 161
 # text = Ол ыт куосканы таптыыр
 # text_rus = Эта собака любит кошек
 # text_eng = (Khatironov, )
@@ -1566,7 +1566,7 @@
 3	куосканы	куоска	NOUN	n	Case=Acc|Number=Sing	4	obj	_	cat
 4	таптыыр	таптаа	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	love
 
-# sent_id = 235
+# sent_id = 162
 # text = Миннэ иһиҥ , эттэ сиэҥ
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1576,7 +1576,7 @@
 4	эттэ	эт	NOUN	n	Case=Par|Number=Sing	5	obj	_	meat
 5	сиэҥ	сиэ	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	2	conj	_	eat
 
-# sent_id = 236
+# sent_id = 163
 # text = Үрүҥ чаанньык баар дуо ?
 # text_rus = 1-2 чайник для заварки
 # text_eng = (Khatironov, )
@@ -1586,7 +1586,7 @@
 4	дуо	дуо	PART	part	_	2	discourse	_	?
 5	?	?	PUNCT	punct	_	2	punct	_	_
 
-# sent_id = 242
+# sent_id = 164
 # text = Ити эти быс уонна ыйаа !
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1597,7 +1597,7 @@
 5	ыйаа	ыйаа	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	3	conj	_	hang
 6	!	!	PUNCT	punct	_	5	punct	_	_
 
-# sent_id = 243
+# sent_id = 165
 # text = Эн эмиэ онно үөрэнэҕин
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1606,7 +1606,7 @@
 3	онно	онно	ADV	adv	_	4	advmod	_	there
 4	үөрэнэҕин	үөрэн	VERB	v	Number=Sing|Person=2|Tense=Pres	0	root	_	study
 
-# sent_id = 244
+# sent_id = 166
 # text = Ити ынахха от биэрэҕит
 # text_rus =
 # text_eng = (Khatironov, )
@@ -1615,7 +1615,7 @@
 3	от	от	NOUN	n	Case=Nom|Number=Sing	4	obj	_	grass
 4	биэрэҕит	биэр	VERB	v	Number=Plur|Person=2|Tense=Pres	0	root	_	give
 
-# sent_id = 245
+# sent_id = 167
 # text = Сылга уон икки ый баар
 # text_rus = В году 12 месяцев
 # text_eng = (Khatironov, )
@@ -1625,7 +1625,7 @@
 4	ый	ый	NOUN	n	Case=Nom|Number=Sing	0	root	_	month
 5	баар	баар	AUX	aux	_	4	aux	_	_
 
-# sent_id = 250
+# sent_id = 168
 # text = Ити киһи тугу атыылыыр ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1635,7 +1635,7 @@
 4	атыылыыр	атыылаа	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	sell
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 653
+# sent_id = 169
 # text = Аҕам от охсор
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1643,7 +1643,7 @@
 2	от	от	NOUN	n	Case=Nom|Number=Sing	3	obj	_	grass
 3	охсор	оҕус	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	cut
 
-# sent_id = 266
+# sent_id = 170
 # text = Чааска алта уон мүнүүтэ
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1652,7 +1652,7 @@
 3	уон	уон	NUM	num	NumType=Card	4	nummod	_	ten
 4	мүнүүтэ	мүнүүтэ	NOUN	n	Case=Nom|Number=Sing	0	root	_	minute
 
-# sent_id = 267
+# sent_id = 171
 # text = Мичил Айталга тугу эттэ ?
 # text_rus = 
 # text_eng = What did Michil say to Aital ? (Khatironov, )
@@ -1662,7 +1662,7 @@
 4	эттэ	эт	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	say
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 268
+# sent_id = 172
 # text = Ити хотууру мин ылыаҕым
 # text_rus = Я возьму эту косу
 # text_eng = (Khatironov, )
@@ -1671,7 +1671,7 @@
 3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	I
 4	ылыаҕым	ыл	VERB	v	Number=Sing|Person=1|Tense=Fut	0	root	_	take
 
-# sent_id = 270
+# sent_id = 173
 # text = Кини кыра оҕолору көрөр
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1680,7 +1680,7 @@
 3	оҕолору	оҕо	NOUN	n	Case=Acc|Number=Plur	4	obj	_	child
 4	көрөр	көр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	see
 
-# sent_id = 274
+# sent_id = 174
 # text = Бу кыыс нууччалыы ааҕар
 # text_rus = Эта девочка читает по-русски
 # text_eng = (Khatironov, )
@@ -1689,7 +1689,7 @@
 3	нууччалыы	нуучча	ADV	adv	Advlz=Yes	4	advmod	_	inrussian
 4	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	read
 
-# sent_id = 284
+# sent_id = 175
 # text = Уонна кини тугу гынарый ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1699,7 +1699,7 @@
 4	гынарый	гын	VERB	v	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	do
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 285
+# sent_id = 176
 # text = Ити ууга ким сөтүөлээтэ ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1709,7 +1709,7 @@
 4	сөтүөлээтэ	сөтүөлээ	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	bathe
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 294
+# sent_id = 177
 # text = Манна хас тарбах баарый ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1719,7 +1719,7 @@
 4	баарый	баар	AUX	aux	Int=Yes	3	aux	_	exist
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 313
+# sent_id = 178
 # text = Бу оҕо илиитэ ыраас дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1730,7 +1730,7 @@
 5	дуо	дуо	PART	part	_	3	discourse	_	?
 6	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 316
+# sent_id = 179
 # text = Ол аты тоҕо көлүйбэккит ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1740,7 +1740,7 @@
 4	көлүйбэккит	көлүй	VERB	v	Number=Plur|Person=2|Polarity=Neg|Tense=Pres	0	root	_	yoke
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 337
+# sent_id = 180
 # text = Кыра оҕо ханна үөрэнэрий ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1750,7 +1750,7 @@
 4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 338
+# sent_id = 181
 # text = Уонна кини ханна барарый ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1760,7 +1760,7 @@
 4	барарый	бар	VERB	v	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	go
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 347
+# sent_id = 182
 # text = Сайаана хотоҥҥо ынах ыыр
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1769,7 +1769,7 @@
 3	ынах	ынах	NOUN	n	Case=Nom|Number=Sing	4	obj	_	cow
 4	ыыр	ыа	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	milk
 
-# sent_id = 361
+# sent_id = 183
 # text = Бу оскуолаҕа ким үөрэнэр ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1779,7 +1779,7 @@
 4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 389
+# sent_id = 184
 # text = Киэһэ манна кэлбэккит дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1789,7 +1789,7 @@
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 564
+# sent_id = 185
 # text = Мин бүгүн биир куһу өлөрдүм
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1799,7 +1799,7 @@
 4	куһу	кус	NOUN	n	Case=Acc|Number=Sing	5	obj	_	duck
 5	өлөрдүм	өлөр	VERB	v	Number=Sing|Person=1|Tense=NearPast	0	root	_	kill
 
-# sent_id = 414
+# sent_id = 186
 # text = Айаана , кэл , манна олор
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1810,7 +1810,7 @@
 5	манна	манна	ADV	adv	_	6	advmod	_	here
 6	олор	олор	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	3	conj	_	sit
 
-# sent_id = 419
+# sent_id = 187
 # text = Улахан киһи ханна үөрэнэр ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1820,7 +1820,7 @@
 4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 423
+# sent_id = 188
 # text = Ити дьон тугу атыылыыллар ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1830,7 +1830,7 @@
 4	атыылыыллар	атыылаа	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	sell
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 427
+# sent_id = 189
 # text = Кэскил , эн тур уонна аах
 # text_rus = 
 # text_eng = (Khatironov, ) ???
@@ -1841,7 +1841,7 @@
 5	уонна	уонна	CCONJ	cconj	_	6	cc	_	and
 6	аах	аах	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	4	conj	_	read
 
-# sent_id = 430
+# sent_id = 190
 # text = Эдэр киһи ханна үөрэнэрий ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1851,7 +1851,7 @@
 4	үөрэнэрий	үөрэн	VERB	vi	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 431
+# sent_id = 191
 # text = Муннукка икки ыскаап турар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1860,7 +1860,7 @@
 3	ыскаап	ыскаап	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	wardrobe
 4	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	stand
 
-# sent_id = 433
+# sent_id = 192
 # text = Ойуурга өссө тэллэй үүнэр
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1869,7 +1869,7 @@
 3	тэллэй	тэллэй	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	mushroom
 4	үүнэр	үүн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	grow
 
-# sent_id = 440
+# sent_id = 193
 # text = Ити уол түргэнник суруйар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1878,7 +1878,7 @@
 3	түргэнник	түргэн	ADV	adv	Advlz=Yes	4	advmod	_	fast
 4	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	write
 
-# sent_id = 444
+# sent_id = 194
 # text = Кини эмиэ сахалыы үөрэнэр
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1887,7 +1887,7 @@
 3	сахалыы	саха	ADV	adv	Advlz=Yes	4	advmod	_	inyakut
 4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 446
+# sent_id = 195
 # text = Үчүгэй харандаас бу сытар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1896,7 +1896,7 @@
 3	бу	бу	DET	det	_	2	det	_	this
 4	сытар	сыт	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	lie
 
-# sent_id = 448
+# sent_id = 196
 # text = Ыскаапка кинигэ элбэх дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1906,7 +1906,7 @@
 4	дуо	дуо	PART	part	_	2	discourse	_	?
 5	?	?	PUNCT	punct	_	2	punct	_	_
 
-# sent_id = 451
+# sent_id = 197
 # text = Ити быраас кимий эмтиирий ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1916,7 +1916,7 @@
 4	эмтиирий	эмтээ	VERB	v	Int=Yes|Number=Sing|Person=3|Tense=Pres	0	root	_	heal/treat
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 459
+# sent_id = 198
 # text = Бу бэргэһэни долбуурга уур
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1925,7 +1925,7 @@
 3	долбуурга	долбуур	NOUN	n	Case=Dat|Number=Sing	4	obl	_	shelf
 4	уур	уур	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	put
 
-# sent_id = 480
+# sent_id = 199
 # text = Дьонуҥ киэһэ тугу гыналлар ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1935,7 +1935,7 @@
 4	гыналлар	гын	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	do
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 482
+# sent_id = 200
 # text = Ийэм ууну буочукаттан ылар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1944,7 +1944,7 @@
 3	буочукаттан	буочука	NOUN	n	Case=Abl|Number=Sing	2	obl	_	barrel
 4	ылар	ыл	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	take
 
-# sent_id = 483
+# sent_id = 201
 # text = Ити кинигэни аахпаппыт дуо ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1954,7 +1954,7 @@
 4	дуо	дуо	PART	part	_	3	discourse	_	?
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = 485
+# sent_id = 202
 # text = Түннүгү аһымаҥ , ааны аһыҥ
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -1964,28 +1964,28 @@
 4	ааны	аан	NOUN	n	Case=Acc|Number=Sing	5	obj	_	door
 5	аһыҥ	ас	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	2	conj	_	open
 
-# sent_id = 2094
+# sent_id = 203
 # text = Килиэптэ сиэ
 # text_rus = Поешь хлеба
 # text_eng = ´Eat some bread.’ or ‘Eat some of the bread.’ (Baker, M., & Vinokurova, N. (2021), 1a)
 1	Килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	2	obj	_	bread
 2	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
 
-# sent_id = 2095
+# sent_id = 204
 # text = Кинигэтэ атыылас
 # text_rus = Купи книгу (любую)
 # text_eng = ‘Buy any book.’ (Not: #‘Buy some of the book.’) (Baker, M., & Vinokurova, N. (2021), 1b)
 1	Кинигэтэ	кинигэ	NOUN	n	Case=Par|Number=Sing	2	obj	_	book
 2	атыылас	атыылас	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	buy
 
-# sent_id = 2096
+# sent_id = 205
 # text = Килиэби сиэ
 # text_rus = Ешь хлеб
 # text_eng = ´Eat the bread.’ (Baker, M., & Vinokurova, N. (2021), 2a)
 1	Килиэби	килиэп	NOUN	n	Case=Acc|Number=Sing	2	obj	_	bread
 2	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
 
-# sent_id = 2098
+# sent_id = 206
 # text = Яблокаттан иккини сиэ
 # text_rus = Съешь два яблока
 # text_eng = ´Eat two of the apples’ (Baker, M., & Vinokurova, N. (2021), 3a, a)
@@ -1993,7 +1993,7 @@
 2	иккини	икки	NUM	num	Case=Acc|NumType=Card	3	obj	_	two
 3	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
 
-# sent_id = 2099
+# sent_id = 207
 # text = Яблокаттан иккитэ сиэ
 # text_rus = Съешь два яблока
 # text_eng = ´Eat two of the apples’ (Baker, M., & Vinokurova, N. (2021), 3a, b)
@@ -2001,28 +2001,28 @@
 2	иккитэ	икки	NUM	num	Case=Par|NumType=Card	3	obj	_	two
 3	сиэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	eat
 
-# sent_id = 2104
+# sent_id = 208
 # text = Килиэптэ сиэмэ
 # text_rus = Не ешь хлеба
 # text_eng = ´Do not eat any bread at all’ (Baker, M., & Vinokurova, N. (2021), 6)
 1	Килиэптэ	килиэп	NOUN	n	Case=Par|Number=Sing	2	obj	_	bread
 2	сиэмэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	eat
 
-# sent_id = 2105
+# sent_id = 209
 # text = Килиэби сиэмэ
 # text_rus = Не ешь этот хлеб
 # text_eng = ´Do not eat that bread’ (Baker, M., & Vinokurova, N. (2021), 7)
 1	Килиэби	килиэп	NOUN	n	Case=Acc|Number=Sing	2	obj	_	bread
 2	сиэмэ	сиэ	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	eat
 
-# sent_id = 2106
+# sent_id = 210
 # text = Кинигэтэ бул
 # text_rus = Найди эту книгу
 # text_eng = ´Find this book!’ (Baker, M., & Vinokurova, N. (2021), 8)
 1	Кинигэтэ	кинигэ	NOUN	n	Case=Par|Number=Sing	2	obj	_	book
 2	бул	бул	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	find
 
-# sent_id = 1784
+# sent_id = 211
 # text = Хотой , мохсоҕол , кыырт араас көтөрдөрү сииллэр
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2035,7 +2035,7 @@
 7	көтөрдөрү	көтөр	NOUN	n	Case=Acc|Number=Plur	8	obj	_	fly
 8	сииллэр	сиэ	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	eat
 
-# sent_id = 1777
+# sent_id = 212
 # text = Бастаан кини кылааска ааны уонна форточканы аһар
 # text_rus = Сначала он открывает дверь и форточку в классе
 # text_eng = (Khatironov, )
@@ -2047,7 +2047,7 @@
 6	форточканы	форточка	NOUN	n	Case=Acc|Number=Sing	4	conj	_	window
 7	аһар	ас	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	open
 
-# sent_id = 1778
+# sent_id = 213
 # text = Куоракка убайым уонна эдьиийим бииргэ үөрэнэллэр
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2058,7 +2058,7 @@
 5	бииргэ	бииргэ	ADV	adv	_	6	advmod	_	together
 6	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	0	root	_	study
 
-# sent_id = 1762
+# sent_id = 214
 # text = Биир улахан ыраас хоско кыра остуоллар тураллар
 # text_rus = 
 # text_eng = There are small tables in one large clean room (Khatironov, )
@@ -2070,7 +2070,7 @@
 6	остуоллар	остуол	NOUN	n	Case=Nom|Number=Plur	7	nsubj	_	table
 7	тураллар	тур	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	stand
 
-# sent_id = 1746
+# sent_id = 215
 # text = Таҥаһы көхөҕө ыйыыллар уонна дьааһыкка уураллар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2081,7 +2081,7 @@
 5	дьааһыкка	дьааһык	NOUN	n	Case=Dat|Number=Sing	6	obl	_	box
 6	уураллар	уур	VERB	v	Number=Plur|Person=3|Tense=Pres	3	conj	_	put
 
-# sent_id = 1720
+# sent_id = 216
 # text = Бу уолаттар мас кэрдиэхтэрэ , эн сүөһү маныаҕыҥ
 # text_rus = Эти мальчики будут рубить деревья , а ты пасти скот
 # text_eng = (Khatironov, )
@@ -2094,7 +2094,7 @@
 7	сүөһү	сүөһү	NOUN	n	Case=Nom|Number=Sing	8	obj	_	cattle
 8	маныаҕыҥ	манаа	VERB	v	Number=Sing|Person=2|Tense=Fut	4	conj	_	graze
 
-# sent_id = 1623
+# sent_id = 217
 # text = Быт , былахы , кулахы киһи хаанынан аһыыллар
 # text_rus = Вши, блохи и клопы питаются человеческой кровью
 # text_eng = Lice, flee and bugs eat human blood (Khatironov, )
@@ -2107,7 +2107,7 @@
 7	хаанынан	хаан	NOUN	n	Case=Ins|Number=Sing	8	obj	_	blood
 8	аһыыллар	аһаа	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	eat
 
-# sent_id = 1601
+# sent_id = 218
 # text = Утуйар таҥаһы биһиги арыт таһырдьа ыйыыбыт
 # text_rus = Иногда мы вешаем на улице постельное белье (1-2 постельное белье)
 # text_eng = Sometimes we hang sheets outside (Khatironov, )
@@ -2118,7 +2118,7 @@
 5	таһырдьа	таһырдьа	ADV	adv	_	6	advmod	_	draußen
 6	ыйыыбыт	ыйаа	VERB	v	Number=Plur|Person=1|Tense=Pres	0	root	_	hang
 
-# sent_id = 1599
+# sent_id = 219
 # text = Кини туораҕы уонна араас үөннэри эмиэ сиир
 # text_rus = Он также ест зерно и различных насекомых
 # text_eng = He also eats grains and different insects (Khatironov, )
@@ -2130,7 +2130,7 @@
 6	эмиэ	эмиэ	ADV	adv	_	7	advmod	_	too
 7	сиир	сиэ	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	eat
 
-# sent_id = 1550
+# sent_id = 220
 # text = Киэһээҥи оскуолаҕа улахан дьон үөрэнэллэр
 # text_rus = Взрослые учатся в вечерней школе
 # text_eng = (Khatironov, )
@@ -2140,7 +2140,7 @@
 4	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	person
 5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	0	root	_	study
 
-# sent_id = 1515
+# sent_id = 221
 # text = Мин биир аҕаһым үрдүкү оскуолаҕа үөрэнэр
 # text_rus = Моя сестра учится в Hochschule
 # text_eng = (Khatironov, )
@@ -2151,7 +2151,7 @@
 5	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	6	obl	_	school
 6	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 1507
+# sent_id = 222
 # text = Улахан оҕо уонна эдэр киһи ханна үөрэнэр ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2164,7 +2164,7 @@
 7	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 8	?	?	PUNCT	punct	_	7	punct	_	_
 
-# sent_id = 1475
+# sent_id = 223
 # text = Онно эр дьон уонна дьахталлар үөрэнэллэр
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2175,7 +2175,7 @@
 5	дьахталлар	дьахтар	NOUN	n	Case=Nom|Number=Plur	3	conj	_	woman
 6	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	0	root	_	study
 
-# sent_id = 1463
+# sent_id = 224
 # text = Бөрөнү уонна эһэни дьон эмиэ бултууллар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2186,7 +2186,7 @@
 5	эмиэ	эмиэ	ADV	adv	_	6	advmod	_	too
 6	бултууллар	бултаа	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	hunt
 
-# sent_id = 1448
+# sent_id = 225
 # text = Кылааска биир остуол , үс олоппос турар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2198,7 +2198,7 @@
 6	олоппос	олоппос	NOUN	n	Case=Nom|Number=Sing	3	conj	_	chair
 7	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	stand
 
-# sent_id = 1396
+# sent_id = 226
 # text = Быраас эмиэ көрөр уонна рецепт суруйар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2209,7 +2209,7 @@
 5	рецепт	рецепт	NOUN	n	Case=Nom|Number=Sing	6	obj	_	prescribtion
 6	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	3	conj	_	write
 
-# sent_id = 1378
+# sent_id = 227
 # text = Утуйар хоско биир улахан дьааһык турар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2220,7 +2220,7 @@
 5	дьааһык	дьааһык	NOUN	n	Case=Nom|Number=Sing	6	nsubj	_	chest
 6	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	stand
 
-# sent_id = 1374
+# sent_id = 228
 # text = Оҕолор уруок ааҕаллар уонна суруйаллар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2230,7 +2230,7 @@
 4	уонна	уонна	CCONJ	cconj	_	5	cc	_	and
 5	суруйаллар	суруй	VERB	v	Number=Plur|Person=3|Tense=Pres	3	conj	_	write
 
-# sent_id = 1356
+# sent_id = 229
 # text = Айаана , ол паартаҕа олор уонна суруй
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2242,7 +2242,7 @@
 6	уонна	уонна	CCONJ	cconj	_	7	cc	_	and
 7	суруй	суруй	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	5	conj	_	write
 
-# sent_id = 1324
+# sent_id = 230
 # text = Бу дьахтар киэһээҥи оскуолаҕа үөрэнэр
 # text_rus = 
 # text_eng = This woman is studying at a night school (Khatironov, )
@@ -2252,7 +2252,7 @@
 4	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	5	obl	_	school
 5	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 1320
+# sent_id = 231
 # text = Сарсын мин эмиэ мастерскойга үлэлиэҕим
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2262,7 +2262,7 @@
 4	мастерскойга	мастерской	NOUN	n	Case=Dat|Number=Sing	5	obl	_	workshop
 5	үлэлиэҕим	үлэлээ	VERB	v	Number=Sing|Person=1|Tense=Fut	0	root	_	work
 
-# sent_id = 1249
+# sent_id = 232
 # text = Кэскил уонна мин оскуолаҕа үөрэнэбит
 # text_rus = 
 # text_eng = Keskil and I study at school (Khatironov, )
@@ -2272,7 +2272,7 @@
 4	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	5	obl	_	school
 5	үөрэнэбит	үөрэн	VERB	v	Number=Plur|Person=1|Tense=Pres	0	root	_	learn
 
-# sent_id = 1202
+# sent_id = 233
 # text = Быйыл кинилэр үчүгэйдик бултаатылар
 # text_rus = 
 # text_eng = They hunted well this year (Khatironov, )
@@ -2281,7 +2281,7 @@
 3	үчүгэйдик	үчүгэй	ADV	adv	Advlz=Yes	4	advmod	_	well
 4	бултаатылар	бултаа	VERB	v	Number=Plur|Person=3|Tense=NearPast	0	root	_	hunt
 
-# sent_id = 1126
+# sent_id = 234
 # text = Туруйа баҕаны уонна күлгэрини сиир
 # text_rus = 
 # text_eng = Crane eats frogs and lizards (Khatironov, )
@@ -2291,7 +2291,7 @@
 4	күлгэрини	күлгэри	NOUN	n	Case=Acc|Number=Sing	2	conj	_	lizard
 5	сиир	сиэ	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	eat
 
-# sent_id = 1116
+# sent_id = 235
 # text = Бу атынан бүгүн таһаҕас тиэйиэхтэрэ
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2301,7 +2301,7 @@
 4	таһаҕас	таһаҕас	NOUN	n	Case=Nom|Number=Sing	5	obj	_	cargo
 5	тиэйиэхтэрэ	тиэй	VERB	v	Number=Plur|Person=3|Tense=Fut	0	root	_	load
 
-# sent_id = 1084
+# sent_id = 236
 # text = Хара таҥаһы үрүҥ сабынан тикпэттэр
 # text_rus = Черные вещи не подшивают белыми нитками
 # text_eng = (Khatironov, ) # таҥас-сап
@@ -2311,7 +2311,7 @@
 4	сабынан	сап	NOUN	n	Case=Ins|Number=Sing	5	obj	_	thread
 5	тикпэттэр	тик	VERB	v	Number=Plur|Person=3|Polarity=Neg|Tense=Pres	0	root	_	sew
 
-# sent_id = 1079
+# sent_id = 237
 # text = Кини биир доҕоро куоракка үөрэнэр
 # text_rus = 
 # text_eng = His friend study in the city (Khatironov, )
@@ -2321,7 +2321,7 @@
 4	куоракка	куорат	NOUN	n	Case=Dat|Number=Sing	5	obl	_	city
 5	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 1016
+# sent_id = 238
 # text = Кинилэр дьэҥкир арыы атыылаһаллар
 # text_rus = 
 # text_eng = They are buying clarified butter (Khatironov, )
@@ -2330,7 +2330,7 @@
 3	арыы	арыы	NOUN	n	Case=Nom|Number=Sing	4	obj	_	butter
 4	атыылаһаллар	атыылас	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	buy
 
-# sent_id = 1014
+# sent_id = 239
 # text = Кэл , бу олоппоско олор уонна аах
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2342,7 +2342,7 @@
 6	уонна	уонна	CCONJ	cconj	_	7	cc	_	and
 7	аах	аах	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	5	conj	_	read
 
-# sent_id = 984
+# sent_id = 240
 # text = Кини олус кырдьаҕас уонна көрбөт
 # text_rus = Он очень старый и слепой
 # text_eng = (Khatironov, )
@@ -2352,7 +2352,7 @@
 4	уонна	уонна	CCONJ	cconj	_	5	cc	_	and
 5	көрбөт	көр	ADJ	adj	_	3	conj	_	blind
 
-# sent_id = 979
+# sent_id = 241
 # text = Икки атахха эмиэ уон тарбах баар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2363,7 +2363,7 @@
 5	тарбах	тарбах	NOUN	n	Case=Nom|Number=Sing	0	root	_	finger
 6	баар	баар	AUX	aux	_	5	aux	_	_
 
-# sent_id = 932
+# sent_id = 242
 # text = Биир эдэр киһи эмиэ кинигэ ааҕар
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2374,7 +2374,7 @@
 5	кинигэ	кинигэ	NOUN	n	Case=Nom|Number=Sing	6	obj	_	_
 6	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 916
+# sent_id = 243
 # text = Кини күнүс үлэлиир , түүн утуйар
 # text_rus = 
 # text_eng = He works in the daytime and sleeps at night (Khatironov, )
@@ -2385,7 +2385,7 @@
 5	түүн	түүн	ADV	n	_	6	advmod	_	night
 6	утуйар	утуй	VERB	v	Number=Sing|Person=3|Tense=Pres	3	conj	_	sleep
 
-# sent_id = 917
+# sent_id = 244
 # text = Ити оҕону ууга ыраах киллэримэҥ
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2395,7 +2395,7 @@
 4	ыраах	ыраах	ADV	adv	_	5	advmod	_	far
 5	киллэримэҥ	киллэр	VERB	v	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres	0	root	_	dontenter
 
-# sent_id = 918
+# sent_id = 245
 # text = Дьэдьэни оҕолор олус таптыыллар
 # text_rus = Дети очень любят землянику
 # text_eng = (Khatironov, )
@@ -2404,14 +2404,14 @@
 3	олус	олус	ADV	adv	_	4	advmod	_	quite
 4	таптыыллар	таптаа	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	love
 
-# sent_id = 2103
+# sent_id = 246
 # text = Оҕо ыллаатин
 # text_rus = 
 # text_eng = ´Have a/any child sing’ (Baker, M., & Vinokurova, N. (2021), 5)
 1	Оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	2	nsubj	_	child
 2	ыллаатин	ыллаа	VERB	v	Mood=Imp|Number=Sing|Person=3|Tense=Pres	0	root	_	sing
 
-# sent_id = 911
+# sent_id = 247
 # text = Ол харандаас паарталааҕар үрдүк
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2420,7 +2420,7 @@
 3	паарталааҕар	паарта	NOUN	n	Case=Cmp|Number=Sing	4	obl	_	desk
 4	үрдүк	үрдүк	ADJ	adj	_	0	root	_	high
 
-# sent_id = 886
+# sent_id = 248
 # text = Ити оҕолор эмиэ онно үөрэнэллэр
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2430,7 +2430,7 @@
 4	онно	онно	ADV	adv	_	5	advmod	_	there
 5	үөрэнэллэр	үөрэн	VERB	vi	Number=Plur|Person=3|Tense=Pres	0	root	_	study
 
-# sent_id = 834
+# sent_id = 249
 # text = Биһиги киэһэ эмиэ балыктыахпыт
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2439,7 +2439,7 @@
 3	эмиэ	эмиэ	ADV	adv	_	4	advmod	_	too
 4	балыктыахпыт	балыктаа	VERB	v	Number=Plur|Person=1|Tense=Fut	0	root	_	fish
 
-# sent_id = 820
+# sent_id = 250
 # text = Доҕорум убайа куоракка үөрэнэр
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2448,7 +2448,7 @@
 3	куоракка	куорат	NOUN	n	Case=Dat|Number=Sing	4	obl	_	city
 4	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 803
+# sent_id = 251
 # text = Ити дьон тоҕо манна киирбэттэр ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2459,7 +2459,7 @@
 5	киирбэттэр	киир	VERB	v	Number=Plur|Person=3|Polarity=Neg|Tense=Pres	0	root	_	enter
 6	?	?	PUNCT	punct	_	5	punct	_	_
 
-# sent_id = 765
+# sent_id = 252
 # text = Дьон аһыыллар уонна утуйаллар
 # text_rus = 
 # text_eng = People eat and sleep (Khatironov, )
@@ -2468,7 +2468,7 @@
 3	уонна	уонна	CCONJ	cconj	_	4	cc	_	and
 4	утуйаллар	утуй	VERB	v	Number=Plur|Person=3|Tense=Pres	2	conj	_	sleep
 
-# sent_id = 749
+# sent_id = 253
 # text = Эбэм эмиэ ааҕар уонна суруйар
 # text_rus = 
 # text_eng = Grandma also reads and writes (Khatironov, )
@@ -2478,7 +2478,7 @@
 4	уонна	уонна	CCONJ	cconj	_	5	cc	_	and
 5	суруйар	суруй	VERB	v	Number=Sing|Person=3|Tense=Pres	3	conj	_	write
 
-# sent_id = 588
+# sent_id = 254
 # text = Бу дьон ханнык балыктыыллар ?
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2488,7 +2488,7 @@
 4	балыктыыллар	балыктаа	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	fish
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 415
+# sent_id = 255
 # text = Бу хоско үс киһи утуйабыт
 # text_rus = 
 # text_eng = There are three of us sleeping in this room (Khatironov, )
@@ -2498,7 +2498,7 @@
 4	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	man
 5	утуйабыт	утуй	VERB	v	Number=Plur|Person=1|Tense=Pres	0	root	_	sleep
 
-# sent_id = 349
+# sent_id = 256
 # text = Манна биир кэргэн олорор
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2507,7 +2507,7 @@
 3	кэргэн	кэргэн	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	family
 4	олорор	олор	VERB	vi	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 
-# sent_id = 1867
+# sent_id = 257
 # text = Кыһын биһиги ичигэс таҥаһы кэтэбит , оччоҕо тоҥмоппут
 # text_rus = Зимой мы надеваем теплую одежду, тогда не холодно
 # text_eng = (Khatironov, )
@@ -2520,7 +2520,7 @@
 7	оччоҕо	оччоҕо	ADV	adv	_	8	advmod	_	then
 8	тоҥмоппут	тоҥ	VERB	v	Number=Plur|Person=1|Polarity=Neg|Tense=Pres	5	conj	_	freeze
 
-# sent_id = 2007
+# sent_id = 258
 # text = Бүгүн оскуолаҕа элбэх кинигэни , тэтэрээти , харандааһы биэрэллэр
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2534,7 +2534,7 @@
 8	харандааһы	харандаас	NOUN	n	Case=Acc|Number=Sing	4	conj	_	pencil
 9	биэрэллэр	биэр	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	give
 
-# sent_id = 189
+# sent_id = 259
 # text = Эһиги бу сири билэҕит
 # text_rus = Вы знаете это место
 # text_eng = (Khatironov, )
@@ -2543,7 +2543,7 @@
 3	сири	сир	NOUN	n	Case=Acc|Number=Sing	4	obj	_	earth
 4	билэҕит	бил	VERB	v	Number=Plur|Person=2|Tense=Pres	0	root	_	know
 
-# sent_id = 190
+# sent_id = 260
 # text = Кэскил убайа мас ууһа
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2552,7 +2552,7 @@
 3	мас	мас	NOUN	n	Case=Nom|Number=Sing	4	nmod	_	wood
 4	ууһа	уус	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	master
 
-# sent_id = 636
+# sent_id = 261
 # text = Эһиги ол оскуолаҕа үөрэнэҕит
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2561,7 +2561,7 @@
 3	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	4	obl	_	school
 4	үөрэнэҕит	үөрэн	VERB	v	Number=Plur|Person=2|Tense=Pres	0	root	_	learn
 
-# sent_id = 199
+# sent_id = 262
 # text = Ити киһи тугу кэпсиир ?
 # text_rus = Что говорит этот человек ?
 # text_eng = What does this man say ? (Khatironov, )
@@ -2571,7 +2571,7 @@
 4	кэпсиир	кэпсээ	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	tell
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 249
+# sent_id = 263
 # text = Онно кыһын сүөһү аһыыр
 # text_rus = Зимой там кормятся животные 
 # text_eng = In winter cattle is fed there (Khatironov, )
@@ -2580,7 +2580,7 @@
 3	сүөһү	сүөһү	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	cattle
 4	аһыыр	аһаа	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	eat
 
-# sent_id = 253
+# sent_id = 264
 # text = Бэс ханнык сиргэ үүнэр ?
 # text_rus = В каких местах (где) растет сосна ?
 # text_eng = Where does pine grow ? (Khatironov, )
@@ -2590,7 +2590,7 @@
 4	үүнэр	үүн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	grow
 5	?	?	PUNCT	punct	_	4	punct	_	_
 
-# sent_id = 254
+# sent_id = 265
 # text = Аны миэхэ тимэхтэ аҕал
 # text_rus = 
 # text_eng = (Khatironov, )
@@ -2599,7 +2599,7 @@
 3	тимэхтэ	тимэх	NOUN	n	Case=Par|Number=Sing	4	obj	_	button
 4	аҕал	аҕал	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	givebring
 
-# sent_id = 288
+# sent_id = 266
 # text = Эһэм тыс этэрбэһи кэтэр
 # text_rus = Мой дедушка надевает унты
 # text_eng = (Khatironov, )
@@ -2608,7 +2608,7 @@
 3	этэрбэһи	этэрбэс	NOUN	n	Case=Acc|Number=Sing	4	obj	_	boots
 4	кэтэр	кэт	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	put
 
-# sent_id = 300
+# sent_id = 267
 # text = Ити кыыс аҕата мас ууһа
 # text_rus = Отец этой девочки столяр . 4-5 carpenter
 # text_eng = (Khatironov, )
