@@ -1,4 +1,4 @@
-![YKTDT](not-to-release/Flag_of_Sakha.svg)
+<img src="not-to-release/Flag_of_Sakha.svg" width="150">
 
 # Summary
 
