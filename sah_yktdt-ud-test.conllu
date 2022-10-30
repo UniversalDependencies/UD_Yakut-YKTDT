@@ -371,10 +371,10 @@
 3	күүстээх	күүстээх	ADJ	adj	_	0	root	_	_
 
 # sent_id = 42
-# text = үүтү биһиги ынахтан ылабыт
+# text = Үүтү биһиги ынахтан ылабыт
 # text_rus = Мы получаем молоко от коров
 # text_eng = Milk we get from cows (Johanson, Turkic, 2021, 948)
-1	үүтү	үүт	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
+1	Үүтү	үүт	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 2	биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 3	ынахтан	ынах	NOUN	n	Case=Abl|Number=Sing	4	obl	_	_
 4	ылабыт	ыл	VERB	vi	Number=Plur|Person=1|Tense=Pres	0	root	_	_
@@ -543,7 +543,7 @@
 
 # sent_id = 59
 # text = Кэл , сүөгэйдэ ис , күөрчэхтэ сиэ !
-# text_rus = 
+# text_rus = Иди сюда, выпей сливок , поешь керчех !
 # text_eng = Come, drink some cream, eat some sbiten! (Kharitonov)
 1	Кэл	кэл	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	_
 2	,	,	PUNCT	punct	_	1	punct	_	_
@@ -556,7 +556,7 @@
 
 # sent_id = 60
 # text = Үрүҥ килиэби быһыма , хара килиэптэ быс
-# text_rus = 
+# text_rus = Не режь белый хлеб, порежь черный
 # text_eng = Do not cut the white bread, cut some of the black bread (Kharitonov)
 1	Үрүҥ	үрүҥ	ADJ	adj	_	2	amod	_	_
 2	килиэби	килиэп	NOUN	n	Case=Acc|Number=Sing	3	obj	_	_
@@ -568,7 +568,7 @@
 
 # sent_id = 61
 # text = Ити уолга харандааста биэр
-# text_rus = 
+# text_rus = Дай этому мальчику карандаш
 # text_eng = Give a pencil (any pencil) to that boy (Kharitonov)
 1	Ити	ити	PRON	pron	PronType=Dem	2	det	_	_
 2	уолга	уол	NOUN	n	Case=Dat|Number=Sing	4	obl	_	_
@@ -577,7 +577,7 @@
 
 # sent_id = 62
 # text = Сорохтор муостаны сууйуҥ , сорохтор паартата , остуолла сотуҥ , сорохтор ааннары , ыскааптары сууйуҥ
-# text_rus = 
+# text_rus = Мойте полы, протирайте парты и столы , протирайте двери и мойте шкафы
 # text_eng = Clean some floors, wipe some benches and tables, clean some doors and closets. (Kharitonov)
 1	Сорохтор	сорох	PRON	pron	Number=Plur|PronType=Ind	2	det	_	_
 2	муостаны	муоста	NOUN	n	Case=Acc|Number=Sing	3	obj	_	_
@@ -597,7 +597,7 @@
 
 # sent_id = 63
 # text = Уҥуоҕа суох уонна эмис эт бу баар
-# text_rus = 
+# text_rus = Есть бескостное и жирное мясо
 # text_eng = This is boneless and fat meat (Kharitonov)
 1	Уҥуоҕа	уҥуох	NOUN	n	Case=Dat|Number=Sing	5	compound	_	_
 2	суох	суох	AUX	aux	_	1	cop	_	_
@@ -617,8 +617,8 @@
 
 # sent_id = 65
 # text = Сорох иһити чэйгэ туруораллар , сорох иһити эбиэккэ туруораллар
-# text_rus = 
-# text_eng = Place some tea set, put some lunch set ??? (Kharitonov)
+# text_rus = Некоторый сервиз ставят к чаю , другой к обеду
+# text_eng = Some dishes are put for tea, some for lunch (Kharitonov)
 1	Сорох	сорох	PRON	pron	PronType=Ind	2	det	_	_
 2	иһити	иһит	NOUN	n	Case=Acc|Number=Sing	4	obj	_	_
 3	чэйгэ	чэй	NOUN	n	Case=Dat|Number=Sing	2	compound	_	_
@@ -642,7 +642,7 @@
 
 # sent_id = 67
 # text = Кини түргэнник оргуйар , үчүгэй сылабаар
-# text_rus = 
+# text_rus = Он быстрокипящий , хороший самовар
 # text_eng = It boils quickly, it is a good samovar (Kharitonov)
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	түргэнник	түргэн	ADV	adv	Advlz=Yes	3	advmod	_	_
@@ -653,7 +653,7 @@
 
 # sent_id = 68
 # text = Кыра үрүҥ чаанньыгы сылабаарга туруораллар
-# text_rus = 
+# text_rus = Маленький заварник ставят на самовар
 # text_eng = The small teapot for boiling water is placed on the samovar (Kharitonov)
 1	Кыра	кыра	ADJ	adj	_	3	amod	_	_
 2	үрүҥ	үрүҥ	ADJ	adj	_	3	amod	_	_
@@ -663,7 +663,7 @@
 
 # sent_id = 69
 # text = Кини куукунаҕа бастаан билиидэни отунна
-# text_rus = 
+# text_rus = Сначала он нагрел печку на кухне
 # text_eng = First she heated the stove in the kitchen (Kharitonov)
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	куукунаҕа	куукуна	NOUN	n	Case=Dat|Number=Sing	5	obl	_	_
@@ -673,7 +673,7 @@
 
 # sent_id = 70
 # text = Онтон хомуоһу ылла уонна муннукка турар буочукаттан биэдэрэҕэ уу кутта
-# text_rus = 
+# text_rus = Затем он взял хомут и налил в ведро воды из бочки, стоявшей в углу
 # text_eng = Then she took the ladle and poured water into the pail from the barrel standing in the corner (Kharitonov)
 1	Онтон	онтон	ADV	adv	_	3	advmod	_	_
 2	хомуоһу	хомуос	NOUN	n	Case=Acc|Number=Sing	3	obj	_	_
@@ -744,7 +744,7 @@
 # sent_id = 77
 # text = Мин онус кылааска үөрэнэбин
 # text_rus = Я учусь в 10 классе
-# text_eng = (Khatironov, )
+# text_eng = I'm in the 10th grade (Khatironov, )
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	онус	онус	NUM	n	NumType=Card	3	nummod	_	ten
 3	кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	4	obl	_	classroom
@@ -753,7 +753,7 @@
 # sent_id = 78
 # text = Оскуола дьиэтэ ханна баарый ?
 # text_rus = Где находится здание школы? 
-# text_eng = (Khatironov, )
+# text_eng = Where is the school's building ? (Khatironov, )
 1	Оскуола	оскуола	NOUN	n	Case=Nom|Number=Sing	2	nmod	_	school
 2	дьиэтэ	дьиэ	NOUN	n	Case=Par|Number=Sing	3	nsubj	_	building
 3	ханна	ханна	PRON	pron	PronType=Int	0	root	_	where
@@ -762,8 +762,8 @@
 
 # sent_id = 79
 # text = Эн тыс этэрбэһи кэтэҕин дуо ?
-# text_rus = Ты носишь унты?
-# text_eng = (Khatironov, )
+# text_rus = Ты носишь унты ?
+# text_eng = Do you wear reindeer fur boots ?(Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	you
 2	тыс	тыс	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	furskin
 3	этэрбэһи	этэрбэс	NOUN	n	Case=Acc|Number=Sing	4	obj	_	boots
@@ -840,8 +840,8 @@
 
 # sent_id = 86
 # text = Улахан дьон бары үлэлииллэр
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Все взрослые работают
+# text_eng = All adults work (Khatironov, )
 1	Улахан	улахан	ADJ	adj	_	2	amod	_	big
 2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	person
 3	бары	бары	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	2	nmod	_	_
@@ -891,7 +891,7 @@
 # sent_id = 91
 # text = Эмис эт бу баар
 # text_rus = Это мясо жирное
-# text_eng =  (Khatironov, )
+# text_eng = This meat is fat (Khatironov, )
 1	Эмис	эмис	ADJ	adj	_	2	amod	_	fat
 2	эт	эт	NOUN	n	Case=Nom|Number=Sing	0	root	_	meat
 3	бу	бу	DET	det	_	2	det	_	this
@@ -917,8 +917,8 @@
 
 # sent_id = 94
 # text = Эһээ , эн кэпсээ !
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Ну, расскажи !
+# text_eng = Oh, tell me! (Khatironov, )
 1	Эһээ	эһээ	INTJ	intj	_	4	discourse	_	huh
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	you
@@ -1080,8 +1080,8 @@
 
 # sent_id = 111
 # text = Бу тоһоҕо олус кыра
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Этот гвоздь слишком маленький 
+# text_eng = This nail is too small (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	тоһоҕо	тоһоҕо	NOUN	n	Case=Nom|Number=Sing	0	root	_	nail
 3	олус	олус	ADV	adv	_	4	advmod	_	very
@@ -1117,8 +1117,8 @@
 
 # sent_id = 115
 # text = Эн эһэҥ үөрэнэр дуо ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Твой дедушка учится ?
+# text_eng = Does your grandfather study ? (Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nmod	_	you
 2	эһэҥ	эһэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	nsubj	_	grandfather
 3	үөрэнэр	үөрэн	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	study
@@ -1155,7 +1155,7 @@
 
 # sent_id = 119
 # text = Онно киһи тугу эттэ ?
-# text_rus = 
+# text_rus = Что сказал этот человек ?
 # text_eng = What did a man say there ? (Khatironov, )
 1	Онно	онно	ADV	adv	_	4	advmod	_	there
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
@@ -1165,7 +1165,7 @@
 
 # sent_id = 120
 # text = Бүгүн уу тымныы дуо ?
-# text_rus = 
+# text_rus = Вода сегодня холодная ?
 # text_eng = Is water cold today ? (Khatironov, )
 1	Бүгүн	бүгүн	ADV	adv	_	2	advmod	_	today
 2	уу	уу	NOUN	n	Case=Nom|Number=Sing	0	root	_	water
@@ -1175,7 +1175,7 @@
 
 # sent_id = 121
 # text = Ити кыыс тугу гынар ?
-# text_rus = 
+# text_rus = Что делает эта девочка ?
 # text_eng = What is this girl doing ?(Khatironov, )
 1	Ити	ити	DET	det	_	2	det	_	this
 2	кыыс	кыыс	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	girl
@@ -1185,8 +1185,8 @@
 
 # sent_id = 122
 # text = Уонна өссө тугу ылла ?
-# text_rus = 
-# text_eng = And what else he took?(Khatironov, )
+# text_rus = И что еще он взял ?
+# text_eng = And what else did he take ? (Khatironov, )
 1	Уонна	уонна	CCONJ	cconj	_	4	cc	_	and
 2	өссө	өссө	ADV	adv	_	4	advmod	_	else
 3	тугу	тугу	PRON	pron	PronType=Int	4	obj	_	what
@@ -1195,7 +1195,7 @@
 
 # sent_id = 123
 # text = Эн баһыҥ ыалдьар дуо ?
-# text_rus = 
+# text_rus = У тебя болит голова ?
 # text_eng = Do you have a headache? (Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nmod	_	you
 2	баһыҥ	бас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	nsubj	_	head
@@ -1205,7 +1205,7 @@
 
 # sent_id = 124
 # text = Онон кини тугу гынар ?
-# text_rus = 
+# text_rus = Так что же он делает ?
 # text_eng = So, what does he do ?(Khatironov, )
 1	Онон	онон	ADV	adv	_	4	advmod	_	so
 2	кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	3sg
@@ -1215,7 +1215,7 @@
 
 # sent_id = 125
 # text = Миэхэ эмис эттэ аҕал
-# text_rus = 
+# text_rus = Принести мне жирное мясо
 # text_eng = Bring me some fat meat (Khatironov, )
 1	Миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 2	эмис	эмис	ADJ	adj	_	3	amod	_	fat
@@ -1224,7 +1224,7 @@
 
 # sent_id = 126
 # text = Ити дьиэ олус тымныы
-# text_rus = 
+# text_rus = В этом доме очень холодно
 # text_eng = It's quite cold in this house (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	дьиэ	дьиэ	NOUN	n	Case=Nom|Number=Sing	0	root	_	house
@@ -1233,7 +1233,7 @@
 
 # sent_id = 127
 # text = Бу муҥхаҕыт саҥа дуо ?
-# text_rus = 
+# text_rus = Эта рыболовная сеть новая ?
 # text_eng = Is this fishnet new? (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	муҥхаҕыт	муҥха	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=2	0	root	_	fishnet
@@ -1243,8 +1243,8 @@
 
 # sent_id = 128
 # text = Кэскил сону ылла дуо ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Взял ли Кэскил пальто ?
+# text_eng = Did Кэскил take a coat ? (Khatironov, )
 1	Кэскил	Кэскил	PROPN	propn	_	3	nsubj	_	Keskil
 2	сону	сон	NOUN	n	Case=Acc|Number=Sing	3	obj	_	coat
 3	ылла	ыл	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	took
@@ -1263,8 +1263,8 @@
 
 # sent_id = 130
 # text = Ийэҥ туохха уу кутта ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Почему твоя мама налила воды ?
+# text_eng = Why did your mother give you water ? (Khatironov, )
 1	Ийэҥ	ийэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	4	nsubj	_	mother
 2	туохха	туох	PRON	pron	Case=Dat|PronType=Int	4	dep	_	towhom
 3	уу	уу	NOUN	n	Case=Nom|Number=Sing	4	obj	_	water
@@ -1273,8 +1273,8 @@
 
 # sent_id = 131
 # text = Ууга элбэх кус устар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = В воде плавает много уток
+# text_eng = Many ducks are swimming in the water (Khatironov, )
 1	Ууга	уу	NOUN	n	Case=Dat|Number=Sing	4	obl	_	water
 2	элбэх	элбэх	ADJ	adj	_	3	amod	_	many
 3	кус	кус	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	duck
@@ -1282,8 +1282,8 @@
 
 # sent_id = 132
 # text = Бу сир чиэрбэтэ суох
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = В этой земле нет червей
+# text_eng = There are no earthworms in this earth (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	сир	сир	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	earth
 3	чиэрбэтэ	чиэрбэ	NOUN	n	Case=Par|Number=Sing	0	root	_	worm
@@ -1319,7 +1319,7 @@
 
 # sent_id = 136
 # text = Бу дьахтар аата кимий ?
-# text_rus = 
+# text_rus = Как зовут эту женщину ?
 # text_eng = What is this woman's name? (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	дьахтар	дьахтар	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	woman
@@ -1329,8 +1329,8 @@
 
 # sent_id = 137
 # text = Ити ууга мэлдьи аһыыр
-# text_rus = 
-# text_eng = (Khatironov, ) ???
+# text_rus = Он постоянно ест в воде
+# text_eng = He eats in the water all the time (Khatironov, ) ???
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	ууга	уу	NOUN	n	Case=Dat|Number=Sing	4	obl	_	water
 3	мэлдьи	мэлдьи	ADV	adv	_	4	advmod	_	always
@@ -1338,8 +1338,8 @@
 
 # sent_id = 138
 # text = Тыл биир , тиис элбэх
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Язык один, зубов много
+# text_eng = One tongue, many teeth (Khatironov, )
 1	Тыл	тыл	NOUN	n	Case=Nom|Number=Sing	0	root	_	tongue
 2	биир	биир	NUM	num	NumType=Card	1	nummod	_	one
 3	,	,	PUNCT	punct	_	1	punct	_	_
@@ -1348,8 +1348,8 @@
 
 # sent_id = 139
 # text = Ыраас уу эмиэ дьэҥкир
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Прозрачная и чистая вода
+# text_eng = Clear and transparent water (Khatironov, )
 1	Ыраас	ыраас	ADJ	adj	_	2	amod	_	clean
 2	уу	уу	NOUN	n	Case=Nom|Number=Sing	0	root	_	water
 3	эмиэ	эмиэ	ADV	adv	_	4	advmod	_	too
@@ -1357,8 +1357,8 @@
 
 # sent_id = 140
 # text = Ити оҕо тоҕо саҥарбат ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Почему этот ребенок молчит ?
+# text_eng = Why doesn't this child talk ? (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	child
 3	тоҕо	тоҕо	PRON	pron	PronType=Int	4	obj	_	why
@@ -1367,8 +1367,8 @@
 
 # sent_id = 141
 # text = Эн кыһын тугу гынаҕын ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Чем ты занимаешься зимой ?
+# text_eng = What do you do in winter ? (Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	you
 2	кыһын	кыһын	ADV	adv	_	4	advmod	_	winter
 3	тугу	тугу	PRON	pron	PronType=Int	4	obj	_	what
@@ -1378,7 +1378,7 @@
 # sent_id = 142
 # text = Хоту элбэх хаар түһэр
 # text_rus = На севере выпадает много снега
-# text_eng = (Khatironov, )
+# text_eng = A lot of snow falls in the north (Khatironov, )
 1	Хоту	хоту	NOUN	n	Case=Nom|Number=Sing	4	obl	_	north
 2	элбэх	элбэх	ADJ	adj	_	3	amod	_	many
 3	хаар	хаар	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	snow
@@ -1386,8 +1386,8 @@
 
 # sent_id = 143
 # text = Эн тииһиҥ ыалдьар дуо ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = У тебя болят зубы ?
+# text_eng = Do your teeth hurt ? (Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nmod	_	you
 2	тииһиҥ	тиис	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	nsubj	_	tooth
 3	ыалдьар	ыарый	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	besick
@@ -1396,8 +1396,8 @@
 
 # sent_id = 144
 # text = Эн бөрөнү көрөҕүн дуо ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Ты видишь волка ?
+# text_eng = Do you see a wolf ? (Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	you
 2	бөрөнү	бөрө	NOUN	n	Case=Acc|Number=Sing	3	obj	_	wolf
 3	көрөҕүн	көр	VERB	v	Number=Sing|Person=2|Tense=Pres	0	root	_	see
@@ -1406,8 +1406,8 @@
 
 # sent_id = 145
 # text = Дьэҥкир арыы баар дуо ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Есть топлёное масло ?
+# text_eng = Is there any clarified butter ? (Khatironov, )
 1	Дьэҥкир	дьэҥкир	ADJ	adj	_	2	amod	_	transparent
 2	арыы	арыы	NOUN	n	Case=Nom|Number=Sing	0	root	_	butter
 3	баар	баар	AUX	aux	_	2	aux	_	_
@@ -1416,17 +1416,17 @@
 
 # sent_id = 146
 # text = Ууга кыра суол киирэр
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = В воду заходит небольшая дорожка
+# text_eng = A small path enters the water (Khatironov, )
 1	Ууга	уу	NOUN	n	Case=Dat|Number=Sing	4	obl	_	water
 2	кыра	кыра	ADJ	adj	_	3	amod	_	small
-3	суол	суол	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	footprints
+3	суол	суол	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	footprints/road
 4	киирэр	киир	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	enter
 
 # sent_id = 147
 # text = Кэскил онно тугу эттэ ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Что там говорит Кэскил ?
+# text_eng = What does Keskil say there ? (Khatironov, )
 1	Кэскил	Кэскил	PROPN	propn	_	4	nsubj	_	_
 2	онно	онно	ADV	adv	_	4	advmod	_	there
 3	тугу	тугу	PRON	pron	PronType=Int	4	obj	_	what
@@ -1435,8 +1435,8 @@
 
 # sent_id = 148
 # text = Мин икки куһу өлөрдүм
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Я забил двух уток
+# text_eng = I butchered two ducks (Khatironov, )
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	икки	икки	NUM	num	NumType=Card	3	nummod	_	two
 3	куһу	кус	NOUN	n	Case=Acc|Number=Sing	4	obj	_	duck
@@ -1444,18 +1444,18 @@
 
 # sent_id = 149
 # text = Эн эмиэ билбэккин дуу ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Ты тоже что ли не знаешь ?
+# text_eng = You don't know either ? (Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	you
 2	эмиэ	эмиэ	ADV	adv	_	3	advmod	_	too
-3	билбэккин	бил	VERB	v	Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	go
+3	билбэккин	бил	VERB	v	Number=Sing|Person=2|Polarity=Neg|Tense=Pres	0	root	_	know
 4	дуу	дуу	PART	part	_	3	discourse	_	_
 5	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 150
 # text = Бу дьиэҕэ үс хос баар
 # text_rus = В этом доме три комнаты
-# text_eng = (Khatironov, )
+# text_eng = There are three rooms in this house (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	дьиэҕэ	дьиэ	NOUN	n	Case=Dat|Number=Sing	4	obl	_	house
 3	үс	үс	NUM	num	NumType=Card	4	nummod	_	three
@@ -1464,11 +1464,11 @@
 
 # sent_id = 151
 # text = Ити аты бостуук ылыаҕа
-# text_rus = 
+# text_rus = Эту лошадь возьмет пастух
 # text_eng = The shepard will take (tame?) this horse (Khatironov, 161)
 1	Ити	ити	DET	det	_	2	det	_	this
 2	аты	ат	NOUN	n	Case=Acc|Number=Sing	4	obj	_	horse
-3	бостуук	бостуук	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	пастух
+3	бостуук	бостуук	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	shepard
 4	ылыаҕа	ыл	VERB	v	Number=Sing|Person=3|Tense=Fut	0	root	_	take
 
 # sent_id = 152
@@ -1484,7 +1484,7 @@
 # sent_id = 153
 # text = Бу сыалыһар быара баар
 # text_rus = У этого налима есть печень
-# text_eng = (Khatironov, )
+# text_eng = This pike has a liver (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	сыалыһар	сыалыһар	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	pike
 3	быара	быар	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	liver
@@ -1492,8 +1492,8 @@
 
 # sent_id = 154
 # text = Чэ , олоруҥ , эбиэттэҥ !
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Ну, сидите, обедайте !
+# text_eng = Well, sit down, have lunch! (Khatironov, )
 1	Чэ	чэ	INTJ	intj	_	3	discourse	_	_
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	олоруҥ	олор	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	sit
@@ -1503,8 +1503,8 @@
 
 # sent_id = 155
 # text = Бу сыыр олус халтархай
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Эта горка очень скользкая
+# text_eng = This hill is quite slippery (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	сыыр	сыыр	NOUN	n	Case=Nom|Number=Sing	0	root	_	hill
 3	олус	олус	ADV	adv	_	4	advmod	_	quite
@@ -1513,7 +1513,7 @@
 # sent_id = 156
 # text = Манна биэс тарбах баар
 # text_rus = Здесь пять пальцев
-# text_eng = (Khatironov, )
+# text_eng = Here are five fingers (Khatironov, )
 1	Манна	манна	ADV	adv	_	3	advmod	_	here
 2	биэс	биэс	NUM	num	NumType=Card	3	nummod	_	five
 3	тарбах	тарбах	NOUN	n	Case=Nom|Number=Sing	0	root	_	finger
@@ -1522,7 +1522,7 @@
 # sent_id = 157
 # text = Ити ынах хотоҥҥо аһыыр
 # text_rus = Эта корова ест в коровнике
-# text_eng = (Khatironov, )
+# text_eng = This cow is eating in the pasture (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	ынах	ынах	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	cow
 3	хотоҥҥо	хотон	NOUN	n	Case=Dat|Number=Sing	4	obl	_	barn
@@ -1530,8 +1530,8 @@
 
 # sent_id = 158
 # text = Ити оҕонньор ааҕар дуо ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Этот старик читает ?
+# text_eng = Is that an old man reading ?(Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	оҕонньор	оҕонньор	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	oldman
 3	ааҕар	аах	VERB	vt	Number=Sing|Person=3|Tense=Pres	0	root	_	read
@@ -1540,8 +1540,8 @@
 
 # sent_id = 159
 # text = Харах икки , айах биир
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Два глаза , один рот
+# text_eng = Two eyes , one mouth(Khatironov, )
 1	Харах	харах	NOUN	n	Case=Nom|Number=Sing	0	root	_	eye
 2	икки	икки	NUM	num	NumType=Card	1	nummod	_	two
 3	,	,	PUNCT	punct	_	4	punct	_	_
@@ -1551,7 +1551,7 @@
 # sent_id = 160
 # text = Уһук хотугу түүн ааһар
 # text_rus = Пик полярной ночи заканчивается
-# text_eng = (Khatironov, )
+# text_eng = The spike of the northern night is passing (Khatironov, )
 1	Уһук	уһук	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	spike
 2	хотугу	хотугу	ADJ	adj	_	3	amod	_	north
 3	түүн	түүн	NOUN	n	Case=Nom|Number=Sing	1	nmod	_	night
@@ -1560,7 +1560,7 @@
 # sent_id = 161
 # text = Ол ыт куосканы таптыыр
 # text_rus = Эта собака любит кошек
-# text_eng = (Khatironov, )
+# text_eng = This dog likes cats (Khatironov, )
 1	Ол	ол	DET	pron	PronType=Dem	2	det	_	this
 2	ыт	ыт	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	dog
 3	куосканы	куоска	NOUN	n	Case=Acc|Number=Sing	4	obj	_	cat
@@ -1568,8 +1568,8 @@
 
 # sent_id = 162
 # text = Миннэ иһиҥ , эттэ сиэҥ
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Eшьте суп, ешьте мясо
+# text_eng = Eat soup, eat meat (Khatironov, )
 1	Миннэ	мин	NOUN	n	Case=Par|Number=Sing	2	obj	_	soup
 2	иһиҥ	ис	VERB	v	Mood=Imp|Number=Plur|Person=2|Tense=Pres	0	root	_	drink
 3	,	,	PUNCT	punct	_	2	punct	_	_
@@ -1578,8 +1578,8 @@
 
 # sent_id = 163
 # text = Үрүҥ чаанньык баар дуо ?
-# text_rus = 1-2 чайник для заварки
-# text_eng = (Khatironov, )
+# text_rus = Есть чайник для заварки ?
+# text_eng = Is there a teapot ? (Khatironov, )
 1	Үрүҥ	үрүҥ	ADJ	adj	_	2	amod	_	_
 2	чаанньык	чаанньык	NOUN	n	Case=Nom|Number=Sing	0	root	_	teapot
 3	баар	баар	AUX	aux	_	2	aux	_	_
@@ -1588,8 +1588,8 @@
 
 # sent_id = 164
 # text = Ити эти быс уонна ыйаа !
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Отрежь это мясо и повесь !
+# text_eng = Cut off this meat and hang it ! (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	эти	эт	NOUN	n	Case=Acc|Number=Sing	3	obj	_	meat
 3	быс	быс	VERB	vt	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	cut
@@ -1599,8 +1599,8 @@
 
 # sent_id = 165
 # text = Эн эмиэ онно үөрэнэҕин
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Ты тоже там учишься
+# text_eng = And you study there too (Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	you
 2	эмиэ	эмиэ	ADV	adv	_	4	advmod	_	too
 3	онно	онно	ADV	adv	_	4	advmod	_	there
@@ -1608,8 +1608,8 @@
 
 # sent_id = 166
 # text = Ити ынахха от биэрэҕит
-# text_rus =
-# text_eng = (Khatironov, )
+# text_rus = Вы даете этой корове сено
+# text_eng = You give this cow hay (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	ынахха	ынах	NOUN	n	Case=Dat|Number=Sing	4	obl	_	cow
 3	от	от	NOUN	n	Case=Nom|Number=Sing	4	obj	_	grass
@@ -1618,7 +1618,7 @@
 # sent_id = 167
 # text = Сылга уон икки ый баар
 # text_rus = В году 12 месяцев
-# text_eng = (Khatironov, )
+# text_eng = There are 12 months in one year (Khatironov, )
 1	Сылга	сыл	NOUN	n	Case=Dat|Number=Sing	4	obl	_	year
 2	уон	уон	NUM	num	NumType=Card	3	nummod	_	ten
 3	икки	икки	NUM	num	NumType=Card	4	nummod	_	two
@@ -1627,8 +1627,8 @@
 
 # sent_id = 168
 # text = Ити киһи тугу атыылыыр ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Что продает этот человек ?
+# text_eng = What is this person selling ? (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	тугу	тугу	PRON	pron	PronType=Int	4	obj	_	what
@@ -1637,16 +1637,16 @@
 
 # sent_id = 169
 # text = Аҕам от охсор
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Мой папа косит траву
+# text_eng = My father cuts grass (Khatironov, )
 1	Аҕам	аҕа	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	father
 2	от	от	NOUN	n	Case=Nom|Number=Sing	3	obj	_	grass
 3	охсор	оҕус	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	cut
 
 # sent_id = 170
 # text = Чааска алта уон мүнүүтэ
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = В часе 60 минут
+# text_eng = There are 60 minutes in one hour (Khatironov, )
 1	Чааска	чаас	NOUN	n	Case=Dat|Number=Sing	4	obl	_	hour
 2	алта	алта	NUM	num	NumType=Card	3	nummod	_	six
 3	уон	уон	NUM	num	NumType=Card	4	nummod	_	ten
@@ -1654,7 +1654,7 @@
 
 # sent_id = 171
 # text = Мичил Айталга тугу эттэ ?
-# text_rus = 
+# text_rus = Что Мичил сказал Айталу ?
 # text_eng = What did Michil say to Aital ? (Khatironov, )
 1	Мичил	Мичил	PROPN	propn	_	4	nsubj	_	_
 2	Айталга	Айтал	PROPN	propn	Case=Dat	4	obj	_	_
@@ -1665,7 +1665,7 @@
 # sent_id = 172
 # text = Ити хотууру мин ылыаҕым
 # text_rus = Я возьму эту косу
-# text_eng = (Khatironov, )
+# text_eng = I'll take this scythe (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	хотууру	хотуур	NOUN	n	Case=Acc|Number=Sing	4	obj	_	scythe
 3	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	I
@@ -1673,8 +1673,8 @@
 
 # sent_id = 173
 # text = Кини кыра оҕолору көрөр
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Он присматривает за маленькими детьми
+# text_eng = He looks after young children (Khatironov, )
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	3sg
 2	кыра	кыра	ADJ	adj	_	3	amod	_	small
 3	оҕолору	оҕо	NOUN	n	Case=Acc|Number=Plur	4	obj	_	child
@@ -1683,7 +1683,7 @@
 # sent_id = 174
 # text = Бу кыыс нууччалыы ааҕар
 # text_rus = Эта девочка читает по-русски
-# text_eng = (Khatironov, )
+# text_eng = This girl reads in Russian (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	кыыс	кыыс	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	girl
 3	нууччалыы	нуучча	ADV	adv	Advlz=Yes	4	advmod	_	inrussian
@@ -1691,8 +1691,8 @@
 
 # sent_id = 175
 # text = Уонна кини тугу гынарый ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = И что он делает ?
+# text_eng = And what does he do ? (Khatironov, )
 1	Уонна	уонна	CCONJ	cconj	_	4	cc	_	and
 2	кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	3sg
 3	тугу	тугу	PRON	pron	PronType=Int	4	obj	_	what
@@ -1701,8 +1701,8 @@
 
 # sent_id = 176
 # text = Ити ууга ким сөтүөлээтэ ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Кто купался в этой воде ?
+# text_eng = Who bathed in this water ? (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	ууга	уу	NOUN	n	Case=Dat|Number=Sing	4	obl	_	water
 3	ким	ким	PRON	PRON	PronType=Int	4	nsubj	_	who
@@ -1711,8 +1711,8 @@
 
 # sent_id = 177
 # text = Манна хас тарбах баарый ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Сколько здесь пальцев ?
+# text_eng = How many fingers are here ? (Khatironov, )
 1	Манна	манна	ADV	adv	_	3	advmod	_	here
 2	хас	хас	NUM	num	NumType=Card|PronType=Int	3	nummod	_	howmuch
 3	тарбах	тарбах	NOUN	n	Case=Nom|Number=Sing	0	root	_	finger
@@ -1721,8 +1721,8 @@
 
 # sent_id = 178
 # text = Бу оҕо илиитэ ыраас дуо ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = У этого ребенка чистые руки ?
+# text_eng = Does this child have clean hands ? (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	child
 3	илиитэ	илии	NOUN	n	Case=Par|Number=Sing	0	root	_	hand
@@ -1732,8 +1732,8 @@
 
 # sent_id = 179
 # text = Ол аты тоҕо көлүйбэккит ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Почему вы не запрягаете эту лошадь ?
+# text_eng = Why don't you yoke this horse ? (Khatironov, )
 1	Ол	ол	DET	pron	PronType=Dem	2	det	_	this
 2	аты	ат	NOUN	n	Case=Acc|Number=Sing	4	nsubj	_	horse
 3	тоҕо	тоҕо	ADV	adv	_	4	advmod	_	why
@@ -1742,8 +1742,8 @@
 
 # sent_id = 180
 # text = Кыра оҕо ханна үөрэнэрий ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Где учится маленький ребёнок ?
+# text_eng = Where does a small child study ? (Khatironov, )
 1	Кыра	кыра	ADJ	adj	_	2	amod	_	small
 2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	child
 3	ханна	ханна	ADV	adv	_	4	advmod	_	where
@@ -1752,8 +1752,8 @@
 
 # sent_id = 181
 # text = Уонна кини ханна барарый ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = И куда он идёт ?
+# text_eng = And where does he go ? (Khatironov, )
 1	Уонна	уонна	CCONJ	cconj	_	4	cc	_	and
 2	кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	3sg
 3	ханна	ханна	ADV	adv	_	4	advmod	_	where
@@ -1762,8 +1762,8 @@
 
 # sent_id = 182
 # text = Сайаана хотоҥҥо ынах ыыр
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Сайаана доить корову в коровнике
+# text_eng = Saiaana is milking a cow in a barn (Khatironov, )
 1	Сайаана	Сайаана	PROPN	propn	_	4	nsubj	_	_
 2	хотоҥҥо	хотон	NOUN	n	Case=Dat|Number=Sing	4	obl	_	barn
 3	ынах	ынах	NOUN	n	Case=Nom|Number=Sing	4	obj	_	cow
@@ -1771,8 +1771,8 @@
 
 # sent_id = 183
 # text = Бу оскуолаҕа ким үөрэнэр ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Кто учится в этой школе ?
+# text_eng = Who studies at this school ? (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	4	obl	_	school
 3	ким	ким	PRON	PRON	PronType=Int	4	nsubj	_	who
@@ -1781,8 +1781,8 @@
 
 # sent_id = 184
 # text = Киэһэ манна кэлбэккит дуо ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Вы не приедете сюда вечером ?
+# text_eng = Aren 't you coming here tonight ? (Khatironov, )
 1	Киэһэ	киэһэ	ADV	adv	_	3	amod	_	tonight
 2	манна	манна	ADV	adv	_	3	amod	_	here
 3	кэлбэккит	кэл	VERB	v	Number=Plur|Person=2|Polarity=Neg|Tense=Pres	0	root	_	come
@@ -1791,8 +1791,8 @@
 
 # sent_id = 185
 # text = Мин бүгүн биир куһу өлөрдүм
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Сегодня я забил утку
+# text_eng = I butchered a duck today (Khatironov, )
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	бүгүн	бүгүн	ADV	adv	_	5	advmod	_	today
 3	биир	биир	NUM	num	NumType=Card	4	nummod	_	one
@@ -1801,8 +1801,8 @@
 
 # sent_id = 186
 # text = Айаана , кэл , манна олор
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Айаана , иди сюда, садись здесь
+# text_eng = Aiaana, come, sit here (Khatironov, )
 1	Айаана	Айаана	PROPN	propn	_	3	vocative	_	_
 2	,	,	PUNCT	punct	_	3	punct	_	_
 3	кэл	кэл	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	come
@@ -1812,8 +1812,8 @@
 
 # sent_id = 187
 # text = Улахан киһи ханна үөрэнэр ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Где учится взрослые ?
+# text_eng = Where do adults study ? (Khatironov, )
 1	Улахан	улахан	ADJ	adj	_	2	amod	_	big
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	ханна	ханна	ADV	adv	_	4	advmod	_	where
@@ -1822,8 +1822,8 @@
 
 # sent_id = 188
 # text = Ити дьон тугу атыылыыллар ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Что продают эти люди ?
+# text_eng = What are these people selling ? (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	person
 3	тугу	тугу	PRON	pron	PronType=Int	4	obj	_	what
@@ -1832,8 +1832,8 @@
 
 # sent_id = 189
 # text = Кэскил , эн тур уонна аах
-# text_rus = 
-# text_eng = (Khatironov, ) ???
+# text_rus = Кэскил , вставай и читай
+# text_eng = Keskil, stand up and read (Khatironov, ) ???
 1	Кэскил	Кэскил	PROPN	propn	_	4	vocative	_	_
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	you
@@ -1843,8 +1843,8 @@
 
 # sent_id = 190
 # text = Эдэр киһи ханна үөрэнэрий ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Где молодой человек учится ?
+# text_eng = Where does the young man study ? (Khatironov, )
 1	Эдэр	эдэр	ADJ	adj	_	2	amod	_	young
 2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	man
 3	ханна	ханна	ADV	adv	_	4	advmod	_	where
@@ -1853,8 +1853,8 @@
 
 # sent_id = 191
 # text = Муннукка икки ыскаап турар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = В углу стоят два шкафа
+# text_eng = There are two cwardrobes in the corner (Khatironov, )
 1	Муннукка	муннук	NOUN	n	Case=Dat|Number=Sing	4	obl	_	corner
 2	икки	икки	NUM	num	NumType=Card	3	nummod	_	two
 3	ыскаап	ыскаап	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	wardrobe
@@ -1862,8 +1862,8 @@
 
 # sent_id = 192
 # text = Ойуурга өссө тэллэй үүнэр
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = В лесу еще растут грибы
+# text_eng = Mushrooms are still growing in the forest (Khatironov, )
 1	Ойуурга	ойуур	NOUN	n	Case=Dat|Number=Sing	4	obl	_	forest
 2	өссө	өссө	ADV	adv	_	4	advmod	_	still
 3	тэллэй	тэллэй	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	mushroom
@@ -1871,8 +1871,8 @@
 
 # sent_id = 193
 # text = Ити уол түргэнник суруйар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Этот мальчик быстро пишет
+# text_eng = This boy writes fast (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	уол	уол	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	boy
 3	түргэнник	түргэн	ADV	adv	Advlz=Yes	4	advmod	_	fast
@@ -1880,8 +1880,8 @@
 
 # sent_id = 194
 # text = Кини эмиэ сахалыы үөрэнэр
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Он тоже учится на якутском
+# text_eng = He also studies in Yakut (Khatironov, )
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	3sg
 2	эмиэ	эмиэ	ADV	adv	_	4	advmod	_	too
 3	сахалыы	саха	ADV	adv	Advlz=Yes	4	advmod	_	inyakut
@@ -1889,8 +1889,8 @@
 
 # sent_id = 195
 # text = Үчүгэй харандаас бу сытар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Вот лежит хороший карандаш
+# text_eng = Here lies a good pencil (Khatironov, )
 1	Үчүгэй	үчүгэй	ADJ	adj	_	4	advmod	_	good
 2	харандаас	харандаас	NOUN	n	Case=Nom|Number=Sing	4	obj	_	pencil
 3	бу	бу	DET	det	_	2	det	_	this
@@ -1898,8 +1898,8 @@
 
 # sent_id = 196
 # text = Ыскаапка кинигэ элбэх дуо ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Много ли книг в шкафу ?
+# text_eng = Are there many books in the closet ? (Khatironov, )
 1	Ыскаапка	ыскаап	NOUN	n	Case=Dat|Number=Sing	2	obl	_	wardrobe
 2	кинигэ	кинигэ	NOUN	n	Case=Nom|Number=Sing	0	root	_	_
 3	элбэх	элбэх	ADJ	adj	_	2	amod	_	many
@@ -1908,8 +1908,8 @@
 
 # sent_id = 197
 # text = Ити быраас кимий эмтиирий ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Кого лечит этот врача ?
+# text_eng = Who treats this doctor ? (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	быраас	быраас	NOUN	n	Case=Nom|Number=Sing	4	obj	_	doctor
 3	кимий	ким	PRON	pron	Int=Yes|PronType=Int	4	nsubj	_	who
@@ -1918,8 +1918,8 @@
 
 # sent_id = 198
 # text = Бу бэргэһэни долбуурга уур
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Положи эту шапку на полку
+# text_eng = Put this hat on the shelf (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	бэргэһэни	бэргэһэ	NOUN	n	Case=Acc|Number=Sing	4	obj	_	cap
 3	долбуурга	долбуур	NOUN	n	Case=Dat|Number=Sing	4	obl	_	shelf
@@ -1927,8 +1927,8 @@
 
 # sent_id = 199
 # text = Дьонуҥ киэһэ тугу гыналлар ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Что делают ваши люди сегодня ?
+# text_eng = What are your people doing tonight ?(Khatironov, )
 1	Дьонуҥ	дьон	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	4	nsubj	_	person
 2	киэһэ	киэһэ	ADV	adv	_	4	advmod	_	tonight
 3	тугу	тугу	PRON	pron	PronType=Int	4	obj	_	what
@@ -1937,8 +1937,8 @@
 
 # sent_id = 200
 # text = Ийэм ууну буочукаттан ылар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Моя мама берет воду из бочки
+# text_eng = My mother takes water from a barrel (Khatironov, )
 1	Ийэм	ийэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	mother
 2	ууну	уу	NOUN	n	Case=Acc|Number=Sing	4	obj	_	water
 3	буочукаттан	буочука	NOUN	n	Case=Abl|Number=Sing	2	obl	_	barrel
@@ -1946,8 +1946,8 @@
 
 # sent_id = 201
 # text = Ити кинигэни аахпаппыт дуо ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Мы не читаем эту книгу ?
+# text_eng = Are we not reading this book ? (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	3	obj	_	book
 3	аахпаппыт	аах	VERB	v	Number=Plur|Person=1|Polarity=Neg|Tense=Pres	0	root	_	read
@@ -1956,8 +1956,8 @@
 
 # sent_id = 202
 # text = Түннүгү аһымаҥ , ааны аһыҥ
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Не открывайте окно , откройте дверь
+# text_eng = Don't open the window, open the door (Khatironov, )
 1	Түннүгү	түннүк	NOUN	n	Case=Acc|Number=Sing	2	obj	_	window
 2	аһымаҥ	ас	VERB	v	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres	0	root	_	open
 3	,	,	PUNCT	punct	_	2	punct	_	_
@@ -2024,8 +2024,8 @@
 
 # sent_id = 211
 # text = Хотой , мохсоҕол , кыырт араас көтөрдөрү сииллэр
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Орлы , соколы, ястребы поедают различных птиц
+# text_eng = Eagles , falcons, hawks eat various birds (Khatironov, )
 1	Хотой	хотой	NOUN	n	Case=Nom|Number=Sing	8	nsubj	_	eagle
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	мохсоҕол	мохсоҕол	NOUN	n	Case=Nom|Number=Sing	1	conj	_	hawk
@@ -2038,7 +2038,7 @@
 # sent_id = 212
 # text = Бастаан кини кылааска ааны уонна форточканы аһар
 # text_rus = Сначала он открывает дверь и форточку в классе
-# text_eng = (Khatironov, )
+# text_eng = First he opens the door and the window in the classroom (Khatironov, )
 1	Бастаан	бастаан	ADV	adv	_	7	advmod	_	first
 2	кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	3sg
 3	кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	4	nmod	_	classroom
@@ -2049,8 +2049,8 @@
 
 # sent_id = 213
 # text = Куоракка убайым уонна эдьиийим бииргэ үөрэнэллэр
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Мой брат и сестра учатся в городе вместе
+# text_eng = My brother and sister study in the city together (Khatironov, )
 1	Куоракка	куорат	NOUN	n	Case=Dat|Number=Sing	6	obl	_	city
 2	убайым	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	olderbrother
 3	уонна	уонна	CCONJ	cconj	_	4	cc	_	and
@@ -2060,7 +2060,7 @@
 
 # sent_id = 214
 # text = Биир улахан ыраас хоско кыра остуоллар тураллар
-# text_rus = 
+# text_rus = В одной большой чистой комнате стоят маленькие столы
 # text_eng = There are small tables in one large clean room (Khatironov, )
 1	Биир	биир	NUM	num	NumType=Card	4	nummod	_	one
 2	улахан	улахан	ADJ	adj	_	4	amod	_	big
@@ -2072,8 +2072,8 @@
 
 # sent_id = 215
 # text = Таҥаһы көхөҕө ыйыыллар уонна дьааһыкка уураллар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Одежду вешают на вешалку и кладут в ящик
+# text_eng = Clothes are hung on a hanger and put in a drawer (Khatironov, )
 1	Таҥаһы	таҥас	NOUN	n	Case=Acc|Number=Sing	3	obj	_	clothes
 2	көхөҕө	көхө	NOUN	n	Case=Dat|Number=Sing	3	obl	_	hook
 3	ыйыыллар	ыйаа	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	hang
@@ -2084,7 +2084,7 @@
 # sent_id = 216
 # text = Бу уолаттар мас кэрдиэхтэрэ , эн сүөһү маныаҕыҥ
 # text_rus = Эти мальчики будут рубить деревья , а ты пасти скот
-# text_eng = (Khatironov, )
+# text_eng = These boys will cut down trees , and you will graze cattle (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	уолаттар	уол	NOUN	n	Case=Nom|Number=Plur	4	nsubj	_	boy
 3	мас	мас	NOUN	n	Case=Nom|Number=Sing	2	obj	_	tree
@@ -2133,7 +2133,7 @@
 # sent_id = 220
 # text = Киэһээҥи оскуолаҕа улахан дьон үөрэнэллэр
 # text_rus = Взрослые учатся в вечерней школе
-# text_eng = (Khatironov, )
+# text_eng = Adults study at the night school (Khatironov, )
 1	Киэһээҥи	киэһээҥи	ADJ	adj	_	2	amod	_	evening
 2	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	5	obl	_	school
 3	улахан	улахан	ADJ	adj	_	4	amod	_	big
@@ -2142,8 +2142,8 @@
 
 # sent_id = 221
 # text = Мин биир аҕаһым үрдүкү оскуолаҕа үөрэнэр
-# text_rus = Моя сестра учится в Hochschule
-# text_eng = (Khatironov, )
+# text_rus = Одна моя сестра учится в старших классах
+# text_eng = One my sister studies in high school (Khatironov, )
 1	Мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
 2	биир	биир	NUM	num	NumType=Card	3	nummod	_	one
 3	аҕаһым	аҕас	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	sister
@@ -2154,7 +2154,7 @@
 # sent_id = 222
 # text = Улахан оҕо уонна эдэр киһи ханна үөрэнэр ?
 # text_rus = 
-# text_eng = (Khatironov, )
+# text_eng = Where do the older child and the young man study ? (Khatironov, )
 1	Улахан	улахан	ADJ	adj	_	2	amod	_	big
 2	оҕо	оҕо	NOUN	n	Case=Nom|Number=Sing	7	nsubj	_	child
 3	уонна	уонна	CCONJ	cconj	_	5	cc	_	and
@@ -2166,8 +2166,8 @@
 
 # sent_id = 223
 # text = Онно эр дьон уонна дьахталлар үөрэнэллэр
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Там учатся мужчины и женщины
+# text_eng = Men and women study there (Khatironov, )
 1	Онно	онно	ADV	adv	_	6	advmod	_	there
 2	эр	эр	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	man
 3	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	6	nsubj	_	person
@@ -2177,8 +2177,8 @@
 
 # sent_id = 224
 # text = Бөрөнү уонна эһэни дьон эмиэ бултууллар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = На волков и медведей охотятся и люди
+# text_eng = Wolves and bears are also hunted by humans (Khatironov, )
 1	Бөрөнү	бөрө	NOUN	n	Case=Acc|Number=Sing	6	obj	_	wolf
 2	уонна	уонна	CCONJ	cconj	_	3	cc	_	and
 3	эһэни	эһэ	NOUN	n	Case=Acc|Number=Sing	1	conj	_	bear
@@ -2188,8 +2188,8 @@
 
 # sent_id = 225
 # text = Кылааска биир остуол , үс олоппос турар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = В классе стоит один стол , три стула
+# text_eng = There is one table and three chairs in the classroom (Khatironov, )
 1	Кылааска	кылаас	NOUN	n	Case=Dat|Number=Sing	7	obl	_	classroom
 2	биир	биир	NUM	num	NumType=Card	3	nummod	_	one
 3	остуол	остуол	NOUN	n	Case=Nom|Number=Sing	7	nsubj	_	table
@@ -2200,8 +2200,8 @@
 
 # sent_id = 226
 # text = Быраас эмиэ көрөр уонна рецепт суруйар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Врач осматривает и выписывает рецепт
+# text_eng = The doctor examines and writes a prescription (Khatironov, )
 1	Быраас	быраас	NOUN	n	Case=Nom|Number=Sing	3	nsubj	_	doctor
 2	эмиэ	эмиэ	ADV	adv	_	3	advmod	_	too
 3	көрөр	көр	VERB	v	Number=Sing|Person=3|Tense=Pres	0	root	_	look
@@ -2211,8 +2211,8 @@
 
 # sent_id = 227
 # text = Утуйар хоско биир улахан дьааһык турар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = В спальне стоит большой ящик
+# text_eng = There is a large drawer in the bedroom (Khatironov, )
 1	Утуйар	утуй	ADJ	adj	_	2	amod	_	sleep
 2	хоско	хос	NOUN	n	Case=Dat|Number=Sing	6	obl	_	room
 3	биир	биир	NUM	num	NumType=Card	5	nummod	_	one
@@ -2222,8 +2222,8 @@
 
 # sent_id = 228
 # text = Оҕолор уруок ааҕаллар уонна суруйаллар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Дети читают и пишут уроки
+# text_eng = Children read and write lessons (Khatironov, )
 1	Оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	3	nsubj	_	children
 2	уруок	уруок	NOUN	n	Case=Nom|Number=Sing	3	obj	_	lesson
 3	ааҕаллар	аах	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	read
@@ -2232,8 +2232,8 @@
 
 # sent_id = 229
 # text = Айаана , ол паартаҕа олор уонна суруй
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Айаана, садись за парту и пиши
+# text_eng = Aiaana, sit at this desk and write (Khatironov, )
 1	Айаана	Айаана	PROPN	propn	_	5	vocative	_	_
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	ол	ол	DET	pron	PronType=Dem	4	det	_	this
@@ -2244,7 +2244,7 @@
 
 # sent_id = 230
 # text = Бу дьахтар киэһээҥи оскуолаҕа үөрэнэр
-# text_rus = 
+# text_rus = Эта женщина учится в вечерней школе
 # text_eng = This woman is studying at a night school (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	дьахтар	дьахтар	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	woman
@@ -2254,8 +2254,8 @@
 
 # sent_id = 231
 # text = Сарсын мин эмиэ мастерскойга үлэлиэҕим
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Завтра я тоже буду работать в мастерской
+# text_eng = Tomorrow I will also work in the workshop (Khatironov, )
 1	Сарсын	сарсын	ADV	adv	_	5	advmod	_	tomorrow
 2	мин	мин	PRON	pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	I
 3	эмиэ	эмиэ	ADV	adv	_	5	advmod	_	too
@@ -2264,7 +2264,7 @@
 
 # sent_id = 232
 # text = Кэскил уонна мин оскуолаҕа үөрэнэбит
-# text_rus = 
+# text_rus = Кэскил и я учимся в школе
 # text_eng = Keskil and I study at school (Khatironov, )
 1	Кэскил	Кэскил	PROPN	propn	_	5	nsubj	_	_
 2	уонна	уонна	CCONJ	cconj	_	3	cc	_	and
@@ -2274,7 +2274,7 @@
 
 # sent_id = 233
 # text = Быйыл кинилэр үчүгэйдик бултаатылар
-# text_rus = 
+# text_rus = В этом году они охотились хорошо
 # text_eng = They hunted well this year (Khatironov, )
 1	Быйыл	быйыл	ADV	adv	_	4	advmod	_	thisyear
 2	кинилэр	кини	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	they
@@ -2283,7 +2283,7 @@
 
 # sent_id = 234
 # text = Туруйа баҕаны уонна күлгэрини сиир
-# text_rus = 
+# text_rus = Журавль питается лягушеками и ящерицами
 # text_eng = Crane eats frogs and lizards (Khatironov, )
 1	Туруйа	туруйа	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	crane
 2	баҕаны	баҕа	NOUN	n	Case=Acc|Number=Sing	5	obj	_	frog
@@ -2294,7 +2294,7 @@
 # sent_id = 235
 # text = Бу атынан бүгүн таһаҕас тиэйиэхтэрэ
 # text_rus = 
-# text_eng = (Khatironov, )
+# text_eng = This horse will be loaded today (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	атынан	ат	NOUN	n	Case=Ins|Number=Sing	5	nsubj	_	horse
 3	бүгүн	бүгүн	ADV	adv	_	5	advmod	_	today
@@ -2304,7 +2304,7 @@
 # sent_id = 236
 # text = Хара таҥаһы үрүҥ сабынан тикпэттэр
 # text_rus = Черные вещи не подшивают белыми нитками
-# text_eng = (Khatironov, ) # таҥас-сап
+# text_eng = Black clothes are not sewn with white thread (Khatironov, ) # таҥас-сап
 1	Хара	хара	ADJ	adj	_	2	amod	_	black
 2	таҥаһы	таҥас	NOUN	n	Case=Acc|Number=Sing	5	nsubj	_	clothes
 3	үрүҥ	үрүҥ	ADJ	adj	_	4	amod	_	white
@@ -2313,8 +2313,8 @@
 
 # sent_id = 237
 # text = Кини биир доҕоро куоракка үөрэнэр
-# text_rus = 
-# text_eng = His friend study in the city (Khatironov, )
+# text_rus = Один его друг учится в городе
+# text_eng = One his friend studies in the city (Khatironov, )
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nmod	_	3sg
 2	биир	биир	NUM	num	NumType=Card	3	nummod	_	one
 3	доҕоро	доҕор	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	friend
@@ -2323,7 +2323,7 @@
 
 # sent_id = 238
 # text = Кинилэр дьэҥкир арыы атыылаһаллар
-# text_rus = 
+# text_rus = Они покупают топлёное масло
 # text_eng = They are buying clarified butter (Khatironov, )
 1	Кинилэр	кини	PRON	pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	they
 2	дьэҥкир	дьэҥкир	ADJ	adj	_	3	amod	_	transparent
@@ -2332,8 +2332,8 @@
 
 # sent_id = 239
 # text = Кэл , бу олоппоско олор уонна аах
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Садись на этот стул и читай
+# text_eng = Come, sit on this chair and read (Khatironov, )
 1	Кэл	кэл	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	5	dep	_	come
 2	,	,	PUNCT	punct	_	5	punct	_	_
 3	бу	бу	DET	det	_	4	det	_	this
@@ -2345,7 +2345,7 @@
 # sent_id = 240
 # text = Кини олус кырдьаҕас уонна көрбөт
 # text_rus = Он очень старый и слепой
-# text_eng = (Khatironov, )
+# text_eng = He is very old and blind (Khatironov, )
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	3sg
 2	олус	олус	ADV	adv	_	3	amod	_	quite
 3	кырдьаҕас	кырдьаҕас	ADJ	adj	_	0	root	_	old
@@ -2354,8 +2354,8 @@
 
 # sent_id = 241
 # text = Икки атахха эмиэ уон тарбах баар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = На обеих ногах тоже десять пальцев
+# text_eng = There are also ten toes on both feet (Khatironov, )
 1	Икки	икки	NUM	num	NumType=Card	2	nummod	_	two
 2	атахха	атах	NOUN	n	Case=Dat|Number=Sing	5	obl	_	foot
 3	эмиэ	эмиэ	ADV	adv	_	5	advmod	_	too
@@ -2365,8 +2365,8 @@
 
 # sent_id = 242
 # text = Биир эдэр киһи эмиэ кинигэ ааҕар
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Один олодой человек тоже читает книгу
+# text_eng = One young man is also reading a book (Khatironov, )
 1	Биир	биир	NUM	num	NumType=Card	3	nummod	_	one
 2	эдэр	эдэр	ADJ	adj	_	3	amod	_	young
 3	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	6	nsubj	_	man
@@ -2376,7 +2376,7 @@
 
 # sent_id = 243
 # text = Кини күнүс үлэлиир , түүн утуйар
-# text_rus = 
+# text_rus = Он работает днем и спит ночью
 # text_eng = He works in the daytime and sleeps at night (Khatironov, )
 1	Кини	кини	PRON	pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	3sg
 2	күнүс	күнүс	ADV	n	_	3	advmod	_	noon
@@ -2387,8 +2387,8 @@
 
 # sent_id = 244
 # text = Ити оҕону ууга ыраах киллэримэҥ
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Не пускай этого ребенка далеко в воду
+# text_eng = Don't let this child go far into the water (Khatironov, )
 1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
 2	оҕону	оҕо	NOUN	n	Case=Acc|Number=Sing	5	nsubj	_	child
 3	ууга	уу	NOUN	n	Case=Dat|Number=Sing	5	obj	_	water
@@ -2398,7 +2398,7 @@
 # sent_id = 245
 # text = Дьэдьэни оҕолор олус таптыыллар
 # text_rus = Дети очень любят землянику
-# text_eng = (Khatironov, )
+# text_eng = Children love strawberries (Khatironov, )
 1	Дьэдьэни	дьэдьэн	NOUN	n	Case=Acc|Number=Sing	4	obj	_	strawberry
 2	оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	4	nsubj	_	children
 3	олус	олус	ADV	adv	_	4	advmod	_	quite
@@ -2414,7 +2414,7 @@
 # sent_id = 247
 # text = Ол харандаас паарталааҕар үрдүк
 # text_rus = 
-# text_eng = (Khatironov, )
+# text_eng = (Khatironov, ) ???
 1	Ол	ол	DET	pron	PronType=Dem	2	det	_	this
 2	харандаас	харандаас	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	pencil
 3	паарталааҕар	паарта	NOUN	n	Case=Cmp|Number=Sing	4	obl	_	desk
@@ -2422,8 +2422,8 @@
 
 # sent_id = 248
 # text = Ити оҕолор эмиэ онно үөрэнэллэр
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Эти дети тоже учатся там
+# text_eng = These children also study there (Khatironov, )
 1	Ити	ити	DET	det	PronType=Dem	2	det	_	this
 2	оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	5	nsubj	_	children
 3	эмиэ	эмиэ	ADV	adv	_	5	advmod	_	too
@@ -2432,8 +2432,8 @@
 
 # sent_id = 249
 # text = Биһиги киэһэ эмиэ балыктыахпыт
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Мы и вечером будем рыбачить
+# text_eng = We will fish in the evening too (Khatironov, )
 1	Биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	we
 2	киэһэ	киэһэ	ADV	adv	_	4	advmod	_	tonight
 3	эмиэ	эмиэ	ADV	adv	_	4	advmod	_	too
@@ -2441,8 +2441,8 @@
 
 # sent_id = 250
 # text = Доҕорум убайа куоракка үөрэнэр
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Старший брат моего друга учится в городе
+# text_eng = My friend's older brother studies in the city (Khatironov, )
 1	Доҕорум	доҕор	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nmod	_	myfriend
 2	убайа	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	oldbrother
 3	куоракка	куорат	NOUN	n	Case=Dat|Number=Sing	4	obl	_	city
@@ -2450,8 +2450,8 @@
 
 # sent_id = 251
 # text = Ити дьон тоҕо манна киирбэттэр ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Почему эти люди сюда не заходят ?
+# text_eng = Why don't these people come in here ? (Khatironov, )
 1	Ити	ити	DET	det	PronType=Dem	2	det	_	this
 2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	5	nsubj	_	person
 3	тоҕо	тоҕо	ADV	adv	_	5	advmod	_	why
@@ -2461,7 +2461,7 @@
 
 # sent_id = 252
 # text = Дьон аһыыллар уонна утуйаллар
-# text_rus = 
+# text_rus = Люди едят и спят
 # text_eng = People eat and sleep (Khatironov, )
 1	Дьон	дьон	NOUN	n	Case=Nom|Number=Sing	2	nsubj	_	person
 2	аһыыллар	аһаа	VERB	v	Number=Plur|Person=3|Tense=Pres	0	root	_	eat
@@ -2470,7 +2470,7 @@
 
 # sent_id = 253
 # text = Эбэм эмиэ ааҕар уонна суруйар
-# text_rus = 
+# text_rus = Бабушка тоже читает и пишет
 # text_eng = Grandma also reads and writes (Khatironov, )
 1	Эбэм	эбэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	grandmother
 2	эмиэ	эмиэ	ADV	adv	_	3	advmod	_	too
@@ -2480,8 +2480,8 @@
 
 # sent_id = 254
 # text = Бу дьон ханнык балыктыыллар ?
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Какую рыбу ловят эти люди ?
+# text_eng = What fish do these people catch ? (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	дьон	дьон	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	person
 3	ханнык	ханнык	PRON	pron	PronType=Int	4	obj	_	which
@@ -2490,8 +2490,8 @@
 
 # sent_id = 255
 # text = Бу хоско үс киһи утуйабыт
-# text_rus = 
-# text_eng = There are three of us sleeping in this room (Khatironov, )
+# text_rus = В этой комнате спят три человека
+# text_eng = There are three people sleeping in this room (Khatironov, )
 1	Бу	бу	DET	det	_	2	det	_	this
 2	хоско	хос	NOUN	n	Case=Dat|Number=Sing	5	obl	_	room
 3	үс	үс	NUM	num	NumType=Card	4	nummod	_	three
@@ -2500,8 +2500,8 @@
 
 # sent_id = 256
 # text = Манна биир кэргэн олорор
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Здесь живет одна семья
+# text_eng = One family lives here (Khatironov, )
 1	Манна	манна	ADV	adv	_	4	advmod	_	here
 2	биир	биир	NUM	num	NumType=Card	3	nummod	_	one
 3	кэргэн	кэргэн	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	family
@@ -2510,7 +2510,7 @@
 # sent_id = 257
 # text = Кыһын биһиги ичигэс таҥаһы кэтэбит , оччоҕо тоҥмоппут
 # text_rus = Зимой мы надеваем теплую одежду, тогда не холодно
-# text_eng = (Khatironov, )
+# text_eng = In winter we wear warm clothes, then it's not cold (Khatironov, )
 1	Кыһын	кыһын	ADV	adv	_	5	advmod	_	winter
 2	биһиги	биһиги	PRON	pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	we
 3	ичигэс	ичигэс	ADJ	adj	_	4	amod	_	warm
@@ -2522,8 +2522,8 @@
 
 # sent_id = 258
 # text = Бүгүн оскуолаҕа элбэх кинигэни , тэтэрээти , харандааһы биэрэллэр
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Сегодня в школе раздают много книг, тетрадей , карандашей
+# text_eng = Today, many books, notebooks, pencils are given in the school (Khatironov, )
 1	Бүгүн	бүгүн	ADV	adv	_	9	advmod	_	today
 2	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	9	obl	_	school
 3	элбэх	элбэх	ADJ	adj	_	4	amod	_	many
@@ -2537,7 +2537,7 @@
 # sent_id = 259
 # text = Эһиги бу сири билэҕит
 # text_rus = Вы знаете это место
-# text_eng = (Khatironov, )
+# text_eng = You know this place (Khatironov, )
 1	Эһиги	эһиги	PRON	pron	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
 2	бу	бу	DET	det	_	3	det	_	this
 3	сири	сир	NOUN	n	Case=Acc|Number=Sing	4	obj	_	earth
@@ -2545,8 +2545,8 @@
 
 # sent_id = 260
 # text = Кэскил убайа мас ууһа
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Старший брат Кэскила столяр
+# text_eng = Kaskil's older brother is a carpenter (Khatironov, )
 1	Кэскил	Кэскил	PROPN	propn	_	2	nmod	_	_
 2	убайа	убай	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	oldbrother
 3	мас	мас	NOUN	n	Case=Nom|Number=Sing	4	nmod	_	wood
@@ -2554,8 +2554,8 @@
 
 # sent_id = 261
 # text = Эһиги ол оскуолаҕа үөрэнэҕит
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Вы учитесь в этой школе
+# text_eng = You study at this school (Khatironov, )
 1	Эһиги	эһиги	PRON	pron	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
 2	ол	ол	DET	pron	PronType=Dem	3	det	_	this
 3	оскуолаҕа	оскуола	NOUN	n	Case=Dat|Number=Sing	4	obl	_	school
@@ -2592,17 +2592,17 @@
 
 # sent_id = 265
 # text = Аны миэхэ тимэхтэ аҕал
-# text_rus = 
-# text_eng = (Khatironov, )
+# text_rus = Принеси мне пуговицу
+# text_eng = Now bring me a button (Khatironov, )
 1	Аны	аны	ADV	adv	_	4	advmod	_	now
-2	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+2	миэхэ	мин	PRON	pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
 3	тимэхтэ	тимэх	NOUN	n	Case=Par|Number=Sing	4	obj	_	button
 4	аҕал	аҕал	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	givebring
 
 # sent_id = 266
 # text = Эһэм тыс этэрбэһи кэтэр
 # text_rus = Мой дедушка надевает унты
-# text_eng = (Khatironov, )
+# text_eng = My grandfather puts on his boots (Khatironov, )
 1	Эһэм	эһэ	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	grandfather
 2	тыс	тыс	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	furskin
 3	этэрбэһи	этэрбэс	NOUN	n	Case=Acc|Number=Sing	4	obj	_	boots
