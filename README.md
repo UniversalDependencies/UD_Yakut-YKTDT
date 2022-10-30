@@ -1,4 +1,4 @@
-<img src="not-to-release/Flag_of_Sakha.svg" width="200" class="center">
+<p style="text-align:center;"><img src="not-to-release/Flag_of_Sakha.svg" width="250">
 
 # Summary
 
