@@ -1,4 +1,4 @@
-![YKTDT]([YKTDT](https://commons.wikimedia.org/wiki/File:Flag_of_Sakha.svg#/media/File:Flag_of_Sakha.svg))
+![YKTDT](https://commons.wikimedia.org/wiki/File:Flag_of_Sakha.svg#/media/File:Flag_of_Sakha.svg)
 
 # Summary
 
