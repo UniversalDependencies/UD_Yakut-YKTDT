@@ -1,3 +1,5 @@
+![YKTDT]([YKTDT](https://commons.wikimedia.org/wiki/File:Flag_of_Sakha.svg#/media/File:Flag_of_Sakha.svg))
+
 # Summary
 
 UD_Yakut-YKTDT is a collection Yakut ([Sakha]) sentences (https://glottolog.org/resource/languoid/id/yaku1245). The project is work-in-progress and the treebank is being updated on a regular basis.
