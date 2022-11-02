@@ -2633,11 +2633,11 @@
 # text = Ити киһи аата кимий ?
 # text_rus = Как зовут этого человека ?
 # text_eng = What is this person's name ? (Khatironov, )
-1	Ити	ити	DET	pron	PronType=Dem	2	det	2:det	this
-2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	3	nmod	3:nmod	man
-3	аата	аат	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	4:nsubj	name
-4	кимий	ким	PRON	PRON	Int=Yes|PronType=Int	0	root	0:root	who
-5	?	?	PUNCT	punct	_	4	punct	4:punct	_
+1	Ити	ити	DET	pron	PronType=Dem	2	det	_	this
+2	киһи	киһи	NOUN	n	Case=Nom|Number=Sing	3	nmod	_	man
+3	аата	аат	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	name
+4	кимий	ким	PRON	PRON	Int=Yes|PronType=Int	0	root	_	who
+5	?	?	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 270
 # text = Эһиэхэ чаһы баар дуо ?
@@ -2787,7 +2787,7 @@
 # text_rus = Какие твои любимые носки ?
 # text_eng = Which are your favorite socks ?(Khatironov, )
 1	Эн	эн	PRON	pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	you
-2	ханнык	ханнык	DET	pron	PronType=Int	3	det	_	which
+2	ханнык	ханнык	DET	det	_	3	det	_	which
 3	наскыны	наскы	NOUN	n	Case=Acc|Number=Sing	4	obj	_	socks
 4	таптыыгын	таптаа	VERB	v	Number=Sing|Person=2|Tense=Pres	0	root	_	love
 5	?	?	PUNCT	punct	_	4	punct	_	_
@@ -2829,7 +2829,7 @@
 3	болҕой	болҕой	VERB	v	Mood=Imp|Number=Sing|Person=2|Tense=Pres	0	root	_	payattantion
 
 # sent_id = 288
-# text = Оҕолор туох туһунан кэпсэттилэр?
+# text = Оҕолор туох туһунан кэпсэттилэр ?
 # text_rus = 
 # text_eng = What were the children talking about? (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 18)
 1	Оҕолор	оҕо	NOUN	n	Case=Nom|Number=Plur	4	nsubj	_	children
