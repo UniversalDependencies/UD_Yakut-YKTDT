@@ -2847,3 +2847,164 @@
 3	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	4	obj	_	book
 4	былдьаспыттар	былдьас	VERB	v	Number=Plur|Person=3|Tense=NearPast	0	root	_	takeaway
 
+# sent_id = 290
+# text = Сима оҕолорго ол кинигэттэн араас үчүгэй кэпсээннэри ааҕан биэрбит
+# text_rus = 
+# text_eng = Sima read the children various good stories from this book (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 19)
+1	Сима	Сима	PROPN	_	_	_	_	_	_
+2	оҕолорго	оҕо	NOUN	n	Case=Dat|Number=Plur	_	_	_	child
+3	ол	ол	DET	det	_	_	_	_	_
+4	кинигэттэн	_	NOUN	n	Case=Abl	_	_	_	_
+5	араас	араас	ADJ	_	_	_	_	_	various
+6	үчүгэй	үчүгэй	ADV	_	_	_	_	_	good
+7	кэпсээннэри	кэпсээн	NOUN	n	Case=Acc|Number=Plur	_	_	_	story
+8	ааҕан	аах	VERB	v	VerbForm=Conv	_	_	_	read
+9	биэрбит	биэр	VERB	v	Tense=Past|VerbForm=Part	_	_	_	give
+
+# sent_id = 291
+# text = Онтон ыла бу оҕолор кинигэни былдьаспат буолбуттар
+# text_rus = 
+# text_eng = Since then, these children have not taken the books (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 19)
+1	Онтон	онтон	ADV	adv	_	_	_	_	_
+2	ыла	ыла	ADP	adp	_	_	_	_	1-2:sincethen
+3	бу	бу	DET	det	_	_	_	_	this
+4	оҕолор	оҕолор	NOUN	n	_	_	_	_	child
+5	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	_	_	_	book
+6	былдьаспат	былдьас	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	_	_	_	takeaway
+7	буолбуттар	буол	VERB	v	_	_	_	_	tobe
+
+# sent_id = 292
+# text = Хата хардарыта уларсан ааҕаллар
+# text_rus = 
+# text_eng = On the contrary they are alternately (?) (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 19)
+1	Хата	хата	ADV	adv	_	_	_	_	onthecontrary
+2	хардарыта	хардарыта	ADV	adv	_	_	_	_	alternately
+3	уларсан	_	_	_	_	_	_	_	_
+4	ааҕаллар	аах	VERB	v	Number=Plur|Person=3|Tense=Pres	_	_	_	read
+
+# sent_id = 293
+# text = Саһыл балык сии турбут
+# text_rus = 
+# text_eng = (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 20)
+1	Саһыл	саһыл	NOUN	n	Case=Nom|Number=Sing	_	_	_	fox
+2	балык	балык	NOUN	n	Case=Nom|Number=Sing	_	_	_	fish
+3	сии	_	_	_	_	_	_	_	_
+4	турбут	тур	VERB	v	Tense=Past|VerbForm=Part	_	_	_	_
+
+# sent_id = 294
+# text = Бөрө саһыл балыгын былдьаан сиэн кэбиспит уонна ыйыппыт
+# text_rus = 
+# text_eng = The wolf took the fish from the fox, ate it and asking (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 20)
+1	Бөрө	бөрө	NOUN	n	Case=Nom|Number=Sing	_	_	_	wolf
+2	саһыл	саһыл	NOUN	n	Case=Nom|Number=Sing	_	_	_	fox
+3	балыгын	балык	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	fish
+4	былдьаан	былдьаа	VERB	v	VerbForm=Conv	_	_	_	takeaway
+5	сиэн	сиэ	VERB	v	VerbForm=Conv	_	_	_	eat
+6	кэбиспит	кэбис	VERB	v	Tense=Past|VerbForm=Part	_	_	_	throw
+7	уонна	уонна	CCONJ	cc	_	_	_	_	and
+8	ыйыппыт	ыйыт	VERB	v	Tense=Past|VerbForm=Part	_	_	_	ask
+
+# sent_id = 295
+# text = Саһыл, хантан балык ыллыҥ?
+# text_rus = 
+# text_eng = Fox, where did the fish come from? (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 20)
+1	Саһыл	саһыл	NOUN	n	Case=Nom|Number=Sing	_	_	_	fox
+2	,	,	PUNCT	punct	_	_	_	_	_
+3	хантан	хантан	PRON	pron	PronType=Int	_	_	_	fromwhere
+4	балык	балык	NOUN	n	Case=Nom|Number=Sing	_	_	_	fish
+5	ыллыҥ	ыл	VERB	v	Number=Sing|Person=2|Tense=NearPast	_	_	_	take
+6	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 296
+# text = Ойбонтон
+# text_rus = 
+# text_eng = From the icehole (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 20)
+1	Ойбонтон	ойбон	NOUN	n	Case=Abl|Number=Sing	_	_	_	icehole
+
+# sent_id = 297
+# text = Хайдах ыллыҥ?
+# text_rus = 
+# text_eng = How did you get it? (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 20)
+1	Хайдах	хайдах	PRON	pron	PronType=Int	_	_	_	how
+2	ыллыҥ	ыл	VERB	v	_	_	_	_	take
+3	?	?	PUNCT	punct	_	_	_	_	_
+
+# sent_id = 298
+# text = Кутурукпунан куйуурдаан
+# text_rus = Хвостом поймал
+# text_eng =  (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 20)
+1	Кутурукпунан	кутурук	NOUN	n	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=1	_	_	_	tail
+2	куйуурдаан	куйуурдаа	VERB	v	VerbForm=Conv	_	_	_	fish
+
+# sent_id = 299
+# text = Бөрө обургу кутуругун ойбоҥҥо батары биэрбит уонна балык кэлэрин кэтээн олорбут
+# text_rus = 
+# text_eng = The wolf stuck his tail into the hole and watched the arrival of the fish (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 21)
+1	Бөрө	Бөрө	NOUN	n	_	_	_	_	wolf
+2	обургу	обургу	_	_	_	_	_	_	_
+3	кутуругун	кутурук	NOUN	n	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	tail
+4	ойбоҥҥо	ойбон	NOUN	n	Case=Dat|Number=Sing	_	_	_	icehole
+5	батары	батары	ADV	adv	_	_	_	_	inside
+6	биэрбит	биэр	VERB	v	Tense=Past|VerbForm=Part	_	_	_	give
+7	уонна	уонна	CCONJ	cconj	_	_	_	_	and
+8	балык	балык	NOUN	n	_	_	_	_	fish
+9	кэлэрин	_	_	_	_	_	_	_	_
+10	кэтээн	кэтээ	VERB	v	VerbForm=Conv	_	_	_	watch
+11	олорбут	олор	VERB	v	Tense=Past|VerbForm=Part	_	_	_	sit
+
+# sent_id = 300
+# text = Арай биирдэ өйдөммүтэ, кутуруга ойбоҥҥо хам тоҥон хаалбыт
+# text_rus = 
+# text_eng = Suddenly he realized that his tail was frozen in an ice hole (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 21)
+1	Арай	арай	ADV	adv	_	_	_	_	suddenly
+2	биирдэ	_	_	_	_	_	_	_	_
+3	өйдөммүтэ	_	_	_	_	_	_	_	_
+4	,	,	PUNCT	_	_	_	_	_	_
+5	кутуруга	кутурук	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	tail
+6	ойбоҥҥо	ойбон	NOUN	n	Case=Dat|Number=Sing	_	_	_	icehole
+7	хам	хам	ADV	adv	_	_	_	_	fest
+8	тоҥон	_	_	_	_	_	_	_	_
+9	хаалбыт	хаал	VERB	v	Tense=Past|VerbForm=Part	_	_	_	remain
+
+# sent_id = 301
+# text = Бөрө онтон билиҥҥэ диэри ол ойбоҥҥо хоройон олорор үһү
+# text_rus = 
+# text_eng = The wolf is still sitting in this hole (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 21)
+1	Бөрө	бөрө	NOUN	n	Case=Nom|Number=Sing	_	_	_	wolf
+2	онтон	онтон	ADV	adv	_	_	_	_	then
+3	билиҥҥэ	билиҥҥэ	ADV	adv	_	_	_	_	still
+4	диэри	диэри	ADP	adp	_	_	_	_	till
+5	ол	ол	PRON	pron	_	_	_	_	that
+6	ойбоҥҥо	ойбон	NOUN	n	Case=Dat|Number=Sing	_	_	_	icehole
+7	хоройон	хорой	VERB	v	_	_	_	_	торчит
+8	олорор	олор	VERB	v	Number=Sing|Person=3|Tense=Pres	_	_	_	sit
+9	үһү	үһү	PART	part	_	_	_	_	theysay
+
+# sent_id = 302
+# text = Оттон саһыл:
+# text_rus = 
+# text_eng = Yet the fox: (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 21)
+1	Оттон	оттон	CCONJ	cconj	_	_	_	_	yet
+2	саһыл	саһыл	NOUN	n	Case=Nom|Number=Sing	_	_	_	fox
+
+# sent_id = 303
+# text = Ол иһин " Иҥсэлээх иҥсэтиттэн иэдэйэр " дииллэрэ, — диэн баран, кутуруга субуруйа турбут
+# text_rus = 
+# text_eng = That's why they say he suffers from greed," he said, and his tail stuck out (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 21)
+1	Ол	ол	PRON	pron	_	_	_	_	_
+2	иһин	иһин	ADP	adp	_	_	_	_	1-2Therefore
+3	"	_	_	_	_	_	_	_	_
+4	Иҥсэлээх	иҥсэлээх	ADJ	adj	_	_	_	_	greedy
+5	иҥсэтиттэн	иҥсэ	NOUN	n	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	greed
+6	иэдэйэр	_	_	_	_	_	_	_	_
+7	"	_	_	_	_	_	_	_	_
+8	дииллэрэ	дииллэр	PART	part	_	_	_	_	theysay
+9	,	,	PUNCT	punct	_	_	_	_	_
+10	—	—	PUNCT	punct	_	_	_	_	_
+11	диэн	диэ	VERB	v	_	_	_	_	say
+12	баран	_	_	_	_	_	_	_	_
+13	,	,	PUNCT	punct	_	_	_	_	_
+14	кутуруга	кутурук	NOUN	n	_	_	_	_	tail
+15	субуруйа	субуруй	VERB	v	_	_	_	_	stretch
+16	турбут	_	_	_	_	_	_	_	_
+
