@@ -2922,7 +2922,7 @@
 1	Ойбонтон	ойбон	NOUN	n	Case=Abl|Number=Sing	_	_	_	icehole
 
 # sent_id = 297
-# text = Хайдах ыллыҥ?
+# text = Хайдах ыллыҥ ?
 # text_rus = 
 # text_eng = How did you get it? (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 20)
 1	Хайдах	хайдах	PRON	pron	PronType=Int	_	_	_	how
@@ -2953,7 +2953,7 @@
 11	олорбут	олор	VERB	v	Tense=Past|VerbForm=Part	_	_	_	sit
 
 # sent_id = 300
-# text = Арай биирдэ өйдөммүтэ, кутуруга ойбоҥҥо хам тоҥон хаалбыт
+# text = Арай биирдэ өйдөммүтэ , кутуруга ойбоҥҥо хам тоҥон хаалбыт
 # text_rus = 
 # text_eng = Suddenly he realized that his tail was frozen in an ice hole (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 21)
 1	Арай	арай	ADV	adv	_	_	_	_	suddenly
@@ -2981,14 +2981,15 @@
 9	үһү	үһү	PART	part	_	_	_	_	theysay
 
 # sent_id = 302
-# text = Оттон саһыл:
+# text = Оттон саһыл :
 # text_rus = 
 # text_eng = Yet the fox: (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 21)
 1	Оттон	оттон	CCONJ	cconj	_	_	_	_	yet
 2	саһыл	саһыл	NOUN	n	Case=Nom|Number=Sing	_	_	_	fox
+2	:	:	PUNCT	punct	_	_	_	_	_
 
 # sent_id = 303
-# text = Ол иһин " Иҥсэлээх иҥсэтиттэн иэдэйэр " дииллэрэ, — диэн баран, кутуруга субуруйа турбут
+# text = Ол иһин " Иҥсэлээх иҥсэтиттэн иэдэйэр " дииллэрэ , — диэн баран , кутуруга субуруйа турбут
 # text_rus = 
 # text_eng = That's why they say he suffers from greed," he said, and his tail stuck out (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 21)
 1	Ол	ол	PRON	pron	_	_	_	_	_
