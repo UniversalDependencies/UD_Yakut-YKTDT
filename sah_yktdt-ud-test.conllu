@@ -2857,7 +2857,7 @@
 4	кинигэттэн	_	NOUN	n	Case=Abl	7	obl	_	_
 5	араас	араас	ADJ	_	_	7	amod	_	various
 6	үчүгэй	үчүгэй	ADJ	_	_	7	amod	_	good
-7	кэпсээннэри	кэпсээн	NOUN	n	Case=Acc|Number=Plur	_	_	_	story
+7	кэпсээннэри	кэпсээн	NOUN	n	Case=Acc|Number=Plur	8	obj	_	story
 8	ааҕан	аах	VERB	v	VerbForm=Conv	0	root	_	read
 9	биэрбит	биэр	VERB	v	Tense=Past|VerbForm=Part	8	dep	_	give
 
@@ -2930,7 +2930,7 @@
 6	ойбоҥҥо	ойбон	NOUN	n	Case=Dat|Number=Sing	8	obl	_	icehole
 7	хам	хам	ADV	adv	_	8	advmod	_	tight
 8	тоҥон	тоҥ	VERB	v	VerbForm=Conv	3	ccomp	_	freeze
-9	хаалбыт	хаал	AUX	v	Tense=Past|VerbForm=Part	8	dep	_	remain
+9	хаалбыт	хаал	VERB	v	Tense=Past|VerbForm=Part	8	dep	_	remain
 
 # sent_id = 301
 # text = Бөрө онтон билиҥҥэ диэри ол ойбоҥҥо хоройон олорор үһү
