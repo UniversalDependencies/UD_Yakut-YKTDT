@@ -2866,7 +2866,7 @@
 # text_rus = 
 # text_eng = Since then, these children have not taken the books (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 19)
 1	Онтон	онтон	ADV	adv	_	6	dislocated	_	_
-2	ыла	ыла	ADP	adp	_	1	goeswith	_	1-2:sincethen
+2	ыла	ыла	ADP	adp	_	1	compound	_	1-2:sincethen
 3	бу	бу	DET	det	_	4	det	_	this
 4	оҕолор	оҕолор	NOUN	n	_	6	nsubj	_	child
 5	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	6	obj	_	book
@@ -2932,8 +2932,8 @@
 # text_rus = 
 # text_eng = Suddenly it realized that his tail was frozen in an ice hole (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 21)
 1	Арай	арай	ADV	adv	_	3	advmod	_	suddenly
-2	биирдэ	биирдэ	ADV	adv	_	1	goeswith	_	once
-3	өйдөммүтэ	өйдөн	VERB	v	V;PST;LGSPEC2;3;SG	0	root	_	became.clear
+2	биирдэ	биирдэ	ADV	adv	_	1	compound	_	once
+3	өйдөммүтэ	өйдөн	VERB	v	Number=Sing|Person=3|Tense=NearPast	0	root	_	became.clear
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	кутуруга	кутурук	NOUN	n	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nsubj	_	tail
 6	ойбоҥҥо	ойбон	NOUN	n	Case=Dat|Number=Sing	8	obl	_	icehole
@@ -2947,7 +2947,7 @@
 # text_eng = The wolf is still sitting in this hole (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 21)
 1	Бөрө	бөрө	NOUN	n	Case=Nom|Number=Sing	8	nsubj	_	wolf
 2	онтон	онтон	ADV	adv	_	8	advmod	_	then
-3	билиҥҥэ	билиҥҥэ	ADV	adv	_	2	goeswith	_	still
+3	билиҥҥэ	билиҥҥэ	ADV	adv	_	2	compound	_	still
 4	диэри	диэри	ADV	adp	_	8	advmod	_	till
 5	ол	ол	DET	pron	_	6	det	_	that
 6	ойбоҥҥо	ойбон	NOUN	n	Case=Dat|Number=Sing	8	obl	_	icehole
