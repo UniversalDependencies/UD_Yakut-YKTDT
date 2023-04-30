@@ -2871,16 +2871,7 @@
 4	оҕолор	оҕолор	NOUN	n	_	6	nsubj	_	child
 5	кинигэни	кинигэ	NOUN	n	Case=Acc|Number=Sing	6	obj	_	book
 6	былдьаспат	былдьас	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	takeaway
-7	буолбуттар	буол	VERB	v	_	6	aux	_	tobe
-
-# sent_id = 293
-# text = Саһыл балык сии турбут
-# text_rus = 
-# text_eng = (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 20)
-1	Саһыл	саһыл	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	fox
-2	балык	балык	NOUN	n	Case=Nom|Number=Sing	4	obj	_	fish
-3	сии	_	_	_	_	_	_	_	_
-4	турбут	тур	VERB	v	Tense=Past|VerbForm=Part	0	root	_	_
+7	буолбуттар	буол	VERB	v	_	6	dep	_	tobe
 
 # sent_id = 294
 # text = Бөрө саһыл балыгын былдьаан сиэн кэбиспит уонна ыйыппыт
