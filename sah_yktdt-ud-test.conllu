@@ -2886,10 +2886,10 @@
 # text = Саһыл балык сии турбут
 # text_rus = 
 # text_eng = (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 20)
-1	Саһыл	саһыл	NOUN	n	Case=Nom|Number=Sing	_	_	_	fox
-2	балык	балык	NOUN	n	Case=Nom|Number=Sing	_	_	_	fish
+1	Саһыл	саһыл	NOUN	n	Case=Nom|Number=Sing	4	nsubj	_	fox
+2	балык	балык	NOUN	n	Case=Nom|Number=Sing	4	obj	_	fish
 3	сии	_	_	_	_	_	_	_	_
-4	турбут	тур	VERB	v	Tense=Past|VerbForm=Part	_	_	_	_
+4	турбут	тур	VERB	v	Tense=Past|VerbForm=Part	0	root	_	_
 
 # sent_id = 294
 # text = Бөрө саһыл балыгын былдьаан сиэн кэбиспит уонна ыйыппыт
@@ -2905,7 +2905,7 @@
 8	ыйыппыт	ыйыт	VERB	v	Tense=Past|VerbForm=Part	_	_	_	ask
 
 # sent_id = 295
-# text = Саһыл, хантан балык ыллыҥ?
+# text = Саһыл , хантан балык ыллыҥ ?
 # text_rus = 
 # text_eng = Fox, where did the fish come from? (Zaharova, L. B Литература ааҕыыта 1 кылаас (2015), 20)
 1	Саһыл	саһыл	NOUN	n	Case=Nom|Number=Sing	5	vocative	_	fox
@@ -3008,4 +3008,3 @@
 14	кутуруга	кутурук	NOUN	n	_	_	_	_	tail
 15	субуруйа	субуруй	VERB	v	_	_	_	_	stretch
 16	турбут	_	_	_	_	_	_	_	_
-
