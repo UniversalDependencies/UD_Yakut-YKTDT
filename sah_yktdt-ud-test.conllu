@@ -600,7 +600,7 @@
 # text_rus = Есть бескостное и жирное мясо
 # text_eng = This is boneless and fat meat (Kharitonov)
 1	Уҥуоҕа	уҥуох	NOUN	n	Case=Dat|Number=Sing	5	compound	_	_
-2	суох	суох	AUX	aux	Priv=Yes	1	cop	_	_
+2	суох	суох	AUX	aux	_	1	cop	_	_
 3	уонна	уонна	CCONJ	cconj	_	1	cc	_	_
 4	эмис	эмис	ADJ	adj	_	5	amod	_	_
 5	эт	эт	NOUN	n	Case=Nom|Number=Sing	0	root	_	_
