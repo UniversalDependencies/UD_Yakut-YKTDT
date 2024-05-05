@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Yakut-YKTDT:
-commit 286a25e53876cf2850e4de4029e413096b9efd40
-Merge: 52dedd4 7388cda
+commit cf4ed3221702e376e7f69c86ebac7895c4b5e966
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 13:14:39 2023 +0100
 Size: counted 1460 of 1460 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.75687287144049.
 Size: maximum value 13.815511 is for 1000000 words or more.
