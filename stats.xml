@@ -89,11 +89,11 @@
     <dep name="discourse">37</dep>
     <dep name="dislocated">1</dep>
     <dep name="iobj">5</dep>
-    <dep name="nmod">51</dep>
+    <dep name="nmod">53</dep>
     <dep name="nsubj">193</dep>
     <dep name="nummod">44</dep>
     <dep name="obj">142</dep>
-    <dep name="obl">103</dep>
+    <dep name="obl">101</dep>
     <dep name="parataxis">10</dep>
     <dep name="punct">149</dep>
     <dep name="root">299</dep>
