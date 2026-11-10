@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Yakut-YKTDT:
-commit ffcf446fd953f6850a7044e893918900a6197f61
+commit 6962afc0fd72aee61428667ac7e604eb5aeff780
+Merge: f6b0d85 9138c5c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 21:02:44 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'sah_yktdt'
 Language code (from CoNLL-U file name) = 'sah'
@@ -40,11 +40,9 @@ Genres: found 2 out of 18 known.
 [Line 1076 Sent 110]: [L3 WARNING pron-det-without-prontype] The word 'Бу' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further messages regarding WARNING/MORPHO
 [Line 1662 Sent 171]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 3] ('Айталга', 'тугу') under the predicate 'эттэ'.
-[Line 1944 Sent 200]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'ууну') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2857 Sent 290]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'кэпсээннэри') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 Warnings: 40
-SYNTAX errors: 6
-*** FAILED *** with 6 errors
+SYNTAX errors: 4
+*** FAILED *** with 4 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
